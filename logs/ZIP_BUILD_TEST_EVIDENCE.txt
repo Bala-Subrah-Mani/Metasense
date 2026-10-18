@@ -1,0 +1,46 @@
+MetaSense ZIP Assembly Test Evidence
+Evidence type: ACTUAL EXECUTION in the file-generation environment
+Timestamp UTC: 2026-10-18T15:49:23.526772+00:00
+Working directory: /mnt/data/MetaSense_CISC699_Assignment05
+Python executable: /opt/pyvenv/bin/python
+Python version: 3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]
+Command: /opt/pyvenv/bin/python -m unittest discover -s /mnt/data/MetaSense_CISC699_Assignment05/tests -v
+
+STDOUT:
+
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_missing_optional_directory_warns_by_default (test_checks.DirectoryCheckTests.test_missing_optional_directory_warns_by_default) ... ok
+test_missing_required_directory_fails (test_checks.DirectoryCheckTests.test_missing_required_directory_fails) ... ok
+test_required_existing_directory_passes (test_checks.DirectoryCheckTests.test_required_existing_directory_passes) ... ok
+test_strict_optional_directory_fails (test_checks.DirectoryCheckTests.test_strict_optional_directory_fails) ... ok
+test_missing_project_name_is_rejected (test_checks.ValidateConfigTests.test_missing_project_name_is_rejected) ... ok
+test_non_object_is_rejected (test_checks.ValidateConfigTests.test_non_object_is_rejected) ... ok
+test_valid_config_has_no_errors (test_checks.ValidateConfigTests.test_valid_config_has_no_errors) ... ok
+test_invalid_json_raises_clear_error (test_engine.EngineTests.test_invalid_json_raises_clear_error) ... ok
+test_load_config_reads_valid_json (test_engine.EngineTests.test_load_config_reads_valid_json) ... ok
+test_missing_config_raises_clear_error (test_engine.EngineTests.test_missing_config_raises_clear_error) ... ok
+test_report_has_summary_and_status (test_engine.EngineTests.test_report_has_summary_and_status) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.005s
+
+OK
+
+
+Exit status: 0
+
+Interpretation:
+- This is a real test command executed during package assembly.
+- It documents the generation environment, not the user's own computer.
+- Run the tests again after extracting the ZIP to create environment-specific evidence.
