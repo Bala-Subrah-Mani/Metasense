@@ -1,0 +1,102 @@
+{
+  "run_id": "20261019T101632Z_run1",
+  "commit": "7a77866",
+  "describe": "v0.2.0",
+  "tree_clean": true,
+  "python": "3.13.16",
+  "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+  "venv": true,
+  "results": {
+    "T-01": {
+      "test": "Python and pip versions",
+      "status": "PASS",
+      "observed": "Python 3.13.16 on Linux 6.18.44-fc-v139",
+      "evidence": [
+        "T01_versions.txt"
+      ]
+    },
+    "T-02": {
+      "test": "Dependency installation (clean venv)",
+      "status": "PASS",
+      "observed": "pip exit 0; 13 packages in freeze",
+      "evidence": [
+        "T02_install.txt",
+        "T02_pip_freeze.txt"
+      ]
+    },
+    "T-03": {
+      "test": "Package import, startup, toolchain checks",
+      "status": "PASS",
+      "observed": "version exit 0; doctor exit 0; MetaSense doctor \u2014 WARNING ({'failed': 0, 'warnings': 1, 'total': 19})",
+      "evidence": [
+        "T03_startup_doctor.txt"
+      ]
+    },
+    "T-04": {
+      "test": "Valid sample input -> structured output",
+      "status": "PASS",
+      "observed": "paper_complete.txt: score 100.0, 0 weaknesses, 9.53 ms; paper_complete.pdf: score 100.0, 0 weaknesses, 71.76 ms; paper_complete.docx: score 100.0, 0 weaknesses, 91.0 ms; paper_weak.txt: score 18.8, 9 weaknesses, 6.0 ms; paper_no_method_heading.txt: score 75.0, 4 weaknesses, 6.31 ms",
+      "evidence": [
+        "T04_*.txt",
+        "T04_sample_outputs/"
+      ]
+    },
+    "T-05": {
+      "test": "Empty input",
+      "status": "PASS",
+      "observed": "REJECTED at stage 'validate': [E_EMPTY] Input file is empty (0 bytes): empty.txt",
+      "evidence": [
+        "T05_empty_input.txt"
+      ]
+    },
+    "T-06": {
+      "test": "Unsupported / disguised file type",
+      "status": "PASS",
+      "observed": "unsupported_format.rtf -> exit 1, E_UNSUPPORTED_TYPE; renamed_text.pdf -> exit 1, E_CORRUPT",
+      "evidence": [
+        "T06_*.txt"
+      ]
+    },
+    "T-07": {
+      "test": "Methodology heading variants",
+      "status": "MEASURED",
+      "observed": "Precision=1.000 Recall=0.696 F1=0.821; misses logged",
+      "evidence": [
+        "T07_heading_variants.txt"
+      ]
+    },
+    "T-08": {
+      "test": "Unit / integration / smoke tests",
+      "status": "FAIL",
+      "observed": "1 failed, 63 passed in 0.50s",
+      "evidence": [
+        "T08_pytest.txt",
+        "T08_junit.xml"
+      ]
+    },
+    "T-09": {
+      "test": "Git baseline",
+      "status": "PASS",
+      "observed": "commit 7a77866 (v0.2.0); working tree clean at start of run",
+      "evidence": [
+        "T09_git_baseline.txt"
+      ]
+    },
+    "T-10": {
+      "test": "Processing time and repeated-run consistency",
+      "status": "PASS",
+      "observed": "max 375.0 ms (target <= 60 s); identical output across 5 runs: True; long PDF 13335 words",
+      "evidence": [
+        "T10_performance_consistency.txt"
+      ]
+    },
+    "T-11": {
+      "test": "Known-answer check on sample papers",
+      "status": "MEASURED",
+      "observed": "agreement 17/24; flag precision 0.70, recall 0.78",
+      "evidence": [
+        "T11_known_answer.txt"
+      ]
+    }
+  }
+}

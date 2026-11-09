@@ -1,0 +1,23 @@
+# HS3 repeat/retrace comparison across three executions of v0.2.1
+
+## Rule 1: excluded fields ['run_id', 'timestamp_utc', 'timings_ms']
+paper_complete_docx            19 Oct:388a605e972d  25 Oct:b0684509446e  02 Nov:d0ea5fc9326f  identical=False
+paper_complete_pdf             19 Oct:ff186b1398c0  25 Oct:4d3fd2094520  02 Nov:5a93dae4cd7e  identical=False
+paper_complete_txt             19 Oct:d333c49ae01b  25 Oct:ac8864905634  02 Nov:843fc1b05987  identical=False
+paper_no_method_heading_txt    19 Oct:6b9917b02709  25 Oct:6e2164f43cc7  02 Nov:e240a2ffd667  identical=False
+paper_weak_txt                 19 Oct:f3706cef6446  25 Oct:193fb2656c05  02 Nov:b98295d58051  identical=False
+-> 0/5 identical across all three runs
+
+## Rule 2: excluded fields ['environment', 'run_id', 'timestamp_utc', 'timings_ms']
+paper_complete_docx            19 Oct:9842cb5f7de4  25 Oct:9842cb5f7de4  02 Nov:9842cb5f7de4  identical=True
+paper_complete_pdf             19 Oct:a40d06a74168  25 Oct:a40d06a74168  02 Nov:a40d06a74168  identical=True
+paper_complete_txt             19 Oct:654dd4a70a63  25 Oct:654dd4a70a63  02 Nov:654dd4a70a63  identical=True
+paper_no_method_heading_txt    19 Oct:d89bcb154577  25 Oct:d89bcb154577  02 Nov:d89bcb154577  identical=True
+paper_weak_txt                 19 Oct:3a7440e2ce28  25 Oct:3a7440e2ce28  02 Nov:3a7440e2ce28  identical=True
+-> 5/5 identical across all three runs
+
+T07_heading_variants.txt: measurement content identical across runs = True
+T11_known_answer.txt: measurement content identical across runs = True
+20261019T101812Z_run2_retest: pytest '67 passed in 0.44s'  platform Linux-6.18.44-fc-v139-x86_64-with-glibc2.39
+20261025T201553Z_reproduction_v021: pytest '67 passed in 0.38s'  platform Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+20261102T161235Z_repeat3_v021: pytest '67 passed in 0.56s'  platform Linux-6.18.44-fc-v185-x86_64-with-glibc2.39

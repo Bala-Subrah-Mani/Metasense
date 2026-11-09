@@ -1,0 +1,855 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "fafb19c86664",
+  "timestamp_utc": "2026-10-25T20:24:06+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 72368,
+    "sha256": "069575190ff74a7d3f877b1154992b918cec14a2872c4f30030593ac1788f52b"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 8501,
+    "line_count": 774,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 9,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 10,
+      "end_line": 39,
+      "word_count": 310,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 40,
+      "end_line": 132,
+      "word_count": 1376,
+      "inherited": false
+    },
+    {
+      "heading": "PROBLEM SETUP AND NOTATIONS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 133,
+      "end_line": 150,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "OF ADVERSARIAL NOISES",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 151,
+      "end_line": 187,
+      "word_count": 586,
+      "inherited": false
+    },
+    {
+      "heading": "X =Π⊥ ⊥ ⊥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 188,
+      "end_line": 188,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A1 X̃ΠA2 + ΠA1 XΠA2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 189,
+      "end_line": 208,
+      "word_count": 154,
+      "inherited": false
+    },
+    {
+      "heading": "1 Πx = d1 xx⊤ , we have",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 209,
+      "end_line": 211,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "W = W̃ Π⊥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 212,
+      "end_line": 221,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "5 1 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 222,
+      "end_line": 226,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "4m d md 4 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 227,
+      "end_line": 228,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "1 2 d",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 229,
+      "end_line": 244,
+      "word_count": 178,
+      "inherited": false
+    },
+    {
+      "heading": "⊤ high probability",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 245,
+      "end_line": 247,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "⊤ ⊤ a⊤ W Π⊥ ⊤",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 248,
+      "end_line": 251,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "⊤ ditioning, i.e.,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 252,
+      "end_line": 279,
+      "word_count": 311,
+      "inherited": false
+    },
+    {
+      "heading": "Linear Separability in NTK Regime",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 280,
+      "end_line": 332,
+      "word_count": 613,
+      "inherited": false
+    },
+    {
+      "heading": "= O( √ ). (22)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 333,
+      "end_line": 360,
+      "word_count": 355,
+      "inherited": false
+    },
+    {
+      "heading": "VERIFY LINEAR SEPARABILITY OF",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 361,
+      "end_line": 361,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "⊤ ⊤ 1 ADVERSARIAL NOISES IN PRACTICE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 362,
+      "end_line": 369,
+      "word_count": 60,
+      "inherited": false
+    },
+    {
+      "heading": "linearly separable for neural network at/near its random",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 370,
+      "end_line": 397,
+      "word_count": 282,
+      "inherited": false
+    },
+    {
+      "heading": "Adversarial Noises Within Theoretical Regime",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 398,
+      "end_line": 438,
+      "word_count": 466,
+      "inherited": false
+    },
+    {
+      "heading": "Adversarial Noises Beyond Theoretical Regime",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 439,
+      "end_line": 597,
+      "word_count": 2005,
+      "inherited": false
+    },
+    {
+      "heading": "parameterized resnet: A full characterization. arXiv",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 598,
+      "end_line": 617,
+      "word_count": 124,
+      "inherited": false
+    },
+    {
+      "heading": "Some Proofs in Theorem 3.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 618,
+      "end_line": 619,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "The Independent Case",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 620,
+      "end_line": 638,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "d ∥Da∥2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 639,
+      "end_line": 654,
+      "word_count": 88,
+      "inherited": false
+    },
+    {
+      "heading": "1 2 2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 655,
+      "end_line": 665,
+      "word_count": 110,
+      "inherited": false
+    },
+    {
+      "heading": "1 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 666,
+      "end_line": 677,
+      "word_count": 107,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 678,
+      "end_line": 682,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 683,
+      "end_line": 703,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "( N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 704,
+      "end_line": 708,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "K2 K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 709,
+      "end_line": 714,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 715,
+      "end_line": 717,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "K2 K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 718,
+      "end_line": 724,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 725,
+      "end_line": 726,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 727,
+      "end_line": 728,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "D̄",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 729,
+      "end_line": 747,
+      "word_count": 128,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Lemma 3.4",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 748,
+      "end_line": 761,
+      "word_count": 106,
+      "inherited": false
+    },
+    {
+      "heading": "2 √",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 762,
+      "end_line": 765,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "More Experiments",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 766,
+      "end_line": 774,
+      "word_count": 92,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+    "PROBLEM SETUP AND NOTATIONS",
+    "OF ADVERSARIAL NOISES",
+    "X =Π⊥ ⊥ ⊥",
+    "A1 X̃ΠA2 + ΠA1 XΠA2",
+    "1 Πx = d1 xx⊤ , we have",
+    "W = W̃ Π⊥",
+    "5 1 2",
+    "4m d md 4 1",
+    "1 2 d",
+    "⊤ high probability",
+    "⊤ ⊤ a⊤ W Π⊥ ⊤",
+    "⊤ ditioning, i.e.,",
+    "Linear Separability in NTK Regime",
+    "= O( √ ). (22)",
+    "VERIFY LINEAR SEPARABILITY OF",
+    "⊤ ⊤ 1 ADVERSARIAL NOISES IN PRACTICE",
+    "linearly separable for neural network at/near its random",
+    "Adversarial Noises Within Theoretical Regime",
+    "Adversarial Noises Beyond Theoretical Regime",
+    "parameterized resnet: A full characterization. arXiv",
+    "Some Proofs in Theorem 3.1",
+    "The Independent Case",
+    "d ∥Da∥2 2",
+    "1 2 2 2",
+    "1 2",
+    "X",
+    "2",
+    "( N",
+    "K2 K",
+    "X",
+    "K2 K",
+    "2",
+    "1",
+    "D̄",
+    "Proof of Lemma 3.4",
+    "2 √",
+    "More Experiments"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 43.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 2,
+      "weak": 3,
+      "missing": 3
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 84,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "This is in contrast with previous because of ReLU like activations (Goodfellow et al., 2014), studies (Bubeck et al., 2019; Montanari & Wu, 2022) that the boundary tilting hypothesis that the classification boundare to…"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "\\bdata ?sets?\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 19,
+            "section": "Abstract",
+            "quote": "We theoretically prove Figure 1: Comparison between the T-SNEs of clean CIFAR- this property for a two-layer network with ran- 10 images and those of adversarial noises."
+          },
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 57,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…"
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 88,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "There are also theoretical researches ial noises actually are generalizable to the test set, which is on the difficulty of adversarial learning difficulty, e.g., roalso verified in Figure 2."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprocedure\\b",
+          "learning rate",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bepochs?\\b",
+          "\\bGPUs?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 45,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "This hinders the are put together?” applicability of deep learning model on safety-critical tasks Due to the complicated procedure of generating adversarial noises, one might think they must be scattered quite casuProce…"
+          },
+          {
+            "indicator": "learning rate",
+            "line": 93,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "Beyond (Ilyas et al., 2019), our work first gives We also empirically explore the property of adversarial rigorous proof why this happens in theory, and then argues noises beyond the theoretical regime, especially for t…"
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 351,
+            "section": "= O( √ ). (22)",
+            "quote": "Second, it is desirable if one can Dx∗ − Dx . extend the result to the PGD with respect to the l∞ conFor the first term of Equation 17, by Theorem 3.1 we have straint."
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 384,
+            "section": "linearly separable for neural network at/near its random",
+            "quote": "All models are trained for 100 epochs with a batchsize of 128."
+          },
+          {
+            "indicator": "\\bGPUs?\\b",
+            "line": 395,
+            "section": "linearly separable for neural network at/near its random",
+            "quote": "All the experiments are run with one single Tesla V100 GPU."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 42,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "Modern deep learning models have achieved great accuracy In this paper, we study the adversarial noises from a populaon vast intelligence tasks."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 88,
+            "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+            "quote": "There are also theoretical researches ial noises actually are generalizable to the test set, which is on the difficulty of adversarial learning difficulty, e.g., roalso verified in Figure 2."
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 523,
+            "section": "Adversarial Noises Beyond Theoretical Regime",
+            "quote": "On the robustness of bayesian neural networks to adversarial 5 CONCLUSION AND LIMITATION attacks. arXiv preprint arXiv:2207.06154, 2022."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 19,
+          "section": "Abstract",
+          "quote": "We theoretically prove Figure 1: Comparison between the T-SNEs of clean CIFAR- this property for a two-layer network with ran- 10 images and those of adversarial noises."
+        },
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 57,
+          "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+          "quote": "More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…"
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 88,
+          "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+          "quote": "There are also theoretical researches ial noises actually are generalizable to the test set, which is on the difficulty of adversarial learning difficulty, e.g., roalso verified in Figure 2."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 45,
+          "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+          "quote": "This hinders the are put together?” applicability of deep learning model on safety-critical tasks Due to the complicated procedure of generating adversarial noises, one might think they must be scattered quite casuProce…"
+        },
+        {
+          "indicator": "learning rate",
+          "line": 93,
+          "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+          "quote": "Beyond (Ilyas et al., 2019), our work first gives We also empirically explore the property of adversarial rigorous proof why this happens in theory, and then argues noises beyond the theoretical regime, especially for t…"
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 351,
+          "section": "= O( √ ). (22)",
+          "quote": "Second, it is desirable if one can Dx∗ − Dx . extend the result to the PGD with respect to the l∞ conFor the first term of Equation 17, by Theorem 3.1 we have straint."
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 384,
+          "section": "linearly separable for neural network at/near its random",
+          "quote": "All models are trained for 100 epochs with a batchsize of 128."
+        },
+        {
+          "indicator": "\\bGPUs?\\b",
+          "line": 395,
+          "section": "linearly separable for neural network at/near its random",
+          "quote": "All the experiments are run with one single Tesla V100 GPU."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 42,
+          "section": "INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli",
+          "quote": "Modern deep learning models have achieved great accuracy In this paper, we study the adversarial noises from a populaon vast intelligence tasks."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C5",
+      "summary": "Baseline / comparison: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W07",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 84 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"This is in contrast with previous because of ReLU like activations (Goodfellow et al., 2014), studies (Bubeck et al., 2019; Montanari & Wu, 2022) that the boundary tilting hypothesis that the classification boundare to…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 19 [Abstract]: \"We theoretically prove Figure 1: Comparison between the T-SNEs of clean CIFAR- this property for a two-layer network with ran- 10 images and those of adversarial noises.\"",
+        "line 57 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…\"",
+        "line 88 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"There are also theoretical researches ial noises actually are generalizable to the test set, which is on the difficulty of adversarial learning difficulty, e.g., roalso verified in Figure 2.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (5 found elsewhere).",
+      "evidence": [
+        "line 45 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"This hinders the are put together?” applicability of deep learning model on safety-critical tasks Due to the complicated procedure of generating adversarial noises, one might think they must be scattered quite casuProce…\"",
+        "line 93 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"Beyond (Ilyas et al., 2019), our work first gives We also empirically explore the property of adversarial rigorous proof why this happens in theory, and then argues noises beyond the theoretical regime, especially for t…\"",
+        "line 351 [= O( √ ). (22)]: \"Second, it is desirable if one can Dx∗ − Dx . extend the result to the PGD with respect to the l∞ conFor the first term of Equation 17, by Theorem 3.1 we have straint.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 42 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"Modern deep learning models have achieved great accuracy In this paper, we study the adversarial noises from a populaon vast intelligence tasks.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Compare the proposed approach against at least one baseline or prior method under the same conditions."
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 88 [INTRODUCTION this setting except the universal attacks (Moosavi-Dezfooli]: \"There are also theoretical researches ial noises actually are generalizable to the test set, which is on the difficulty of adversarial learning difficulty, e.g., roalso verified in Figure 2.\"",
+        "line 523 [Adversarial Noises Beyond Theoretical Regime]: \"On the robustness of bayesian neural networks to adversarial 5 CONCLUSION AND LIMITATION attacks. arXiv preprint arXiv:2207.06154, 2022.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 5.9,
+    "load_rubric": 3.58,
+    "detect_sections": 1.67,
+    "split_sentences": 1.56,
+    "assess": 54.68,
+    "detect_weaknesses": 0.08,
+    "explain": 0.03,
+    "total": 68.13
+  }
+}

@@ -1,0 +1,2034 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "ecaa2b247e19",
+  "timestamp_utc": "2026-10-25T20:24:22+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 204359,
+    "sha256": "5e7150fa94df3c56abdc64547a7c7e244ad432dd871134e6af18887369218594"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 30227,
+    "line_count": 3237,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 18,
+      "word_count": 108,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 19,
+      "end_line": 50,
+      "word_count": 436,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 51,
+      "end_line": 52,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 53,
+      "end_line": 95,
+      "word_count": 458,
+      "inherited": false
+    },
+    {
+      "heading": "Main results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 96,
+      "end_line": 101,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "Realizable Case",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 102,
+      "end_line": 128,
+      "word_count": 278,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 129,
+      "end_line": 142,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 143,
+      "end_line": 157,
+      "word_count": 126,
+      "inherited": false
+    },
+    {
+      "heading": "Agnostic Case",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 158,
+      "end_line": 177,
+      "word_count": 252,
+      "inherited": false
+    },
+    {
+      "heading": "k-L ITTLESTONE D IMENSION",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 178,
+      "end_line": 228,
+      "word_count": 480,
+      "inherited": false
+    },
+    {
+      "heading": "Prediction Using Expert Advice",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 229,
+      "end_line": 243,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 244,
+      "end_line": 331,
+      "word_count": 982,
+      "inherited": false
+    },
+    {
+      "heading": "Variations",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 332,
+      "end_line": 332,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "B OUNDED H ORIZON",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 333,
+      "end_line": 344,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 345,
+      "end_line": 355,
+      "word_count": 95,
+      "inherited": false
+    },
+    {
+      "heading": "Long horizon. If T > 2M⋆k then",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 356,
+      "end_line": 359,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "Short Horizon. If T ≤ 2M⋆k then",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 360,
+      "end_line": 361,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T √ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 362,
+      "end_line": 363,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 364,
+      "end_line": 407,
+      "word_count": 343,
+      "inherited": false
+    },
+    {
+      "heading": "A DAPTIVE A LGORITHMS",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 408,
+      "end_line": 446,
+      "word_count": 360,
+      "inherited": false
+    },
+    {
+      "heading": "Technical Overview",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 447,
+      "end_line": 453,
+      "word_count": 56,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 454,
+      "end_line": 465,
+      "word_count": 127,
+      "inherited": false
+    },
+    {
+      "heading": "Combinatorial Characterizations",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 466,
+      "end_line": 526,
+      "word_count": 790,
+      "inherited": false
+    },
+    {
+      "heading": "Quasi-balanced Trees",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 527,
+      "end_line": 550,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 551,
+      "end_line": 583,
+      "word_count": 424,
+      "inherited": false
+    },
+    {
+      "heading": "Prediction using Expert Advice",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 584,
+      "end_line": 614,
+      "word_count": 390,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgments",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 615,
+      "end_line": 623,
+      "word_count": 89,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 624,
+      "end_line": 649,
+      "word_count": 175,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 650,
+      "end_line": 756,
+      "word_count": 693,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 757,
+      "end_line": 847,
+      "word_count": 1158,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 848,
+      "end_line": 881,
+      "word_count": 397,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 882,
+      "end_line": 889,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "ET0 + ET1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 890,
+      "end_line": 890,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 1 + , (3)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 891,
+      "end_line": 900,
+      "word_count": 69,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 901,
+      "end_line": 920,
+      "word_count": 118,
+      "inherited": false
+    },
+    {
+      "heading": "B.1.1. P ROOF OF T HEOREM 11",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 921,
+      "end_line": 944,
+      "word_count": 276,
+      "inherited": false
+    },
+    {
+      "heading": "+ E[LT0 ] + E[LT0 ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 945,
+      "end_line": 945,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E[LT ] =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 946,
+      "end_line": 949,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 950,
+      "end_line": 951,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ ET0 /2 + ET1 /2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 952,
+      "end_line": 969,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 970,
+      "end_line": 971,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "x∈X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 972,
+      "end_line": 977,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 978,
+      "end_line": 979,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "T ∈S(H) 2 x T ∈Sx (H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 980,
+      "end_line": 1031,
+      "word_count": 265,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1032,
+      "end_line": 1040,
+      "word_count": 114,
+      "inherited": false
+    },
+    {
+      "heading": "+ RL(Hx→1 ) − RL(Hx→0 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1041,
+      "end_line": 1045,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "+ RL(Hx→0 ) + RL(Hx→1 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1046,
+      "end_line": 1075,
+      "word_count": 268,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1076,
+      "end_line": 1077,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1078,
+      "end_line": 1095,
+      "word_count": 187,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1096,
+      "end_line": 1106,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1107,
+      "end_line": 1111,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1112,
+      "end_line": 1113,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered, finite 2 T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1114,
+      "end_line": 1117,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "D→∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1118,
+      "end_line": 1120,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1121,
+      "end_line": 1127,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1128,
+      "end_line": 1132,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "D→∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1133,
+      "end_line": 1133,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1134,
+      "end_line": 1159,
+      "word_count": 228,
+      "inherited": false
+    },
+    {
+      "heading": "if J ̸= j,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1160,
+      "end_line": 1180,
+      "word_count": 280,
+      "inherited": false
+    },
+    {
+      "heading": "S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1181,
+      "end_line": 1181,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1182,
+      "end_line": 1182,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1183,
+      "end_line": 1194,
+      "word_count": 144,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1195,
+      "end_line": 1224,
+      "word_count": 336,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1225,
+      "end_line": 1226,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1227,
+      "end_line": 1228,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1229,
+      "end_line": 1234,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "(3, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1235,
+      "end_line": 1243,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "(J − 1, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1244,
+      "end_line": 1245,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1246,
+      "end_line": 1249,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "7",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1250,
+      "end_line": 1250,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1251,
+      "end_line": 1252,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1253,
+      "end_line": 1253,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1254,
+      "end_line": 1255,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1256,
+      "end_line": 1256,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1257,
+      "end_line": 1273,
+      "word_count": 169,
+      "inherited": false
+    },
+    {
+      "heading": "2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1274,
+      "end_line": 1288,
+      "word_count": 129,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1289,
+      "end_line": 1303,
+      "word_count": 138,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1304,
+      "end_line": 1315,
+      "word_count": 84,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1316,
+      "end_line": 1323,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered, monotone",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1324,
+      "end_line": 1338,
+      "word_count": 136,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered, quasi-balanced",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1339,
+      "end_line": 1360,
+      "word_count": 286,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1361,
+      "end_line": 1376,
+      "word_count": 182,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1377,
+      "end_line": 1402,
+      "word_count": 378,
+      "inherited": false
+    },
+    {
+      "heading": "Consequently,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1403,
+      "end_line": 1412,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "2⌈ET ⌉",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1413,
+      "end_line": 1417,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1418,
+      "end_line": 1515,
+      "word_count": 932,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1516,
+      "end_line": 1555,
+      "word_count": 333,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1556,
+      "end_line": 1557,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1558,
+      "end_line": 1563,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1564,
+      "end_line": 1565,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1566,
+      "end_line": 1588,
+      "word_count": 239,
+      "inherited": false
+    },
+    {
+      "heading": "T shattered",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1589,
+      "end_line": 1599,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1600,
+      "end_line": 1644,
+      "word_count": 326,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1645,
+      "end_line": 1646,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "x∈X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1647,
+      "end_line": 1692,
+      "word_count": 369,
+      "inherited": false
+    },
+    {
+      "heading": "8ET 8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1693,
+      "end_line": 1695,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "X∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1696,
+      "end_line": 1699,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "∞ \u0013 Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1700,
+      "end_line": 1701,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0012 \u0013 \u0012 \u0012 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1702,
+      "end_line": 1707,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1708,
+      "end_line": 1710,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "\u0013 Z 2ET Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1711,
+      "end_line": 1720,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "8ET 8 8ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1721,
+      "end_line": 1722,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1723,
+      "end_line": 1723,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "2 √ √ 2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1724,
+      "end_line": 1729,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 \u0013 Z ∞ \u0012 \u0013 \u0012 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1730,
+      "end_line": 1732,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "k 8 8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1733,
+      "end_line": 1739,
+      "word_count": 42,
+      "inherited": false
+    },
+    {
+      "heading": "ET 20 ET 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1740,
+      "end_line": 1756,
+      "word_count": 110,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1757,
+      "end_line": 1759,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "T T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1760,
+      "end_line": 1761,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1762,
+      "end_line": 1780,
+      "word_count": 198,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1781,
+      "end_line": 1783,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "(ET − T)2 (2RL(H) − T)2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1784,
+      "end_line": 1785,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "T T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1786,
+      "end_line": 1787,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "4ET 2 8RL(H) 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1788,
+      "end_line": 1793,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "T T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1794,
+      "end_line": 1795,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) 2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1796,
+      "end_line": 1800,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1801,
+      "end_line": 1821,
+      "word_count": 206,
+      "inherited": false
+    },
+    {
+      "heading": "− 22−k0 2 − 22−k1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1822,
+      "end_line": 1823,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1824,
+      "end_line": 1826,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1827,
+      "end_line": 1895,
+      "word_count": 722,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1896,
+      "end_line": 1923,
+      "word_count": 283,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1924,
+      "end_line": 2021,
+      "word_count": 962,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2022,
+      "end_line": 2032,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "Predict \u0010 \u0011",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2033,
+      "end_line": 2120,
+      "word_count": 667,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2121,
+      "end_line": 2180,
+      "word_count": 625,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2181,
+      "end_line": 2187,
+      "word_count": 55,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2188,
+      "end_line": 2233,
+      "word_count": 358,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2234,
+      "end_line": 2235,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2236,
+      "end_line": 2292,
+      "word_count": 600,
+      "inherited": false
+    },
+    {
+      "heading": "RL(Wx→0 ) + RL(Wx→1 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2293,
+      "end_line": 2294,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "x∈X 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2295,
+      "end_line": 2299,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "RL(Wx→0 ) + RL(Wx→1 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2300,
+      "end_line": 2301,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2302,
+      "end_line": 2338,
+      "word_count": 440,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2339,
+      "end_line": 2442,
+      "word_count": 1207,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2443,
+      "end_line": 2546,
+      "word_count": 1097,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2547,
+      "end_line": 2598,
+      "word_count": 419,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2599,
+      "end_line": 2607,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "D+1 D+1 1 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2608,
+      "end_line": 2627,
+      "word_count": 100,
+      "inherited": false
+    },
+    {
+      "heading": "D 1 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2628,
+      "end_line": 2639,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2640,
+      "end_line": 2661,
+      "word_count": 251,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2662,
+      "end_line": 2665,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2666,
+      "end_line": 2670,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2671,
+      "end_line": 2687,
+      "word_count": 171,
+      "inherited": false
+    },
+    {
+      "heading": "′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2688,
+      "end_line": 2693,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "D 8D D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2694,
+      "end_line": 2703,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "F.2.1. P ROOF OF T ECHNICAL E STIMATE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2704,
+      "end_line": 2753,
+      "word_count": 335,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2754,
+      "end_line": 2757,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2758,
+      "end_line": 2761,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "D 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2762,
+      "end_line": 2769,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "D 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2770,
+      "end_line": 2773,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "D 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2774,
+      "end_line": 2779,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2780,
+      "end_line": 2811,
+      "word_count": 223,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2812,
+      "end_line": 2841,
+      "word_count": 406,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2842,
+      "end_line": 2887,
+      "word_count": 447,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2888,
+      "end_line": 2906,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "1 2 3 4 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2907,
+      "end_line": 2913,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "− h(k/d)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2914,
+      "end_line": 2918,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "− h(p)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2919,
+      "end_line": 2946,
+      "word_count": 178,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2947,
+      "end_line": 2987,
+      "word_count": 370,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2988,
+      "end_line": 3009,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3010,
+      "end_line": 3090,
+      "word_count": 692,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3091,
+      "end_line": 3191,
+      "word_count": 1051,
+      "inherited": false
+    },
+    {
+      "heading": "F ILMUS H ANNEKE M EHALEL M ORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3192,
+      "end_line": 3237,
+      "word_count": 444,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Main results",
+    "Realizable Case",
+    "T shattered",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Agnostic Case",
+    "k-L ITTLESTONE D IMENSION",
+    "Prediction Using Expert Advice",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Variations",
+    "B OUNDED H ORIZON",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Long horizon. If T > 2M⋆k then",
+    "Short Horizon. If T ≤ 2M⋆k then",
+    "T √ T",
+    "2",
+    "A DAPTIVE A LGORITHMS",
+    "Technical Overview",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Combinatorial Characterizations",
+    "Quasi-balanced Trees",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Prediction using Expert Advice",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "X",
+    "ET0 + ET1",
+    "ET = 1 + , (3)",
+    "T shattered",
+    "B.1.1. P ROOF OF T HEOREM 11",
+    "+ E[LT0 ] + E[LT0 ]",
+    "E[LT ] =",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "+ ET0 /2 + ET1 /2",
+    "\u0001",
+    "x∈X",
+    "1",
+    "T ∈S(H) 2 x T ∈Sx (H)",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "+ RL(Hx→1 ) − RL(Hx→0 )",
+    "+ RL(Hx→0 ) + RL(Hx→1 )",
+    "1",
+    "1",
+    "X",
+    "T shattered",
+    "1",
+    "T shattered, finite 2 T shattered",
+    "D→∞",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "X",
+    "D→∞",
+    "X",
+    "if J ̸= j,",
+    "S",
+    "X S",
+    "X",
+    "X",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "(1, J)",
+    "1",
+    "(3, J)",
+    "(J − 1, J)",
+    "1",
+    "7",
+    "8",
+    "3",
+    "4",
+    "1",
+    "2",
+    "2 2",
+    "2",
+    "T shattered",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "T shattered, monotone",
+    "T shattered, quasi-balanced",
+    "2",
+    "2",
+    "Consequently,",
+    "2⌈ET ⌉",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "1",
+    "1",
+    "1",
+    "1",
+    "T shattered",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "\u0001",
+    "x∈X",
+    "8ET 8",
+    "X∞",
+    "∞ \u0013 Z ∞",
+    "X \u0012 \u0013 \u0012 \u0012 \u0013",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "\u0013 Z 2ET Z ∞",
+    "8ET 8 8ET",
+    "Z ∞",
+    "2 √ √ 2 2",
+    "\u0012 \u0013 Z ∞ \u0012 \u0013 \u0012 \u0013",
+    "k 8 8",
+    "ET 20 ET 1",
+    "2",
+    "T T",
+    "2",
+    "T",
+    "(ET − T)2 (2RL(H) − T)2",
+    "T T",
+    "4ET 2 8RL(H) 2",
+    "T T",
+    "RL(H) 2 2",
+    "2 2",
+    "− 22−k0 2 − 22−k1",
+    "2",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "1",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "Predict \u0010 \u0011",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "X",
+    "X",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "1",
+    "RL(Wx→0 ) + RL(Wx→1 )",
+    "x∈X 2",
+    "RL(Wx→0 ) + RL(Wx→1 )",
+    "2",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "D",
+    "D+1 D+1 1 D",
+    "D 1 1",
+    "2",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "2",
+    "2",
+    "′",
+    "D 8D D",
+    "F.2.1. P ROOF OF T ECHNICAL E STIMATE",
+    "D",
+    "D",
+    "D 1",
+    "D 1",
+    "D 1",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "T",
+    "X",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "1 2 3 4 5",
+    "− h(k/d)",
+    "− h(p)",
+    "X",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "X 1",
+    "F ILMUS H ANNEKE M EHALEL M ORAN",
+    "F ILMUS H ANNEKE M EHALEL M ORAN"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 104,
+            "section": "Realizable Case",
+            "quote": "In his seminal work from 1988, Nick Littlestone studied the optimal mistake bound in online learning an hypothesis class H by deterministic learning rules in the realizable setting (Littlestone, 1988); that is, under th…"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 3081,
+            "section": "X 1",
+            "quote": "In Section C.3.2 we gave two examples showing that both inequalities can be tight."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "learning rate",
+          "\\bprocedure\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "evidence": [
+          {
+            "indicator": "learning rate",
+            "line": 168,
+            "section": "Agnostic Case",
+            "quote": "A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T."
+          },
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 437,
+            "section": "A DAPTIVE A LGORITHMS",
+            "quote": "Theorem 8 implies that the adaptive procedure nearly\u0010preserves the form of this upper bound, \u0011 guaranteeing a slightly larger ⋆ p bound of the form k + O ⋆ ⋆ k L(H) log(k log L(H)) + L(H) ."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 585,
+            "section": "Prediction using Expert Advice",
+            "quote": "At first, the setting of prediction using expert advice looks similar, but not identical, to our setting."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\brecall\\b",
+            "line": 497,
+            "section": "Combinatorial Characterizations",
+            "quote": "Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "state[- ]of[- ]the[- ]art"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "state[- ]of[- ]the[- ]art",
+            "line": 3105,
+            "section": "F ILMUS H ANNEKE M EHALEL M ORAN",
+            "quote": "Brânzei and Peres (2019) have the state-of-the-art bounds in the regime k ≪ log n, but we are not aware of any results in other regimes, e.g. when k = Θ(log n)."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 175,
+            "section": "Agnostic Case",
+            "quote": "The upshot of this approach is that it allows for a precise combinatorial characterization of the optimal mistake bound via a natural generalization of the Littlestone dimension."
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 456,
+            "section": "F ILMUS H ANNEKE M EHALEL M ORAN",
+            "quote": "On the one hand, learning rules show which hypothesis classes lend themselves to learning, and on the other hand, strategies for the adversary put limitations on what can be learned, and at what cost."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 659,
+            "section": "F ILMUS H ANNEKE M EHALEL M ORAN",
+            "quote": "URL https://arxiv.org/abs/2203.01550."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 3081,
+          "section": "X 1",
+          "quote": "In Section C.3.2 we gave two examples showing that both inequalities can be tight."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "learning rate",
+          "line": 168,
+          "section": "Agnostic Case",
+          "quote": "A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T."
+        },
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 437,
+          "section": "A DAPTIVE A LGORITHMS",
+          "quote": "Theorem 8 implies that the adaptive procedure nearly\u0010preserves the form of this upper bound, \u0011 guaranteeing a slightly larger ⋆ p bound of the form k + O ⋆ ⋆ k L(H) log(k log L(H)) + L(H) ."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 585,
+          "section": "Prediction using Expert Advice",
+          "quote": "At first, the setting of prediction using expert advice looks similar, but not identical, to our setting."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\brecall\\b",
+          "line": 497,
+          "section": "Combinatorial Characterizations",
+          "quote": "Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 104 [Realizable Case]: \"In his seminal work from 1988, Nick Littlestone studied the optimal mistake bound in online learning an hypothesis class H by deterministic learning rules in the realizable setting (Littlestone, 1988); that is, under th…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 3081 [X 1]: \"In Section C.3.2 we gave two examples showing that both inequalities can be tight.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 168 [Agnostic Case]: \"A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T.\"",
+        "line 437 [A DAPTIVE A LGORITHMS]: \"Theorem 8 implies that the adaptive procedure nearly\u0010preserves the form of this upper bound, \u0011 guaranteeing a slightly larger ⋆ p bound of the form k + O ⋆ ⋆ k L(H) log(k log L(H)) + L(H) .\"",
+        "line 585 [Prediction using Expert Advice]: \"At first, the setting of prediction using expert advice looks similar, but not identical, to our setting.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 497 [Combinatorial Characterizations]: \"Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 3105 [F ILMUS H ANNEKE M EHALEL M ORAN]: \"Brânzei and Peres (2019) have the state-of-the-art bounds in the regime k ≪ log n, but we are not aware of any results in other regimes, e.g. when k = Θ(log n).\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 175 [Agnostic Case]: \"The upshot of this approach is that it allows for a precise combinatorial characterization of the optimal mistake bound via a natural generalization of the Littlestone dimension.\"",
+        "line 456 [F ILMUS H ANNEKE M EHALEL M ORAN]: \"On the one hand, learning rules show which hypothesis classes lend themselves to learning, and on the other hand, strategies for the adversary put limitations on what can be learned, and at what cost.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 659 [F ILMUS H ANNEKE M EHALEL M ORAN]: \"URL https://arxiv.org/abs/2203.01550.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.11,
+    "extract": 25.04,
+    "load_rubric": 4.72,
+    "detect_sections": 6.68,
+    "split_sentences": 5.17,
+    "assess": 177.71,
+    "detect_weaknesses": 0.09,
+    "explain": 0.03,
+    "total": 220.53
+  }
+}

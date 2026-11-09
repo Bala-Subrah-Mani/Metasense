@@ -1,0 +1,83 @@
+{
+  "total_spurious": 1661,
+  "by_cause": {
+    "math_or_symbol": 1446,
+    "running_head": 80,
+    "numbered_prose": 42,
+    "other_caps": 34,
+    "other": 20,
+    "code_comment": 20,
+    "matcher_miss_real_heading": 7,
+    "broken_real_heading": 4,
+    "table_or_figure": 4,
+    "lower_level_heading": 4
+  },
+  "by_rule": {
+    "all_caps": 1138,
+    "numbered": 502,
+    "markdown": 20,
+    "title_case": 1
+  },
+  "cause_x_rule": {
+    "math_or_symbol|all_caps": 1007,
+    "math_or_symbol|numbered": 439,
+    "running_head|all_caps": 80,
+    "numbered_prose|numbered": 42,
+    "other_caps|all_caps": 33,
+    "code_comment|markdown": 20,
+    "other|numbered": 19,
+    "matcher_miss_real_heading|all_caps": 6,
+    "broken_real_heading|all_caps": 4,
+    "table_or_figure|all_caps": 4,
+    "lower_level_heading|all_caps": 4,
+    "other|title_case": 1,
+    "matcher_miss_real_heading|numbered": 1,
+    "other_caps|numbered": 1
+  },
+  "by_stratum": {
+    "E1": {
+      "math_or_symbol": 478,
+      "other_caps": 13,
+      "numbered_prose": 28,
+      "other": 12,
+      "broken_real_heading": 1,
+      "code_comment": 4,
+      "table_or_figure": 4
+    },
+    "E2": {
+      "math_or_symbol": 599,
+      "broken_real_heading": 3,
+      "matcher_miss_real_heading": 7,
+      "other_caps": 20,
+      "numbered_prose": 11,
+      "other": 2,
+      "running_head": 12
+    },
+    "T": {
+      "math_or_symbol": 368,
+      "running_head": 68,
+      "other_caps": 1,
+      "other": 6,
+      "numbered_prose": 3,
+      "lower_level_heading": 4
+    },
+    "S": {
+      "code_comment": 16,
+      "math_or_symbol": 1
+    }
+  },
+  "per_document": {
+    "E1-lawless23a": 47,
+    "E1-harkonen23a": 187,
+    "E1-yang23n": 82,
+    "E1-strimel23a": 28,
+    "E1-bhattacharjee23a": 196,
+    "E2-jeong23a": 152,
+    "E2-fabian23a": 465,
+    "E2-zhang23d": 37,
+    "T-jana23a": 190,
+    "T-filmus23a": 260,
+    "S-joss.05465": 16,
+    "S-joss.05321": 1
+  }
+}

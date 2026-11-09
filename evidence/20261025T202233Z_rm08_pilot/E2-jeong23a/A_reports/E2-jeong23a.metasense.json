@@ -1,0 +1,2088 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "cb3cb3412598",
+  "timestamp_utc": "2026-10-25T20:22:54+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "E2-jeong23a.pdf",
+    "type": "pdf",
+    "size_bytes": 5245026,
+    "sha256": "79fed1a8c6b637b6ca2a1b689b8787664010e406aca68722640aae5ed7fb2a95"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "pypdf",
+    "word_count": 11007,
+    "line_count": 1870,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 10,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 11,
+      "end_line": 23,
+      "word_count": 134,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 24,
+      "end_line": 66,
+      "word_count": 499,
+      "inherited": false
+    },
+    {
+      "heading": "BACKGROUND",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 67,
+      "end_line": 90,
+      "word_count": 260,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 91,
+      "end_line": 103,
+      "word_count": 88,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 104,
+      "end_line": 143,
+      "word_count": 377,
+      "inherited": false
+    },
+    {
+      "heading": "A =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 144,
+      "end_line": 146,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "1 0 ··· 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 147,
+      "end_line": 147,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "0 1 ... 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 148,
+      "end_line": 149,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "0 0 0 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 150,
+      "end_line": 155,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": ")",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 156,
+      "end_line": 158,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "\u0000 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 159,
+      "end_line": 170,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "h(i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 171,
+      "end_line": 171,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "h(i+1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 172,
+      "end_line": 172,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "· · ·",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 173,
+      "end_line": 179,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "L · · ·",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 180,
+      "end_line": 194,
+      "word_count": 76,
+      "inherited": false
+    },
+    {
+      "heading": "=N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 195,
+      "end_line": 201,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "= N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 202,
+      "end_line": 206,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "e(∆(i)−τ)ABQBT e(∆(i)−τ)AT",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 207,
+      "end_line": 213,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "FACTORIAL SDE REPRESENTATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 214,
+      "end_line": 214,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "OF MULTI-OUTPUT GP REGRESSION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 215,
+      "end_line": 225,
+      "word_count": 108,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 226,
+      "end_line": 257,
+      "word_count": 272,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 258,
+      "end_line": 293,
+      "word_count": 290,
+      "inherited": false
+    },
+    {
+      "heading": ", . . . , x(i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 294,
+      "end_line": 327,
+      "word_count": 138,
+      "inherited": false
+    },
+    {
+      "heading": "V ARIATIONAL INFERENCE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 328,
+      "end_line": 334,
+      "word_count": 40,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 335,
+      "end_line": 339,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 340,
+      "end_line": 344,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 345,
+      "end_line": 347,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "TY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 348,
+      "end_line": 352,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 353,
+      "end_line": 355,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014 LY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 356,
+      "end_line": 357,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "TY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 358,
+      "end_line": 378,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": ", . . . ,h(1:T)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 379,
+      "end_line": 412,
+      "word_count": 288,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 413,
+      "end_line": 415,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 416,
+      "end_line": 442,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "S(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 443,
+      "end_line": 445,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "S(2,1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 446,
+      "end_line": 450,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "S(3,2)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 451,
+      "end_line": 454,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "... ... ... ... S(T,T −1)T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 455,
+      "end_line": 456,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "··· 0 S(T,T −1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 457,
+      "end_line": 476,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "TX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 477,
+      "end_line": 483,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 484,
+      "end_line": 486,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 487,
+      "end_line": 488,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "KL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 489,
+      "end_line": 499,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "= − T P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 500,
+      "end_line": 500,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "log(2πσ2) − 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 501,
+      "end_line": 502,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 503,
+      "end_line": 505,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 506,
+      "end_line": 508,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 TX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 509,
+      "end_line": 518,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 519,
+      "end_line": 588,
+      "word_count": 385,
+      "inherited": false
+    },
+    {
+      "heading": "TX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 589,
+      "end_line": 596,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE O(P LT D3) O(LT D2)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 597,
+      "end_line": 646,
+      "word_count": 365,
+      "inherited": false
+    },
+    {
+      "heading": "BTD(S−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 647,
+      "end_line": 648,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "R(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 649,
+      "end_line": 651,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "(S−1(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 652,
+      "end_line": 696,
+      "word_count": 270,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 697,
+      "end_line": 700,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 701,
+      "end_line": 701,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001 LY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 702,
+      "end_line": 709,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 710,
+      "end_line": 710,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "= N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 711,
+      "end_line": 711,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 712,
+      "end_line": 715,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 716,
+      "end_line": 717,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "[S−1(∗)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 718,
+      "end_line": 738,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "EXPERIMENTS",
+      "label": "experiments",
+      "level": 1,
+      "start_line": 739,
+      "end_line": 761,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "Simulation Data",
+      "label": "experiments",
+      "level": 2,
+      "start_line": 762,
+      "end_line": 781,
+      "word_count": 200,
+      "inherited": true
+    },
+    {
+      "heading": "kernels, whose signal variances",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 782,
+      "end_line": 787,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 788,
+      "end_line": 788,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "INTERPOLATION EXTRAPOLATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 789,
+      "end_line": 789,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE NLPD MAE NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 790,
+      "end_line": 791,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "IMC A DAM2.66±0.15 2.51±0.05 3.70±0.20 2.60±0.04",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 792,
+      "end_line": 792,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMC NGD 2.66 ±0.12 2.51±0.05 3.63±0.16 2.61±0.04",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 793,
+      "end_line": 793,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC A DAM2.65±0.15 2.50±0.05 3.64±0.17 2.58±0.04",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 794,
+      "end_line": 794,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC NGD 2.64 ±0.13 2.50±0.05 3.71±0.23 3.71±0.23",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 795,
+      "end_line": 795,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE A DAM2.30±0.33 1.17±0.05 3.33±0.03 1.67±0.03",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 796,
+      "end_line": 796,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE NGD 2.31 ±0.34 1.20±0.04 3.30±0.02 1.64±0.04",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 797,
+      "end_line": 797,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI ADAM2.85±0.30 1.83±0.27 3.24±0.051.77±0.06",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 798,
+      "end_line": 798,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI NGD 2.55±0.13 2.47±0.65 3.23±0.042.19±0.09",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 799,
+      "end_line": 816,
+      "word_count": 197,
+      "inherited": false
+    },
+    {
+      "heading": "summarizes the five-fold cross-validated test MAE and",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 817,
+      "end_line": 828,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "sin(3πt",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 829,
+      "end_line": 829,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ") + c(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 830,
+      "end_line": 832,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "·",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 833,
+      "end_line": 848,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "10 20 30 40□20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 849,
+      "end_line": 856,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "10 20 30 40□20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 857,
+      "end_line": 863,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "10 20 30 40□20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 864,
+      "end_line": 870,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "10 20 30 40□20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 871,
+      "end_line": 877,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "10 20 30 40",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 878,
+      "end_line": 891,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "kernels,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 892,
+      "end_line": 903,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "400 600 800 1000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 904,
+      "end_line": 912,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 913,
+      "end_line": 914,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 915,
+      "end_line": 916,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 917,
+      "end_line": 918,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "400 600 800 1000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 919,
+      "end_line": 962,
+      "word_count": 318,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 963,
+      "end_line": 964,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 965,
+      "end_line": 966,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 967,
+      "end_line": 970,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "Real Data",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 971,
+      "end_line": 976,
+      "word_count": 42,
+      "inherited": false
+    },
+    {
+      "heading": "kernels, whose signal variances and lengthscales",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 977,
+      "end_line": 996,
+      "word_count": 230,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 997,
+      "end_line": 997,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "COVID-19 S TOCK ENERGY AIRQUALITY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 998,
+      "end_line": 1044,
+      "word_count": 617,
+      "inherited": false
+    },
+    {
+      "heading": "DISCUSSION AND CONCLUSION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1045,
+      "end_line": 1062,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 1063,
+      "end_line": 1065,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1066,
+      "end_line": 1114,
+      "word_count": 507,
+      "inherited": false
+    },
+    {
+      "heading": "K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1115,
+      "end_line": 1182,
+      "word_count": 586,
+      "inherited": false
+    },
+    {
+      "heading": "Robbins and S. Monro. A Stochastic Approximation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1183,
+      "end_line": 1193,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "Saul and M. Jordan. Exploiting Tractable Substructures",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1194,
+      "end_line": 1222,
+      "word_count": 255,
+      "inherited": false
+    },
+    {
+      "heading": "A SPARSE V ARIATIONAL INFERENCE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1223,
+      "end_line": 1242,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1243,
+      "end_line": 1245,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1246,
+      "end_line": 1269,
+      "word_count": 69,
+      "inherited": false
+    },
+    {
+      "heading": "LELBO =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1270,
+      "end_line": 1277,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "1:L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1278,
+      "end_line": 1280,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1281,
+      "end_line": 1282,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "KL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1283,
+      "end_line": 1294,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "log(2πσ2) − 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1295,
+      "end_line": 1296,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "F − 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1297,
+      "end_line": 1298,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1299,
+      "end_line": 1301,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 TX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1302,
+      "end_line": 1311,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "LX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1312,
+      "end_line": 1341,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1342,
+      "end_line": 1363,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "B FORECASTING AND SMOOTHING FOR PREDICTION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1364,
+      "end_line": 1382,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "(R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1383,
+      "end_line": 1438,
+      "word_count": 240,
+      "inherited": false
+    },
+    {
+      "heading": "S−1(∗)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1439,
+      "end_line": 1442,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∆∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1443,
+      "end_line": 1464,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "S−1(∗)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1465,
+      "end_line": 1473,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "\u0003T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1474,
+      "end_line": 1504,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "[S−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1505,
+      "end_line": 1515,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "∗ AT",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1516,
+      "end_line": 1551,
+      "word_count": 86,
+      "inherited": false
+    },
+    {
+      "heading": "S−1(∗)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1552,
+      "end_line": 1555,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∆∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1556,
+      "end_line": 1577,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "S−1(∗)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1578,
+      "end_line": 1586,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "\u0003T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1587,
+      "end_line": 1629,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "∗ AT",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1630,
+      "end_line": 1655,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "C ADDITIONAL EXPERIMENTAL DETAILS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1656,
+      "end_line": 1696,
+      "word_count": 691,
+      "inherited": false
+    },
+    {
+      "heading": "D SOFTWARE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1697,
+      "end_line": 1700,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1701,
+      "end_line": 1707,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1708,
+      "end_line": 1710,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1711,
+      "end_line": 1712,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1713,
+      "end_line": 1714,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1715,
+      "end_line": 1715,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "10000 15000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1716,
+      "end_line": 1724,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1725,
+      "end_line": 1731,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1732,
+      "end_line": 1733,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "10000 15000 20000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1734,
+      "end_line": 1741,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1742,
+      "end_line": 1748,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1749,
+      "end_line": 1750,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "10000 15000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1751,
+      "end_line": 1758,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1759,
+      "end_line": 1764,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1765,
+      "end_line": 1766,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "10000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1767,
+      "end_line": 1774,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1775,
+      "end_line": 1781,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1782,
+      "end_line": 1783,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "10000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1784,
+      "end_line": 1795,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1796,
+      "end_line": 1801,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1802,
+      "end_line": 1804,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1805,
+      "end_line": 1806,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1807,
+      "end_line": 1808,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1809,
+      "end_line": 1809,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "20000 40000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1810,
+      "end_line": 1818,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1819,
+      "end_line": 1824,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1825,
+      "end_line": 1826,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "40000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1827,
+      "end_line": 1833,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "×104",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1834,
+      "end_line": 1835,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1836,
+      "end_line": 1842,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1843,
+      "end_line": 1844,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "40000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1845,
+      "end_line": 1849,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "×105",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1850,
+      "end_line": 1851,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "4 8 12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1852,
+      "end_line": 1857,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1858,
+      "end_line": 1859,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "20000 40000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1860,
+      "end_line": 1870,
+      "word_count": 81,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "LX",
+    "LX",
+    "A =",
+    "1 0 ··· 0",
+    "0 1 ... 0",
+    "0 0 0 1",
+    ")",
+    "\u0000 D",
+    "h(i)",
+    "h(i+1)",
+    "· · ·",
+    "L · · ·",
+    "=N",
+    "= N",
+    "e(∆(i)−τ)ABQBT e(∆(i)−τ)AT",
+    "FACTORIAL SDE REPRESENTATION",
+    "OF MULTI-OUTPUT GP REGRESSION",
+    "LX",
+    "LX",
+    ", . . . , x(i)",
+    "V ARIATIONAL INFERENCE",
+    "1:L",
+    "1:L",
+    "1:L",
+    "TY",
+    "1:L",
+    "\u0014 LY",
+    "TY",
+    ", . . . ,h(1:T)",
+    "1:L",
+    "LY",
+    "S(1)",
+    "S(2,1)",
+    "S(3,2)",
+    "... ... ... ... S(T,T −1)T",
+    "··· 0 S(T,T −1)",
+    "TX",
+    "1:L",
+    "LX",
+    "KL",
+    "= − T P",
+    "log(2πσ2) − 1",
+    "F",
+    "LX",
+    "\u0012 TX",
+    "LX",
+    "TX",
+    "FSDE O(P LT D3) O(LT D2)",
+    "BTD(S−1",
+    "R(1)",
+    "(S−1(1)",
+    "Z",
+    "1:L",
+    "\u0001 LY",
+    "1:L",
+    "= N",
+    "LX",
+    "LX",
+    "[S−1(∗)",
+    "kernels, whose signal variances",
+    "MODEL",
+    "INTERPOLATION EXTRAPOLATION",
+    "MAE NLPD MAE NLPD",
+    "IMC A DAM2.66±0.15 2.51±0.05 3.70±0.20 2.60±0.04",
+    "IMC NGD 2.66 ±0.12 2.51±0.05 3.63±0.16 2.61±0.04",
+    "LMC A DAM2.65±0.15 2.50±0.05 3.64±0.17 2.58±0.04",
+    "LMC NGD 2.64 ±0.13 2.50±0.05 3.71±0.23 3.71±0.23",
+    "FSDE A DAM2.30±0.33 1.17±0.05 3.33±0.03 1.67±0.03",
+    "FSDE NGD 2.31 ±0.34 1.20±0.04 3.30±0.02 1.64±0.04",
+    "FSDE-SVI ADAM2.85±0.30 1.83±0.27 3.24±0.051.77±0.06",
+    "FSDE-SVI NGD 2.55±0.13 2.47±0.65 3.23±0.042.19±0.09",
+    "summarizes the five-fold cross-validated test MAE and",
+    "sin(3πt",
+    ") + c(1)",
+    "·",
+    "10 20 30 40□20",
+    "10 20 30 40□20",
+    "10 20 30 40□20",
+    "10 20 30 40□20",
+    "10 20 30 40",
+    "kernels,",
+    "400 600 800 1000",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "400 600 800 1000",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "Real Data",
+    "kernels, whose signal variances and lengthscales",
+    "MODEL",
+    "COVID-19 S TOCK ENERGY AIRQUALITY",
+    "DISCUSSION AND CONCLUSION",
+    "K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive",
+    "Robbins and S. Monro. A Stochastic Approximation",
+    "Saul and M. Jordan. Exploiting Tractable Substructures",
+    "A SPARSE V ARIATIONAL INFERENCE",
+    "1:L",
+    "LY",
+    "LELBO =",
+    "1:L",
+    "LX",
+    "KL",
+    "log(2πσ2) − 1",
+    "F − 1",
+    "LX",
+    "\u0012 TX",
+    "LX",
+    "R",
+    "B FORECASTING AND SMOOTHING FOR PREDICTION",
+    "(R",
+    "S−1(∗)",
+    "Z ∆∗",
+    "S−1(∗)",
+    "\u0003T",
+    "[S−1",
+    "∗ AT",
+    "S−1(∗)",
+    "Z ∆∗",
+    "S−1(∗)",
+    "\u0003T",
+    "∗ AT",
+    "C ADDITIONAL EXPERIMENTAL DETAILS",
+    "D SOFTWARE",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "10000 15000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "10000 15000 20000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "10000 15000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "10000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "10000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "20000 40000",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "40000",
+    "×104",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "40000",
+    "×105",
+    "4 8 12 16 20 24",
+    "ELBO",
+    "20000 40000"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 87.5,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 7,
+      "weak": 0,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bdata ?sets?\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\bcollected from\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 740,
+            "section": "EXPERIMENTS",
+            "quote": "We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets."
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 763,
+            "section": "Simulation Data",
+            "quote": "We demonstrate the accuracy and scalability of different methods on a small simulation dataset withP = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 879,
+            "section": "10 20 30 40",
+            "quote": "Input □20 □10 0 10 20 Output Figure 2: Comparison of the posterior predictions on one train-test split of S MALL -SIM data."
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 1019,
+            "section": "COVID-19 S TOCK ENERGY AIRQUALITY",
+            "quote": "We predict the hourly air pollutant measurements collected from the Gucheng subdistrict in Beijing between March 1st, 2013 and February 28th, 2017 (Zhang et al., 2017)."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "hyper-?parameters?",
+          "learning rate",
+          "\\bCPUs?\\b",
+          "\\bRAM\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "evidence": [
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 743,
+            "section": "EXPERIMENTS",
+            "quote": "We train all models in two different optimization settings: one in which we update both the kernel hyperparameters and the variational parameters with Adam (Kingma and Ba, 2015) and the other in which we update the kern…"
+          },
+          {
+            "indicator": "learning rate",
+            "line": 748,
+            "section": "EXPERIMENTS",
+            "quote": "For the factorial SDEs, we use the learning rate scheduler proposed by Salimbeni et al."
+          },
+          {
+            "indicator": "\\bCPUs?\\b",
+            "line": 757,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 757,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 392,
+            "section": ", . . . ,h(1:T)",
+            "quote": "First, we combine the structured mean-field algorithm previously developed for factorial HMM (Ghahramani and Jordan, 1997) and the sparse variational inference previously developed for learning an SDE model for single-o…"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+          "\\baccuracy\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bprecision\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+            "line": 757,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 763,
+            "section": "Simulation Data",
+            "quote": "We demonstrate the accuracy and scalability of different methods on a small simulation dataset withP = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples."
+          },
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 424,
+            "section": "LY",
+            "quote": "Then, for each factor q \u0000 h(1:T) ℓ \u0001 above, we use the parameterization of the variational distribution used in singleoutput GPs (Durrande et al., 2019; Adam et al., 2020): q \u0000 h(1:T) ℓ \u0001 =N(mℓ, S−1 ℓ ). mℓ ∈ RTD above…"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b",
+          "\\bbaselines?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 63,
+            "section": "INTRODUCTION",
+            "quote": "On simulated and real-world data, we empirically show that our approach significantly reduces the runtime, while achieving competitive prediction accuracy, compared to the existing multi-output GP regression models with…"
+          },
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 740,
+            "section": "EXPERIMENTS",
+            "quote": "We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "cross-validation|cross validation"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "cross-validation|cross validation",
+            "line": 786,
+            "section": "kernels, whose signal variances",
+            "quote": "Jeong, Seyoung Kim Table 2: Five-fold cross-validation results on SMALL -SIM."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 79,
+            "section": "BACKGROUND",
+            "quote": "The LMC can be viewed as a special case of the convolved GP ( ´Alvarez and Lawrence, 2011) and a generalization of the collaborative multi-output GP (Nguyen and Bonilla, 2014) and mixed-effects GP (Wang and Khardon, 201…"
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 1053,
+            "section": "DISCUSSION AND CONCLUSION",
+            "quote": "There are several limitations of our work that remain as future work."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://",
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 993,
+            "section": "kernels, whose signal variances and lengthscales",
+            "quote": "For all mod1https://www.kaggle.com/datasets/szrlee/ stock-time-series-20050101-to-20171231 Daniel P."
+          },
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 1698,
+            "section": "D SOFTWARE",
+            "quote": "The software is available at https://github.com/SeyoungKimLab/FactorialSDE."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C1",
+      "summary": "Research objective / questions: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "State the research objective or research questions explicitly (e.g., RQ1, RQ2) so the methodology can be checked against them."
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 740 [EXPERIMENTS]: \"We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets.\"",
+        "line 763 [Simulation Data]: \"We demonstrate the accuracy and scalability of different methods on a small simulation dataset withP = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples.\"",
+        "line 879 [10 20 30 40]: \"Input □20 □10 0 10 20 Output Figure 2: Comparison of the posterior predictions on one train-test split of S MALL -SIM data.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "present",
+      "explanation": "Rated PRESENT: 4 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 743 [EXPERIMENTS]: \"We train all models in two different optimization settings: one in which we update both the kernel hyperparameters and the variational parameters with Adam (Kingma and Ba, 2015) and the other in which we update the kern…\"",
+        "line 748 [EXPERIMENTS]: \"For the factorial SDEs, we use the learning rate scheduler proposed by Salimbeni et al.\"",
+        "line 757 [EXPERIMENTS]: \"We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the methodology section(s) (threshold 1).",
+      "evidence": [
+        "line 757 [EXPERIMENTS]: \"We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance.\"",
+        "line 763 [Simulation Data]: \"We demonstrate the accuracy and scalability of different methods on a small simulation dataset withP = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples.\"",
+        "line 424 [LY]: \"Then, for each factor q \u0000 h(1:T) ℓ \u0001 above, we use the parameterization of the variational distribution used in singleoutput GPs (Durrande et al., 2019; Adam et al., 2020): q \u0000 h(1:T) ℓ \u0001 =N(mℓ, S−1 ℓ ). mℓ ∈ RTD above…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 63 [INTRODUCTION]: \"On simulated and real-world data, we empirically show that our approach significantly reduces the runtime, while achieving competitive prediction accuracy, compared to the existing multi-output GP regression models with…\"",
+        "line 740 [EXPERIMENTS]: \"We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 786 [kernels, whose signal variances]: \"Jeong, Seyoung Kim Table 2: Five-fold cross-validation results on SMALL -SIM.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 79 [BACKGROUND]: \"The LMC can be viewed as a special case of the convolved GP ( ´Alvarez and Lawrence, 2011) and a generalization of the collaborative multi-output GP (Nguyen and Bonilla, 2014) and mixed-effects GP (Wang and Khardon, 201…\"",
+        "line 1053 [DISCUSSION AND CONCLUSION]: \"There are several limitations of our work that remain as future work.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 993 [kernels, whose signal variances and lengthscales]: \"For all mod1https://www.kaggle.com/datasets/szrlee/ stock-time-series-20050101-to-20171231 Daniel P.\"",
+        "line 1698 [D SOFTWARE]: \"The software is available at https://github.com/SeyoungKimLab/FactorialSDE.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.08,
+    "extract": 3730.38,
+    "load_rubric": 3.69,
+    "detect_sections": 7.26,
+    "split_sentences": 4.27,
+    "assess": 91.61,
+    "detect_weaknesses": 0.05,
+    "explain": 0.07,
+    "total": 3842.98
+  }
+}

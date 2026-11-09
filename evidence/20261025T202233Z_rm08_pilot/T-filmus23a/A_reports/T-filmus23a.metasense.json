@@ -1,0 +1,3174 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "c7792f689b2b",
+  "timestamp_utc": "2026-10-25T20:24:13+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "T-filmus23a.pdf",
+    "type": "pdf",
+    "size_bytes": 693454,
+    "sha256": "c0ed7ef2f8bbbe19a1158797df3c8a77db06c59e92199ff8d89904000e920915"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "pypdf",
+    "word_count": 28523,
+    "line_count": 3311,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 14,
+      "word_count": 98,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 15,
+      "end_line": 50,
+      "word_count": 436,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 51,
+      "end_line": 51,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 52,
+      "end_line": 87,
+      "word_count": 451,
+      "inherited": false
+    },
+    {
+      "heading": "Main results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 88,
+      "end_line": 91,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "Realizable Case",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 92,
+      "end_line": 112,
+      "word_count": 271,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 113,
+      "end_line": 113,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 114,
+      "end_line": 126,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 127,
+      "end_line": 138,
+      "word_count": 126,
+      "inherited": false
+    },
+    {
+      "heading": "Agnostic Case",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 139,
+      "end_line": 156,
+      "word_count": 251,
+      "inherited": false
+    },
+    {
+      "heading": "k-LITTLESTONE DIMENSION",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 157,
+      "end_line": 166,
+      "word_count": 107,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 167,
+      "end_line": 198,
+      "word_count": 238,
+      "inherited": false
+    },
+    {
+      "heading": "L(H) +",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 199,
+      "end_line": 200,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T · L(H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 201,
+      "end_line": 212,
+      "word_count": 84,
+      "inherited": false
+    },
+    {
+      "heading": "O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 213,
+      "end_line": 218,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "Prediction Using Expert Advice",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 219,
+      "end_line": 230,
+      "word_count": 120,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 231,
+      "end_line": 243,
+      "word_count": 133,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 244,
+      "end_line": 245,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "≤ M⋆(n, k) ≤ M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 246,
+      "end_line": 257,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 258,
+      "end_line": 262,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "+ o(1))M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 263,
+      "end_line": 279,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "When n = 1, M⋆(1, k) =M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 280,
+      "end_line": 290,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "+ o(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 291,
+      "end_line": 292,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 293,
+      "end_line": 297,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "+ Ω",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 298,
+      "end_line": 299,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 300,
+      "end_line": 324,
+      "word_count": 260,
+      "inherited": false
+    },
+    {
+      "heading": "Variations",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 325,
+      "end_line": 325,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "B OUNDED HORIZON",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 326,
+      "end_line": 341,
+      "word_count": 145,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 342,
+      "end_line": 353,
+      "word_count": 96,
+      "inherited": false
+    },
+    {
+      "heading": "Long horizon.If T > 2M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 354,
+      "end_line": 355,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 356,
+      "end_line": 358,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "8M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 359,
+      "end_line": 363,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "Short Horizon.If T ≤ 2M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 364,
+      "end_line": 365,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 366,
+      "end_line": 366,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 367,
+      "end_line": 370,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": ",",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 371,
+      "end_line": 380,
+      "word_count": 43,
+      "inherited": false
+    },
+    {
+      "heading": "follows by guessing each label",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 381,
+      "end_line": 390,
+      "word_count": 68,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 391,
+      "end_line": 411,
+      "word_count": 173,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 412,
+      "end_line": 416,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "A DAPTIVE ALGORITHMS",
+      "label": "unknown",
+      "level": 3,
+      "start_line": 417,
+      "end_line": 426,
+      "word_count": 127,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 427,
+      "end_line": 429,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 430,
+      "end_line": 446,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "+ o(1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 447,
+      "end_line": 448,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 449,
+      "end_line": 466,
+      "word_count": 116,
+      "inherited": false
+    },
+    {
+      "heading": "Technical Overview",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 467,
+      "end_line": 472,
+      "word_count": 56,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 473,
+      "end_line": 482,
+      "word_count": 127,
+      "inherited": false
+    },
+    {
+      "heading": "Combinatorial Characterizations",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 483,
+      "end_line": 504,
+      "word_count": 315,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 505,
+      "end_line": 539,
+      "word_count": 456,
+      "inherited": false
+    },
+    {
+      "heading": "Quasi-balanced Trees",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 540,
+      "end_line": 559,
+      "word_count": 274,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 560,
+      "end_line": 593,
+      "word_count": 424,
+      "inherited": false
+    },
+    {
+      "heading": "Prediction using Expert Advice",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 594,
+      "end_line": 608,
+      "word_count": 226,
+      "inherited": false
+    },
+    {
+      "heading": "\u0000ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 609,
+      "end_line": 625,
+      "word_count": 133,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgments",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 626,
+      "end_line": 633,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 634,
+      "end_line": 652,
+      "word_count": 177,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 653,
+      "end_line": 726,
+      "word_count": 685,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 727,
+      "end_line": 774,
+      "word_count": 553,
+      "inherited": false
+    },
+    {
+      "heading": "S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 775,
+      "end_line": 814,
+      "word_count": 550,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 815,
+      "end_line": 846,
+      "word_count": 384,
+      "inherited": false
+    },
+    {
+      "heading": "ET =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 847,
+      "end_line": 847,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 848,
+      "end_line": 854,
+      "word_count": 55,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 1 + ET0 + ET1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 855,
+      "end_line": 855,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ", (3)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 856,
+      "end_line": 860,
+      "word_count": 52,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 861,
+      "end_line": 861,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 862,
+      "end_line": 876,
+      "word_count": 120,
+      "inherited": false
+    },
+    {
+      "heading": "B.1.1. P ROOF OF THEOREM 11",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 877,
+      "end_line": 896,
+      "word_count": 267,
+      "inherited": false
+    },
+    {
+      "heading": "E[LT ] = 1 + E[LT0] + E[LT0]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 897,
+      "end_line": 899,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 900,
+      "end_line": 900,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "= 1 + ET0/2 + ET1/2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 901,
+      "end_line": 901,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(by the induction hypothesis)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 902,
+      "end_line": 911,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 912,
+      "end_line": 912,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 913,
+      "end_line": 915,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "+ RL(Hx→0) + RL(Hx→1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 916,
+      "end_line": 921,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 922,
+      "end_line": 922,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 923,
+      "end_line": 923,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T∈S(H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 924,
+      "end_line": 924,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 925,
+      "end_line": 925,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 926,
+      "end_line": 933,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 1 +",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 934,
+      "end_line": 935,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "= 1 + RL(Hx→1) + RL(Hx→0),",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 936,
+      "end_line": 941,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "+ min{L(Hx→1), L(Hx→0)}",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 942,
+      "end_line": 973,
+      "word_count": 150,
+      "inherited": false
+    },
+    {
+      "heading": "Update V (i+1) = V (i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 974,
+      "end_line": 979,
+      "word_count": 40,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 980,
+      "end_line": 984,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "− p + RL(Hx→1) = RL(Hx→1) ≤ RL(H),",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 985,
+      "end_line": 1037,
+      "word_count": 476,
+      "inherited": false
+    },
+    {
+      "heading": "ET =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1038,
+      "end_line": 1038,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1039,
+      "end_line": 1045,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1046,
+      "end_line": 1046,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1047,
+      "end_line": 1053,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1054,
+      "end_line": 1055,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1056,
+      "end_line": 1056,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1057,
+      "end_line": 1062,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "D→∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1063,
+      "end_line": 1063,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ETD . (8)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1064,
+      "end_line": 1065,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1066,
+      "end_line": 1071,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "ET =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1072,
+      "end_line": 1072,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1073,
+      "end_line": 1076,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "ETD ≥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1077,
+      "end_line": 1077,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1078,
+      "end_line": 1087,
+      "word_count": 100,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1088,
+      "end_line": 1098,
+      "word_count": 126,
+      "inherited": false
+    },
+    {
+      "heading": "if J ̸= j,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1099,
+      "end_line": 1116,
+      "word_count": 259,
+      "inherited": false
+    },
+    {
+      "heading": "ET =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1117,
+      "end_line": 1117,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "SX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1118,
+      "end_line": 1120,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "SX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1121,
+      "end_line": 1130,
+      "word_count": 128,
+      "inherited": false
+    },
+    {
+      "heading": "ET =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1131,
+      "end_line": 1131,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1132,
+      "end_line": 1159,
+      "word_count": 325,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1160,
+      "end_line": 1160,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1161,
+      "end_line": 1161,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(2, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1162,
+      "end_line": 1162,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(3, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1163,
+      "end_line": 1164,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "(J − 1, J)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1165,
+      "end_line": 1170,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1171,
+      "end_line": 1202,
+      "word_count": 166,
+      "inherited": false
+    },
+    {
+      "heading": "+ w(e1) + ET1/2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1203,
+      "end_line": 1203,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "= 1 + ET0/2 + ET1/2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1204,
+      "end_line": 1204,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "= ET /2,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1205,
+      "end_line": 1214,
+      "word_count": 110,
+      "inherited": false
+    },
+    {
+      "heading": "and w(e1) = 1 + λT0 − λT1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1215,
+      "end_line": 1225,
+      "word_count": 123,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1226,
+      "end_line": 1226,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1227,
+      "end_line": 1236,
+      "word_count": 84,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1237,
+      "end_line": 1240,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1241,
+      "end_line": 1241,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1242,
+      "end_line": 1252,
+      "word_count": 132,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1253,
+      "end_line": 1253,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1254,
+      "end_line": 1286,
+      "word_count": 421,
+      "inherited": false
+    },
+    {
+      "heading": "and w(e1) = 1 + λT0 − λT1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1287,
+      "end_line": 1306,
+      "word_count": 285,
+      "inherited": false
+    },
+    {
+      "heading": "0, T′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1307,
+      "end_line": 1307,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "be the subtrees",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1308,
+      "end_line": 1316,
+      "word_count": 60,
+      "inherited": false
+    },
+    {
+      "heading": "−ET′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1317,
+      "end_line": 1319,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Consequently,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1320,
+      "end_line": 1326,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1327,
+      "end_line": 1327,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "2⌈ET ⌉",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1328,
+      "end_line": 1332,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1333,
+      "end_line": 1337,
+      "word_count": 42,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1338,
+      "end_line": 1348,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "C.3.1. O PTIMAL ONLINE ADVERSARIAL STRATEGIES",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1349,
+      "end_line": 1365,
+      "word_count": 247,
+      "inherited": false
+    },
+    {
+      "heading": "C.3.2. D ETERMINISTIC VS RANDOMIZED ONLINE LEARNING",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1366,
+      "end_line": 1370,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆(H) ≤ M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1371,
+      "end_line": 1413,
+      "word_count": 455,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1414,
+      "end_line": 1421,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "D(H) =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1422,
+      "end_line": 1428,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1429,
+      "end_line": 1454,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1455,
+      "end_line": 1475,
+      "word_count": 222,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H, T) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1476,
+      "end_line": 1476,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1477,
+      "end_line": 1485,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1486,
+      "end_line": 1507,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "Update V (i+1) = V (i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1508,
+      "end_line": 1530,
+      "word_count": 219,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H, T) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1531,
+      "end_line": 1531,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "max",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1532,
+      "end_line": 1556,
+      "word_count": 222,
+      "inherited": false
+    },
+    {
+      "heading": "2RL(H) + O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1557,
+      "end_line": 1562,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "= 2RL(H) + O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1563,
+      "end_line": 1582,
+      "word_count": 115,
+      "inherited": false
+    },
+    {
+      "heading": "8ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1583,
+      "end_line": 1593,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1594,
+      "end_line": 1598,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1599,
+      "end_line": 1611,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1612,
+      "end_line": 1620,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1621,
+      "end_line": 1628,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Z 2ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1629,
+      "end_line": 1633,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "8ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1634,
+      "end_line": 1636,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1637,
+      "end_line": 1637,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "2ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1638,
+      "end_line": 1649,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "8ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1650,
+      "end_line": 1653,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "−ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1654,
+      "end_line": 1661,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "8ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1662,
+      "end_line": 1665,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1666,
+      "end_line": 1682,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1683,
+      "end_line": 1718,
+      "word_count": 158,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1719,
+      "end_line": 1719,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "− O(",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1720,
+      "end_line": 1726,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1727,
+      "end_line": 1727,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "− 1 < RL(H, T) ≤ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1728,
+      "end_line": 1728,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ",",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1729,
+      "end_line": 1732,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H) − O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1733,
+      "end_line": 1749,
+      "word_count": 167,
+      "inherited": false
+    },
+    {
+      "heading": "−(ET −T)2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1750,
+      "end_line": 1750,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1751,
+      "end_line": 1753,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H, T) ≥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1754,
+      "end_line": 1755,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "− exp",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1756,
+      "end_line": 1757,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "−(ET − T)2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1758,
+      "end_line": 1758,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4ET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1759,
+      "end_line": 1760,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "· T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1761,
+      "end_line": 1761,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−→",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1762,
+      "end_line": 1763,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "− exp",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1764,
+      "end_line": 1765,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "−(2RL(H) − T)2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1766,
+      "end_line": 1766,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "8RL(H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1767,
+      "end_line": 1768,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "· T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1769,
+      "end_line": 1769,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ",",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1770,
+      "end_line": 1774,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H, T) ≥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1775,
+      "end_line": 1776,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "− 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1777,
+      "end_line": 1777,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "RL(H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1778,
+      "end_line": 1779,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "· T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1780,
+      "end_line": 1780,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "> T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1781,
+      "end_line": 1784,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "≥ T − 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1785,
+      "end_line": 1785,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1786,
+      "end_line": 1788,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "− O(",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1789,
+      "end_line": 1793,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "≥ RL(H) −",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1794,
+      "end_line": 1809,
+      "word_count": 182,
+      "inherited": false
+    },
+    {
+      "heading": "+ 2 − 22−k1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1810,
+      "end_line": 1812,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1813,
+      "end_line": 1850,
+      "word_count": 508,
+      "inherited": false
+    },
+    {
+      "heading": "Pr[H(vL) is infinite] ≤ ϵ. (9)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1851,
+      "end_line": 1887,
+      "word_count": 408,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1888,
+      "end_line": 1908,
+      "word_count": 254,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1909,
+      "end_line": 1916,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1917,
+      "end_line": 1943,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1944,
+      "end_line": 1952,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1953,
+      "end_line": 1979,
+      "word_count": 220,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1980,
+      "end_line": 1985,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Predict",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1986,
+      "end_line": 1988,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1989,
+      "end_line": 1995,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "Update V (i+1) = V (i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1996,
+      "end_line": 2000,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "“L(W) ≤ M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2001,
+      "end_line": 2014,
+      "word_count": 185,
+      "inherited": false
+    },
+    {
+      "heading": "D(W) ≥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2015,
+      "end_line": 2044,
+      "word_count": 123,
+      "inherited": false
+    },
+    {
+      "heading": "Update V (i+1) = V (i)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2045,
+      "end_line": 2069,
+      "word_count": 253,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2070,
+      "end_line": 2080,
+      "word_count": 120,
+      "inherited": false
+    },
+    {
+      "heading": "T · L(H)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2081,
+      "end_line": 2103,
+      "word_count": 157,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2104,
+      "end_line": 2106,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "L(H) · T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2107,
+      "end_line": 2235,
+      "word_count": 679,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2236,
+      "end_line": 2279,
+      "word_count": 384,
+      "inherited": false
+    },
+    {
+      "heading": "RL(W) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2280,
+      "end_line": 2293,
+      "word_count": 167,
+      "inherited": false
+    },
+    {
+      "heading": "RL(W) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2294,
+      "end_line": 2294,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ sup",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2295,
+      "end_line": 2300,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "RL(W) = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2301,
+      "end_line": 2301,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ RL(Wx→0) + RL(Wx→1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2302,
+      "end_line": 2333,
+      "word_count": 408,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2334,
+      "end_line": 2354,
+      "word_count": 251,
+      "inherited": false
+    },
+    {
+      "heading": "MR. (13)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2355,
+      "end_line": 2427,
+      "word_count": 795,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2428,
+      "end_line": 2440,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2441,
+      "end_line": 2450,
+      "word_count": 120,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2451,
+      "end_line": 2478,
+      "word_count": 236,
+      "inherited": false
+    },
+    {
+      "heading": "+",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2479,
+      "end_line": 2547,
+      "word_count": 612,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2548,
+      "end_line": 2586,
+      "word_count": 342,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2587,
+      "end_line": 2595,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2596,
+      "end_line": 2602,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2603,
+      "end_line": 2605,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "/2D ≤ 2, (15)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2606,
+      "end_line": 2609,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "> n",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2610,
+      "end_line": 2610,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012D + 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2611,
+      "end_line": 2613,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "/2D+1 ≥ 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2614,
+      "end_line": 2615,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2616,
+      "end_line": 2629,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "\u0000D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2630,
+      "end_line": 2632,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2633,
+      "end_line": 2639,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "\u0000D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2640,
+      "end_line": 2649,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "− k/D ≥ 1 − log 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2650,
+      "end_line": 2650,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "− c > 0,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2651,
+      "end_line": 2675,
+      "word_count": 313,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2676,
+      "end_line": 2690,
+      "word_count": 128,
+      "inherited": false
+    },
+    {
+      "heading": "− ϵD = (1 + O(1/",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2691,
+      "end_line": 2692,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D))D = D + O(",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2693,
+      "end_line": 2705,
+      "word_count": 156,
+      "inherited": false
+    },
+    {
+      "heading": "≤ 1 − ϵ2D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2706,
+      "end_line": 2706,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2707,
+      "end_line": 2708,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "8D + 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2709,
+      "end_line": 2717,
+      "word_count": 75,
+      "inherited": false
+    },
+    {
+      "heading": "F.2.1. P ROOF OF TECHNICAL ESTIMATE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2718,
+      "end_line": 2725,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2726,
+      "end_line": 2734,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2735,
+      "end_line": 2744,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "\u0013 \u0012D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2745,
+      "end_line": 2755,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "+ ϵD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2756,
+      "end_line": 2765,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "Z D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2766,
+      "end_line": 2794,
+      "word_count": 125,
+      "inherited": false
+    },
+    {
+      "heading": "\u0000D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2795,
+      "end_line": 2824,
+      "word_count": 193,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2825,
+      "end_line": 2852,
+      "word_count": 221,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2853,
+      "end_line": 2876,
+      "word_count": 369,
+      "inherited": false
+    },
+    {
+      "heading": "ET = 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2877,
+      "end_line": 2877,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2878,
+      "end_line": 2888,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2889,
+      "end_line": 2908,
+      "word_count": 89,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2909,
+      "end_line": 2945,
+      "word_count": 338,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2946,
+      "end_line": 2952,
+      "word_count": 40,
+      "inherited": false
+    },
+    {
+      "heading": "1 2 3 4 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2953,
+      "end_line": 2962,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "− h(k/d)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2963,
+      "end_line": 2986,
+      "word_count": 171,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2987,
+      "end_line": 3002,
+      "word_count": 194,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3003,
+      "end_line": 3004,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3005,
+      "end_line": 3008,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3009,
+      "end_line": 3014,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3015,
+      "end_line": 3022,
+      "word_count": 83,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3023,
+      "end_line": 3026,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3027,
+      "end_line": 3034,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3035,
+      "end_line": 3056,
+      "word_count": 189,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3057,
+      "end_line": 3072,
+      "word_count": 75,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3073,
+      "end_line": 3076,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "∞X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3077,
+      "end_line": 3126,
+      "word_count": 444,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆(H) = M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3127,
+      "end_line": 3130,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3131,
+      "end_line": 3136,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3137,
+      "end_line": 3139,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3140,
+      "end_line": 3142,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "2M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3143,
+      "end_line": 3145,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3146,
+      "end_line": 3201,
+      "word_count": 483,
+      "inherited": false
+    },
+    {
+      "heading": "This follows from the formula RL(Uk,l) = 2E[max",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3202,
+      "end_line": 3204,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "), Bin(ℓ + 1, 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3205,
+      "end_line": 3205,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ")",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3206,
+      "end_line": 3247,
+      "word_count": 381,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3248,
+      "end_line": 3258,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "M⋆",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3259,
+      "end_line": 3261,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "FILMUS HANNEKE MEHALEL MORAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3262,
+      "end_line": 3311,
+      "word_count": 425,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Main results",
+    "Realizable Case",
+    "RL(H) = 1",
+    "sup",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Agnostic Case",
+    "k-LITTLESTONE DIMENSION",
+    "sup",
+    "L(H) +",
+    "T · L(H)",
+    "O",
+    "Prediction Using Expert Advice",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "M⋆",
+    "≤ M⋆(n, k) ≤ M⋆",
+    "M⋆",
+    "+ o(1))M⋆",
+    "When n = 1, M⋆(1, k) =M⋆",
+    "+ o(1)",
+    "M⋆",
+    "+ Ω",
+    "M⋆",
+    "Variations",
+    "B OUNDED HORIZON",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Long horizon.If T > 2M⋆",
+    "M⋆",
+    "8M⋆",
+    "Short Horizon.If T ≤ 2M⋆",
+    "T",
+    "−",
+    ",",
+    "follows by guessing each label",
+    "sup",
+    "T",
+    "A DAPTIVE ALGORITHMS",
+    "M⋆",
+    "M⋆",
+    "+ o(1)",
+    "M⋆",
+    "Technical Overview",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Combinatorial Characterizations",
+    "RL(H) = 1",
+    "Quasi-balanced Trees",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Prediction using Expert Advice",
+    "\u0000ET",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "S",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "ET =",
+    "X",
+    "ET = 1 + ET0 + ET1",
+    ", (3)",
+    "RL(H) = 1",
+    "sup",
+    "B.1.1. P ROOF OF THEOREM 11",
+    "E[LT ] = 1 + E[LT0] + E[LT0]",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "= 1 + ET0/2 + ET1/2",
+    "(by the induction hypothesis)",
+    "RL(H) = 1",
+    "sup",
+    "+ RL(Hx→0) + RL(Hx→1)",
+    "RL(H) = 1",
+    "sup",
+    "T∈S(H)",
+    "ET = 1",
+    "sup",
+    "ET = 1 +",
+    "= 1 + RL(Hx→1) + RL(Hx→0),",
+    "+ min{L(Hx→1), L(Hx→0)}",
+    "Update V (i+1) = V (i)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "− p + RL(Hx→1) = RL(Hx→1) ≤ RL(H),",
+    "ET =",
+    "X",
+    "RL(H) = 1",
+    "sup",
+    "sup",
+    "ET = 1",
+    "sup",
+    "D→∞",
+    "ETD . (8)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "ET =",
+    "X",
+    "ETD ≥",
+    "X",
+    "RL(H) = 1",
+    "if J ̸= j,",
+    "ET =",
+    "SX",
+    "SX",
+    "ET =",
+    "∞X",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "(1, J)",
+    "(2, J)",
+    "(3, J)",
+    "(J − 1, J)",
+    "1",
+    "+ w(e1) + ET1/2",
+    "= 1 + ET0/2 + ET1/2",
+    "= ET /2,",
+    "and w(e1) = 1 + λT0 − λT1",
+    "RL(H) = 1",
+    "sup",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "RL(H) = 1",
+    "sup",
+    "RL(H) = 1",
+    "sup",
+    "and w(e1) = 1 + λT0 − λT1",
+    "0, T′",
+    "be the subtrees",
+    "−ET′",
+    "Consequently,",
+    "T",
+    "2⌈ET ⌉",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "T",
+    "C.3.1. O PTIMAL ONLINE ADVERSARIAL STRATEGIES",
+    "C.3.2. D ETERMINISTIC VS RANDOMIZED ONLINE LEARNING",
+    "M⋆(H) ≤ M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "D(H) =",
+    "sup",
+    "1",
+    "RL(H, T) = 1",
+    "sup",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Update V (i+1) = V (i)",
+    "RL(H, T) = 1",
+    "max",
+    "2RL(H) + O",
+    "= 2RL(H) + O",
+    "8ET",
+    "∞X",
+    "∞X",
+    "Z ∞",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Z 2ET",
+    "8ET",
+    "Z ∞",
+    "2ET",
+    "8ET",
+    "−ET",
+    "8ET",
+    "Z ∞",
+    "Z ∞",
+    "T",
+    "− O(",
+    "T",
+    "− 1 < RL(H, T) ≤ T",
+    ",",
+    "RL(H) − O",
+    "−(ET −T)2",
+    "4ET",
+    "RL(H, T) ≥",
+    "− exp",
+    "−(ET − T)2",
+    "4ET",
+    "· T",
+    "−→",
+    "− exp",
+    "−(2RL(H) − T)2",
+    "8RL(H)",
+    "· T",
+    ",",
+    "RL(H, T) ≥",
+    "− 1",
+    "RL(H)",
+    "· T",
+    "> T",
+    "≥ T − 2",
+    "−",
+    "− O(",
+    "≥ RL(H) −",
+    "+ 2 − 22−k1",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Pr[H(vL) is infinite] ≤ ϵ. (9)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "sup",
+    "M⋆",
+    "sup",
+    "M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "Predict",
+    "L",
+    "Update V (i+1) = V (i)",
+    "“L(W) ≤ M⋆",
+    "D(W) ≥",
+    "Update V (i+1) = V (i)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "T · L(H)",
+    "M⋆",
+    "L(H) · T",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "RL(W) = 1",
+    "RL(W) = 1",
+    "+ sup",
+    "RL(W) = 1",
+    "+ RL(Wx→0) + RL(Wx→1)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "MR. (13)",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "M⋆",
+    "M⋆",
+    "+",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "\u0012 D",
+    "\u0012 D",
+    "\u0012 D",
+    "/2D ≤ 2, (15)",
+    "> n",
+    "\u0012D + 1",
+    "/2D+1 ≥ 1",
+    "\u0012 D",
+    "\u0000D",
+    "\u0012 D",
+    "\u0000D",
+    "− k/D ≥ 1 − log 1",
+    "− c > 0,",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "− ϵD = (1 + O(1/",
+    "D))D = D + O(",
+    "≤ 1 − ϵ2D",
+    "+ 2",
+    "8D + 2",
+    "F.2.1. P ROOF OF TECHNICAL ESTIMATE",
+    "\u0012D",
+    "\u0012D",
+    "\u0013 \u0012D",
+    "+ ϵD",
+    "Z D",
+    "\u0000D",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "T",
+    "ET = 2",
+    "∞X",
+    "∞X",
+    "M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "1 2 3 4 5",
+    "− h(k/d)",
+    "X",
+    "M⋆",
+    "M⋆",
+    "S",
+    "M⋆",
+    "M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "M⋆",
+    "M⋆",
+    "∞X",
+    "∞X",
+    "M⋆(H) = M⋆",
+    "M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN",
+    "M⋆",
+    "2M⋆",
+    "M⋆",
+    "This follows from the formula RL(Uk,l) = 2E[max",
+    "), Bin(ℓ + 1, 1",
+    ")",
+    "M⋆",
+    "M⋆",
+    "FILMUS HANNEKE MEHALEL MORAN"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 93,
+            "section": "Realizable Case",
+            "quote": "In his seminal work from 1988, Nick Littlestone studied the optimal mistake bound in online learning an hypothesis class H by deterministic learning rules in the realizable setting (Littlestone, 1988); that is, under th…"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 3124,
+            "section": "∞X",
+            "quote": "In Section C.3.2 we gave two examples showing that both inequalities can be tight."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "learning rate",
+          "\\bprocedure\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "evidence": [
+          {
+            "indicator": "learning rate",
+            "line": 149,
+            "section": "Agnostic Case",
+            "quote": "A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T."
+          },
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 457,
+            "section": "M⋆",
+            "quote": "Theorem 8 implies that the adaptive procedure nearly preserves the form of this upper bound, guaranteeing a slightly larger bound of the form k⋆ + O \u0010p k⋆L(H) log(k⋆ log L(H)) + L(H) \u0011 ."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 595,
+            "section": "Prediction using Expert Advice",
+            "quote": "At first, the setting of prediction using expert advice looks similar, but not identical, to our setting."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\brecall\\b",
+            "line": 514,
+            "section": "RL(H) = 1",
+            "quote": "Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "state[- ]of[- ]the[- ]art"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "state[- ]of[- ]the[- ]art",
+            "line": 3158,
+            "section": "M⋆",
+            "quote": "Br ˆanzei and Peres (2019) have the state-of-the-art bounds in the regime k ≪ log n, but we are not aware of any results in other regimes, e.g. when k = Θ(log n)."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 155,
+            "section": "Agnostic Case",
+            "quote": "The upshot of this approach is that it allows for a precise combinatorial characterization of the optimal mistake bound via a natural generalization of the Littlestone dimension."
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 474,
+            "section": "FILMUS HANNEKE MEHALEL MORAN",
+            "quote": "On the one hand, learning rules show which hypothesis classes lend themselves to learning, and on the other hand, strategies for the adversary put limitations on what can be learned, and at what cost."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 659,
+            "section": "FILMUS HANNEKE MEHALEL MORAN",
+            "quote": "URL https://arxiv.org/abs/2203.01550."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 3124,
+          "section": "∞X",
+          "quote": "In Section C.3.2 we gave two examples showing that both inequalities can be tight."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "learning rate",
+          "line": 149,
+          "section": "Agnostic Case",
+          "quote": "A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T."
+        },
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 457,
+          "section": "M⋆",
+          "quote": "Theorem 8 implies that the adaptive procedure nearly preserves the form of this upper bound, guaranteeing a slightly larger bound of the form k⋆ + O \u0010p k⋆L(H) log(k⋆ log L(H)) + L(H) \u0011 ."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 595,
+          "section": "Prediction using Expert Advice",
+          "quote": "At first, the setting of prediction using expert advice looks similar, but not identical, to our setting."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\brecall\\b",
+          "line": 514,
+          "section": "RL(H) = 1",
+          "quote": "Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 93 [Realizable Case]: \"In his seminal work from 1988, Nick Littlestone studied the optimal mistake bound in online learning an hypothesis class H by deterministic learning rules in the realizable setting (Littlestone, 1988); that is, under th…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 3124 [∞X]: \"In Section C.3.2 we gave two examples showing that both inequalities can be tight.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 149 [Agnostic Case]: \"A notable example is the celebrated Multiplicative Weights (MW) learning rule, whose learning rate depends on T.\"",
+        "line 457 [M⋆]: \"Theorem 8 implies that the adaptive procedure nearly preserves the form of this upper bound, guaranteeing a slightly larger bound of the form k⋆ + O \u0010p k⋆L(H) log(k⋆ log L(H)) + L(H) \u0011 .\"",
+        "line 595 [Prediction using Expert Advice]: \"At first, the setting of prediction using expert advice looks similar, but not identical, to our setting.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 514 [RL(H) = 1]: \"Recall that we model a randomized learner as a learner which makes a “soft” prediction p ∈ [0, 1]; if the true label is y, then the learner’s loss is |p − y|.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 3158 [M⋆]: \"Br ˆanzei and Peres (2019) have the state-of-the-art bounds in the regime k ≪ log n, but we are not aware of any results in other regimes, e.g. when k = Θ(log n).\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 155 [Agnostic Case]: \"The upshot of this approach is that it allows for a precise combinatorial characterization of the optimal mistake bound via a natural generalization of the Littlestone dimension.\"",
+        "line 474 [FILMUS HANNEKE MEHALEL MORAN]: \"On the one hand, learning rules show which hypothesis classes lend themselves to learning, and on the other hand, strategies for the adversary put limitations on what can be learned, and at what cost.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 659 [FILMUS HANNEKE MEHALEL MORAN]: \"URL https://arxiv.org/abs/2203.01550.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.07,
+    "extract": 1598.11,
+    "load_rubric": 3.36,
+    "detect_sections": 6.41,
+    "split_sentences": 5.7,
+    "assess": 156.04,
+    "detect_weaknesses": 0.08,
+    "explain": 0.03,
+    "total": 1771.3
+  }
+}

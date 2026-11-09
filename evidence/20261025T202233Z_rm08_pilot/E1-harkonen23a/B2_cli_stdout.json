@@ -1,0 +1,3945 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "ca1e27e8b282",
+  "timestamp_utc": "2026-10-25T20:22:42+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 102802,
+    "sha256": "30a834d5068ada1220b797874b366790667c5c9dba8d294232d5e5afa1c9021b"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 17754,
+    "line_count": 2977,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 4,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 5,
+      "end_line": 57,
+      "word_count": 463,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 58,
+      "end_line": 105,
+      "word_count": 316,
+      "inherited": false
+    },
+    {
+      "heading": "We vastly generalize previously isolated methods to",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 106,
+      "end_line": 112,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "Gaussian processes (GPs)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 113,
+      "end_line": 131,
+      "word_count": 146,
+      "inherited": false
+    },
+    {
+      "heading": "We demonstrate our approach on various PDE systems,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 132,
+      "end_line": 143,
+      "word_count": 91,
+      "inherited": false
+    },
+    {
+      "heading": "We demonstrate high accuracy of our approach, clearly",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 144,
+      "end_line": 198,
+      "word_count": 431,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 199,
+      "end_line": 203,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "The Ehrenpreis-Palamodov fundamental",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 204,
+      "end_line": 247,
+      "word_count": 366,
+      "inherited": false
+    },
+    {
+      "heading": "Gaussian Process Priors from the",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 248,
+      "end_line": 263,
+      "word_count": 45,
+      "inherited": false
+    },
+    {
+      "heading": "−∂1 + 3∂2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 264,
+      "end_line": 311,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 312,
+      "end_line": 327,
+      "word_count": 68,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 328,
+      "end_line": 359,
+      "word_count": 179,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 360,
+      "end_line": 369,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Ehrenpreis-Palamodov Gaussian Processes (EPGP)",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 370,
+      "end_line": 404,
+      "word_count": 261,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 405,
+      "end_line": 422,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 423,
+      "end_line": 425,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 426,
+      "end_line": 427,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "C2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 428,
+      "end_line": 433,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 434,
+      "end_line": 454,
+      "word_count": 145,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 455,
+      "end_line": 471,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "+ 2(t + t′ )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 472,
+      "end_line": 497,
+      "word_count": 168,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 498,
+      "end_line": 540,
+      "word_count": 169,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 541,
+      "end_line": 575,
+      "word_count": 161,
+      "inherited": false
+    },
+    {
+      "heading": "XX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 576,
+      "end_line": 576,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": " X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 577,
+      "end_line": 583,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "|S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 584,
+      "end_line": 609,
+      "word_count": 104,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 610,
+      "end_line": 650,
+      "word_count": 239,
+      "inherited": false
+    },
+    {
+      "heading": "Summary",
+      "label": "conclusion",
+      "level": 2,
+      "start_line": 651,
+      "end_line": 652,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Sparse Ehrenpreis-Palamodov Gaussian Processes",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 653,
+      "end_line": 653,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(S-EPGP)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 654,
+      "end_line": 665,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "Use the Macaulay2 command solvePDE to compute",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 666,
+      "end_line": 704,
+      "word_count": 307,
+      "inherited": false
+    },
+    {
+      "heading": "Comparison to the Literature",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 705,
+      "end_line": 778,
+      "word_count": 593,
+      "inherited": false
+    },
+    {
+      "heading": "points",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 779,
+      "end_line": 785,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 786,
+      "end_line": 786,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 787,
+      "end_line": 787,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 788,
+      "end_line": 812,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 813,
+      "end_line": 813,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 814,
+      "end_line": 814,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "7",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 815,
+      "end_line": 831,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "points",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 832,
+      "end_line": 869,
+      "word_count": 211,
+      "inherited": false
+    },
+    {
+      "heading": "Examples",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 870,
+      "end_line": 886,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "Heat equation",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 887,
+      "end_line": 953,
+      "word_count": 589,
+      "inherited": false
+    },
+    {
+      "heading": "Maxwell’s equations",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 954,
+      "end_line": 955,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "∇·E=0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 956,
+      "end_line": 956,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "∇·B=0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 957,
+      "end_line": 970,
+      "word_count": 118,
+      "inherited": false
+    },
+    {
+      "heading": "2D wave equation",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 971,
+      "end_line": 975,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "∂B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 976,
+      "end_line": 977,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "∂E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 978,
+      "end_line": 978,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "∇×B=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 979,
+      "end_line": 981,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "∇×E=−",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 982,
+      "end_line": 1023,
+      "word_count": 321,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1024,
+      "end_line": 1025,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1026,
+      "end_line": 1027,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1028,
+      "end_line": 1029,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1030,
+      "end_line": 1031,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1032,
+      "end_line": 1039,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.797",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1040,
+      "end_line": 1040,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.431",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1041,
+      "end_line": 1041,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.387",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1042,
+      "end_line": 1042,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.302",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1043,
+      "end_line": 1043,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.364",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1044,
+      "end_line": 1045,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 1.87",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1046,
+      "end_line": 1046,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 1.37",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1047,
+      "end_line": 1047,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.747",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1048,
+      "end_line": 1048,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.706",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1049,
+      "end_line": 1049,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.796",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1050,
+      "end_line": 1051,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.698",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1052,
+      "end_line": 1052,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.392",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1053,
+      "end_line": 1053,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.169",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1054,
+      "end_line": 1054,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.696",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1055,
+      "end_line": 1055,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.193",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1056,
+      "end_line": 1057,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.361",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1058,
+      "end_line": 1058,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.101",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1059,
+      "end_line": 1059,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.00221",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1060,
+      "end_line": 1060,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0291",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1061,
+      "end_line": 1061,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0113",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1062,
+      "end_line": 1063,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.347",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1064,
+      "end_line": 1064,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0295",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1065,
+      "end_line": 1065,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.00203",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1066,
+      "end_line": 1066,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.00155",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1067,
+      "end_line": 1067,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.00017",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1068,
+      "end_line": 1069,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "HLW",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1070,
+      "end_line": 1071,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1072,
+      "end_line": 1073,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1074,
+      "end_line": 1075,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1076,
+      "end_line": 1077,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1078,
+      "end_line": 1079,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "datapoints",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1080,
+      "end_line": 1085,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.403",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1086,
+      "end_line": 1086,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.469",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1087,
+      "end_line": 1087,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.42",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1088,
+      "end_line": 1089,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.781",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1090,
+      "end_line": 1090,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.783",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1091,
+      "end_line": 1091,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.789",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1092,
+      "end_line": 1093,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.304",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1094,
+      "end_line": 1094,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.278",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1095,
+      "end_line": 1095,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.281",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1096,
+      "end_line": 1097,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.36",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1098,
+      "end_line": 1098,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.31",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1099,
+      "end_line": 1099,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.296",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1100,
+      "end_line": 1101,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0415",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1102,
+      "end_line": 1102,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0272",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1103,
+      "end_line": 1103,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0237",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1104,
+      "end_line": 1125,
+      "word_count": 144,
+      "inherited": false
+    },
+    {
+      "heading": "Discussion",
+      "label": "discussion",
+      "level": 1,
+      "start_line": 1126,
+      "end_line": 1148,
+      "word_count": 209,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 1149,
+      "end_line": 1157,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1158,
+      "end_line": 1183,
+      "word_count": 148,
+      "inherited": false
+    },
+    {
+      "heading": "K. Neural ordinary differential equations. NeurIPS,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1184,
+      "end_line": 1309,
+      "word_count": 733,
+      "inherited": false
+    },
+    {
+      "heading": "URL https://mathrepo.mis.mpg.de/",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1310,
+      "end_line": 1537,
+      "word_count": 1390,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Lemma 2.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1538,
+      "end_line": 1565,
+      "word_count": 538,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1566,
+      "end_line": 1574,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1575,
+      "end_line": 1577,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1578,
+      "end_line": 1578,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1579,
+      "end_line": 1579,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A(L) = E[L] =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1580,
+      "end_line": 1582,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1583,
+      "end_line": 1584,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1585,
+      "end_line": 1597,
+      "word_count": 125,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1598,
+      "end_line": 1598,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1599,
+      "end_line": 1620,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1621,
+      "end_line": 1621,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1622,
+      "end_line": 1642,
+      "word_count": 173,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1643,
+      "end_line": 1651,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1652,
+      "end_line": 1670,
+      "word_count": 329,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1671,
+      "end_line": 1671,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1672,
+      "end_line": 1675,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1676,
+      "end_line": 1677,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1678,
+      "end_line": 1687,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1688,
+      "end_line": 1688,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1689,
+      "end_line": 1689,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1690,
+      "end_line": 1694,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1695,
+      "end_line": 1696,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1697,
+      "end_line": 1700,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1701,
+      "end_line": 1705,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1706,
+      "end_line": 1708,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1709,
+      "end_line": 1709,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1710,
+      "end_line": 1710,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1711,
+      "end_line": 1716,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1717,
+      "end_line": 1718,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1719,
+      "end_line": 1729,
+      "word_count": 124,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1730,
+      "end_line": 1735,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1736,
+      "end_line": 1746,
+      "word_count": 97,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1747,
+      "end_line": 1748,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1749,
+      "end_line": 1749,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1750,
+      "end_line": 1750,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1751,
+      "end_line": 1769,
+      "word_count": 93,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1770,
+      "end_line": 1774,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1775,
+      "end_line": 1776,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1777,
+      "end_line": 1777,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "′ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1778,
+      "end_line": 1784,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "′ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1785,
+      "end_line": 1786,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "′ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1787,
+      "end_line": 1795,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "Convergence of Ehrenpreis-Palamodov integrals",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1796,
+      "end_line": 1797,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1798,
+      "end_line": 1803,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1804,
+      "end_line": 1805,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1806,
+      "end_line": 1809,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1810,
+      "end_line": 1835,
+      "word_count": 238,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1836,
+      "end_line": 1840,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1841,
+      "end_line": 1845,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1846,
+      "end_line": 1858,
+      "word_count": 68,
+      "inherited": false
+    },
+    {
+      "heading": "dL(z′ ) and V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1859,
+      "end_line": 1868,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1869,
+      "end_line": 1869,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1870,
+      "end_line": 1870,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1871,
+      "end_line": 1878,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1879,
+      "end_line": 1880,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "K Ω×K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1881,
+      "end_line": 1882,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1883,
+      "end_line": 1884,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Ω×K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1885,
+      "end_line": 1888,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1889,
+      "end_line": 1897,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1898,
+      "end_line": 1901,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1902,
+      "end_line": 1902,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z √",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1903,
+      "end_line": 1907,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1908,
+      "end_line": 1909,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1910,
+      "end_line": 1917,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1918,
+      "end_line": 1918,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1919,
+      "end_line": 1921,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1922,
+      "end_line": 1923,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1924,
+      "end_line": 1925,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Ω×K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1926,
+      "end_line": 1932,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "Details about S-EPGP",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1933,
+      "end_line": 1939,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "XX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1940,
+      "end_line": 1940,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": " X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1941,
+      "end_line": 1947,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "|S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1948,
+      "end_line": 1966,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "∗ A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1967,
+      "end_line": 1967,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "∗ A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1968,
+      "end_line": 1995,
+      "word_count": 188,
+      "inherited": false
+    },
+    {
+      "heading": "Details on the heat equation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1996,
+      "end_line": 2007,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2008,
+      "end_line": 2015,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "ZR",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2016,
+      "end_line": 2026,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2027,
+      "end_line": 2072,
+      "word_count": 464,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2073,
+      "end_line": 2075,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2076,
+      "end_line": 2076,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2077,
+      "end_line": 2080,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "PINN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2081,
+      "end_line": 2082,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2083,
+      "end_line": 2083,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2084,
+      "end_line": 2084,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "6",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2085,
+      "end_line": 2085,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "7",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2086,
+      "end_line": 2090,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "1500",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2091,
+      "end_line": 2091,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "points",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2092,
+      "end_line": 2102,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "points",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2103,
+      "end_line": 2134,
+      "word_count": 195,
+      "inherited": false
+    },
+    {
+      "heading": "Details about the wave equation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2135,
+      "end_line": 2139,
+      "word_count": 50,
+      "inherited": false
+    },
+    {
+      "heading": "\u0010 √−1(xaj +ybj +t√a2j +b2j )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2140,
+      "end_line": 2171,
+      "word_count": 443,
+      "inherited": false
+    },
+    {
+      "heading": "\u0010 ai x+bi y+√a2i +b2i t",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2172,
+      "end_line": 2240,
+      "word_count": 781,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (32)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2241,
+      "end_line": 2241,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (64)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2242,
+      "end_line": 2242,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (128)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2243,
+      "end_line": 2246,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "EPGP (100)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2247,
+      "end_line": 2247,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "EPGP (1000)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2248,
+      "end_line": 2250,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "PINN (7,100)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2251,
+      "end_line": 2251,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PINN (15,200)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2252,
+      "end_line": 2253,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.032",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2254,
+      "end_line": 2254,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.036",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2255,
+      "end_line": 2255,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.025",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2256,
+      "end_line": 2256,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.020",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2257,
+      "end_line": 2257,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.022",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2258,
+      "end_line": 2258,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.016",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2259,
+      "end_line": 2259,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.067",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2260,
+      "end_line": 2260,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.021",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2261,
+      "end_line": 2261,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.053",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2262,
+      "end_line": 2262,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.033",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2263,
+      "end_line": 2263,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.038",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2264,
+      "end_line": 2264,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.017",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2265,
+      "end_line": 2266,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.021",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2267,
+      "end_line": 2267,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.019",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2268,
+      "end_line": 2268,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.013",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2269,
+      "end_line": 2269,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.012",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2270,
+      "end_line": 2270,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.008",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2271,
+      "end_line": 2271,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.011",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2272,
+      "end_line": 2272,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2273,
+      "end_line": 2273,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.011",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2274,
+      "end_line": 2274,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.014",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2275,
+      "end_line": 2275,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.011",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2276,
+      "end_line": 2276,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.018",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2277,
+      "end_line": 2277,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.018",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2278,
+      "end_line": 2279,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2280,
+      "end_line": 2280,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2281,
+      "end_line": 2281,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.002",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2282,
+      "end_line": 2282,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.006",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2283,
+      "end_line": 2283,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.002",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2284,
+      "end_line": 2284,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2285,
+      "end_line": 2285,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.008",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2286,
+      "end_line": 2286,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2287,
+      "end_line": 2287,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.009",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2288,
+      "end_line": 2288,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2289,
+      "end_line": 2289,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2290,
+      "end_line": 2290,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2291,
+      "end_line": 2292,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.001",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2293,
+      "end_line": 2293,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.002",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2294,
+      "end_line": 2294,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.000",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2295,
+      "end_line": 2295,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2296,
+      "end_line": 2296,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.002",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2297,
+      "end_line": 2297,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.002",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2298,
+      "end_line": 2298,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2299,
+      "end_line": 2299,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2300,
+      "end_line": 2300,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.022",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2301,
+      "end_line": 2301,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.003",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2302,
+      "end_line": 2302,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2303,
+      "end_line": 2303,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.004",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2304,
+      "end_line": 2320,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (32)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2321,
+      "end_line": 2321,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (64)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2322,
+      "end_line": 2322,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "C S-EPGP (128)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2323,
+      "end_line": 2326,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "EPGP (100)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2327,
+      "end_line": 2327,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "EPGP (1000)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2328,
+      "end_line": 2330,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "PINN (7,100)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2331,
+      "end_line": 2331,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PINN (15,200)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2332,
+      "end_line": 2333,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2334,
+      "end_line": 2334,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2335,
+      "end_line": 2335,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2336,
+      "end_line": 2336,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2337,
+      "end_line": 2337,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2338,
+      "end_line": 2338,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2339,
+      "end_line": 2339,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2340,
+      "end_line": 2340,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2341,
+      "end_line": 2341,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2342,
+      "end_line": 2342,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2343,
+      "end_line": 2343,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.4",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2344,
+      "end_line": 2344,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 1.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2345,
+      "end_line": 2346,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2347,
+      "end_line": 2347,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2348,
+      "end_line": 2348,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2349,
+      "end_line": 2349,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2350,
+      "end_line": 2350,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2351,
+      "end_line": 2351,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2352,
+      "end_line": 2352,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2353,
+      "end_line": 2353,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2354,
+      "end_line": 2354,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2355,
+      "end_line": 2355,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.2",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2356,
+      "end_line": 2356,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.3",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2357,
+      "end_line": 2357,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 1.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2358,
+      "end_line": 2359,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2360,
+      "end_line": 2360,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2361,
+      "end_line": 2361,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2362,
+      "end_line": 2362,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2363,
+      "end_line": 2363,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2364,
+      "end_line": 2364,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2365,
+      "end_line": 2365,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2366,
+      "end_line": 2366,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2367,
+      "end_line": 2367,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2368,
+      "end_line": 2368,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2369,
+      "end_line": 2369,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.3",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2370,
+      "end_line": 2370,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 1.4",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2371,
+      "end_line": 2372,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2373,
+      "end_line": 2373,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2374,
+      "end_line": 2374,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2375,
+      "end_line": 2375,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2376,
+      "end_line": 2376,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2377,
+      "end_line": 2377,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2378,
+      "end_line": 2378,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2379,
+      "end_line": 2379,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2380,
+      "end_line": 2380,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2381,
+      "end_line": 2381,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2382,
+      "end_line": 2382,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.3",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2383,
+      "end_line": 2383,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.9",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2384,
+      "end_line": 2389,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "Details about Maxwell’s equation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2390,
+      "end_line": 2404,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2405,
+      "end_line": 2605,
+      "word_count": 861,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2606,
+      "end_line": 2614,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2615,
+      "end_line": 2625,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "E0,1 =  0 ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2626,
+      "end_line": 2626,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E0,2 = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2627,
+      "end_line": 2642,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "E0,3 = −1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2643,
+      "end_line": 2651,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "E0,4 = 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2652,
+      "end_line": 2660,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "E0,5 =  2 ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2661,
+      "end_line": 2680,
+      "word_count": 172,
+      "inherited": false
+    },
+    {
+      "heading": "Affine subspaces",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2681,
+      "end_line": 2688,
+      "word_count": 99,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2689,
+      "end_line": 2689,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "XZ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2690,
+      "end_line": 2690,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2691,
+      "end_line": 2691,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2692,
+      "end_line": 2717,
+      "word_count": 218,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2718,
+      "end_line": 2721,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2722,
+      "end_line": 2722,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2723,
+      "end_line": 2743,
+      "word_count": 180,
+      "inherited": false
+    },
+    {
+      "heading": "Example implementation for Laplace’s equation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2744,
+      "end_line": 2793,
+      "word_count": 341,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2794,
+      "end_line": 2794,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2795,
+      "end_line": 2805,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2806,
+      "end_line": 2809,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2810,
+      "end_line": 2811,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2812,
+      "end_line": 2815,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2816,
+      "end_line": 2859,
+      "word_count": 282,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2860,
+      "end_line": 2862,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2863,
+      "end_line": 2867,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "(∥U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2868,
+      "end_line": 2870,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "∥L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2871,
+      "end_line": 2871,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ΦU",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2872,
+      "end_line": 2879,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2880,
+      "end_line": 2934,
+      "word_count": 246,
+      "inherited": false
+    },
+    {
+      "heading": "ΦH",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2935,
+      "end_line": 2936,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "∗ A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2937,
+      "end_line": 2977,
+      "word_count": 250,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "We vastly generalize previously isolated methods to",
+    "Gaussian processes (GPs)",
+    "We demonstrate our approach on various PDE systems,",
+    "We demonstrate high accuracy of our approach, clearly",
+    "X",
+    "The Ehrenpreis-Palamodov fundamental",
+    "Gaussian Process Priors from the",
+    "−∂1 + 3∂2",
+    "Z",
+    "P",
+    "Z",
+    "Ehrenpreis-Palamodov Gaussian Processes (EPGP)",
+    "Z",
+    "R",
+    "R",
+    "C2",
+    "X X",
+    "R",
+    "+ 2(t + t′ )",
+    "Z",
+    "X",
+    "XX",
+    " X",
+    "|S",
+    "T",
+    "Sparse Ehrenpreis-Palamodov Gaussian Processes",
+    "(S-EPGP)",
+    "Use the Macaulay2 command solvePDE to compute",
+    "Comparison to the Literature",
+    "points",
+    "1",
+    "3",
+    "5",
+    "1",
+    "4",
+    "7",
+    "points",
+    "Examples",
+    "Heat equation",
+    "Maxwell’s equations",
+    "∇·E=0",
+    "∇·B=0",
+    "2D wave equation",
+    "∂B",
+    "∂E",
+    "∇×B=",
+    "∇×E=−",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "± 0.797",
+    "± 0.431",
+    "± 0.387",
+    "± 0.302",
+    "± 0.364",
+    "± 1.87",
+    "± 1.37",
+    "± 0.747",
+    "± 0.706",
+    "± 0.796",
+    "± 0.698",
+    "± 0.392",
+    "± 0.169",
+    "± 0.696",
+    "± 0.193",
+    "± 0.361",
+    "± 0.101",
+    "± 0.00221",
+    "± 0.0291",
+    "± 0.0113",
+    "± 0.347",
+    "± 0.0295",
+    "± 0.00203",
+    "± 0.00155",
+    "± 0.00017",
+    "HLW",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "datapoints",
+    "± 0.403",
+    "± 0.469",
+    "± 0.42",
+    "± 0.781",
+    "± 0.783",
+    "± 0.789",
+    "± 0.304",
+    "± 0.278",
+    "± 0.281",
+    "± 0.36",
+    "± 0.31",
+    "± 0.296",
+    "± 0.0415",
+    "± 0.0272",
+    "± 0.0237",
+    "K. Neural ordinary differential equations. NeurIPS,",
+    "URL https://mathrepo.mis.mpg.de/",
+    "Proof of Lemma 2.1",
+    "Z",
+    "F",
+    "Z",
+    "Z",
+    "A(L) = E[L] =",
+    "F",
+    "F",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "F",
+    "Z",
+    "Z",
+    "F",
+    "F",
+    "Z",
+    "Z",
+    "Z",
+    "F",
+    "F",
+    "F",
+    "Z",
+    "F",
+    "Z",
+    "Z",
+    "F",
+    "F",
+    "Z",
+    "Z",
+    "\u0012 Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "\u0012 Z",
+    "Z",
+    "′ T",
+    "′ T",
+    "′ T",
+    "Convergence of Ehrenpreis-Palamodov integrals",
+    "Z",
+    "V",
+    "Z",
+    "V",
+    "Z",
+    "V",
+    "X X",
+    "dL(z′ ) and V",
+    "Z",
+    "Z",
+    "Z",
+    "V",
+    "K Ω×K",
+    "K",
+    "Ω×K",
+    "Z",
+    "V",
+    "Z",
+    "Z √",
+    "R",
+    "R",
+    "Z",
+    "Z",
+    "V",
+    "V",
+    "Ω×K",
+    "Details about S-EPGP",
+    "XX",
+    " X",
+    "|S",
+    "∗ A",
+    "∗ A",
+    "Details on the heat equation",
+    "Z",
+    "ZR",
+    "R",
+    "1",
+    "2",
+    "3",
+    "PINN",
+    "4",
+    "5",
+    "6",
+    "7",
+    "1500",
+    "points",
+    "points",
+    "Details about the wave equation",
+    "\u0010 √−1(xaj +ybj +t√a2j +b2j )",
+    "\u0010 ai x+bi y+√a2i +b2i t",
+    "C S-EPGP (32)",
+    "C S-EPGP (64)",
+    "C S-EPGP (128)",
+    "EPGP (100)",
+    "EPGP (1000)",
+    "PINN (7,100)",
+    "PINN (15,200)",
+    "± 0.032",
+    "± 0.036",
+    "± 0.025",
+    "± 0.020",
+    "± 0.022",
+    "± 0.016",
+    "± 0.067",
+    "± 0.021",
+    "± 0.053",
+    "± 0.033",
+    "± 0.038",
+    "± 0.017",
+    "± 0.021",
+    "± 0.019",
+    "± 0.013",
+    "± 0.012",
+    "± 0.008",
+    "± 0.011",
+    "± 0.004",
+    "± 0.011",
+    "± 0.014",
+    "± 0.011",
+    "± 0.018",
+    "± 0.018",
+    "± 0.003",
+    "± 0.003",
+    "± 0.002",
+    "± 0.006",
+    "± 0.002",
+    "± 0.004",
+    "± 0.008",
+    "± 0.004",
+    "± 0.009",
+    "± 0.003",
+    "± 0.004",
+    "± 0.003",
+    "± 0.001",
+    "± 0.002",
+    "± 0.000",
+    "± 0.004",
+    "± 0.002",
+    "± 0.002",
+    "± 0.004",
+    "± 0.003",
+    "± 0.022",
+    "± 0.003",
+    "± 0.004",
+    "± 0.004",
+    "C S-EPGP (32)",
+    "C S-EPGP (64)",
+    "C S-EPGP (128)",
+    "EPGP (100)",
+    "EPGP (1000)",
+    "PINN (7,100)",
+    "PINN (15,200)",
+    "± 0.0",
+    "± 0.1",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.1",
+    "± 0.1",
+    "± 0.0",
+    "± 0.4",
+    "± 1.0",
+    "± 0.1",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.1",
+    "± 0.0",
+    "± 0.2",
+    "± 0.3",
+    "± 1.0",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.3",
+    "± 1.4",
+    "± 0.0",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.0",
+    "± 0.0",
+    "± 0.1",
+    "± 0.3",
+    "± 0.9",
+    "Details about Maxwell’s equation",
+    "",
+    "X",
+    "X",
+    "E0,1 =  0 ",
+    "E0,2 = 1",
+    "E0,3 = −1",
+    "E0,4 = 2",
+    "E0,5 =  2 ",
+    "Affine subspaces",
+    "Z",
+    "XZ",
+    "X",
+    "X",
+    "Z",
+    "Z",
+    "T",
+    "Example implementation for Laplace’s equation",
+    "Z",
+    "Z",
+    "Z",
+    "C",
+    "Z",
+    "C",
+    "X",
+    "1X",
+    "(∥U",
+    "∥L",
+    "ΦU",
+    "L",
+    "ΦH",
+    "∗ A"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 30,
+            "section": "Abstract",
+            "quote": "Constructing EPGP-priors is algorithmic, generally applicable, and comes with a sparse version (S-EPGP) that learns the relevant spectral frequencies and works better for big data sets."
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 679,
+            "section": "Use the Macaulay2 command solvePDE to compute",
+            "quote": "However, none of these approaches can treat the three examples that we demonstrate in Section 6, as these examples all have proper characteristic varieties."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 2219,
+            "section": "\u0010 ai x+bi y+√a2i +b2i t",
+            "quote": "Furthermore, runtimes scale extremely well with respect to the size of the training set."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "hyper-?parameters?",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bGPUs?\\b",
+          "\\bepochs?\\b",
+          "learning rate",
+          "implemented (?:in|using|with)",
+          "\\bprocedure\\b",
+          "\\bPython\\b",
+          "\\bversion \\d"
+        ],
+        "evidence": [
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 7,
+            "section": "Abstract",
+            "quote": "and learning hyperparameters in GPs allows to interpret data (Duvenaud, 2014; Steinruecken et al., 2019; Berns et al., 2020)."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 902,
+            "section": "Heat equation",
+            "quote": "First, we test the ability of the model to solve the heat equation given initial data."
+          },
+          {
+            "indicator": "\\bGPUs?\\b",
+            "line": 919,
+            "section": "Heat equation",
+            "quote": "In addition, there is a drastic difference in total computation time between EPGP (10s) and PINN (2h) using an Nvidia A100 GPU."
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 930,
+            "section": "Heat equation",
+            "quote": "The bottom row of Figure 4 contains a PINN instance trained for 200,000 epochs."
+          },
+          {
+            "indicator": "learning rate",
+            "line": 2053,
+            "section": "R",
+            "quote": "The neural network is trained for 10,000 epochs and parameters are optimized using Adam, with learning rate 10−4 ."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprecision\\b",
+          "\\bF1\\b|F-?score|F-measure",
+          "\\brecall\\b",
+          "\\bRMSE\\b|\\bMAE\\b|mean squared error"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 32,
+            "section": "Abstract",
+            "quote": "We demonstrate our approach on three families of systems of PDEs, the heat equation, wave equation, and Maxwell’s equations, where we improve upon the state of the art in computation time and precision, in some experime…"
+          },
+          {
+            "indicator": "\\bF1\\b|F-?score|F-measure",
+            "line": 277,
+            "section": "−∂1 + 3∂2",
+            "quote": "translates to a system of 3 homogeneous equations ∂f1 ∂ 3 f2 ∂f1 ∂f2 ∂f2 − = + f2 = − +3 = 0. ∂x1 ∂x21 ∂x2 ∂x2 ∂x1 ∂x2 Its solutions are vector valued functions f (x1 , x2 ) = (f1 (x1 , x2 ), f2 (x1 , x2 ))T ."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 1541,
+            "section": "Proof of Lemma 2.1",
+            "quote": "We will work with a space F of functions, which can be a general locally convex topological vector space (LCS), but for our purposes, we work with F = C ∞ (Ω) endowed with the topology induced by the semi norms pα (f )…"
+          },
+          {
+            "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+            "line": 2051,
+            "section": "R",
+            "quote": "The loss function is the sum of the mean squared error incurred from the training data and the mean of the square of the value of the heat equation sampled at 100 random points on the domain (x, t) ∈ [−5, 5] × [0, 5]."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "state[- ]of[- ]the[- ]art",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "state[- ]of[- ]the[- ]art",
+            "line": 32,
+            "section": "Abstract",
+            "quote": "We demonstrate our approach on three families of systems of PDEs, the heat equation, wave equation, and Maxwell’s equations, where we improve upon the state of the art in computation time and precision, in some experime…"
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 1127,
+            "section": "Discussion",
+            "quote": "Our method takes a starkly different approach to solving and learning PDEs compared to other physics informed machine learning methods such as PINN."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+          "standard deviation"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+            "line": 1020,
+            "section": "∇×E=−",
+            "quote": "Each experiment is repeated 10 times"
+          },
+          {
+            "indicator": "standard deviation",
+            "line": 2227,
+            "section": "\u0010 ai x+bi y+√a2i +b2i t",
+            "quote": "The means and standard deviations of the RMS errors are recorded below, with best values in bold."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 39,
+            "section": "Abstract",
+            "quote": "These techniques using derivatives have been generalized to construct GPs with realizations in the solution set of specific systems of linear partial differential equations (PDEs) with constant coefficients (Macêdo & Ca…"
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 51,
+            "section": "Abstract",
+            "quote": "One limitation was that the method could only work on a subclass of systems of linear PDEs with constant coefficients: the so-called controllable (or parametrizable) systems."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 103,
+            "section": "Introduction",
+            "quote": "For code and videos corresponding to this paper we refer to the arXiv, github, or mathrepo."
+          },
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 872,
+            "section": "Examples",
+            "quote": "https://github.com/haerski/EPGP"
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C1",
+      "summary": "Research objective / questions: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 30,
+          "section": "Abstract",
+          "quote": "Constructing EPGP-priors is algorithmic, generally applicable, and comes with a sparse version (S-EPGP) that learns the relevant spectral frequencies and works better for big data sets."
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 679,
+          "section": "Use the Macaulay2 command solvePDE to compute",
+          "quote": "However, none of these approaches can treat the three examples that we demonstrate in Section 6, as these examples all have proper characteristic varieties."
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 2219,
+          "section": "\u0010 ai x+bi y+√a2i +b2i t",
+          "quote": "Furthermore, runtimes scale extremely well with respect to the size of the training set."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 7,
+          "section": "Abstract",
+          "quote": "and learning hyperparameters in GPs allows to interpret data (Duvenaud, 2014; Steinruecken et al., 2019; Berns et al., 2020)."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 902,
+          "section": "Heat equation",
+          "quote": "First, we test the ability of the model to solve the heat equation given initial data."
+        },
+        {
+          "indicator": "\\bGPUs?\\b",
+          "line": 919,
+          "section": "Heat equation",
+          "quote": "In addition, there is a drastic difference in total computation time between EPGP (10s) and PINN (2h) using an Nvidia A100 GPU."
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 930,
+          "section": "Heat equation",
+          "quote": "The bottom row of Figure 4 contains a PINN instance trained for 200,000 epochs."
+        },
+        {
+          "indicator": "learning rate",
+          "line": 2053,
+          "section": "R",
+          "quote": "The neural network is trained for 10,000 epochs and parameters are optimized using Adam, with learning rate 10−4 ."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprecision\\b",
+          "line": 32,
+          "section": "Abstract",
+          "quote": "We demonstrate our approach on three families of systems of PDEs, the heat equation, wave equation, and Maxwell’s equations, where we improve upon the state of the art in computation time and precision, in some experime…"
+        },
+        {
+          "indicator": "\\bF1\\b|F-?score|F-measure",
+          "line": 277,
+          "section": "−∂1 + 3∂2",
+          "quote": "translates to a system of 3 homogeneous equations ∂f1 ∂ 3 f2 ∂f1 ∂f2 ∂f2 − = + f2 = − +3 = 0. ∂x1 ∂x21 ∂x2 ∂x2 ∂x1 ∂x2 Its solutions are vector valued functions f (x1 , x2 ) = (f1 (x1 , x2 ), f2 (x1 , x2 ))T ."
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 1541,
+          "section": "Proof of Lemma 2.1",
+          "quote": "We will work with a space F of functions, which can be a general locally convex topological vector space (LCS), but for our purposes, we work with F = C ∞ (Ω) endowed with the topology induced by the semi norms pα (f )…"
+        },
+        {
+          "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+          "line": 2051,
+          "section": "R",
+          "quote": "The loss function is the sum of the mean squared error incurred from the training data and the mean of the square of the value of the heat equation sampled at 100 random points on the domain (x, t) ∈ [−5, 5] × [0, 5]."
+        }
+      ]
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "State the research objective or research questions explicitly (e.g., RQ1, RQ2) so the methodology can be checked against them."
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 30 [Abstract]: \"Constructing EPGP-priors is algorithmic, generally applicable, and comes with a sparse version (S-EPGP) that learns the relevant spectral frequencies and works better for big data sets.\"",
+        "line 679 [Use the Macaulay2 command solvePDE to compute]: \"However, none of these approaches can treat the three examples that we demonstrate in Section 6, as these examples all have proper characteristic varieties.\"",
+        "line 2219 [\u0010 ai x+bi y+√a2i +b2i t]: \"Furthermore, runtimes scale extremely well with respect to the size of the training set.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (9 found elsewhere).",
+      "evidence": [
+        "line 7 [Abstract]: \"and learning hyperparameters in GPs allows to interpret data (Duvenaud, 2014; Steinruecken et al., 2019; Berns et al., 2020).\"",
+        "line 902 [Heat equation]: \"First, we test the ability of the model to solve the heat equation given initial data.\"",
+        "line 919 [Heat equation]: \"In addition, there is a drastic difference in total computation time between EPGP (10s) and PINN (2h) using an Nvidia A100 GPU.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 32 [Abstract]: \"We demonstrate our approach on three families of systems of PDEs, the heat equation, wave equation, and Maxwell’s equations, where we improve upon the state of the art in computation time and precision, in some experime…\"",
+        "line 277 [−∂1 + 3∂2]: \"translates to a system of 3 homogeneous equations ∂f1 ∂ 3 f2 ∂f1 ∂f2 ∂f2 − = + f2 = − +3 = 0. ∂x1 ∂x21 ∂x2 ∂x2 ∂x1 ∂x2 Its solutions are vector valued functions f (x1 , x2 ) = (f1 (x1 , x2 ), f2 (x1 , x2 ))T .\"",
+        "line 1541 [Proof of Lemma 2.1]: \"We will work with a space F of functions, which can be a general locally convex topological vector space (LCS), but for our purposes, we work with F = C ∞ (Ω) endowed with the topology induced by the semi norms pα (f )…\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 32 [Abstract]: \"We demonstrate our approach on three families of systems of PDEs, the heat equation, wave equation, and Maxwell’s equations, where we improve upon the state of the art in computation time and precision, in some experime…\"",
+        "line 1127 [Discussion]: \"Our method takes a starkly different approach to solving and learning PDEs compared to other physics informed machine learning methods such as PINN.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1020 [∇×E=−]: \"Each experiment is repeated 10 times\"",
+        "line 2227 [\u0010 ai x+bi y+√a2i +b2i t]: \"The means and standard deviations of the RMS errors are recorded below, with best values in bold.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 39 [Abstract]: \"These techniques using derivatives have been generalized to construct GPs with realizations in the solution set of specific systems of linear partial differential equations (PDEs) with constant coefficients (Macêdo & Ca…\"",
+        "line 51 [Abstract]: \"One limitation was that the method could only work on a subclass of systems of linear PDEs with constant coefficients: the so-called controllable (or parametrizable) systems.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 103 [Introduction]: \"For code and videos corresponding to this paper we refer to the arXiv, github, or mathrepo.\"",
+        "line 872 [Examples]: \"https://github.com/haerski/EPGP\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 10.36,
+    "load_rubric": 3.46,
+    "detect_sections": 6.24,
+    "split_sentences": 3.29,
+    "assess": 106.96,
+    "detect_weaknesses": 0.11,
+    "explain": 0.03,
+    "total": 131.62
+  }
+}

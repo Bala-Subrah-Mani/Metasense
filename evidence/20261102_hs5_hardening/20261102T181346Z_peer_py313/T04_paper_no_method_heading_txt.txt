@@ -1,0 +1,26 @@
+# Analyze paper_no_method_heading.txt
+# captured_utc: 2026-11-02T18:13:58+00:00
+$ metasense analyze data/sample/paper_no_method_heading.txt --out ...
+--- stdout ---
+MetaSense 0.2.3  run e6dd2854f592  input paper_no_method_heading.txt
+Extracted 168 words via plain-text
+Sections: 5  methodology-related: NONE
+Completeness score: 68.8/100  (present 4, weak 3, missing 1)
+  [PRESENT] C1 Research objective / questions
+  [WEAK   ] C2 Dataset / data source description
+  [WEAK   ] C3 Experimental setup / procedure
+  [WEAK   ] C4 Evaluation metrics
+  [PRESENT] C5 Baseline / comparison
+  [PRESENT] C6 Statistical rigor / repeated trials
+  [PRESENT] C7 Threats to validity / limitations
+  [MISSING] C8 Reproducibility / artifact availability
+Weaknesses: 5
+  W01 [high] No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.
+  W02 [medium] Dataset / data source description: limited reporting (only outside the methodology section).
+  W03 [medium] Experimental setup / procedure: limited reporting (only outside the methodology section).
+  W04 [medium] Evaluation metrics: limited reporting (only outside the methodology section).
+  W05 [medium] Reproducibility / artifact availability: no indicator found.
+Processing time: 10.64 ms
+--- stderr ---
+Reports written: /home/peer/pass_py313/Metasense/evidence/20261102T181346Z_peer_py313/T04_sample_outputs/paper_no_method_heading_txt/paper_no_method_heading.metasense.json ; /home/peer/pass_py313/Metasense/evidence/20261102T181346Z_peer_py313/T04_sample_outputs/paper_no_method_heading_txt/paper_no_method_heading.metasense.md
+--- exit code: 0   duration: 0.14s ---

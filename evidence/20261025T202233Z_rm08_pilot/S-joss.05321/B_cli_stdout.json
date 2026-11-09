@@ -1,0 +1,463 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "9ed41d0ce801",
+  "timestamp_utc": "2026-10-25T20:24:26+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 29982,
+    "sha256": "cf1ab94ba9dc0d46d2ea5641e8d4bbe38a3c93d7800dd190d7dbb5aeeb889e0d"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 2984,
+    "line_count": 287,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 208,
+      "word_count": 2222,
+      "inherited": false
+    },
+    {
+      "heading": "Future Work",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 209,
+      "end_line": 215,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 216,
+      "end_line": 220,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 221,
+      "end_line": 277,
+      "word_count": 568,
+      "inherited": false
+    },
+    {
+      "heading": "https://doi.org/10.1167/jov.22.14.4160",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 278,
+      "end_line": 287,
+      "word_count": 84,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "https://doi.org/10.1167/jov.22.14.4160"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 43.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 2,
+      "weak": 3,
+      "missing": 3
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "research question"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "research question",
+            "line": 172,
+            "section": "(front matter)",
+            "quote": "On the one hand, this can be useful for vision experimentation because varying stimuli along one or multiple dimensions can be directly mapped to certain experimental designs and research questions."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\blicen[cs]e",
+          "\\bdata ?sets?\\b",
+          "\\bbenchmark\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\blicen[cs]e",
+            "line": 12,
+            "section": "(front matter)",
+            "quote": "They may come as visual illusions which demonstrate the striking differences between the perceptual and physical world, they may involve minuscule stimulus changes which are used to probe the limits of visual sensitivit…"
+          },
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 154,
+            "section": "(front matter)",
+            "quote": "A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…"
+          },
+          {
+            "indicator": "\\bbenchmark\\b",
+            "line": 154,
+            "section": "(front matter)",
+            "quote": "A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bPython\\b",
+          "\\bhardware\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bPython\\b",
+            "line": 1,
+            "section": "(front matter)",
+            "quote": "stimupy: A Python package for creating stimuli in vision science 1,2¶ Lynn Schmittwilken , Marianne Maertens1,2 , and Joris Vincent 2"
+          },
+          {
+            "indicator": "\\bhardware\\b",
+            "line": 67,
+            "section": "(front matter)",
+            "quote": "The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprecision\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 67,
+            "section": "(front matter)",
+            "quote": "The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://",
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 50,
+            "section": "(front matter)",
+            "quote": "1 https://doi.org/10.21105/joss.05321."
+          },
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 124,
+            "section": "(front matter)",
+            "quote": "3 https://doi.org/10.21105/joss.05321. • is hierarchical in a sense that more complex stimulus functions (e.g., visual illusions) use more basic stimulus functions (e.g., components) • comes with application-oriented do…"
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\blicen[cs]e",
+          "line": 12,
+          "section": "(front matter)",
+          "quote": "They may come as visual illusions which demonstrate the striking differences between the perceptual and physical world, they may involve minuscule stimulus changes which are used to probe the limits of visual sensitivit…"
+        },
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 154,
+          "section": "(front matter)",
+          "quote": "A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…"
+        },
+        {
+          "indicator": "\\bbenchmark\\b",
+          "line": 154,
+          "section": "(front matter)",
+          "quote": "A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…"
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bPython\\b",
+          "line": 1,
+          "section": "(front matter)",
+          "quote": "stimupy: A Python package for creating stimuli in vision science 1,2¶ Lynn Schmittwilken , Marianne Maertens1,2 , and Joris Vincent 2"
+        },
+        {
+          "indicator": "\\bhardware\\b",
+          "line": 67,
+          "section": "(front matter)",
+          "quote": "The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprecision\\b",
+          "line": 67,
+          "section": "(front matter)",
+          "quote": "The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C5",
+      "summary": "Baseline / comparison: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W07",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C7",
+      "summary": "Threats to validity / limitations: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 172 [(front matter)]: \"On the one hand, this can be useful for vision experimentation because varying stimuli along one or multiple dimensions can be directly mapped to certain experimental designs and research questions.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 12 [(front matter)]: \"They may come as visual illusions which demonstrate the striking differences between the perceptual and physical world, they may involve minuscule stimulus changes which are used to probe the limits of visual sensitivit…\"",
+        "line 154 [(front matter)]: \"A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…\"",
+        "line 154 [(front matter)]: \"A common strategy to validate computational vision models is to test them with benchmark datasets; e.g. in spatial vision (Carney et al., 1999), lightness perception (Murray, 2021), object recognition (Deng et al., 2009…\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 1 [(front matter)]: \"stimupy: A Python package for creating stimuli in vision science 1,2¶ Lynn Schmittwilken , Marianne Maertens1,2 , and Joris Vincent 2\"",
+        "line 67 [(front matter)]: \"The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 67 [(front matter)]: \"The design focus of both Psychtoolbox and Psychopy has therefore been to support the user to interface between computer hardware and MATLAB and Python, respectively, to enable temporal precision and high dynamic range s…\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Compare the proposed approach against at least one baseline or prior method under the same conditions."
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Discuss threats to validity and limitations (e.g., dataset bias, generalizability) and how they were mitigated."
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 50 [(front matter)]: \"1 https://doi.org/10.21105/joss.05321.\"",
+        "line 124 [(front matter)]: \"3 https://doi.org/10.21105/joss.05321. • is hierarchical in a sense that more complex stimulus functions (e.g., visual illusions) use more basic stimulus functions (e.g., components) • comes with application-oriented do…\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 2.17,
+    "load_rubric": 9.19,
+    "detect_sections": 0.56,
+    "split_sentences": 0.67,
+    "assess": 17.44,
+    "detect_weaknesses": 0.06,
+    "explain": 0.02,
+    "total": 30.58
+  }
+}

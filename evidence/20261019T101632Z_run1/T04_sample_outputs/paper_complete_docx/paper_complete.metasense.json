@@ -1,0 +1,604 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.0",
+  "run_id": "2edcaf879dac",
+  "timestamp_utc": "2026-10-19T10:16:50+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "paper_complete.docx",
+    "type": "docx",
+    "size_bytes": 38394,
+    "sha256": "8da7cf1cd9b769ab2a3489ef958d4698b4fd3d0b3f9d75fe3c648f8a0b7f6674"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "python-docx",
+    "word_count": 543,
+    "line_count": 25,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.1-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 3,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 4,
+      "end_line": 6,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "Related Work",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 7,
+      "end_line": 8,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Methodology",
+      "label": "methodology",
+      "level": 1,
+      "start_line": 9,
+      "end_line": 9,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Dataset",
+      "label": "methodology",
+      "level": 2,
+      "start_line": 10,
+      "end_line": 11,
+      "word_count": 83,
+      "inherited": true
+    },
+    {
+      "heading": "Experimental Setup",
+      "label": "methodology",
+      "level": 2,
+      "start_line": 12,
+      "end_line": 13,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "Evaluation Metrics",
+      "label": "methodology",
+      "level": 2,
+      "start_line": 14,
+      "end_line": 15,
+      "word_count": 33,
+      "inherited": true
+    },
+    {
+      "heading": "Baseline",
+      "label": "methodology",
+      "level": 2,
+      "start_line": 16,
+      "end_line": 17,
+      "word_count": 30,
+      "inherited": true
+    },
+    {
+      "heading": "Results",
+      "label": "results",
+      "level": 1,
+      "start_line": 18,
+      "end_line": 19,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "Threats to Validity",
+      "label": "threats_to_validity",
+      "level": 1,
+      "start_line": 20,
+      "end_line": 21,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 22,
+      "end_line": 25,
+      "word_count": 43,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 100.0,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 8,
+      "weak": 0,
+      "missing": 0
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "this (?:study|paper|work) (?:investigates|examines|evaluates|addresses)",
+          "research question",
+          "\\bRQ\\s?\\d"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "this (?:study|paper|work) (?:investigates|examines|evaluates|addresses)",
+            "line": 5,
+            "section": "Introduction",
+            "quote": "This study investigates whether simple execution-history features can identify flaky tests before they are re-run."
+          },
+          {
+            "indicator": "research question",
+            "line": 6,
+            "section": "Introduction",
+            "quote": "We address two research questions."
+          },
+          {
+            "indicator": "\\bRQ\\s?\\d",
+            "line": 6,
+            "section": "Introduction",
+            "quote": "RQ1: How accurately can a gradient-boosted classifier identify flaky tests from execution-history features?"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bdata ?sets?\\b",
+          "\\bcollected from\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\blicen[cs]e"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024."
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "The data were split into a training set (70%) and a test set (30%) by project, so no project appears in both splits."
+          },
+          {
+            "indicator": "\\blicen[cs]e",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "All projects use OSI-approved licenses that permit research use."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "implemented (?:in|using|with)",
+          "\\bPython\\b",
+          "\\bversion \\d",
+          "hyper-?parameters?",
+          "learning rate",
+          "\\bGPUs?\\b",
+          "\\bCPUs?\\b",
+          "\\bRAM\\b",
+          "\\bprocedure\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "indicators_outside_scope": [
+          "\\bpipeline\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "implemented (?:in|using|with)",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "The classifier was implemented in Python 3.11 using scikit-learn version 1.4."
+          },
+          {
+            "indicator": "\\bPython\\b",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "The classifier was implemented in Python 3.11 using scikit-learn version 1.4."
+          },
+          {
+            "indicator": "\\bversion \\d",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "The classifier was implemented in Python 3.11 using scikit-learn version 1.4."
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "We used 200 trees, a maximum depth of 6, and a learning rate of 0.05; these hyperparameters were selected with 5-fold cross-validation on the training set only."
+          },
+          {
+            "indicator": "learning rate",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "We used 200 trees, a maximum depth of 6, and a learning rate of 0.05; these hyperparameters were selected with 5-fold cross-validation on the training set only."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bprecision\\b",
+          "\\brecall\\b",
+          "\\bF1\\b|F-?score|F-measure",
+          "\\baccuracy\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 15,
+            "section": "Evaluation Metrics",
+            "quote": "We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 15,
+            "section": "Evaluation Metrics",
+            "quote": "We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading."
+          },
+          {
+            "indicator": "\\bF1\\b|F-?score|F-measure",
+            "line": 15,
+            "section": "Evaluation Metrics",
+            "quote": "We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading."
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 15,
+            "section": "Evaluation Metrics",
+            "quote": "We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 17,
+            "section": "Baseline",
+            "quote": "The proposed classifier is compared against a re-run baseline that labels a test flaky if it changes outcome within three re-runs, which is the heuristic used by the studied projects."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 17,
+            "section": "Baseline",
+            "quote": "The proposed classifier is compared against a re-run baseline that labels a test flaky if it changes outcome within three re-runs, which is the heuristic used by the studied projects."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "cross-validation|cross validation",
+          "standard deviation",
+          "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+          "statistical(?:ly)? significan",
+          "\\bp\\s?[<=]\\s?0?\\.\\d",
+          "\\bWilcoxon\\b|Mann-Whitney|\\bANOVA\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "cross-validation|cross validation",
+            "line": 13,
+            "section": "Experimental Setup",
+            "quote": "We used 200 trees, a maximum depth of 6, and a learning rate of 0.05; these hyperparameters were selected with 5-fold cross-validation on the training set only."
+          },
+          {
+            "indicator": "standard deviation",
+            "line": 19,
+            "section": "Results",
+            "quote": "All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02."
+          },
+          {
+            "indicator": "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+            "line": 19,
+            "section": "Results",
+            "quote": "All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02."
+          },
+          {
+            "indicator": "statistical(?:ly)? significan",
+            "line": 19,
+            "section": "Results",
+            "quote": "A paired Wilcoxon signed-rank test showed the difference was statistically significant (p < 0.01)."
+          },
+          {
+            "indicator": "\\bp\\s?[<=]\\s?0?\\.\\d",
+            "line": 19,
+            "section": "Results",
+            "quote": "A paired Wilcoxon signed-rank test showed the difference was statistically significant (p < 0.01)."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "internal validity|external validity|construct validity",
+          "\\bgenerali[sz]",
+          "\\bbias(?:es|ed)?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "internal validity|external validity|construct validity",
+            "line": 21,
+            "section": "Threats to Validity",
+            "quote": "Internal validity may be affected by label noise, because a test that never failed during the observation window may still be flaky."
+          },
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 21,
+            "section": "Threats to Validity",
+            "quote": "External validity is limited: all projects are Java projects, so the results may not generalize to other languages or CI systems."
+          },
+          {
+            "indicator": "\\bbias(?:es|ed)?\\b",
+            "line": 21,
+            "section": "Threats to Validity",
+            "quote": "Selection bias is possible because only active open-source projects were included."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+          "open[- ]source",
+          "random seeds?",
+          "replication package",
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024."
+          },
+          {
+            "indicator": "open[- ]source",
+            "line": 11,
+            "section": "Dataset",
+            "quote": "The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024."
+          },
+          {
+            "indicator": "random seeds?",
+            "line": 19,
+            "section": "Results",
+            "quote": "All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02."
+          },
+          {
+            "indicator": "replication package",
+            "line": 23,
+            "section": "Conclusion",
+            "quote": "The code and the anonymised dataset are publicly available in a replication package at https://github.com/example/flaky-history (placeholder URL for this synthetic sample)."
+          },
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 23,
+            "section": "Conclusion",
+            "quote": "The code and the anonymised dataset are publicly available in a replication package at https://github.com/example/flaky-history (placeholder URL for this synthetic sample)."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 5 [Introduction]: \"This study investigates whether simple execution-history features can identify flaky tests before they are re-run.\"",
+        "line 6 [Introduction]: \"We address two research questions.\"",
+        "line 6 [Introduction]: \"RQ1: How accurately can a gradient-boosted classifier identify flaky tests from execution-history features?\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "present",
+      "explanation": "Rated PRESENT: 4 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 11 [Dataset]: \"The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024.\"",
+        "line 11 [Dataset]: \"The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024.\"",
+        "line 11 [Dataset]: \"The data were split into a training set (70%) and a test set (30%) by project, so no project appears in both splits.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "present",
+      "explanation": "Rated PRESENT: 10 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 13 [Experimental Setup]: \"The classifier was implemented in Python 3.11 using scikit-learn version 1.4.\"",
+        "line 13 [Experimental Setup]: \"The classifier was implemented in Python 3.11 using scikit-learn version 1.4.\"",
+        "line 13 [Experimental Setup]: \"The classifier was implemented in Python 3.11 using scikit-learn version 1.4.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "present",
+      "explanation": "Rated PRESENT: 4 distinct indicator(s) found in the methodology section(s) (threshold 1).",
+      "evidence": [
+        "line 15 [Evaluation Metrics]: \"We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading.\"",
+        "line 15 [Evaluation Metrics]: \"We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading.\"",
+        "line 15 [Evaluation Metrics]: \"We report precision, recall, and F1-score for the flaky class, because flaky tests are a minority class and accuracy alone would be misleading.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 17 [Baseline]: \"The proposed classifier is compared against a re-run baseline that labels a test flaky if it changes outcome within three re-runs, which is the heuristic used by the studied projects.\"",
+        "line 17 [Baseline]: \"The proposed classifier is compared against a re-run baseline that labels a test flaky if it changes outcome within three re-runs, which is the heuristic used by the studied projects.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 6 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 13 [Experimental Setup]: \"We used 200 trees, a maximum depth of 6, and a learning rate of 0.05; these hyperparameters were selected with 5-fold cross-validation on the training set only.\"",
+        "line 19 [Results]: \"All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02.\"",
+        "line 19 [Results]: \"All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 21 [Threats to Validity]: \"Internal validity may be affected by label noise, because a test that never failed during the observation window may still be flaky.\"",
+        "line 21 [Threats to Validity]: \"External validity is limited: all projects are Java projects, so the results may not generalize to other languages or CI systems.\"",
+        "line 21 [Threats to Validity]: \"Selection bias is possible because only active open-source projects were included.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 5 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 11 [Dataset]: \"The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024.\"",
+        "line 11 [Dataset]: \"The dataset was collected from the public CI logs of 24 open-source Java projects hosted on GitHub between January 2023 and June 2024.\"",
+        "line 19 [Results]: \"All experiments were repeated 10 times with different random seeds; the standard deviation of F1 was 0.02.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.08,
+    "extract": 77.06,
+    "load_rubric": 4.4,
+    "detect_sections": 0.27,
+    "split_sentences": 0.12,
+    "assess": 7.99,
+    "detect_weaknesses": 0.03,
+    "explain": 0.09,
+    "total": 91.0
+  }
+}

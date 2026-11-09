@@ -1,0 +1,39 @@
+heading,gold_is_methodology,note
+Methodology,1,canonical
+Methods,1,common variant
+3. Method,1,numbered singular
+III. RESEARCH METHODOLOGY,1,IEEE roman numeral all caps
+## Research Design,1,markdown heading
+2 Experimental Setup,1,numbered without period
+4. Experimental Design,1,
+Materials and Methods,1,life-science style
+Study Design,1,
+3. Approach,1,
+Proposed Approach,1,
+Our Approach,1,
+Data and Methods,1,
+Evaluation Methodology,1,
+5. Experiments,1,experiments section treated as methodology-related
+EXPERIMENTAL EVALUATION,1,
+3. Proposed Framework,1,system-name heading
+4. System Design,1,design heading
+Study Procedure,1,not in synonym table
+3. Data Collection,1,component-named heading
+Research Approach,1,not in synonym table
+3 The MetaSense Pipeline,1,project-specific heading
+What We Did,1,informal heading
+1. Introduction,0,
+Introduction,0,
+2. Related Work,0,
+Background,0,
+Literature Review,0,
+6. Results,0,
+Findings,0,
+7. Discussion,0,
+Threats to Validity,0,
+8. Conclusion,0,
+References,0,
+Acknowledgments,0,
+Abstract,0,
+4.2 Method Comparison Results,0,potential false positive: contains 'method'
+Future Work,0,

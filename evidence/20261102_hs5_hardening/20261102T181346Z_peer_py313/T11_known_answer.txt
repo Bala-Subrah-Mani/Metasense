@@ -1,0 +1,26 @@
+Status agreement: 18/24 (75.0%)
+Weakness flag (status != present): TP=9 FP=3 FN=0 precision=0.750 recall=1.000
+ok paper_complete.txt             C1 expected=present  observed=present  | RQ1 and RQ2 stated in the introduction
+ok paper_complete.txt             C2 expected=present  observed=present  | 24 projects, 18,240 executions, labelling rule, project-wise split, licenses
+ok paper_complete.txt             C3 expected=present  observed=present  | Python/scikit-learn versions, hyperparameters, hardware, three-step procedure
+ok paper_complete.txt             C4 expected=present  observed=present  | precision, recall, F1 with justification
+ok paper_complete.txt             C5 expected=present  observed=present  | re-run baseline described
+ok paper_complete.txt             C6 expected=present  observed=present  | 10 seeds, standard deviation, Wilcoxon test
+ok paper_complete.txt             C7 expected=present  observed=present  | internal/external validity, selection bias
+ok paper_complete.txt             C8 expected=present  observed=present  | replication package link
+ok paper_weak.txt                 C1 expected=missing  observed=missing  | only a claim ('we show that ML can make reviews faster'), no objective or question
+XX paper_weak.txt                 C2 expected=weak     observed=missing  | 'various open-source projects' - source named vaguely, no size or selection
+XX paper_weak.txt                 C3 expected=weak     observed=missing  | 'standard settings and appropriate parameters' - setup mentioned without detail
+ok paper_weak.txt                 C4 expected=missing  observed=missing  | no metric named
+XX paper_weak.txt                 C5 expected=weak     observed=missing  | 'better than existing tools' - comparison claimed, no baseline named
+ok paper_weak.txt                 C6 expected=missing  observed=missing  | no repetition or statistics
+ok paper_weak.txt                 C7 expected=missing  observed=missing  | no limitations
+ok paper_weak.txt                 C8 expected=missing  observed=missing  | no code/data availability; 'open-source projects' describes the data, not the artifact
+ok paper_no_method_heading.txt    C1 expected=present  observed=present  | 'The goal of this study is to measure...'
+XX paper_no_method_heading.txt    C2 expected=present  observed=weak     | 12 open-source Python repositories selected
+XX paper_no_method_heading.txt    C3 expected=present  observed=weak     | power meter, 4-core CPU, 16 GB RAM, three tools per repository
+XX paper_no_method_heading.txt    C4 expected=present  observed=weak     | energy in joules and wall-clock latency
+ok paper_no_method_heading.txt    C5 expected=present  observed=present  | compared with a no-analysis baseline
+ok paper_no_method_heading.txt    C6 expected=present  observed=present  | 5 repetitions, mean and standard deviation
+ok paper_no_method_heading.txt    C7 expected=present  observed=present  | single laptop model limits generalizability
+ok paper_no_method_heading.txt    C8 expected=missing  observed=missing  | no code/data availability statement

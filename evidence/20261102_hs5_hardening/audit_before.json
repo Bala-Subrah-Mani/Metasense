@@ -1,0 +1,81 @@
+{
+  "counts": {
+    "high": 1,
+    "medium": 10,
+    "low": 1
+  },
+  "findings": [
+    {
+      "check": "A2",
+      "severity": "medium",
+      "item": "research/rm08_pilot/scripts/build_gold_structure.py",
+      "detail": "third-party import 'pymupdf' not declared in requirements files"
+    },
+    {
+      "check": "A2",
+      "severity": "medium",
+      "item": "research/rm09_memo/scripts/make_figures.py",
+      "detail": "third-party import 'matplotlib' not declared in requirements files"
+    },
+    {
+      "check": "A2",
+      "severity": "medium",
+      "item": "research/rm09_memo/scripts/make_figures.py",
+      "detail": "third-party import 'matplotlib' not declared in requirements files"
+    },
+    {
+      "check": "A3",
+      "severity": "medium",
+      "item": "MetaSense_CISC699_Assignment05.zip",
+      "detail": "archive tracked in repository (34175 bytes)"
+    },
+    {
+      "check": "A6",
+      "severity": "medium",
+      "item": "Dockerfile",
+      "detail": "missing: container spec for clean, OS-independent runs"
+    },
+    {
+      "check": "A6",
+      "severity": "medium",
+      "item": ".env.example",
+      "detail": "missing: configuration template (documents optional variables; no secrets)"
+    },
+    {
+      "check": "A6",
+      "severity": "medium",
+      "item": ".github/workflows/ci.yml",
+      "detail": "missing: CI smoke test on every push"
+    },
+    {
+      "check": "A6",
+      "severity": "low",
+      "item": "CITATION.cff",
+      "detail": "missing: how to cite the artifact"
+    },
+    {
+      "check": "A6",
+      "severity": "medium",
+      "item": "docs/DATA.md",
+      "detail": "missing: data provenance and redistribution limits"
+    },
+    {
+      "check": "A6",
+      "severity": "medium",
+      "item": "docs/RUNBOOK.md",
+      "detail": "missing: execution runbook / architecture note"
+    },
+    {
+      "check": "A7",
+      "severity": "medium",
+      "item": "working tree",
+      "detail": "2 uncommitted change(s)"
+    },
+    {
+      "check": "A7",
+      "severity": "high",
+      "item": "tag v0.2.1",
+      "detail": "tag contains a build/ directory (stale-install risk, D-09)"
+    }
+  ]
+}

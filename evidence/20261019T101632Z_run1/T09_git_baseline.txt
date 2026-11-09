@@ -1,0 +1,26 @@
+$ git rev-parse HEAD
+7a77866f219e68e92bd63d4155356eaf84953042
+(exit 0)
+
+$ git describe --tags --always --dirty
+v0.2.0
+(exit 0)
+
+$ git status --porcelain -- . :(exclude)evidence
+
+(exit 0)
+
+$ git log --oneline -8
+7a77866 feat: implement rule-based MetaSense baseline pipeline (v0.2.0)
+1c39f7d Add files via upload
+b316401 Add files via upload
+(exit 0)
+
+$ git tag --list
+v0.2.0
+(exit 0)
+
+$ git remote -v
+origin	https://github.com/Bala-Subrah-Mani/Metasense.git (fetch)
+origin	https://github.com/Bala-Subrah-Mani/Metasense.git (push)
+(exit 0)

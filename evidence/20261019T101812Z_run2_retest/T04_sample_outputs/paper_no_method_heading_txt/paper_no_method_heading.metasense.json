@@ -1,0 +1,496 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "6501e50c3d70",
+  "timestamp_utc": "2026-10-19T10:18:23+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "paper_no_method_heading.txt",
+    "type": "text",
+    "size_bytes": 1049,
+    "sha256": "e6b07556d36ad46a1d34669a74d527a813f93af2be334378df1581f9b977dbcb"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 168,
+    "line_count": 16,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 2,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 3,
+      "end_line": 5,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 6,
+      "end_line": 11,
+      "word_count": 86,
+      "inherited": false
+    },
+    {
+      "heading": "Findings",
+      "label": "results",
+      "level": 1,
+      "start_line": 12,
+      "end_line": 14,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 15,
+      "end_line": 16,
+      "word_count": 19,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "goal of this (?:study|paper|work)"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "goal of this (?:study|paper|work)",
+            "line": 7,
+            "section": "Introduction",
+            "quote": "The goal of this study is to measure how much energy they consume on developer laptops."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 9,
+            "section": "Introduction",
+            "quote": "What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bPython\\b",
+          "\\bhardware\\b",
+          "\\bCPUs?\\b",
+          "\\bRAM\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bPython\\b",
+            "line": 9,
+            "section": "Introduction",
+            "quote": "What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one."
+          },
+          {
+            "indicator": "\\bhardware\\b",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+          },
+          {
+            "indicator": "\\bCPUs?\\b",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\blatency\\b|\\bthroughput\\b|response time",
+          "\\bmetrics?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "The metrics were energy in joules and wall-clock latency."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "The metrics were energy in joules and wall-clock latency."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 13,
+            "section": "Findings",
+            "quote": "The most expensive tool used roughly four times more energy than the cheapest one, compared with a baseline of the editor running without any analysis."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 13,
+            "section": "Findings",
+            "quote": "The most expensive tool used roughly four times more energy than the cheapest one, compared with a baseline of the editor running without any analysis."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "standard deviation",
+          "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "standard deviation",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "Each run was repeated 5 times and we report the mean and standard deviation."
+          },
+          {
+            "indicator": "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+            "line": 10,
+            "section": "Introduction",
+            "quote": "Each run was repeated 5 times and we report the mean and standard deviation."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\blimitations?\\b",
+          "\\bgenerali[sz]"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 16,
+            "section": "Conclusion",
+            "quote": "A limitation is that only one laptop model was measured, which limits generalizability."
+          },
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 16,
+            "section": "Conclusion",
+            "quote": "A limitation is that only one laptop model was measured, which limits generalizability."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 9,
+          "section": "Introduction",
+          "quote": "What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bPython\\b",
+          "line": 9,
+          "section": "Introduction",
+          "quote": "What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one."
+        },
+        {
+          "indicator": "\\bhardware\\b",
+          "line": 10,
+          "section": "Introduction",
+          "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+        },
+        {
+          "indicator": "\\bCPUs?\\b",
+          "line": 10,
+          "section": "Introduction",
+          "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+        },
+        {
+          "indicator": "\\bRAM\\b",
+          "line": 10,
+          "section": "Introduction",
+          "quote": "Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+          "line": 10,
+          "section": "Introduction",
+          "quote": "The metrics were energy in joules and wall-clock latency."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 10,
+          "section": "Introduction",
+          "quote": "The metrics were energy in joules and wall-clock latency."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 7 [Introduction]: \"The goal of this study is to measure how much energy they consume on developer laptops.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 9 [Introduction]: \"What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 9 [Introduction]: \"What We Did We selected 12 open-source Python repositories and ran three static analysis tools on each one.\"",
+        "line 10 [Introduction]: \"Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM.\"",
+        "line 10 [Introduction]: \"Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 10 [Introduction]: \"The metrics were energy in joules and wall-clock latency.\"",
+        "line 10 [Introduction]: \"The metrics were energy in joules and wall-clock latency.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 13 [Findings]: \"The most expensive tool used roughly four times more energy than the cheapest one, compared with a baseline of the editor running without any analysis.\"",
+        "line 13 [Findings]: \"The most expensive tool used roughly four times more energy than the cheapest one, compared with a baseline of the editor running without any analysis.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 10 [Introduction]: \"Each run was repeated 5 times and we report the mean and standard deviation.\"",
+        "line 10 [Introduction]: \"Each run was repeated 5 times and we report the mean and standard deviation.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 16 [Conclusion]: \"A limitation is that only one laptop model was measured, which limits generalizability.\"",
+        "line 16 [Conclusion]: \"A limitation is that only one laptop model was measured, which limits generalizability.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.07,
+    "extract": 0.3,
+    "load_rubric": 8.78,
+    "detect_sections": 0.23,
+    "split_sentences": 0.05,
+    "assess": 1.29,
+    "detect_weaknesses": 0.05,
+    "explain": 0.02,
+    "total": 11.04
+  }
+}

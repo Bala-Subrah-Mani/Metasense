@@ -1,0 +1,793 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "8f9f3dc41d48",
+  "timestamp_utc": "2026-10-25T20:24:06+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 49824,
+    "sha256": "6bd432bf81481fcaba04e15d245e956693840485767c3dd819b495238ea91da4"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 8452,
+    "line_count": 1401,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 16,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 17,
+      "end_line": 41,
+      "word_count": 176,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 42,
+      "end_line": 202,
+      "word_count": 1316,
+      "inherited": false
+    },
+    {
+      "heading": "PROBLEM SETUP AND NOTATIONS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 203,
+      "end_line": 279,
+      "word_count": 507,
+      "inherited": false
+    },
+    {
+      "heading": "PROVABLE LINEAR SEPARABILITY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 280,
+      "end_line": 280,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "OF ADVERSARIAL NOISES",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 281,
+      "end_line": 353,
+      "word_count": 489,
+      "inherited": false
+    },
+    {
+      "heading": "X =Π⊥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 354,
+      "end_line": 354,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A1 X̃ΠA2 + ΠA1 XΠA2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 355,
+      "end_line": 356,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ ΠA1 XΠ⊥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 357,
+      "end_line": 413,
+      "word_count": 219,
+      "inherited": false
+    },
+    {
+      "heading": "4m d md",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 414,
+      "end_line": 429,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "W = W̃ Π⊥",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 430,
+      "end_line": 463,
+      "word_count": 184,
+      "inherited": false
+    },
+    {
+      "heading": "⊤",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 464,
+      "end_line": 466,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "⊤ ⊤",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 467,
+      "end_line": 470,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "⊤",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 471,
+      "end_line": 588,
+      "word_count": 746,
+      "inherited": false
+    },
+    {
+      "heading": "− eΩ(log",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 589,
+      "end_line": 677,
+      "word_count": 572,
+      "inherited": false
+    },
+    {
+      "heading": "VERIFY LINEAR SEPARABILITY OF",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 678,
+      "end_line": 678,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ADVERSARIAL NOISES IN PRACTICE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 679,
+      "end_line": 906,
+      "word_count": 1748,
+      "inherited": false
+    },
+    {
+      "heading": "CONCLUSION AND LIMITATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 907,
+      "end_line": 927,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 928,
+      "end_line": 1098,
+      "word_count": 1151,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1099,
+      "end_line": 1103,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "d ∥Da∥2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1104,
+      "end_line": 1130,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1131,
+      "end_line": 1155,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1156,
+      "end_line": 1194,
+      "word_count": 228,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1195,
+      "end_line": 1219,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "D̄ D̄",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1220,
+      "end_line": 1237,
+      "word_count": 88,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1238,
+      "end_line": 1239,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1240,
+      "end_line": 1240,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1241,
+      "end_line": 1254,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1255,
+      "end_line": 1255,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "K2 K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1256,
+      "end_line": 1266,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1267,
+      "end_line": 1273,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1274,
+      "end_line": 1275,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "K2 K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1276,
+      "end_line": 1302,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "D̄",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1303,
+      "end_line": 1401,
+      "word_count": 376,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "PROBLEM SETUP AND NOTATIONS",
+    "PROVABLE LINEAR SEPARABILITY",
+    "OF ADVERSARIAL NOISES",
+    "X =Π⊥",
+    "A1 X̃ΠA2 + ΠA1 XΠA2",
+    "+ ΠA1 XΠ⊥",
+    "4m d md",
+    "W = W̃ Π⊥",
+    "⊤",
+    "⊤ ⊤",
+    "⊤",
+    "− eΩ(log",
+    "VERIFY LINEAR SEPARABILITY OF",
+    "ADVERSARIAL NOISES IN PRACTICE",
+    "CONCLUSION AND LIMITATION",
+    "I",
+    "d ∥Da∥2 2",
+    "P",
+    "2",
+    "X",
+    "D̄ D̄",
+    "P",
+    "N",
+    "X",
+    "N",
+    "K2 K",
+    "X",
+    "P",
+    "K2 K",
+    "D̄"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 43.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 2,
+      "weak": 3,
+      "missing": 3
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 156,
+            "section": "INTRODUCTION",
+            "quote": "There are some explanations why adversarial examples exist, e.g., the deep network classifiers being too linear locally because of ReLU like activations (Goodfellow et al., 2014), the boundary tilting hypothesis that th…"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 86,
+            "section": "INTRODUCTION",
+            "quote": "More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…"
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 120,
+            "section": "INTRODUCTION",
+            "quote": "The theory indicates that the linear separability of adversarial noises actually are generalizable to the test set, which is also verified in Figure 2."
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 531,
+            "section": "⊤",
+            "quote": "For the two-layer network defined in Equation 3 and the adversarial samples given by xadv = xi +ηri , i ⊤ if d > poly(n) there exists v ′ = −Π⊥ X W a such that ∀i : ⟨v ′ , xadv i ⟩ > 0 with high probability."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprocedure\\b",
+          "learning rate",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bepochs?\\b",
+          "\\bGPUs?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 73,
+            "section": "INTRODUCTION",
+            "quote": "In this paper, we study the adversarial noises from a population’s perspective and ask “What property do the adversarial noises exhibit when they are put together?” Due to the complicated procedure of generating adversa…"
+          },
+          {
+            "indicator": "learning rate",
+            "line": 127,
+            "section": "INTRODUCTION",
+            "quote": "We also empirically explore the property of adversarial noises beyond the theoretical regime, especially for the case where the neural network is trained with a large learning rate, the case of other adversarial noise g…"
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 660,
+            "section": "− eΩ(log",
+            "quote": "Second, it is desirable if one can extend the result to the PGD with respect to the l∞ constraint."
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 727,
+            "section": "ADVERSARIAL NOISES IN PRACTICE",
+            "quote": "All models are trained for 100 epochs with a batchsize of 128."
+          },
+          {
+            "indicator": "\\bGPUs?\\b",
+            "line": 738,
+            "section": "ADVERSARIAL NOISES IN PRACTICE",
+            "quote": "All the experiments are run with one single Tesla V100 GPU."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 44,
+            "section": "INTRODUCTION",
+            "quote": "Modern deep learning models have achieved great accuracy on vast intelligence tasks."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 120,
+            "section": "INTRODUCTION",
+            "quote": "The theory indicates that the linear separability of adversarial noises actually are generalizable to the test set, which is also verified in Figure 2."
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 917,
+            "section": "CONCLUSION AND LIMITATION",
+            "quote": "One limitation of the work is that we do not have a straightforward way to exploit such phenomenon to improve the adversarial attack or defense."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 86,
+          "section": "INTRODUCTION",
+          "quote": "More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…"
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 120,
+          "section": "INTRODUCTION",
+          "quote": "The theory indicates that the linear separability of adversarial noises actually are generalizable to the test set, which is also verified in Figure 2."
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 531,
+          "section": "⊤",
+          "quote": "For the two-layer network defined in Equation 3 and the adversarial samples given by xadv = xi +ηri , i ⊤ if d > poly(n) there exists v ′ = −Π⊥ X W a such that ∀i : ⟨v ′ , xadv i ⟩ > 0 with high probability."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 73,
+          "section": "INTRODUCTION",
+          "quote": "In this paper, we study the adversarial noises from a population’s perspective and ask “What property do the adversarial noises exhibit when they are put together?” Due to the complicated procedure of generating adversa…"
+        },
+        {
+          "indicator": "learning rate",
+          "line": 127,
+          "section": "INTRODUCTION",
+          "quote": "We also empirically explore the property of adversarial noises beyond the theoretical regime, especially for the case where the neural network is trained with a large learning rate, the case of other adversarial noise g…"
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 660,
+          "section": "− eΩ(log",
+          "quote": "Second, it is desirable if one can extend the result to the PGD with respect to the l∞ constraint."
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 727,
+          "section": "ADVERSARIAL NOISES IN PRACTICE",
+          "quote": "All models are trained for 100 epochs with a batchsize of 128."
+        },
+        {
+          "indicator": "\\bGPUs?\\b",
+          "line": 738,
+          "section": "ADVERSARIAL NOISES IN PRACTICE",
+          "quote": "All the experiments are run with one single Tesla V100 GPU."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 44,
+          "section": "INTRODUCTION",
+          "quote": "Modern deep learning models have achieved great accuracy on vast intelligence tasks."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C5",
+      "summary": "Baseline / comparison: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W07",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 156 [INTRODUCTION]: \"There are some explanations why adversarial examples exist, e.g., the deep network classifiers being too linear locally because of ReLU like activations (Goodfellow et al., 2014), the boundary tilting hypothesis that th…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 86 [INTRODUCTION]: \"More specifically, in this paper we argue that under some assumption adversarial noises are almost linearly separable if they are equipped with the labels of the corresponding original samples, i.e., a new constructed d…\"",
+        "line 120 [INTRODUCTION]: \"The theory indicates that the linear separability of adversarial noises actually are generalizable to the test set, which is also verified in Figure 2.\"",
+        "line 531 [⊤]: \"For the two-layer network defined in Equation 3 and the adversarial samples given by xadv = xi +ηri , i ⊤ if d > poly(n) there exists v ′ = −Π⊥ X W a such that ∀i : ⟨v ′ , xadv i ⟩ > 0 with high probability.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (5 found elsewhere).",
+      "evidence": [
+        "line 73 [INTRODUCTION]: \"In this paper, we study the adversarial noises from a population’s perspective and ask “What property do the adversarial noises exhibit when they are put together?” Due to the complicated procedure of generating adversa…\"",
+        "line 127 [INTRODUCTION]: \"We also empirically explore the property of adversarial noises beyond the theoretical regime, especially for the case where the neural network is trained with a large learning rate, the case of other adversarial noise g…\"",
+        "line 660 [− eΩ(log]: \"Second, it is desirable if one can extend the result to the PGD with respect to the l∞ constraint.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 44 [INTRODUCTION]: \"Modern deep learning models have achieved great accuracy on vast intelligence tasks.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Compare the proposed approach against at least one baseline or prior method under the same conditions."
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 120 [INTRODUCTION]: \"The theory indicates that the linear separability of adversarial noises actually are generalizable to the test set, which is also verified in Figure 2.\"",
+        "line 917 [CONCLUSION AND LIMITATION]: \"One limitation of the work is that we do not have a straightforward way to exploit such phenomenon to improve the adversarial attack or defense.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 5.02,
+    "load_rubric": 3.67,
+    "detect_sections": 2.53,
+    "split_sentences": 1.87,
+    "assess": 45.51,
+    "detect_weaknesses": 0.09,
+    "explain": 0.05,
+    "total": 59.34
+  }
+}

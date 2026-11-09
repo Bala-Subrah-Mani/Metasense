@@ -1,0 +1,144 @@
+{
+  "A": {
+    "gold": 130,
+    "recall_original": 0.777,
+    "recall_extended": 0.823,
+    "matched_original": 101,
+    "matched_extended": 107,
+    "detected_top": 1791,
+    "precision_extended": 0.06,
+    "per_document": {
+      "E1-lawless23a": {
+        "gold": 13,
+        "matched_original": 13,
+        "matched_extended": 13
+      },
+      "E1-harkonen23a": {
+        "gold": 15,
+        "matched_original": 15,
+        "matched_extended": 15
+      },
+      "E1-yang23n": {
+        "gold": 10,
+        "matched_original": 10,
+        "matched_extended": 10
+      },
+      "E1-strimel23a": {
+        "gold": 14,
+        "matched_original": 14,
+        "matched_extended": 14
+      },
+      "E1-bhattacharjee23a": {
+        "gold": 10,
+        "matched_original": 10,
+        "matched_extended": 10
+      },
+      "E2-jeong23a": {
+        "gold": 10,
+        "matched_original": 8,
+        "matched_extended": 9
+      },
+      "E2-fabian23a": {
+        "gold": 21,
+        "matched_original": 15,
+        "matched_extended": 20
+      },
+      "E2-zhang23d": {
+        "gold": 7,
+        "matched_original": 6,
+        "matched_extended": 6
+      },
+      "T-jana23a": {
+        "gold": 7,
+        "matched_original": 2,
+        "matched_extended": 2
+      },
+      "T-filmus23a": {
+        "gold": 11,
+        "matched_original": 3,
+        "matched_extended": 3
+      },
+      "S-joss.05465": {
+        "gold": 6,
+        "matched_original": 2,
+        "matched_extended": 2
+      },
+      "S-joss.05321": {
+        "gold": 6,
+        "matched_original": 3,
+        "matched_extended": 3
+      }
+    }
+  },
+  "C": {
+    "gold": 130,
+    "recall_original": 0.8,
+    "recall_extended": 0.8,
+    "matched_original": 104,
+    "matched_extended": 104,
+    "detected_top": 104,
+    "precision_extended": 1.0,
+    "per_document": {
+      "E1-lawless23a": {
+        "gold": 13,
+        "matched_original": 13,
+        "matched_extended": 13
+      },
+      "E1-harkonen23a": {
+        "gold": 15,
+        "matched_original": 15,
+        "matched_extended": 15
+      },
+      "E1-yang23n": {
+        "gold": 10,
+        "matched_original": 10,
+        "matched_extended": 10
+      },
+      "E1-strimel23a": {
+        "gold": 14,
+        "matched_original": 14,
+        "matched_extended": 14
+      },
+      "E1-bhattacharjee23a": {
+        "gold": 10,
+        "matched_original": 10,
+        "matched_extended": 10
+      },
+      "E2-jeong23a": {
+        "gold": 10,
+        "matched_original": 10,
+        "matched_extended": 10
+      },
+      "E2-fabian23a": {
+        "gold": 21,
+        "matched_original": 20,
+        "matched_extended": 20
+      },
+      "E2-zhang23d": {
+        "gold": 7,
+        "matched_original": 5,
+        "matched_extended": 5
+      },
+      "T-jana23a": {
+        "gold": 7,
+        "matched_original": 1,
+        "matched_extended": 1
+      },
+      "T-filmus23a": {
+        "gold": 11,
+        "matched_original": 1,
+        "matched_extended": 1
+      },
+      "S-joss.05465": {
+        "gold": 6,
+        "matched_original": 2,
+        "matched_extended": 2
+      },
+      "S-joss.05321": {
+        "gold": 6,
+        "matched_original": 3,
+        "matched_extended": 3
+      }
+    }
+  }
+}

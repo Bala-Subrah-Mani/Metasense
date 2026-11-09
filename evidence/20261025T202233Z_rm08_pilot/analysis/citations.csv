@@ -1,0 +1,187 @@
+doc_id,criterion,indicator,line,quote_in_text,line_consistent,indicator_matches_quote,section_consistent,duplicate_of_earlier_citation,in_references_or_appendix_flag,cited_section
+E1-lawless23a,C1,aims? to\b,98,True,True,True,True,False,False,Related Work
+E1-lawless23a,C1,\bwe aim\b,198,True,True,True,True,False,False,Problem Formulation
+E1-lawless23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",634,True,True,True,True,False,False,Empirical Evaluation
+E1-lawless23a,C2,\bdata ?sets?\b,661,True,True,True,True,False,False,Approach
+E1-lawless23a,C2,\bbenchmark\b,676,True,True,True,True,False,False,Approach
+E1-lawless23a,C3,\bprocedure\b,634,True,True,True,True,True,False,Empirical Evaluation
+E1-lawless23a,C3,\bRAM\b,728,True,True,True,True,False,False,Approach
+E1-lawless23a,C3,implemented (?:in|using|with),728,True,True,True,True,True,False,Approach
+E1-lawless23a,C3,\bPython\b,728,True,True,True,True,True,False,Approach
+E1-lawless23a,C3,"\bstep \d|\bfirst,|\bsecond,",119,True,True,True,True,False,False,Related Work
+E1-lawless23a,C4,\baccuracy\b,671,True,True,True,True,False,False,Approach
+E1-lawless23a,C4,\bmetrics?\b,744,True,True,True,True,False,False,Approach
+E1-lawless23a,C5,compared (?:with|against|to)\b,14,True,True,True,True,False,False,Abstract
+E1-lawless23a,C5,state[- ]of[- ]the[- ]art,14,True,True,True,True,True,False,Abstract
+E1-lawless23a,C8,available at\b|https?://,837,True,True,True,True,False,False,On clustering and interpreting with rules by means
+E1-harkonen23a,C2,\bdata ?sets?\b,14,True,True,True,True,False,False,Abstract
+E1-harkonen23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",581,True,True,True,True,False,False,Comparison to the Literature
+E1-harkonen23a,C2,\b(?:training|test|validation) (?:set|split)\b,1699,True,True,True,True,False,False,was set to 0.01. The
+E1-harkonen23a,C3,hyper-?parameters?,33,True,True,True,True,False,False,Introduction
+E1-harkonen23a,C3,"\bstep \d|\bfirst,|\bsecond,",705,True,True,True,True,False,False,Heat equation
+E1-harkonen23a,C3,\bGPUs?\b,717,True,True,True,True,False,False,Heat equation
+E1-harkonen23a,C3,\bepochs?\b,758,True,True,True,True,False,False,2D wave equation
+E1-harkonen23a,C3,learning rate,1555,True,True,True,True,False,False,R
+E1-harkonen23a,C4,\bprecision\b,16,True,True,True,True,False,False,Abstract
+E1-harkonen23a,C4,\bF1\b|F-?score|F-measure,189,True,True,True,True,False,False,−∂1 + 3∂2
+E1-harkonen23a,C4,\brecall\b,1146,True,True,False,True,False,False,Proof of Lemma 2.1
+E1-harkonen23a,C4,\bRMSE\b|\bMAE\b|mean squared error,1553,True,True,True,True,False,False,R
+E1-harkonen23a,C5,state[- ]of[- ]the[- ]art,16,True,True,True,True,True,False,Abstract
+E1-harkonen23a,C5,compared (?:with|against|to)\b,814,True,True,True,True,False,False,Discussion
+E1-harkonen23a,C6,repeated \w+ times|\b\d+ runs\b|\b\d+ random seeds\b,796,True,True,True,True,False,False,∇ ·B = 0 ∇ ×B = ∂E
+E1-harkonen23a,C6,standard deviation,1706,True,True,True,True,False,False,was set to 0.01. The
+E1-harkonen23a,C7,\bgenerali[sz],48,True,True,True,True,False,False,Introduction
+E1-harkonen23a,C7,\blimitations?\b,60,True,True,True,True,False,False,Introduction
+E1-harkonen23a,C8,\bgithub\b|\bgitlab\b|\bzenodo\b,109,True,True,True,True,False,False,"We demonstrate high accuracy of our approach, clearly"
+E1-harkonen23a,C8,available at\b|https?://,691,True,True,True,True,False,False,Examples
+E1-yang23n,C1,aims? to\b,130,True,True,True,True,False,False,Related Work
+E1-yang23n,C1,\bwe aim\b,190,True,True,True,True,False,False,Symmetry Discovery
+E1-yang23n,C1,hypothes[ie]s,264,True,True,True,True,False,False,Z
+E1-yang23n,C2,\bdata ?sets?\b,492,True,True,True,True,False,False,N-Body Trajectory
+E1-yang23n,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",283,True,True,True,True,False,False,Parameterizing Distributions Over Lie Group
+E1-yang23n,C2,\b(?:training|test|validation) (?:set|split)\b,557,True,True,True,True,False,False,", which"
+E1-yang23n,C3,\bprocedure\b,390,True,True,True,True,False,False,Equivariant Model
+E1-yang23n,C3,"\bstep \d|\bfirst,|\bsecond,",429,True,True,True,True,False,False,Equivariant Model
+E1-yang23n,C3,\bconfiguration\b,553,True,True,True,True,False,False,", which"
+E1-yang23n,C3,hyper-?parameters?,1063,True,True,True,True,False,False,Experiment Details
+E1-yang23n,C3,learning rate,1077,True,True,True,True,False,False,Experiment Details
+E1-yang23n,C4,\baccuracy\b,487,True,True,True,True,False,False,Baselines
+E1-yang23n,C4,\bmetrics?\b,128,True,True,True,True,False,False,Related Work
+E1-yang23n,C4,\bRMSE\b|\bMAE\b|mean squared error,575,True,True,True,True,False,False,Synthetic Datasets
+E1-yang23n,C5,comparison (?:with|against),465,True,True,True,True,False,False,Baselines
+E1-yang23n,C5,\bbaselines?\b,492,True,True,True,True,True,False,N-Body Trajectory
+E1-yang23n,C5,compared (?:with|against|to)\b,670,True,True,True,True,False,False,Conclusion
+E1-yang23n,C7,\bbias(?:es|ed)?\b,6,True,True,True,True,False,False,Abstract
+E1-yang23n,C7,\bgenerali[sz],19,True,True,True,True,False,False,Abstract
+E1-yang23n,C7,\blimitations?\b,44,True,True,True,True,False,False,Introduction
+E1-yang23n,C8,\bgithub\b|\bgitlab\b|\bzenodo\b,21,True,True,True,True,False,False,Abstract
+E1-yang23n,C8,code (?:is|are|will be) (?:publicly )?available,21,True,True,True,True,True,False,Abstract
+E1-yang23n,C8,available at\b|https?://,21,True,True,True,True,True,False,Abstract
+E1-strimel23a,C1,hypothes[ie]s,422,True,True,True,True,False,False,X
+E1-strimel23a,C2,\bdata ?sets?\b,20,True,True,True,True,False,False,Abstract
+E1-strimel23a,C2,\bcorpus\b,564,True,True,True,True,False,False,LibriSpeech Experimental Setup
+E1-strimel23a,C2,\bcollected from\b,564,True,True,True,True,True,False,LibriSpeech Experimental Setup
+E1-strimel23a,C2,\b(?:training|test|validation) (?:set|split)\b,614,True,True,True,True,False,False,Algorithmic Latency Results
+E1-strimel23a,C3,\bhardware\b,100,True,True,False,True,False,False,Related Work
+E1-strimel23a,C3,hyper-?parameters?,576,True,True,False,True,False,False,"stacked blocks, one-layer 640-unit LSTM prediction"
+E1-strimel23a,C3,\bepochs?\b,576,True,True,True,True,True,False,"stacked blocks, one-layer 640-unit LSTM prediction"
+E1-strimel23a,C3,\bconfiguration\b,952,True,True,True,True,False,False,Voice Assistant Data
+E1-strimel23a,C3,"\bstep \d|\bfirst,|\bsecond,",1066,True,True,True,True,False,False,Training Characteristics
+E1-strimel23a,C4,\blatency\b|\bthroughput\b|response time,5,True,True,True,True,False,False,Abstract
+E1-strimel23a,C4,\baccuracy\b,8,True,True,True,True,False,False,Abstract
+E1-strimel23a,C4,\bmetrics?\b,128,True,True,True,True,False,False,Related Work
+E1-strimel23a,C4,\brecall\b,350,True,True,True,True,False,False,Algorithmic Latency
+E1-strimel23a,C5,\bbaselines?\b,304,True,True,True,True,False,False,X
+E1-strimel23a,C5,compared (?:with|against|to)\b,630,True,True,True,True,False,False,Algorithmic Latency Results
+E1-strimel23a,C7,\blimitations?\b,11,True,True,True,True,False,False,Abstract
+E1-bhattacharjee23a,C1,hypothes[ie]s,436,True,True,True,True,False,False,Distributions with Manifold Support
+E1-bhattacharjee23a,C1,aims? to\b,1144,True,True,True,True,False,False,+ φ
+E1-bhattacharjee23a,C2,\bdata ?sets?\b,31,True,True,True,True,False,False,Introduction
+E1-bhattacharjee23a,C2,\b(?:training|test|validation) (?:set|split)\b,31,True,True,True,True,True,False,Introduction
+E1-bhattacharjee23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",817,True,True,True,True,False,False,An Example over the Halfmoons dataset
+E1-bhattacharjee23a,C3,"\bstep \d|\bfirst,|\bsecond,",476,True,True,True,True,False,False,"Return |T∩B(x,r)|"
+E1-bhattacharjee23a,C4,\brecall\b,207,True,True,True,True,False,False,Examples of data-copying
+E1-bhattacharjee23a,C4,\baccuracy\b,709,True,True,True,True,False,False,doi: 10.1145/3447548.3467198. URL https
+E1-bhattacharjee23a,C4,\bprecision\b,754,True,True,True,True,False,False,The secret sharer: Evaluating and testing unintended
+E1-bhattacharjee23a,C4,\bmetrics?\b,779,True,True,True,True,False,False,URL https://doi.org/10.1109/
+E1-bhattacharjee23a,C5,\bbaselines?\b,842,True,True,True,True,False,False,An Example over the Halfmoons dataset
+E1-bhattacharjee23a,C5,comparison (?:with|against),916,True,True,True,True,False,False,We set λ= 20 and γ = 1
+E1-bhattacharjee23a,C6,statistical(?:ly)? significan,614,True,True,True,True,False,False,Applying Algorithm 2 to Halfmoons
+E1-bhattacharjee23a,C6,\bp\s?[<=]\s?0?\.\d,847,True,True,True,True,False,False,An Example over the Halfmoons dataset
+E1-bhattacharjee23a,C6,p-values?,900,True,True,True,True,False,False,"Reflecting this, let Z = ∆−n2"
+E1-bhattacharjee23a,C6,repeated \w+ times|\b\d+ runs\b|\b\d+ random seeds\b,923,True,True,True,True,False,False,We set λ= 20 and γ = 1
+E1-bhattacharjee23a,C7,\bgenerali[sz],114,True,True,True,True,False,False,Related Work
+E1-bhattacharjee23a,C7,\blimitations?\b,687,True,True,True,True,False,False,Conclusion
+E1-bhattacharjee23a,C8,available at\b|https?://,711,True,True,True,True,False,False,doi: 10.1145/3447548.3467198. URL https
+E2-jeong23a,C2,\bdata ?sets?\b,740,True,True,True,True,False,False,EXPERIMENTS
+E2-jeong23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",763,True,True,True,True,False,False,Simulation Data
+E2-jeong23a,C2,\b(?:training|test|validation) (?:set|split)\b,879,True,True,True,True,False,False,10 20 30 40
+E2-jeong23a,C2,\bcollected from\b,1019,True,True,True,True,False,False,COVID-19 S TOCK ENERGY AIRQUALITY
+E2-jeong23a,C3,hyper-?parameters?,743,True,True,True,True,False,False,EXPERIMENTS
+E2-jeong23a,C3,learning rate,748,True,True,True,True,False,False,EXPERIMENTS
+E2-jeong23a,C3,\bCPUs?\b,757,True,True,True,True,False,False,EXPERIMENTS
+E2-jeong23a,C3,\bRAM\b,757,True,True,True,True,True,False,EXPERIMENTS
+E2-jeong23a,C3,"\bstep \d|\bfirst,|\bsecond,",392,True,True,True,True,False,False,", . . . ,h(1:T)"
+E2-jeong23a,C4,\bRMSE\b|\bMAE\b|mean squared error,757,True,True,True,True,True,False,EXPERIMENTS
+E2-jeong23a,C4,\baccuracy\b,763,True,True,True,True,True,False,Simulation Data
+E2-jeong23a,C4,\bprecision\b,424,True,True,False,True,False,False,LY
+E2-jeong23a,C5,compared (?:with|against|to)\b,63,True,True,True,True,False,False,INTRODUCTION
+E2-jeong23a,C5,\bbaselines?\b,740,True,True,True,True,True,False,EXPERIMENTS
+E2-jeong23a,C6,cross-validation|cross validation,786,True,True,True,True,False,False,"kernels, whose signal variances"
+E2-jeong23a,C7,\bgenerali[sz],79,True,True,True,True,False,False,BACKGROUND
+E2-jeong23a,C7,\blimitations?\b,1053,True,True,True,True,False,False,DISCUSSION AND CONCLUSION
+E2-jeong23a,C8,available at\b|https?://,993,True,True,True,True,False,False,"kernels, whose signal variances and lengthscales"
+E2-jeong23a,C8,\bgithub\b|\bgitlab\b|\bzenodo\b,1698,True,True,True,True,False,False,D SOFTWARE
+E2-fabian23a,C1,aims? to\b,61,True,True,True,True,False,False,INTRODUCTION
+E2-fabian23a,C2,\bdata ?sets?\b,295,True,True,True,True,False,False,MODEL
+E2-fabian23a,C2,\blicen[cs]e,2583,True,True,True,True,False,False,I DETAILS ON LEARNING LPGMFGS
+E2-fabian23a,C3,hyper-?parameters?,644,True,True,True,True,False,False,EXPERIMENTS
+E2-fabian23a,C3,"\bstep \d|\bfirst,|\bsecond,",555,True,True,True,True,False,False,LEARNING LPGMFGS
+E2-fabian23a,C3,\bRAM\b,2587,True,True,True,True,False,False,I DETAILS ON LEARNING LPGMFGS
+E2-fabian23a,C3,\bGPUs?\b,2588,True,True,True,True,False,False,I DETAILS ON LEARNING LPGMFGS
+E2-fabian23a,C4,\baccuracy\b,20,True,True,True,True,False,False,Abstract
+E2-fabian23a,C4,\brecall\b,3027,True,True,True,True,False,False,K PROOF OF LEMMA 6
+E2-fabian23a,C5,compared (?:with|against|to)\b,453,True,True,True,True,False,False,≡ µ0. The second map Φ: M→
+E2-fabian23a,C6,confidence intervals?,935,True,True,True,True,False,False,R
+E2-fabian23a,C7,\bgenerali[sz],1221,True,True,True,True,False,False,IEEE 58th Conference on Decision and Control
+E2-zhang23d,C1,hypothes[ie]s,126,True,True,True,True,False,False,Related work
+E2-zhang23d,C2,\bdata ?sets?\b,65,True,True,False,True,False,False,INTRODUCTION
+E2-zhang23d,C2,\b(?:training|test|validation) (?:set|split)\b,96,True,True,True,True,False,False,INTRODUCTION
+E2-zhang23d,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",428,True,True,True,True,False,False,W = ˜WΠ⊥
+E2-zhang23d,C3,\bprocedure\b,54,True,True,True,True,False,False,INTRODUCTION
+E2-zhang23d,C3,learning rate,103,True,True,True,True,False,False,INTRODUCTION
+E2-zhang23d,C3,"\bstep \d|\bfirst,|\bsecond,",562,True,True,True,True,False,False,= O( 1√
+E2-zhang23d,C3,\bepochs?\b,583,True,True,True,True,False,False,General Setup of Experiments
+E2-zhang23d,C3,\bGPUs?\b,592,True,True,True,True,False,False,General Setup of Experiments
+E2-zhang23d,C4,\baccuracy\b,29,True,True,True,True,False,False,INTRODUCTION
+E2-zhang23d,C5,compared (?:with|against|to)\b,453,True,True,True,True,False,False,W = ˜WΠ⊥
+E2-zhang23d,C7,\bgenerali[sz],96,True,True,True,True,True,False,INTRODUCTION
+E2-zhang23d,C7,\blimitations?\b,750,True,True,True,True,False,False,CONCLUSION AND LIMITATION
+T-jana23a,C1,\bwe aim\b,404,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-jana23a,C1,aims? to\b,404,True,True,True,True,True,False,JANA POLYANSKIY TEH WU
+T-jana23a,C1,hypothes[ie]s,857,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-jana23a,C2,\b(?:training|test|validation) (?:set|split)\b,88,True,True,True,True,False,False,Q
+T-jana23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",1482,True,True,True,True,False,False,Z ∞
+T-jana23a,C3,\bprocedure\b,284,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-jana23a,C3,implemented (?:in|using|with),333,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-jana23a,C3,"\bstep \d|\bfirst,|\bsecond,",1768,True,True,True,True,False,False,||1
+T-jana23a,C4,\bF1\b|F-?score|F-measure,261,True,True,True,True,False,False,− E
+T-jana23a,C4,\brecall\b,454,True,True,True,True,False,False,+ argminbi−1≤i∗≤n
+T-jana23a,C5,compared (?:with|against|to)\b,323,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-jana23a,C5,comparison (?:with|against),356,True,True,True,True,False,False,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM
+T-jana23a,C7,\bgenerali[sz],616,True,True,True,True,False,False,"1, . . . , X′"
+T-jana23a,C8,available at\b|https?://,842,True,True,True,True,False,False,JANA POLYANSKIY TEH WU
+T-filmus23a,C1,hypothes[ie]s,93,True,True,True,True,False,False,Realizable Case
+T-filmus23a,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",3124,True,True,True,True,False,False,∞X
+T-filmus23a,C3,learning rate,149,True,True,True,True,False,False,Agnostic Case
+T-filmus23a,C3,\bprocedure\b,457,True,True,True,True,False,False,M⋆
+T-filmus23a,C3,"\bstep \d|\bfirst,|\bsecond,",595,True,True,True,True,False,False,Prediction using Expert Advice
+T-filmus23a,C4,\brecall\b,514,True,True,True,True,False,False,RL(H) = 1
+T-filmus23a,C5,state[- ]of[- ]the[- ]art,3158,True,True,True,True,False,False,M⋆
+T-filmus23a,C7,\bgenerali[sz],155,True,True,True,True,False,False,Agnostic Case
+T-filmus23a,C7,\blimitations?\b,474,True,True,True,True,False,False,FILMUS HANNEKE MEHALEL MORAN
+T-filmus23a,C8,available at\b|https?://,659,True,True,True,True,False,False,FILMUS HANNEKE MEHALEL MORAN
+S-joss.05465,C1,aims? to\b,66,True,True,True,True,False,False,Summary
+S-joss.05465,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",1,True,True,False,True,False,False,(front matter)
+S-joss.05465,C2,\blicen[cs]e,1,True,True,False,True,True,False,(front matter)
+S-joss.05465,C2,\bdata ?sets?\b,36,True,True,True,True,False,False,Summary
+S-joss.05465,C2,\bbenchmark\b,311,True,True,True,True,False,False,Estimate exposure response function
+S-joss.05465,C3,hyper-?parameters?,33,True,True,True,True,False,False,Summary
+S-joss.05465,C4,\baccuracy\b,39,True,True,True,True,False,False,Summary
+S-joss.05465,C6,standard deviation,135,True,True,True,True,False,False,Overview
+S-joss.05465,C6,repeated \w+ times|\b\d+ runs\b|\b\d+ random seeds\b,325,True,True,True,True,False,False,Estimate exposure response function
+S-joss.05465,C7,\bbias(?:es|ed)?\b,82,True,True,True,True,False,False,Overview
+S-joss.05465,C7,\bgenerali[sz],84,True,True,True,True,False,False,Overview
+S-joss.05465,C7,\blimitations?\b,227,True,True,True,True,False,False,Estimate exposure response function
+S-joss.05465,C8,available at\b|https?://,58,True,True,True,True,False,False,Summary
+S-joss.05465,C8,\bgithub\b|\bgitlab\b|\bzenodo\b,346,True,True,True,True,False,False,Estimate exposure response function
+S-joss.05321,C1,research question,169,True,True,True,True,False,False,Summary
+S-joss.05321,C2,"\b\d[\d,]*\s+(?:[\w-]+\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\b",1,True,True,False,True,False,False,(front matter)
+S-joss.05321,C2,\blicen[cs]e,1,True,True,False,True,True,False,(front matter)
+S-joss.05321,C2,\bdata ?sets?\b,152,True,True,True,True,False,False,Summary
+S-joss.05321,C2,\bbenchmark\b,152,True,True,True,True,True,False,Summary
+S-joss.05321,C3,\bPython\b,1,True,True,True,True,True,False,(front matter)
+S-joss.05321,C3,\bhardware\b,67,True,True,True,True,False,False,Summary
+S-joss.05321,C4,\bprecision\b,67,True,True,True,True,True,False,Summary
+S-joss.05321,C8,available at\b|https?://,51,True,True,True,True,False,False,Summary
+S-joss.05321,C8,\bgithub\b|\bgitlab\b|\bzenodo\b,123,True,True,False,True,False,False,Summary

@@ -1,0 +1,13 @@
+doc_id,g2_label,g2_main_sections,g2_supporting_sections,rationale,labelled_by,student_verified
+E1-lawless23a,yes,Numerical Results,Implementation Details,"Experiments on UCI clustering datasets with accuracy tables",AI-drafted (Claude) from headings and section text,PENDING
+E1-harkonen23a,yes,Examples,"Details on the heat equation; Details about the wave equation; Details about Maxwell's equation","'Examples' demonstrates S-EPGP on three PDE systems with experimental details in appendices",AI-drafted (Claude) from headings and section text,PENDING
+E1-yang23n,yes,Experiments,"Experiment Details; Additional Experiments",Conventional experiments section,AI-drafted (Claude) from headings,PENDING
+E1-strimel23a,yes,Experimental Results,"Voice Assistant Data; Training Configuration Specifics","Setup, data and results reported under 'Experimental Results'",AI-drafted (Claude) from headings,PENDING
+E1-bhattacharjee23a,ambiguous,An Example over the Halfmoons dataset,Estimating k,"Theoretical contribution; the only empirical study is an appendix illustration",AI-drafted (Claude) from headings and section text,PENDING
+E2-jeong23a,yes,EXPERIMENTS,ADDITIONAL EXPERIMENTAL DETAILS,Conventional experiments section,AI-drafted (Claude) from headings,PENDING
+E2-fabian23a,yes,EXPERIMENTS,"PROBLEM DETAILS; DETAILS ON LEARNING LPGMFGS",Conventional experiments section plus appendix details,AI-drafted (Claude) from headings,PENDING
+E2-zhang23d,yes,VERIFY LINEAR SEPARABILITY OF ADVERSARIAL NOISES IN PRACTICE,More Experiments,"Empirical verification section with non-conventional heading",AI-drafted (Claude) from headings and section text,PENDING
+T-jana23a,no,,,"Theory paper; a small simulation appears inside the introduction, not as a methodology section",AI-drafted (Claude) from outline and full-text search,PENDING
+T-filmus23a,no,,,Theory paper; no empirical study,AI-drafted (Claude) from outline and full-text search,PENDING
+S-joss.05465,ambiguous,Performance analyses of standard and nearest neighbor GP models,,"Software paper with a wall-clock benchmark section",AI-drafted (Claude) from JATS and section text,PENDING
+S-joss.05321,no,,,Software paper; no empirical study,AI-drafted (Claude) from JATS,PENDING

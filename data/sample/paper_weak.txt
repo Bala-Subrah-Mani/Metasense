@@ -1,0 +1,16 @@
+Improving Code Review Efficiency With Machine Learning
+
+Abstract
+Code review is an important practice. This synthetic sample paper was written for MetaSense pipeline validation; it is not a real publication.
+
+1. Introduction
+Code review takes a lot of developer time. In this paper we show that machine learning can make reviews faster and better.
+
+2. Methods
+We used various open-source projects and applied several methods to the review comments. The model was trained with standard settings and appropriate parameters. Some data was removed because it was not useful. The approach worked well in our experience.
+
+3. Results
+The approach performed very well and was better than existing tools. Developers liked the results.
+
+4. Conclusion
+Machine learning is a promising direction for code review, and future work will extend the approach to more projects.

@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "high": 1,
+    "medium": 1,
+    "low": 0
+  },
+  "findings": [
+    {
+      "check": "A7",
+      "severity": "medium",
+      "item": "working tree",
+      "detail": "1 uncommitted change(s)"
+    },
+    {
+      "check": "A7",
+      "severity": "high",
+      "item": "tag v0.2.1",
+      "detail": "tag contains a build/ directory (stale-install risk, D-09)"
+    }
+  ]
+}

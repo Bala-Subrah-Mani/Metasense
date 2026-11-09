@@ -1,0 +1,9 @@
+# Rejected type: unsupported_format.rtf
+# captured_utc: 2026-10-19T10:16:51+00:00
+$ metasense analyze data/sample/unsupported_format.rtf
+--- stdout ---
+MetaSense 0.2.0  run 811fd5053480  input unsupported_format.rtf
+REJECTED at stage 'validate': [E_UNSUPPORTED_TYPE] Unsupported file type '.rtf'. Supported types: .docx, .md, .pdf, .txt.
+--- stderr ---
+
+--- exit code: 1   duration: 0.09s ---

@@ -1,0 +1,20 @@
+{
+  "project_name": "MetaSense",
+  "environment": "local-development",
+  "required_fields": [
+    "project_name",
+    "environment"
+  ],
+  "directories_to_check": [
+    "src",
+    "tests",
+    "docs"
+  ],
+  "optional_directories": [
+    "data",
+    "reports",
+    "logs",
+    "evidence"
+  ],
+  "strict_optional_directories": false
+}

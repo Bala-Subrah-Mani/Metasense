@@ -1,0 +1,154 @@
+# pytest (unit + integration + smoke)
+# captured_utc: 2026-10-19T10:18:24+00:00
+$ python -m pytest -v -rA
+--- stdout ---
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-8.3.3, pluggy-1.7.0 -- /home/claude/Metasense/.validation-venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/claude/Metasense
+configfile: pyproject.toml
+testpaths: tests
+collecting ... collected 67 items
+
+tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.txt] PASSED [  1%]
+tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.pdf] PASSED [  2%]
+tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.docx] PASSED [  4%]
+tests/integration/test_workflow.py::test_formats_agree PASSED            [  5%]
+tests/integration/test_workflow.py::test_weak_paper_scores_lower_than_complete PASSED [  7%]
+tests/integration/test_workflow.py::test_missing_heading_is_reported PASSED [  8%]
+tests/integration/test_workflow.py::test_rejections_return_structured_error[empty.txt-E_EMPTY] PASSED [ 10%]
+tests/integration/test_workflow.py::test_rejections_return_structured_error[unsupported_format.rtf-E_UNSUPPORTED_TYPE] PASSED [ 11%]
+tests/integration/test_workflow.py::test_repeated_runs_are_deterministic PASSED [ 13%]
+tests/integration/test_workflow.py::test_reports_written PASSED          [ 14%]
+tests/integration/test_workflow.py::test_cli_exit_codes PASSED           [ 16%]
+tests/integration/test_workflow.py::test_d01_open_source_data_is_not_artifact_availability PASSED [ 17%]
+tests/integration/test_workflow.py::test_d04_count_with_intervening_words_counts_as_dataset_size PASSED [ 19%]
+tests/smoke/test_startup.py::test_package_imports PASSED                 [ 20%]
+tests/smoke/test_startup.py::test_cli_version_runs_as_module PASSED      [ 22%]
+tests/smoke/test_startup.py::test_rubric_config_loads PASSED             [ 23%]
+tests/unit/test_assessment.py::test_dataset_present_with_two_indicators_in_methodology PASSED [ 25%]
+tests/unit/test_assessment.py::test_methodology_scoped_indicator_outside_scope_is_weak PASSED [ 26%]
+tests/unit/test_assessment.py::test_missing_criterion_scores_zero PASSED [ 28%]
+tests/unit/test_assessment.py::test_references_section_is_ignored PASSED [ 29%]
+tests/unit/test_assessment.py::test_overall_score_bounds PASSED          [ 31%]
+tests/unit/test_assessment.py::test_every_criterion_has_an_explanation PASSED [ 32%]
+tests/unit/test_assessment.py::test_vague_language_and_missing_critical_are_flagged PASSED [ 34%]
+tests/unit/test_document_processor.py::test_normalize_joins_hyphenated_line_breaks_and_ligatures PASSED [ 35%]
+tests/unit/test_document_processor.py::test_normalize_collapses_whitespace_but_keeps_paragraphs PASSED [ 37%]
+tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.txt-plain-text] PASSED [ 38%]
+tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.pdf-pypdf] PASSED [ 40%]
+tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.docx-python-docx] PASSED [ 41%]
+tests/unit/test_document_processor.py::test_short_document_produces_warning PASSED [ 43%]
+tests/unit/test_section_detector.py::test_classify_heading[Methodology-methodology] PASSED [ 44%]
+tests/unit/test_section_detector.py::test_classify_heading[Methods-methodology] PASSED [ 46%]
+tests/unit/test_section_detector.py::test_classify_heading[Research Design-methodology] PASSED [ 47%]
+tests/unit/test_section_detector.py::test_classify_heading[Experimental Setup-methodology] PASSED [ 49%]
+tests/unit/test_section_detector.py::test_classify_heading[Experiments-experiments] PASSED [ 50%]
+tests/unit/test_section_detector.py::test_classify_heading[Related Work-related_work] PASSED [ 52%]
+tests/unit/test_section_detector.py::test_classify_heading[Threats to Validity-threats_to_validity] PASSED [ 53%]
+tests/unit/test_section_detector.py::test_classify_heading[Proposed Framework-unknown] PASSED [ 55%]
+tests/unit/test_section_detector.py::test_heading_styles_are_detected[3. Methodology] PASSED [ 56%]
+tests/unit/test_section_detector.py::test_heading_styles_are_detected[III. METHODOLOGY] PASSED [ 58%]
+tests/unit/test_section_detector.py::test_heading_styles_are_detected[## Methodology] PASSED [ 59%]
+tests/unit/test_section_detector.py::test_heading_styles_are_detected[METHODOLOGY] PASSED [ 61%]
+tests/unit/test_section_detector.py::test_heading_styles_are_detected[3 Methodology] PASSED [ 62%]
+tests/unit/test_section_detector.py::test_subsections_inherit_parent_label PASSED [ 64%]
+tests/unit/test_section_detector.py::test_unknown_top_level_heading_is_reported PASSED [ 65%]
+tests/unit/test_section_detector.py::test_numbered_sentence_is_not_a_heading PASSED [ 67%]
+tests/unit/test_section_detector.py::test_line_ranges_are_contiguous PASSED [ 68%]
+tests/unit/test_section_detector.py::test_d03_heading_without_blank_line_is_detected PASSED [ 70%]
+tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_missing_project_name_is_rejected PASSED [ 71%]
+tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_non_object_is_rejected PASSED [ 73%]
+tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_valid_config_has_no_errors PASSED [ 74%]
+tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_missing_optional_directory_warns_by_default PASSED [ 76%]
+tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_missing_required_directory_fails PASSED [ 77%]
+tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_required_existing_directory_passes PASSED [ 79%]
+tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_strict_optional_directory_fails PASSED [ 80%]
+tests/unit/test_toolchain_config.py::EngineTests::test_invalid_json_raises_clear_error PASSED [ 82%]
+tests/unit/test_toolchain_config.py::EngineTests::test_load_config_reads_valid_json PASSED [ 83%]
+tests/unit/test_toolchain_config.py::EngineTests::test_missing_config_raises_clear_error PASSED [ 85%]
+tests/unit/test_toolchain_config.py::EngineTests::test_report_has_summary_and_status PASSED [ 86%]
+tests/unit/test_validation.py::test_valid_text_file_is_accepted PASSED   [ 88%]
+tests/unit/test_validation.py::test_binary_formats_are_accepted[paper_complete.pdf-pdf] PASSED [ 89%]
+tests/unit/test_validation.py::test_binary_formats_are_accepted[paper_complete.docx-docx] PASSED [ 91%]
+tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[empty.txt-E_EMPTY] PASSED [ 92%]
+tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[unsupported_format.rtf-E_UNSUPPORTED_TYPE] PASSED [ 94%]
+tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[renamed_text.pdf-E_CORRUPT] PASSED [ 95%]
+tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[does_not_exist.txt-E_NOT_FOUND] PASSED [ 97%]
+tests/unit/test_validation.py::test_size_limit_is_enforced PASSED        [ 98%]
+tests/unit/test_validation.py::test_directory_is_rejected PASSED         [100%]
+
+==================================== PASSES ====================================
+- generated xml file: /home/claude/Metasense/evidence/20261019T101812Z_run2_retest/T08_junit.xml -
+=========================== short test summary info ============================
+PASSED tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.txt]
+PASSED tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.pdf]
+PASSED tests/integration/test_workflow.py::test_complete_paper_end_to_end[paper_complete.docx]
+PASSED tests/integration/test_workflow.py::test_formats_agree
+PASSED tests/integration/test_workflow.py::test_weak_paper_scores_lower_than_complete
+PASSED tests/integration/test_workflow.py::test_missing_heading_is_reported
+PASSED tests/integration/test_workflow.py::test_rejections_return_structured_error[empty.txt-E_EMPTY]
+PASSED tests/integration/test_workflow.py::test_rejections_return_structured_error[unsupported_format.rtf-E_UNSUPPORTED_TYPE]
+PASSED tests/integration/test_workflow.py::test_repeated_runs_are_deterministic
+PASSED tests/integration/test_workflow.py::test_reports_written
+PASSED tests/integration/test_workflow.py::test_cli_exit_codes
+PASSED tests/integration/test_workflow.py::test_d01_open_source_data_is_not_artifact_availability
+PASSED tests/integration/test_workflow.py::test_d04_count_with_intervening_words_counts_as_dataset_size
+PASSED tests/smoke/test_startup.py::test_package_imports
+PASSED tests/smoke/test_startup.py::test_cli_version_runs_as_module
+PASSED tests/smoke/test_startup.py::test_rubric_config_loads
+PASSED tests/unit/test_assessment.py::test_dataset_present_with_two_indicators_in_methodology
+PASSED tests/unit/test_assessment.py::test_methodology_scoped_indicator_outside_scope_is_weak
+PASSED tests/unit/test_assessment.py::test_missing_criterion_scores_zero
+PASSED tests/unit/test_assessment.py::test_references_section_is_ignored
+PASSED tests/unit/test_assessment.py::test_overall_score_bounds
+PASSED tests/unit/test_assessment.py::test_every_criterion_has_an_explanation
+PASSED tests/unit/test_assessment.py::test_vague_language_and_missing_critical_are_flagged
+PASSED tests/unit/test_document_processor.py::test_normalize_joins_hyphenated_line_breaks_and_ligatures
+PASSED tests/unit/test_document_processor.py::test_normalize_collapses_whitespace_but_keeps_paragraphs
+PASSED tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.txt-plain-text]
+PASSED tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.pdf-pypdf]
+PASSED tests/unit/test_document_processor.py::test_all_formats_extract_same_word_count[paper_complete.docx-python-docx]
+PASSED tests/unit/test_document_processor.py::test_short_document_produces_warning
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Methodology-methodology]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Methods-methodology]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Research Design-methodology]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Experimental Setup-methodology]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Experiments-experiments]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Related Work-related_work]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Threats to Validity-threats_to_validity]
+PASSED tests/unit/test_section_detector.py::test_classify_heading[Proposed Framework-unknown]
+PASSED tests/unit/test_section_detector.py::test_heading_styles_are_detected[3. Methodology]
+PASSED tests/unit/test_section_detector.py::test_heading_styles_are_detected[III. METHODOLOGY]
+PASSED tests/unit/test_section_detector.py::test_heading_styles_are_detected[## Methodology]
+PASSED tests/unit/test_section_detector.py::test_heading_styles_are_detected[METHODOLOGY]
+PASSED tests/unit/test_section_detector.py::test_heading_styles_are_detected[3 Methodology]
+PASSED tests/unit/test_section_detector.py::test_subsections_inherit_parent_label
+PASSED tests/unit/test_section_detector.py::test_unknown_top_level_heading_is_reported
+PASSED tests/unit/test_section_detector.py::test_numbered_sentence_is_not_a_heading
+PASSED tests/unit/test_section_detector.py::test_line_ranges_are_contiguous
+PASSED tests/unit/test_section_detector.py::test_d03_heading_without_blank_line_is_detected
+PASSED tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_missing_project_name_is_rejected
+PASSED tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_non_object_is_rejected
+PASSED tests/unit/test_toolchain_checks.py::ValidateConfigTests::test_valid_config_has_no_errors
+PASSED tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_missing_optional_directory_warns_by_default
+PASSED tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_missing_required_directory_fails
+PASSED tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_required_existing_directory_passes
+PASSED tests/unit/test_toolchain_checks.py::DirectoryCheckTests::test_strict_optional_directory_fails
+PASSED tests/unit/test_toolchain_config.py::EngineTests::test_invalid_json_raises_clear_error
+PASSED tests/unit/test_toolchain_config.py::EngineTests::test_load_config_reads_valid_json
+PASSED tests/unit/test_toolchain_config.py::EngineTests::test_missing_config_raises_clear_error
+PASSED tests/unit/test_toolchain_config.py::EngineTests::test_report_has_summary_and_status
+PASSED tests/unit/test_validation.py::test_valid_text_file_is_accepted
+PASSED tests/unit/test_validation.py::test_binary_formats_are_accepted[paper_complete.pdf-pdf]
+PASSED tests/unit/test_validation.py::test_binary_formats_are_accepted[paper_complete.docx-docx]
+PASSED tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[empty.txt-E_EMPTY]
+PASSED tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[unsupported_format.rtf-E_UNSUPPORTED_TYPE]
+PASSED tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[renamed_text.pdf-E_CORRUPT]
+PASSED tests/unit/test_validation.py::test_bad_inputs_are_rejected_with_code[does_not_exist.txt-E_NOT_FOUND]
+PASSED tests/unit/test_validation.py::test_size_limit_is_enforced
+PASSED tests/unit/test_validation.py::test_directory_is_rejected
+============================== 67 passed in 0.44s ==============================
+--- stderr ---
+
+--- exit code: 0   duration: 0.72s ---

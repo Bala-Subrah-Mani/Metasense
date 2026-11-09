@@ -1,0 +1,9 @@
+# Empty input
+# captured_utc: 2026-11-02T18:13:58+00:00
+$ metasense analyze data/sample/empty.txt
+--- stdout ---
+MetaSense 0.2.3  run 034acf3fc196  input empty.txt
+REJECTED at stage 'validate': [E_EMPTY] Input file is empty (0 bytes): empty.txt
+--- stderr ---
+
+--- exit code: 1   duration: 0.13s ---

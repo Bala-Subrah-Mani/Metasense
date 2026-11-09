@@ -1,0 +1,1662 @@
+doc_id,stratum,line,raw_line,detected_heading,rule_fired,cause
+E1-lawless23a,E1,262,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,264,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,267,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,271,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,275,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,278,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,280,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,283,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,344,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,347,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,350,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,377,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,382,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,386,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,389,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,406,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,414,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,461,P,P,all_caps,math_or_symbol
+E1-lawless23a,E1,463,1 ((x /∈ Pk) ∨ (x ∈S,((x /∈ Pk) ∨ (x ∈S,numbered,math_or_symbol
+E1-lawless23a,E1,474,PK,PK,all_caps,math_or_symbol
+E1-lawless23a,E1,476,P,P,all_caps,math_or_symbol
+E1-lawless23a,E1,482,P∗,P∗,all_caps,math_or_symbol
+E1-lawless23a,E1,494,COST (P∗,COST (P∗,all_caps,other_caps
+E1-lawless23a,E1,518,COST (P∗,COST (P∗,all_caps,other_caps
+E1-lawless23a,E1,572,H+,H+,all_caps,math_or_symbol
+E1-lawless23a,E1,579,G) >,G) >,all_caps,math_or_symbol
+E1-lawless23a,E1,583,G ) >,G ) >,all_caps,math_or_symbol
+E1-lawless23a,E1,587,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,589,G,G,all_caps,math_or_symbol
+E1-lawless23a,E1,592,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,594,G,G,all_caps,math_or_symbol
+E1-lawless23a,E1,596,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,638,"50 instances, and 5 random sub-samples. Figure 3 shows","instances, and 5 random sub-samples. Figure 3 shows",numbered,numbered_prose
+E1-lawless23a,E1,647,400 600 800 1000 1200 1400 1600,600 800 1000 1200 1400 1600,numbered,math_or_symbol
+E1-lawless23a,E1,658,Approach,Approach,title_case,other
+E1-lawless23a,E1,785,CART,CART,all_caps,other_caps
+E1-lawless23a,E1,786,IMM,IMM,all_caps,math_or_symbol
+E1-lawless23a,E1,831,D. On clustering and interpreting with rules by means,On clustering and interpreting with rules by means,numbered,numbered_prose
+E1-lawless23a,E1,1040,G) ≤,G) ≤,all_caps,math_or_symbol
+E1-lawless23a,E1,1044,COST G(P∗) ≥ COST (P∗,COST G(P∗) ≥ COST (P∗,all_caps,math_or_symbol
+E1-lawless23a,E1,1045,G) ≥ COST (P∗),G) ≥ COST (P∗),all_caps,math_or_symbol
+E1-lawless23a,E1,1076,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,1085,X,X,all_caps,math_or_symbol
+E1-lawless23a,E1,1213,4 show the pareto curves for accuracy versus complexity,show the pareto curves for accuracy versus complexity,numbered,numbered_prose
+E1-lawless23a,E1,1254,LC-PDP,LC-PDP,all_caps,other_caps
+E1-lawless23a,E1,1255,CART,CART,all_caps,other_caps
+E1-lawless23a,E1,1256,IMM,IMM,all_caps,math_or_symbol
+E1-harkonen23a,E1,83,1. We vastly generalize previously isolated methods to,We vastly generalize previously isolated methods to,numbered,numbered_prose
+E1-harkonen23a,E1,92,"3. We demonstrate our approach on various PDE systems,","We demonstrate our approach on various PDE systems,",numbered,numbered_prose
+E1-harkonen23a,E1,97,"4. We demonstrate high accuracy of our approach, clearly","We demonstrate high accuracy of our approach, clearly",numbered,numbered_prose
+E1-harkonen23a,E1,176,1 ··· ∂αn,··· ∂αn,numbered,math_or_symbol
+E1-harkonen23a,E1,179,1 ···∂xαnn,···∂xαnn,numbered,math_or_symbol
+E1-harkonen23a,E1,188,0 −∂1 + 3∂2,−∂1 + 3∂2,numbered,math_or_symbol
+E1-harkonen23a,E1,206,A = [ ∂2,A = [ ∂2,all_caps,math_or_symbol
+E1-harkonen23a,E1,227,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,271,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,273,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,282,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,285,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,303,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,306,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,308,P,P,all_caps,math_or_symbol
+E1-harkonen23a,E1,316,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,324,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,326,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,330,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,351,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,355,2 dL(z),dL(z),numbered,math_or_symbol
+E1-harkonen23a,E1,372,"2 , in which case",", in which case",numbered,numbered_prose
+E1-harkonen23a,E1,375,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,379,2 dL(z),dL(z),numbered,math_or_symbol
+E1-harkonen23a,E1,385,1 + 2(t + t′),+ 2(t + t′),numbered,math_or_symbol
+E1-harkonen23a,E1,401,1 − z2,− z2,numbered,math_or_symbol
+E1-harkonen23a,E1,406,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,419,2 dL(z),dL(z),numbered,math_or_symbol
+E1-harkonen23a,E1,425,2 + e−((x−t)−(x′+t′))2,+ e−((x−t)−(x′+t′))2,numbered,math_or_symbol
+E1-harkonen23a,E1,426,2 +,+,numbered,math_or_symbol
+E1-harkonen23a,E1,428,2 + e−((x+t)−(x′+t′))2,+ e−((x+t)−(x′+t′))2,numbered,math_or_symbol
+E1-harkonen23a,E1,436,2 + e−((x−t)−(x′−t′))2,+ e−((x−t)−(x′−t′))2,numbered,math_or_symbol
+E1-harkonen23a,E1,437,"2 ,",",",numbered,math_or_symbol
+E1-harkonen23a,E1,440,2 ). This is kernel in fact,). This is kernel in fact,numbered,numbered_prose
+E1-harkonen23a,E1,465,(S-EPGP),(S-EPGP),all_caps,broken_real_heading
+E1-harkonen23a,E1,503,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,531,1. Use the Macaulay2 command solvePDE to compute,Use the Macaulay2 command solvePDE to compute,numbered,numbered_prose
+E1-harkonen23a,E1,624,0 2 4,2 4,numbered,math_or_symbol
+E1-harkonen23a,E1,626,10 5,5,numbered,math_or_symbol
+E1-harkonen23a,E1,627,10 3,3,numbered,math_or_symbol
+E1-harkonen23a,E1,628,10 1,1,numbered,math_or_symbol
+E1-harkonen23a,E1,631,0 2 4,2 4,numbered,math_or_symbol
+E1-harkonen23a,E1,635,# points,points,markdown,code_comment
+E1-harkonen23a,E1,641,0 2 4,2 4,numbered,math_or_symbol
+E1-harkonen23a,E1,643,10 7,7,numbered,math_or_symbol
+E1-harkonen23a,E1,644,10 4,4,numbered,math_or_symbol
+E1-harkonen23a,E1,645,10 1,1,numbered,math_or_symbol
+E1-harkonen23a,E1,648,0 2 4,2 4,numbered,math_or_symbol
+E1-harkonen23a,E1,652,# points,points,markdown,code_comment
+E1-harkonen23a,E1,765,∇ ·E = 0 ∇ ×E = −∂B,∇ ·E = 0 ∇ ×E = −∂B,all_caps,math_or_symbol
+E1-harkonen23a,E1,767,∇ ·B = 0 ∇ ×B = ∂E,∇ ·B = 0 ∇ ×B = ∂E,all_caps,math_or_symbol
+E1-harkonen23a,E1,904,"D. K. Neural ordinary differential equations. NeurIPS,","K. Neural ordinary differential equations. NeurIPS,",numbered,numbered_prose
+E1-harkonen23a,E1,954,2023. URL https://mathrepo.mis.mpg.de/,URL https://mathrepo.mis.mpg.de/,numbered,other
+E1-harkonen23a,E1,1173,−1L)] =,−1L)] =,all_caps,math_or_symbol
+E1-harkonen23a,E1,1174,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1175,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1180,−1A(L) − 1,−1A(L) − 1,all_caps,math_or_symbol
+E1-harkonen23a,E1,1181,2 V (L),V (L),numbered,math_or_symbol
+E1-harkonen23a,E1,1185,A(L) = E[L] =,A(L) = E[L] =,all_caps,math_or_symbol
+E1-harkonen23a,E1,1186,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1187,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1189,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1190,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1201,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1204,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1217,−1L] =,−1L] =,all_caps,math_or_symbol
+E1-harkonen23a,E1,1218,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1223,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1229,−1L ◦ B],−1L ◦ B],all_caps,math_or_symbol
+E1-harkonen23a,E1,1232,−1A(L ◦ B) − 1,−1A(L ◦ B) − 1,all_caps,math_or_symbol
+E1-harkonen23a,E1,1233,2 V (L ◦ B),V (L ◦ B),numbered,math_or_symbol
+E1-harkonen23a,E1,1245,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1246,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1252,2 ν · vν,ν · vν,numbered,math_or_symbol
+E1-harkonen23a,E1,1272,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1273,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1275,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1276,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1287,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1288,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1290,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1291,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1293,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1294,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1300,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1301,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1304,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1305,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1307,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1308,F,F,all_caps,math_or_symbol
+E1-harkonen23a,E1,1319,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1322,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1329,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1332,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1335,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1339,B,B,all_caps,math_or_symbol
+E1-harkonen23a,E1,1340,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1348,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1352,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1356,B,B,all_caps,math_or_symbol
+E1-harkonen23a,E1,1357,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1368,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1369,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1371,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1372,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1384,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,1396,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1397,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1403,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1405,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1415,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1416,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1418,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1419,K,K,all_caps,math_or_symbol
+E1-harkonen23a,E1,1421,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1422,K,K,all_caps,math_or_symbol
+E1-harkonen23a,E1,1424,Ω×K,Ω×K,all_caps,math_or_symbol
+E1-harkonen23a,E1,1426,Ω×K,Ω×K,all_caps,math_or_symbol
+E1-harkonen23a,E1,1430,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1432,"2 dL(z′) < ∞,","dL(z′) < ∞,",numbered,math_or_symbol
+E1-harkonen23a,E1,1435,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1436,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,1439,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1440,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,1446,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1447,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1449,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1450,V,V,all_caps,math_or_symbol
+E1-harkonen23a,E1,1452,Ω×K,Ω×K,all_caps,math_or_symbol
+E1-harkonen23a,E1,1472,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1495,2 log σ2,log σ2,numbered,other
+E1-harkonen23a,E1,1496,0 − 1,− 1,numbered,math_or_symbol
+E1-harkonen23a,E1,1497,2 log |Σ| −1,log |Σ| −1,numbered,math_or_symbol
+E1-harkonen23a,E1,1498,2 log |A| + C,log |A| + C,numbered,math_or_symbol
+E1-harkonen23a,E1,1519,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1520,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,1526,2 dL(zx),dL(zx),numbered,math_or_symbol
+E1-harkonen23a,E1,1528,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1529,R,R,all_caps,math_or_symbol
+E1-harkonen23a,E1,1568,0 500 1000 1500 2000 2500,500 1000 1500 2000 2500,numbered,math_or_symbol
+E1-harkonen23a,E1,1569,# points,points,markdown,code_comment
+E1-harkonen23a,E1,1570,10 7,7,numbered,math_or_symbol
+E1-harkonen23a,E1,1571,10 6,6,numbered,math_or_symbol
+E1-harkonen23a,E1,1572,10 5,5,numbered,math_or_symbol
+E1-harkonen23a,E1,1573,10 4,4,numbered,math_or_symbol
+E1-harkonen23a,E1,1574,10 3,3,numbered,math_or_symbol
+E1-harkonen23a,E1,1575,10 2,2,numbered,math_or_symbol
+E1-harkonen23a,E1,1576,10 1,1,numbered,math_or_symbol
+E1-harkonen23a,E1,1580,20 40 60 80 100,40 60 80 100,numbered,math_or_symbol
+E1-harkonen23a,E1,1581,# points,points,markdown,code_comment
+E1-harkonen23a,E1,1585,PINN,PINN,all_caps,other_caps
+E1-harkonen23a,E1,1629,0 was set to 0.01. The,was set to 0.01. The,numbered,numbered_prose
+E1-harkonen23a,E1,1747,0 −∂z ∂y ∂t 0 0,−∂z ∂y ∂t 0 0,numbered,math_or_symbol
+E1-harkonen23a,E1,1750,0 0 0 ∂x ∂y ∂z,0 0 ∂x ∂y ∂z,numbered,math_or_symbol
+E1-harkonen23a,E1,1752,0 −∂t 0 ∂z 0 −∂x,−∂t 0 ∂z 0 −∂x,numbered,math_or_symbol
+E1-harkonen23a,E1,1753,0 0 −∂t −∂y ∂x 0,0 −∂t −∂y ∂x 0,numbered,math_or_symbol
+E1-harkonen23a,E1,1772,2 2 2 2,2 2 2,numbered,math_or_symbol
+E1-harkonen23a,E1,1788,2 2 2 2,2 2 2,numbered,math_or_symbol
+E1-harkonen23a,E1,1852,5X,5X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1856,5X,5X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1860,"E0,1 =","E0,1 =",all_caps,math_or_symbol
+E1-harkonen23a,E1,1867," E0,2 ="," E0,2 =",all_caps,math_or_symbol
+E1-harkonen23a,E1,1874," E0,3 ="," E0,3 =",all_caps,math_or_symbol
+E1-harkonen23a,E1,1881," E0,4 ="," E0,4 =",all_caps,math_or_symbol
+E1-harkonen23a,E1,1888," E0,5 ="," E0,5 =",all_caps,math_or_symbol
+E1-harkonen23a,E1,1951,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1953,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1956,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1959,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1962,X,X,all_caps,math_or_symbol
+E1-harkonen23a,E1,1976,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,1980,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,2039,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,2042,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,2049,C,C,all_caps,math_or_symbol
+E1-harkonen23a,E1,2052,Z,Z,all_caps,math_or_symbol
+E1-harkonen23a,E1,2053,C,C,all_caps,math_or_symbol
+E1-harkonen23a,E1,2082,2 log σ2,log σ2,numbered,other
+E1-harkonen23a,E1,2083,0 + 1,+ 1,numbered,math_or_symbol
+E1-harkonen23a,E1,2084,2 log |A| + 1,log |A| + 1,numbered,math_or_symbol
+E1-harkonen23a,E1,2085,2 log |Σ| + n,log |Σ| + n,numbered,math_or_symbol
+E1-harkonen23a,E1,2086,"2 log 2π,","log 2π,",numbered,math_or_symbol
+E1-harkonen23a,E1,2088,0 is a noise coefficient and,is a noise coefficient and,numbered,numbered_prose
+E1-harkonen23a,E1,2090,0Σ−1,0Σ−1,all_caps,math_or_symbol
+E1-harkonen23a,E1,2095,2 log σ2,log σ2,numbered,other
+E1-harkonen23a,E1,2096,0 +,+,numbered,math_or_symbol
+E1-harkonen23a,E1,2147,ΦH,ΦH,all_caps,math_or_symbol
+E1-yang23n,E1,81,"4. We propose LieGNN, a modified E(n) Equivariant","We propose LieGNN, a modified E(n) Equivariant",numbered,numbered_prose
+E1-yang23n,E1,153,SYMMETRY MSR A UGERINO LIEGAN,SYMMETRY MSR A UGERINO LIEGAN,all_caps,other_caps
+E1-yang23n,E1,154,DISCRETE ✓ ✗ ✓,DISCRETE ✓ ✗ ✓,all_caps,table_or_figure
+E1-yang23n,E1,155,CONTINUOUS ✗ ✗ ✓,CONTINUOUS ✗ ✗ ✓,all_caps,table_or_figure
+E1-yang23n,E1,156,GIVEN GROUP SUBSET ✗ ✓ ✓,GIVEN GROUP SUBSET ✗ ✓ ✓,all_caps,table_or_figure
+E1-yang23n,E1,157,UNKNOWN GROUP SUBSET ✗ ✗ ✓,UNKNOWN GROUP SUBSET ✗ ✗ ✓,all_caps,table_or_figure
+E1-yang23n,E1,232,Φ,Φ,all_caps,math_or_symbol
+E1-yang23n,E1,234,D,D,all_caps,math_or_symbol
+E1-yang23n,E1,235,"L(Φ, D)","L(Φ, D)",all_caps,math_or_symbol
+E1-yang23n,E1,252,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,347,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,449,J,J,all_caps,math_or_symbol
+E1-yang23n,E1,452,∥LT,∥LT,all_caps,math_or_symbol
+E1-yang23n,E1,528,"2 , which",", which",numbered,other
+E1-yang23n,E1,653,EGNN 0.922 0.9760,EGNN 0.922 0.9760,all_caps,math_or_symbol
+E1-yang23n,E1,756,2017 IEEE Conference on Computer Vision and Pattern,IEEE Conference on Computer Vision and Pattern,numbered,numbered_prose
+E1-yang23n,E1,795,2021. URL https://openreview.net/forum?,URL https://openreview.net/forum?,numbered,other
+E1-yang23n,E1,828,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,829,G∗,G∗,all_caps,math_or_symbol
+E1-yang23n,E1,833,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,834,G∗,G∗,all_caps,math_or_symbol
+E1-yang23n,E1,838,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,839,G∗,G∗,all_caps,math_or_symbol
+E1-yang23n,E1,848,R,R,all_caps,math_or_symbol
+E1-yang23n,E1,867,"L(Φ, D∗) =","L(Φ, D∗) =",all_caps,math_or_symbol
+E1-yang23n,E1,868,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,873,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,880,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,885,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,892,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,896,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,903,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,907,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,910,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,914,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,917,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,921,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,928,R,R,all_caps,math_or_symbol
+E1-yang23n,E1,937,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,941,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,945,Z,Z,all_caps,math_or_symbol
+E1-yang23n,E1,953,R =,R =,all_caps,math_or_symbol
+E1-yang23n,E1,955,0 −1,−1,numbered,math_or_symbol
+E1-yang23n,E1,956,1 0,0,numbered,math_or_symbol
+E1-yang23n,E1,958,L =,L =,all_caps,math_or_symbol
+E1-yang23n,E1,961,R −R,R −R,all_caps,math_or_symbol
+E1-yang23n,E1,962,R −R,R −R,all_caps,math_or_symbol
+E1-yang23n,E1,963,−R R,−R R,all_caps,math_or_symbol
+E1-yang23n,E1,964,−R R,−R R,all_caps,math_or_symbol
+E1-yang23n,E1,976, + I, + I,all_caps,math_or_symbol
+E1-yang23n,E1,978,+∞X,+∞X,all_caps,math_or_symbol
+E1-yang23n,E1,982,+∞X,+∞X,all_caps,math_or_symbol
+E1-yang23n,E1,1005,+∞X,+∞X,all_caps,math_or_symbol
+E1-yang23n,E1,1009,+∞X,+∞X,all_caps,math_or_symbol
+E1-yang23n,E1,1032,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,1036,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,1040,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,1045,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,1056,X,X,all_caps,math_or_symbol
+E1-yang23n,E1,1156,4 −x2,−x2,numbered,math_or_symbol
+E1-yang23n,E1,1168,0 1 0 0 0,1 0 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1169,0 0 1 0 0,0 1 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1170,1 0 0 0 0,0 0 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1171,0 0 0 1 0,0 0 1 0,numbered,math_or_symbol
+E1-yang23n,E1,1172,0 0 0 0 1,0 0 0 1,numbered,math_or_symbol
+E1-yang23n,E1,1178,0 1 −1 0 0,1 −1 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1180,1 −1 0 0 0,−1 0 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1181,0 0 0 0 0,0 0 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1182,0 0 0 0 0,0 0 0 0,numbered,math_or_symbol
+E1-yang23n,E1,1198,L1 =,L1 =,all_caps,math_or_symbol
+E1-yang23n,E1,1202,", L2 =",", L2 =",all_caps,math_or_symbol
+E1-yang23n,E1,1204,0 −1 − c1i,−1 − c1i,numbered,math_or_symbol
+E1-yang23n,E1,1206,", L3 =",", L3 =",all_caps,math_or_symbol
+E1-yang23n,E1,1213,1 0,0,numbered,math_or_symbol
+E1-yang23n,E1,1217,0 −i,−i,numbered,math_or_symbol
+E1-yang23n,E1,1243,L1,L1,all_caps,math_or_symbol
+E1-yang23n,E1,1244,L2,L2,all_caps,math_or_symbol
+E1-yang23n,E1,1245,L3,L3,all_caps,math_or_symbol
+E1-yang23n,E1,1256,L =,L =,all_caps,math_or_symbol
+E1-yang23n,E1,1261,0 0 0,0 0,numbered,math_or_symbol
+E1-yang23n,E1,1284,HOMO 52.7 43.5 36.5,HOMO 52.7 43.5 36.5,all_caps,math_or_symbol
+E1-yang23n,E1,1285,LUMO 43.5 36.4 29.8,LUMO 43.5 36.4 29.8,all_caps,math_or_symbol
+E1-strimel23a,E1,219,1 j ≤ i,j ≤ i,numbered,math_or_symbol
+E1-strimel23a,E1,227,P =,P =,all_caps,math_or_symbol
+E1-strimel23a,E1,235,PT,PT,all_caps,math_or_symbol
+E1-strimel23a,E1,238,"1 ≤ i, j≤ T","≤ i, j≤ T",numbered,math_or_symbol
+E1-strimel23a,E1,265,1 − σ,− σ,numbered,math_or_symbol
+E1-strimel23a,E1,273,"0 otherwise,","otherwise,",numbered,other
+E1-strimel23a,E1,299,LL1 = 1,LL1 = 1,all_caps,math_or_symbol
+E1-strimel23a,E1,300,T,T,all_caps,math_or_symbol
+E1-strimel23a,E1,301,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,303,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,359,T,T,all_caps,math_or_symbol
+E1-strimel23a,E1,360,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,457,T,T,all_caps,math_or_symbol
+E1-strimel23a,E1,458,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,461,T,T,all_caps,math_or_symbol
+E1-strimel23a,E1,462,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,488,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,490,X,X,all_caps,math_or_symbol
+E1-strimel23a,E1,499,0 i = 0,i = 0,numbered,math_or_symbol
+E1-strimel23a,E1,538,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,542,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,546,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,572,"14 stacked blocks, one-layer 640-unit LSTM prediction","stacked blocks, one-layer 640-unit LSTM prediction",numbered,numbered_prose
+E1-strimel23a,E1,907,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,911,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,915,ANCAT-L1,ANCAT-L1,all_caps,other_caps
+E1-strimel23a,E1,1134,UPL,UPL,all_caps,math_or_symbol
+E1-strimel23a,E1,1191,UPL,UPL,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,213,K,K,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,405,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,411,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,425,3 instead of,instead of,numbered,other
+E1-bhattacharjee23a,E1,464,1 n←|S|,n←|S|,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,465,2 b←O,b←O,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,471,4 if r∗>r then,if r∗>r then,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,472,5 Return brk,Return brk,numbered,other
+E1-bhattacharjee23a,E1,474,6 else,else,numbered,other
+E1-bhattacharjee23a,E1,475,"7 Return |T∩B(x,r)|","Return |T∩B(x,r)|",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,487,0 be arbitrary. Then if n= O,be arbitrary. Then if n= O,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,496,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,502,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,508,1 m←O,m←O,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,513,2 Sample T ∼qm,Sample T ∼qm,numbered,other
+E1-bhattacharjee23a,E1,514,"3 {x1,x2,...,x n}← S","{x1,x2,...,x n}← S",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,515,"4 {z1,z2,...,z m}← T","{z1,z2,...,z m}← T",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,516,"5 for i= 1,...,n do","for i= 1,...,n do",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,517,"6 Let pi(r) denote Est(xi,r,S )","Let pi(r) denote Est(xi,r,S )",numbered,numbered_prose
+E1-bhattacharjee23a,E1,518,"7 Let qi(r) denote |B(xi,r)∩T|","Let qi(r) denote |B(xi,r)∩T|",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,520,8 radii←{||z−xi||: z∈T}∪{0},radii←{||z−xi||: z∈T}∪{0},numbered,math_or_symbol
+E1-bhattacharjee23a,E1,521,"9 radii←{r: pi(r) ≤γ,r ∈radii}","radii←{r: pi(r) ≤γ,r ∈radii}",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,522,10 r∗,r∗,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,524,11 end,end,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,525,12 Sample U ∼q20/ϵ2,Sample U ∼q20/ϵ2,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,526,13 V ←U ∩(⋃n,V ←U ∩(⋃n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,529,14 Return |V|,Return |V|,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,704,2021. doi: 10.1145/3447548.3467198. URL https:,doi: 10.1145/3447548.3467198. URL https,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,714,D. The secret sharer: Evaluating and testing unintended,The secret sharer: Evaluating and testing unintended,numbered,numbered_prose
+E1-bhattacharjee23a,E1,768,9207181. URL https://doi.org/10.1109/,URL https://doi.org/10.1109/,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,894,"3. Reflecting this, let Z = ∆−n2","Reflecting this, let Z = ∆−n2",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,913,3. We set λ= 20 and γ = 1,We set λ= 20 and γ = 1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,942,1 n←|S|,n←|S|,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,944,3 b←64(d+2) ln 16n,b←64(d+2) ln 16n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,948,"5 s∗= min{s: |S∩B(x,s)|= b}","s∗= min{s: |S∩B(x,s)|= b}",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,949,6 ˆk= round,ˆk= round,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1006,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1012,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1032,9 . (4),. (4),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1047,1 + c+ 1,+ c+ 1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1052,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1071,"9 ,",",",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1133,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1141,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1148,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1151,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1156,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1161,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1169,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1175,1 + log2,+ log2,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1177,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1184,1 −log2,−log2,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1186,1 + φ,+ φ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1208,"2. Kis regularized. That is,","Kis regularized. That is,",numbered,numbered_prose
+E1-bhattacharjee23a,E1,1218,2 . Let,. Let,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1258,K,K,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,1349,"B(0,R)","B(0,R)",all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,1361,2. The map supp(p) →R+ defined by x ↦→limr→0,The map supp(p) →R+ defined by x ↦→limr→0,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1393,1 −ϵ,−ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1397,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1408,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1412,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1418,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1424,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1469,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1474,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1534,9 . (16),. (16),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1549,1 + c+ 1,+ c+ 1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1554,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1639,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1645,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1665,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1672,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1677,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1680,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1696,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1702,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1706,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1709,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1714,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1739,"3 into Proposition 4.3). Suppose this holds,","into Proposition 4.3). Suppose this holds,",numbered,numbered_prose
+E1-bhattacharjee23a,E1,1796,"22 and 23, it follows that","and 23, it follows that",numbered,numbered_prose
+E1-bhattacharjee23a,E1,1803,"8 ,",",",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1814,1 − 2βm,− 2βm,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1817,"1 −min(ϵ,1)","−min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1822,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1829,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1848,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1863,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1866,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1884,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1897,"1 + min(ϵ,1)","+ min(ϵ,1)",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1900,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1961,2 ≤q(∪n,≤q(∪n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,1976,3 . Then there exist 1-regular distributions p,. Then there exist 1-regular distributions p,numbered,numbered_prose
+E1-bhattacharjee23a,E1,1989,2. We define a generative algorithms AT and A′,We define a generative algorithms AT and A′,numbered,numbered_prose
+E1-bhattacharjee23a,E1,1996,3. We construct families,We construct families,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2002,"(S,A′","(S,A′",all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2033,2 ),),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2041,2 = p(Ci),= p(Ci),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2047,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2051,2 ≤,≤,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2053,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2060,2 ≤7,≤7,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2068,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2074,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2080,1 = p(Ci)4 arcsin(1,= p(Ci)4 arcsin(1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2081,2 ),),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2083,3 ≥ 1,≥ 1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2086,3 = 1,= 1,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2107,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2116,1 + ϵ,+ ϵ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2122,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2153,3. Randomly select L∗⊂Lwith |L∗|= κ,Randomly select L∗⊂Lwith |L∗|= κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2162,0 i∈[2κ] \L∗,i∈[2κ] \L∗,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2163,1 −λ(1+ϵ),−λ(1+ϵ),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2164,24 i= 0,i= 0,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2182,T ∼A′,T ∼A′,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2187,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2191,"24 ,",",",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2194,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2200,"8 , there exists L∗ ⊂Lwith |L∗|= κ",", there exists L∗ ⊂Lwith |L∗|= κ",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2217,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2240,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2260,4 ≤m ≤3n,≤m ≤3n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2284,"1 ≤i≤m, then X∗","≤i≤m, then X∗",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2325,", X∗",", X∗",all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2327,32 and Y∗,and Y∗,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2329,32 . By substituting,. By substituting,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2337,Z ≥X−Y,Z ≥X−Y,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2371,= X∗,= X∗,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2386,32 − n,− n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2387,32 +,+,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2400,16 + m,+ m,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2407,16 + m,+ m,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2410,16 + m(n−m+ 1),+ m(n−m+ 1),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2413,16 + 3n,+ 3n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2414,16 = n,= n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2415,"8 ,",",",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2417,4 ≤m≤3n,≤m≤3n,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2419,8 with the desired,with the desired,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2425,1 −4 exp,−4 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2434,8 and |L′|≥ κ,and |L′|≥ κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2440,4 ≤m≤3κ,≤m≤3κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2441,4 . Then the same must hold,. Then the same must hold,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2449,8 and |L|′≥κ,and |L|′≥κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2453,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2455,"8 ,|L′|≥ κ",",|L′|≥ κ",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2456,8 ] =,] =,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2461,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2463,"8 ,|L′|≥ κ",",|L′|≥ κ",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2464,8 |M = m],|M = m],numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2470,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2472,"8 ,|L′|≥ κ",",|L′|≥ κ",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2473,8 |M = m],|M = m],numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2479,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2482,1 −2 exp,−2 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2489,1 −2 exp,−2 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2496,T,T,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2498,4 ≤M ≤3κ,≤M ≤3κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2506,4 ≤M ≤ 3κ,≤M ≤ 3κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2507,4 ] ≥,] ≥,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2508,1 −2 exp,−2 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2518,"8 ,|L′|≥ κ",",|L′|≥ κ",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2519,8 ] ≥,] ≥,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2521,1 −2 exp,−2 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2526,1 −2 exp,−2 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2540,T) : T ⊂,T) : T ⊂,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2556,1. S ⊂∪2κ,S ⊂∪2κ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2558,2. There exists a set of κ,There exists a set of κ,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2559,"8 distinct indices, L∗⊂[2κ], such that for 0 ≤i≤2κ,","distinct indices, L∗⊂[2κ], such that for 0 ≤i≤2κ,",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2566,0 i∈[2κ] \L∗,i∈[2κ] \L∗,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2567,1 −λ(1+ϵ),−λ(1+ϵ),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2568,24 i= 0,i= 0,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2579,8 implying that when running,implying that when running,numbered,numbered_prose
+E1-bhattacharjee23a,E1,2596,T),T),all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2645,2. |T1 ∩M|= |T2 ∩M|and Tc,|T1 ∩M|= |T2 ∩M|and Tc,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2646,1 ∩M|= |Tc,∩M|= |Tc,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2661,2 −1 (ai ∈T),−1 (ai ∈T),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2668,2 −1 (ai ∈T ∩M),−1 (ai ∈T ∩M),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2674,2 −1 (ai ∈T ∩([2κ] \M)),−1 (ai ∈T ∩([2κ] \M)),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2684,2 −1 (ai ∈T ∩([2κ] \M)),−1 (ai ∈T ∩([2κ] \M)),numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2695,1 ∩M|= |Tc,∩M|= |Tc,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2696,2 ∩M|,∩M|,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2734,1 (L∗⊆T)(mi,(L∗⊆T)(mi,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2778,1 (L∗⊆Tc)(m′,(L∗⊆Tc)(m′,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2855,24 = 13 4,= 13 4,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2857,24 > 2,> 2,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2859,1 −4 exp,−4 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2865,1 −δ≤ES∼pκ,−δ≤ES∼pκ,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2895,1 −δ−4 exp,−δ−4 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2912,"1 −Pr(S,q)∼Q[(S,q) is not nice]E(S,q)∼Q∗EB1","−Pr(S,q)∼Q[(S,q) is not nice]E(S,q)∼Q∗EB1",numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2938,1 −δ−4 exp,−δ−4 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2945,T(S)EB1,T(S)EB1,all_caps,math_or_symbol
+E1-bhattacharjee23a,E1,2953,1 −δ−4 exp,−δ−4 exp,numbered,math_or_symbol
+E1-bhattacharjee23a,E1,2978,2 −2δ−8 exp,−2δ−8 exp,numbered,math_or_symbol
+E2-jeong23a,E2,91,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,104,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,144,A =,A =,all_caps,math_or_symbol
+E2-jeong23a,E2,147,0 1 0 ··· 0,1 0 ··· 0,numbered,math_or_symbol
+E2-jeong23a,E2,148,0 0 1 ... 0,0 1 ... 0,numbered,math_or_symbol
+E2-jeong23a,E2,150,0 0 0 0 1,0 0 0 1,numbered,math_or_symbol
+E2-jeong23a,E2,156,2 ),),numbered,math_or_symbol
+E2-jeong23a,E2,159,  D,  D,all_caps,math_or_symbol
+E2-jeong23a,E2,171,1 h(i),h(i),numbered,math_or_symbol
+E2-jeong23a,E2,172,1 h(i+1),h(i+1),numbered,math_or_symbol
+E2-jeong23a,E2,173,1 · · ·,· · ·,numbered,math_or_symbol
+E2-jeong23a,E2,180,L · · ·,L · · ·,all_caps,math_or_symbol
+E2-jeong23a,E2,195,=N,=N,all_caps,math_or_symbol
+E2-jeong23a,E2,202,= N,= N,all_caps,math_or_symbol
+E2-jeong23a,E2,207,0 e(∆(i)−τ)ABQBT e(∆(i)−τ)AT,e(∆(i)−τ)ABQBT e(∆(i)−τ)AT,numbered,math_or_symbol
+E2-jeong23a,E2,215,OF MULTI-OUTPUT GP REGRESSION,OF MULTI-OUTPUT GP REGRESSION,all_caps,broken_real_heading
+E2-jeong23a,E2,226,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,258,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,294,"1 , . . . , x(i)",", . . . , x(i)",numbered,math_or_symbol
+E2-jeong23a,E2,328,4 V ARIATIONAL INFERENCE,V ARIATIONAL INFERENCE,numbered,matcher_miss_real_heading
+E2-jeong23a,E2,335,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,340,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,345,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,348,TY,TY,all_caps,math_or_symbol
+E2-jeong23a,E2,353,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,356, LY, LY,all_caps,math_or_symbol
+E2-jeong23a,E2,358,TY,TY,all_caps,math_or_symbol
+E2-jeong23a,E2,379,"1 , . . . ,h(1:T)",", . . . ,h(1:T)",numbered,math_or_symbol
+E2-jeong23a,E2,413,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,416,LY,LY,all_caps,math_or_symbol
+E2-jeong23a,E2,443,S(1),S(1),all_caps,math_or_symbol
+E2-jeong23a,E2,446,"S(2,1)","S(2,1)",all_caps,math_or_symbol
+E2-jeong23a,E2,451,"0 S(3,2)","S(3,2)",numbered,math_or_symbol
+E2-jeong23a,E2,455,"... ... ... ... S(T,T −1)T","... ... ... ... S(T,T −1)T",all_caps,math_or_symbol
+E2-jeong23a,E2,457,"0 ··· 0 S(T,T −1)","··· 0 S(T,T −1)",numbered,math_or_symbol
+E2-jeong23a,E2,477,TX,TX,all_caps,math_or_symbol
+E2-jeong23a,E2,484,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,487,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,489,KL,KL,all_caps,math_or_symbol
+E2-jeong23a,E2,500,= − T P,= − T P,all_caps,math_or_symbol
+E2-jeong23a,E2,501,2 log(2πσ2) − 1,log(2πσ2) − 1,numbered,math_or_symbol
+E2-jeong23a,E2,503,F,F,all_caps,math_or_symbol
+E2-jeong23a,E2,506,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,509, TX, TX,all_caps,math_or_symbol
+E2-jeong23a,E2,519,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,589,TX,TX,all_caps,math_or_symbol
+E2-jeong23a,E2,597,FSDE O(P LT D3) O(LT D2),FSDE O(P LT D3) O(LT D2),all_caps,other_caps
+E2-jeong23a,E2,647,BTD(S−1,BTD(S−1,all_caps,math_or_symbol
+E2-jeong23a,E2,649,R(1),R(1),all_caps,math_or_symbol
+E2-jeong23a,E2,652,(S−1(1),(S−1(1),all_caps,math_or_symbol
+E2-jeong23a,E2,697,Z,Z,all_caps,math_or_symbol
+E2-jeong23a,E2,701,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,702, LY, LY,all_caps,math_or_symbol
+E2-jeong23a,E2,710,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,711,= N,= N,all_caps,math_or_symbol
+E2-jeong23a,E2,712,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,716,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,718,[S−1(∗),[S−1(∗),all_caps,math_or_symbol
+E2-jeong23a,E2,782,"2 kernels, whose signal variances","kernels, whose signal variances",numbered,numbered_prose
+E2-jeong23a,E2,788,MODEL,MODEL,all_caps,other_caps
+E2-jeong23a,E2,789,INTERPOLATION EXTRAPOLATION,INTERPOLATION EXTRAPOLATION,all_caps,other_caps
+E2-jeong23a,E2,790,MAE NLPD MAE NLPD,MAE NLPD MAE NLPD,all_caps,other_caps
+E2-jeong23a,E2,792,IMC A DAM2.66±0.15 2.51±0.05 3.70±0.20 2.60±0.04,IMC A DAM2.66±0.15 2.51±0.05 3.70±0.20 2.60±0.04,all_caps,math_or_symbol
+E2-jeong23a,E2,793,IMC NGD 2.66 ±0.12 2.51±0.05 3.63±0.16 2.61±0.04,IMC NGD 2.66 ±0.12 2.51±0.05 3.63±0.16 2.61±0.04,all_caps,math_or_symbol
+E2-jeong23a,E2,794,LMC A DAM2.65±0.15 2.50±0.05 3.64±0.17 2.58±0.04,LMC A DAM2.65±0.15 2.50±0.05 3.64±0.17 2.58±0.04,all_caps,math_or_symbol
+E2-jeong23a,E2,795,LMC NGD 2.64 ±0.13 2.50±0.05 3.71±0.23 3.71±0.23,LMC NGD 2.64 ±0.13 2.50±0.05 3.71±0.23 3.71±0.23,all_caps,math_or_symbol
+E2-jeong23a,E2,796,FSDE A DAM2.30±0.33 1.17±0.05 3.33±0.03 1.67±0.03,FSDE A DAM2.30±0.33 1.17±0.05 3.33±0.03 1.67±0.03,all_caps,math_or_symbol
+E2-jeong23a,E2,797,FSDE NGD 2.31 ±0.34 1.20±0.04 3.30±0.02 1.64±0.04,FSDE NGD 2.31 ±0.34 1.20±0.04 3.30±0.02 1.64±0.04,all_caps,math_or_symbol
+E2-jeong23a,E2,798,FSDE-SVI ADAM2.85±0.30 1.83±0.27 3.24±0.051.77±0.06,FSDE-SVI ADAM2.85±0.30 1.83±0.27 3.24±0.051.77±0.06,all_caps,math_or_symbol
+E2-jeong23a,E2,799,FSDE-SVI NGD 2.55±0.13 2.47±0.65 3.23±0.042.19±0.09,FSDE-SVI NGD 2.55±0.13 2.47±0.65 3.23±0.042.19±0.09,all_caps,math_or_symbol
+E2-jeong23a,E2,817,2 summarizes the five-fold cross-validated test MAE and,summarizes the five-fold cross-validated test MAE and,numbered,numbered_prose
+E2-jeong23a,E2,829,2 sin(3πt,sin(3πt,numbered,other
+E2-jeong23a,E2,830,500 ) + c(1),) + c(1),numbered,math_or_symbol
+E2-jeong23a,E2,849,0 10 20 30 40□20,10 20 30 40□20,numbered,math_or_symbol
+E2-jeong23a,E2,857,0 10 20 30 40□20,10 20 30 40□20,numbered,math_or_symbol
+E2-jeong23a,E2,864,0 10 20 30 40□20,10 20 30 40□20,numbered,math_or_symbol
+E2-jeong23a,E2,871,0 10 20 30 40□20,10 20 30 40□20,numbered,math_or_symbol
+E2-jeong23a,E2,878,0 10 20 30 40,10 20 30 40,numbered,math_or_symbol
+E2-jeong23a,E2,892,"2 kernels,","kernels,",numbered,other
+E2-jeong23a,E2,904,200 400 600 800 1000,400 600 800 1000,numbered,math_or_symbol
+E2-jeong23a,E2,913,IMC (NGD),IMC (NGD),all_caps,running_head
+E2-jeong23a,E2,915,LMC (NGD),LMC (NGD),all_caps,running_head
+E2-jeong23a,E2,917,FSDE-SVI (NGD),FSDE-SVI (NGD),all_caps,running_head
+E2-jeong23a,E2,919,200 400 600 800 1000,400 600 800 1000,numbered,math_or_symbol
+E2-jeong23a,E2,963,IMC (NGD),IMC (NGD),all_caps,running_head
+E2-jeong23a,E2,965,LMC (NGD),LMC (NGD),all_caps,running_head
+E2-jeong23a,E2,967,FSDE-SVI (NGD),FSDE-SVI (NGD),all_caps,running_head
+E2-jeong23a,E2,977,"2 kernels, whose signal variances and lengthscales","kernels, whose signal variances and lengthscales",numbered,numbered_prose
+E2-jeong23a,E2,997,MODEL,MODEL,all_caps,other_caps
+E2-jeong23a,E2,998,COVID-19 S TOCK ENERGY AIRQUALITY,COVID-19 S TOCK ENERGY AIRQUALITY,all_caps,other_caps
+E2-jeong23a,E2,1115,"D. K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive","K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive",numbered,numbered_prose
+E2-jeong23a,E2,1183,H. Robbins and S. Monro. A Stochastic Approximation,Robbins and S. Monro. A Stochastic Approximation,numbered,numbered_prose
+E2-jeong23a,E2,1194,L. Saul and M. Jordan. Exploiting Tractable Substructures,Saul and M. Jordan. Exploiting Tractable Substructures,numbered,numbered_prose
+E2-jeong23a,E2,1223,A SPARSE V ARIATIONAL INFERENCE,A SPARSE V ARIATIONAL INFERENCE,all_caps,matcher_miss_real_heading
+E2-jeong23a,E2,1243,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,1246,LY,LY,all_caps,math_or_symbol
+E2-jeong23a,E2,1270,LELBO =,LELBO =,all_caps,math_or_symbol
+E2-jeong23a,E2,1278,1:L,1:L,all_caps,math_or_symbol
+E2-jeong23a,E2,1281,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,1283,KL,KL,all_caps,math_or_symbol
+E2-jeong23a,E2,1295,2 log(2πσ2) − 1,log(2πσ2) − 1,numbered,math_or_symbol
+E2-jeong23a,E2,1297,F − 1,F − 1,all_caps,math_or_symbol
+E2-jeong23a,E2,1299,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,1302, TX, TX,all_caps,math_or_symbol
+E2-jeong23a,E2,1312,LX,LX,all_caps,math_or_symbol
+E2-jeong23a,E2,1342,R,R,all_caps,math_or_symbol
+E2-jeong23a,E2,1383,(R,(R,all_caps,math_or_symbol
+E2-jeong23a,E2,1439,S−1(∗),S−1(∗),all_caps,math_or_symbol
+E2-jeong23a,E2,1443,Z ∆∗,Z ∆∗,all_caps,math_or_symbol
+E2-jeong23a,E2,1465,S−1(∗),S−1(∗),all_caps,math_or_symbol
+E2-jeong23a,E2,1474,T,T,all_caps,math_or_symbol
+E2-jeong23a,E2,1505,[S−1,[S−1,all_caps,math_or_symbol
+E2-jeong23a,E2,1516,∗ AT,∗ AT,all_caps,math_or_symbol
+E2-jeong23a,E2,1552,S−1(∗),S−1(∗),all_caps,math_or_symbol
+E2-jeong23a,E2,1556,Z ∆∗,Z ∆∗,all_caps,math_or_symbol
+E2-jeong23a,E2,1578,S−1(∗),S−1(∗),all_caps,math_or_symbol
+E2-jeong23a,E2,1587,T,T,all_caps,math_or_symbol
+E2-jeong23a,E2,1630,∗ AT,∗ AT,all_caps,math_or_symbol
+E2-jeong23a,E2,1701,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1708,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1711,IMC (NGD),IMC (NGD),all_caps,running_head
+E2-jeong23a,E2,1713,LMC (NGD),LMC (NGD),all_caps,running_head
+E2-jeong23a,E2,1715,FSDE-SVI (NGD),FSDE-SVI (NGD),all_caps,running_head
+E2-jeong23a,E2,1716,5000 10000 15000,10000 15000,numbered,math_or_symbol
+E2-jeong23a,E2,1725,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1732,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1734,5000 10000 15000 20000,10000 15000 20000,numbered,math_or_symbol
+E2-jeong23a,E2,1742,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1749,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1751,5000 10000 15000,10000 15000,numbered,math_or_symbol
+E2-jeong23a,E2,1759,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1765,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1767,5000 10000,10000,numbered,math_or_symbol
+E2-jeong23a,E2,1775,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1782,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1784,5000 10000,10000,numbered,math_or_symbol
+E2-jeong23a,E2,1796,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1802,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1805,IMC (NGD),IMC (NGD),all_caps,running_head
+E2-jeong23a,E2,1807,LMC (NGD),LMC (NGD),all_caps,running_head
+E2-jeong23a,E2,1809,FSDE-SVI (NGD),FSDE-SVI (NGD),all_caps,running_head
+E2-jeong23a,E2,1810,0 20000 40000,20000 40000,numbered,math_or_symbol
+E2-jeong23a,E2,1819,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1825,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1827,20000 40000,40000,numbered,math_or_symbol
+E2-jeong23a,E2,1834,6 ×104,×104,numbered,math_or_symbol
+E2-jeong23a,E2,1836,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1843,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1845,20000 40000,40000,numbered,math_or_symbol
+E2-jeong23a,E2,1852,0 4 8 12 16 20 24,4 8 12 16 20 24,numbered,math_or_symbol
+E2-jeong23a,E2,1858,ELBO,ELBO,all_caps,other_caps
+E2-jeong23a,E2,1860,0 20000 40000,20000 40000,numbered,math_or_symbol
+E2-fabian23a,E2,145,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,169,"S,T⊆[0,1]","S,T⊆[0,1]",all_caps,math_or_symbol
+E2-fabian23a,E2,171,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,172,S×T,S×T,all_caps,math_or_symbol
+E2-fabian23a,E2,190,N WN − W,N WN − W,all_caps,math_or_symbol
+E2-fabian23a,E2,195,N WN − W,N WN − W,all_caps,math_or_symbol
+E2-fabian23a,E2,197,L∞→L1,L∞→L1,all_caps,math_or_symbol
+E2-fabian23a,E2,236,2 − y−j/M,− y−j/M,numbered,math_or_symbol
+E2-fabian23a,E2,244,2 − x − i/M,− x − i/M,numbered,math_or_symbol
+E2-fabian23a,E2,247,2 − y − j/M,− y − j/M,numbered,math_or_symbol
+E2-fabian23a,E2,253,2 − x − i/M,− x − i/M,numbered,math_or_symbol
+E2-fabian23a,E2,260,2 − y − j/M,− y − j/M,numbered,math_or_symbol
+E2-fabian23a,E2,312,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,324,|EN |/N2,|EN |/N2,all_caps,math_or_symbol
+E2-fabian23a,E2,330,JN,JN,all_caps,math_or_symbol
+E2-fabian23a,E2,332,"""T−1X","""T−1X",all_caps,math_or_symbol
+E2-fabian23a,E2,359,JN,JN,all_caps,math_or_symbol
+E2-fabian23a,E2,362,JN,JN,all_caps,math_or_symbol
+E2-fabian23a,E2,399,0 ∼ µ0 where the deterministic neighborhood MF,∼ µ0 where the deterministic neighborhood MF,numbered,numbered_prose
+E2-fabian23a,E2,403,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,404,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,411,"""T−1X","""T−1X",all_caps,math_or_symbol
+E2-fabian23a,E2,426,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,434,0 ≡ µ0. The second map Φ: M→,≡ µ0. The second map Φ: M→,numbered,math_or_symbol
+E2-fabian23a,E2,510,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,511,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,512,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,520,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,527,O(1/,O(1/,all_caps,math_or_symbol
+E2-fabian23a,E2,606,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,607,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,647,0 500,500,numbered,math_or_symbol
+E2-fabian23a,E2,655,0 20 40,20 40,numbered,math_or_symbol
+E2-fabian23a,E2,666,0 20 40,20 40,numbered,math_or_symbol
+E2-fabian23a,E2,677,0 20 40,20 40,numbered,math_or_symbol
+E2-fabian23a,E2,688,0 20 40,20 40,numbered,math_or_symbol
+E2-fabian23a,E2,699,0 20 40,20 40,numbered,math_or_symbol
+E2-fabian23a,E2,767,0 100 200 300 400,100 200 300 400,numbered,math_or_symbol
+E2-fabian23a,E2,775,0 5 10,5 10,numbered,math_or_symbol
+E2-fabian23a,E2,790,0 20,20,numbered,math_or_symbol
+E2-fabian23a,E2,811,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,822,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,833,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,844,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,855,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,865,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,876,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,887,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,898,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,909,0 25,25,numbered,math_or_symbol
+E2-fabian23a,E2,922,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,926,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,927,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,931,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,959,20 40 60 80 100,40 60 80 100,numbered,math_or_symbol
+E2-fabian23a,E2,1072,2019 IEEE 58th Conference on Decision and Control,IEEE 58th Conference on Decision and Control,numbered,numbered_prose
+E2-fabian23a,E2,1284,SUPPLEMENTARY MATERIAL,SUPPLEMENTARY MATERIAL,all_caps,other_caps
+E2-fabian23a,E2,1296,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1297,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1304,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1305,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1314,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1324,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1327,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1334,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1335,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1342,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1343,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1367,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1373,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1379,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1393,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1398,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,1402,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1410,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1415,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1419,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,1423,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1435,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1439,≤ E,≤ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1449,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1461,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1471,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1480,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1488,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1498,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1502,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1503,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1504,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1508,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1509,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1510,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1518,WN,WN,all_caps,math_or_symbol
+E2-fabian23a,E2,1529,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1531,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1533,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1536,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1539,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1542,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1550,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1553,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1555,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1558,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1561,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1564,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1576, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,1578,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1581,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1584,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1587,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1590,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1601,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1607,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1620,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1621,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1623,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1624,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1629,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1630,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1638,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1639,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1640,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1642,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1643,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1662,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1664,0 (fN ) − µ0 (fN ),(fN ) − µ0 (fN ),numbered,math_or_symbol
+E2-fabian23a,E2,1666,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1668,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1669,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1670,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1673,0 (x) − µα,(x) − µα,numbered,math_or_symbol
+E2-fabian23a,E2,1674,"0 (x))fN (x, α) dα","(x))fN (x, α) dα",numbered,math_or_symbol
+E2-fabian23a,E2,1677,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1679,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1680,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1681,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1683,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1691,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1694,"0 (x) fN (x, α) dα","(x) fN (x, α) dα",numbered,math_or_symbol
+E2-fabian23a,E2,1698,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1700,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1702,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1705,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1708,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1711,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1718,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1721,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1723,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1726,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1729,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1732,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1743, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,1745,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1748,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1751,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1754,"""Z","""Z",all_caps,math_or_symbol
+E2-fabian23a,E2,1757,N ],N ],all_caps,math_or_symbol
+E2-fabian23a,E2,1767,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1769,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1771,O,O,all_caps,math_or_symbol
+E2-fabian23a,E2,1774,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1777,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1784,O,O,all_caps,math_or_symbol
+E2-fabian23a,E2,1787,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1790,N2,N2,all_caps,math_or_symbol
+E2-fabian23a,E2,1794,O,O,all_caps,math_or_symbol
+E2-fabian23a,E2,1799,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1802,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1811,0 ∼ µ0 = µα,∼ µ0 = µα,numbered,math_or_symbol
+E2-fabian23a,E2,1814,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1818,≤ E,≤ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1828,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1840,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1850,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1859,+ E,+ E,all_caps,math_or_symbol
+E2-fabian23a,E2,1869,WN,WN,all_caps,math_or_symbol
+E2-fabian23a,E2,1871,− W,− W,all_caps,math_or_symbol
+E2-fabian23a,E2,1873,L∞→L1,L∞→L1,all_caps,math_or_symbol
+E2-fabian23a,E2,1876,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1877,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1879,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1880,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1889,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1890,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1902,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1903,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1912,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,1924,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1926,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1927,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,1928,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1932,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1936,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1940,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,1943,WN,WN,all_caps,math_or_symbol
+E2-fabian23a,E2,1948,− P,− P,all_caps,math_or_symbol
+E2-fabian23a,E2,1958,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,1960,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,1961,AN,AN,all_caps,math_or_symbol
+E2-fabian23a,E2,1962,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1966,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1970,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,1974,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,1977,WN,WN,all_caps,math_or_symbol
+E2-fabian23a,E2,1982,− P,− P,all_caps,math_or_symbol
+E2-fabian23a,E2,1992,≤ O,≤ O,all_caps,math_or_symbol
+E2-fabian23a,E2,1995,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,1999,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2000,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2001,AN,AN,all_caps,math_or_symbol
+E2-fabian23a,E2,2003,WN,WN,all_caps,math_or_symbol
+E2-fabian23a,E2,2017,≤ O,≤ O,all_caps,math_or_symbol
+E2-fabian23a,E2,2020,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2024,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2025,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2026,AN,AN,all_caps,math_or_symbol
+E2-fabian23a,E2,2031,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2050,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2055,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2059,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2063,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2068,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2073,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2077,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2082,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2086,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2091,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2094,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2102,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2109,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2113,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2119,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2124,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2128,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2133,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2137,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2141,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2146,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2155,G,G,all_caps,math_or_symbol
+E2-fabian23a,E2,2157,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2161,N,N,all_caps,math_or_symbol
+E2-fabian23a,E2,2167,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2169,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2171,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2172,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2250,2 + 0 + ε,+ 0 + ε,numbered,math_or_symbol
+E2-fabian23a,E2,2251,2 = ε,= ε,numbered,math_or_symbol
+E2-fabian23a,E2,2277,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2278,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2280,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2281,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2284,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2285,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2292,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2293,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2295,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2296,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2309,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2310,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2311,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,2314,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2315,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2319,− P,− P,all_caps,math_or_symbol
+E2-fabian23a,E2,2322,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2323,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2328,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2330,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2331,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2333,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2334,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2337,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2338,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2343,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2344,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2346,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2347,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2350,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2351,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2355,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2356,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2372,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2373,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2374,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2378,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2379,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2380,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2388,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2395,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2396,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2420,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2426,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2433,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2439,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2463,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2466,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2467,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2477,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2483,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2489,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2492,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2493,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2503,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2509,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2518,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2523,− E,− E,all_caps,math_or_symbol
+E2-fabian23a,E2,2541,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2544,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2563,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2570,T−1X,T−1X,all_caps,math_or_symbol
+E2-fabian23a,E2,2598,M,M,all_caps,math_or_symbol
+E2-fabian23a,E2,2603,2M,2M,all_caps,math_or_symbol
+E2-fabian23a,E2,2606,˜IM =,˜IM =,all_caps,math_or_symbol
+E2-fabian23a,E2,2607,M−1,M−1,all_caps,math_or_symbol
+E2-fabian23a,E2,2608,"M , 1","M , 1",all_caps,math_or_symbol
+E2-fabian23a,E2,2612,MX,MX,all_caps,math_or_symbol
+E2-fabian23a,E2,2618,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2632,M,M,all_caps,math_or_symbol
+E2-fabian23a,E2,2633,MX,MX,all_caps,math_or_symbol
+E2-fabian23a,E2,2639,MX,MX,all_caps,math_or_symbol
+E2-fabian23a,E2,2650,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,2651,""" TX",""" TX",all_caps,math_or_symbol
+E2-fabian23a,E2,2660,0 ∼ µi,∼ µi,numbered,math_or_symbol
+E2-fabian23a,E2,2684,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,2685,""" TX",""" TX",all_caps,math_or_symbol
+E2-fabian23a,E2,2717,= E,= E,all_caps,math_or_symbol
+E2-fabian23a,E2,2718,""" TX",""" TX",all_caps,math_or_symbol
+E2-fabian23a,E2,2752,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2762,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,2821,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,2824, P, P,all_caps,math_or_symbol
+E2-fabian23a,E2,2829,""" X",""" X",all_caps,math_or_symbol
+E2-fabian23a,E2,2841, P, P,all_caps,math_or_symbol
+E2-fabian23a,E2,2850,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2868,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2869,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2870,TX,TX,all_caps,math_or_symbol
+E2-fabian23a,E2,2872,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,2892,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,2926,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,2935,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,2965,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,2972,J PROOF OF LEMMA 1,J PROOF OF LEMMA 1,all_caps,matcher_miss_real_heading
+E2-fabian23a,E2,2977,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,2978,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,2994,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3001,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3009,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3010,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3026,K PROOF OF LEMMA 6,K PROOF OF LEMMA 6,all_caps,matcher_miss_real_heading
+E2-fabian23a,E2,3040,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3071,= Γ,= Γ,all_caps,math_or_symbol
+E2-fabian23a,E2,3083,= Γ,= Γ,all_caps,math_or_symbol
+E2-fabian23a,E2,3101,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3109,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3119,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3128,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3130,L PROOF OF LEMMA 7,L PROOF OF LEMMA 7,all_caps,matcher_miss_real_heading
+E2-fabian23a,E2,3138,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3139,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3140,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3142,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3165,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3166,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3167,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3169,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3187,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3188,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3189,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3200,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3202,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3211,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3212,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3213,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3215,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3233,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3234,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3235,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3237,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3244,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3246,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,3259,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3260,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3261,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3263,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3273,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3286,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3288,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3302,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3303,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3304,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3306,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3316,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3318,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3328,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3344,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3345,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3356,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3357,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3375,M PROOF OF THEOREM 5,M PROOF OF THEOREM 5,all_caps,matcher_miss_real_heading
+E2-fabian23a,E2,3379,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3380,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3381,TX,TX,all_caps,math_or_symbol
+E2-fabian23a,E2,3383,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3417,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3431,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3433,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3443,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3453,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3467,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3469,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3479,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3487,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3489,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3503,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,3508,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3514,D,D,all_caps,math_or_symbol
+E2-fabian23a,E2,3522,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3524,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3539,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3556,P,P,all_caps,math_or_symbol
+E2-fabian23a,E2,3563,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3577,Γ,Γ,all_caps,math_or_symbol
+E2-fabian23a,E2,3583,= DKL,= DKL,all_caps,math_or_symbol
+E2-fabian23a,E2,3590,", Γ",", Γ",all_caps,math_or_symbol
+E2-fabian23a,E2,3608,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3613,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3622,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3629,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3630,I,I,all_caps,math_or_symbol
+E2-fabian23a,E2,3644,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3649,R,R,all_caps,math_or_symbol
+E2-fabian23a,E2,3664,N CUTOFF POWER LA W GRAPHON,N CUTOFF POWER LA W GRAPHON,all_caps,other_caps
+E2-fabian23a,E2,3684,E,E,all_caps,math_or_symbol
+E2-fabian23a,E2,3689,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3703, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,3712, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,3719, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,3729, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,3735, X, X,all_caps,math_or_symbol
+E2-fabian23a,E2,3758,1 − c1−α2,− c1−α2,numbered,math_or_symbol
+E2-fabian23a,E2,3760,1 − c1−α,− c1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3764,1 − c1−α + 2(1 − α)c1−α,− c1−α + 2(1 − α)c1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3767,1 − c1−α,− c1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3771,1 − αc1−α2,− αc1−α2,numbered,math_or_symbol
+E2-fabian23a,E2,3783,∥G∥1,∥G∥1,all_caps,math_or_symbol
+E2-fabian23a,E2,3784,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3795,Z 1,Z 1,all_caps,math_or_symbol
+E2-fabian23a,E2,3799,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3804,1 − αc1−α−2,− αc1−α−2,numbered,math_or_symbol
+E2-fabian23a,E2,3820,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3828,X,X,all_caps,math_or_symbol
+E2-fabian23a,E2,3832,1 − αc1−α−2 X,− αc1−α−2 X,numbered,math_or_symbol
+E2-fabian23a,E2,3837,1 − αc1−α,− αc1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3840,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3847,1 − αc1−α,− αc1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3850,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3854,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3857,1 − αc1−α−2,− αc1−α−2,numbered,math_or_symbol
+E2-fabian23a,E2,3860,Z,Z,all_caps,math_or_symbol
+E2-fabian23a,E2,3866,1 − αc1−α,− αc1−α,numbered,math_or_symbol
+E2-fabian23a,E2,3870,O PROBLEM DETAILS,O PROBLEM DETAILS,all_caps,matcher_miss_real_heading
+E2-fabian23a,E2,3953,DI DS UI US,DI DS UI US,all_caps,other_caps
+E2-fabian23a,E2,4077,"0 MCor (α, t, u)","MCor (α, t, u)",numbered,math_or_symbol
+E2-fabian23a,E2,4124,|X|,|X|,all_caps,math_or_symbol
+E2-fabian23a,E2,4129,|X|,|X|,all_caps,math_or_symbol
+E2-zhang23d,E2,225,3 PROV ABLE LINEAR SEPARABILITY,PROV ABLE LINEAR SEPARABILITY,numbered,other_caps
+E2-zhang23d,E2,226,OF ADVERSARIAL NOISES,OF ADVERSARIAL NOISES,all_caps,broken_real_heading
+E2-zhang23d,E2,266,= E,= E,all_caps,math_or_symbol
+E2-zhang23d,E2,283,= E,= E,all_caps,math_or_symbol
+E2-zhang23d,E2,293,4 + 5,+ 5,numbered,math_or_symbol
+E2-zhang23d,E2,336,X =Π⊥,X =Π⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,337,A1,A1,all_caps,math_or_symbol
+E2-zhang23d,E2,338,˜XΠ⊥,˜XΠ⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,339,A2 + Π⊥,A2 + Π⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,340,A1 XΠA2,A1 XΠA2,all_caps,other_caps
+E2-zhang23d,E2,341,+ ΠA1 XΠ⊥,+ ΠA1 XΠ⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,348,Π⊥,Π⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,355,W = ˜WΠ⊥,W = ˜WΠ⊥,all_caps,math_or_symbol
+E2-zhang23d,E2,507,D∗,D∗,all_caps,math_or_symbol
+E2-zhang23d,E2,514,"2 − δ, 1","− δ, 1",numbered,math_or_symbol
+E2-zhang23d,E2,515,2 + δ) and,+ δ) and,numbered,math_or_symbol
+E2-zhang23d,E2,545,W⊤,W⊤,all_caps,math_or_symbol
+E2-zhang23d,E2,547,2 · ∥Dx(∆a)∥,· ∥Dx(∆a)∥,numbered,math_or_symbol
+E2-zhang23d,E2,551,= O( 1√,= O( 1√,all_caps,math_or_symbol
+E2-zhang23d,E2,570,ADVERSARIAL NOISES IN PRACTICE,ADVERSARIAL NOISES IN PRACTICE,all_caps,broken_real_heading
+E2-zhang23d,E2,897,2 ). We further,). We further,numbered,numbered_prose
+E2-zhang23d,E2,901,32. (23),(23),numbered,math_or_symbol
+E2-zhang23d,E2,918,2 d,d,numbered,math_or_symbol
+E2-zhang23d,E2,929,P,P,all_caps,math_or_symbol
+E2-zhang23d,E2,954,2 − z,− z,numbered,math_or_symbol
+E2-zhang23d,E2,966,16. (29),(29),numbered,math_or_symbol
+E2-zhang23d,E2,990,P,P,all_caps,math_or_symbol
+E2-zhang23d,E2,992,NX,NX,all_caps,math_or_symbol
+E2-zhang23d,E2,1002,K,K,all_caps,math_or_symbol
+E2-zhang23d,E2,1004,N,N,all_caps,math_or_symbol
+E2-zhang23d,E2,1009,P,P,all_caps,math_or_symbol
+E2-zhang23d,E2,1023,K,K,all_caps,math_or_symbol
+E2-zhang23d,E2,1032,16 and hence ∥aD∥2,and hence ∥aD∥2,numbered,math_or_symbol
+E2-zhang23d,E2,1034,"15 , whose probability is at least",", whose probability is at least",numbered,numbered_prose
+E2-zhang23d,E2,1045,32. (34),(34),numbered,math_or_symbol
+E2-zhang23d,E2,1047,32 holds with probability at least,holds with probability at least,numbered,numbered_prose
+E2-zhang23d,E2,1055,1 − 2Φ(−,− 2Φ(−,numbered,math_or_symbol
+T-jana23a,T,33,Z,Z,all_caps,math_or_symbol
+T-jana23a,T,41,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,49,− E,− E,all_caps,math_or_symbol
+T-jana23a,T,76,(NPMLE),(NPMLE),all_caps,other_caps
+T-jana23a,T,78,Q,Q,all_caps,math_or_symbol
+T-jana23a,T,94,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,137,E,E,all_caps,math_or_symbol
+T-jana23a,T,143,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,213,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,242,Z,Z,all_caps,math_or_symbol
+T-jana23a,T,256,− E,− E,all_caps,math_or_symbol
+T-jana23a,T,268,R,R,all_caps,math_or_symbol
+T-jana23a,T,283,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,340,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,371,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,419,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,428,1 i = 0,i = 0,numbered,math_or_symbol
+T-jana23a,T,429,1 + argminbi−1≤i∗≤n,+ argminbi−1≤i∗≤n,numbered,math_or_symbol
+T-jana23a,T,484,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,550,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,559,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,563,= E,= E,all_caps,math_or_symbol
+T-jana23a,T,568,= E,= E,all_caps,math_or_symbol
+T-jana23a,T,575,+ E,+ E,all_caps,math_or_symbol
+T-jana23a,T,585,E,E,all_caps,math_or_symbol
+T-jana23a,T,610,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,615,"1, . . . , X′","1, . . . , X′",all_caps,math_or_symbol
+T-jana23a,T,679,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,688,E[X4,E[X4,all_caps,math_or_symbol
+T-jana23a,T,708,F∗ =,F∗ =,all_caps,math_or_symbol
+T-jana23a,T,754,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,803,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,834,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,870,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,895,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,912,X,X,all_caps,math_or_symbol
+T-jana23a,T,917,X,X,all_caps,math_or_symbol
+T-jana23a,T,925,X,X,all_caps,math_or_symbol
+T-jana23a,T,932,X,X,all_caps,math_or_symbol
+T-jana23a,T,939,X,X,all_caps,math_or_symbol
+T-jana23a,T,950,E,E,all_caps,math_or_symbol
+T-jana23a,T,954,= E,= E,all_caps,math_or_symbol
+T-jana23a,T,965,E,E,all_caps,math_or_symbol
+T-jana23a,T,980,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,989,X,X,all_caps,math_or_symbol
+T-jana23a,T,994,X,X,all_caps,math_or_symbol
+T-jana23a,T,997,1 − pπ(x) E,− pπ(x) E,numbered,math_or_symbol
+T-jana23a,T,1002,1 − pπ(0)E,− pπ(0)E,numbered,math_or_symbol
+T-jana23a,T,1003,1{N(0)>0},1{N(0)>0},all_caps,math_or_symbol
+T-jana23a,T,1004,N(0),N(0),all_caps,math_or_symbol
+T-jana23a,T,1007,X,X,all_caps,math_or_symbol
+T-jana23a,T,1015,X,X,all_caps,math_or_symbol
+T-jana23a,T,1026,X,X,all_caps,math_or_symbol
+T-jana23a,T,1033,X,X,all_caps,math_or_symbol
+T-jana23a,T,1040,X,X,all_caps,math_or_symbol
+T-jana23a,T,1051,X,X,all_caps,math_or_symbol
+T-jana23a,T,1058,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,1073,E,E,all_caps,math_or_symbol
+T-jana23a,T,1083,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,1103,E,E,all_caps,math_or_symbol
+T-jana23a,T,1111,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1117,X4,X4,all_caps,math_or_symbol
+T-jana23a,T,1129,E,E,all_caps,math_or_symbol
+T-jana23a,T,1138,A,A,all_caps,math_or_symbol
+T-jana23a,T,1141,M−1X,M−1X,all_caps,math_or_symbol
+T-jana23a,T,1145,M−1X,M−1X,all_caps,math_or_symbol
+T-jana23a,T,1148,"1 − qπ,M (x) (1 − qπ,M (x))n","− qπ,M (x) (1 − qπ,M (x))n",numbered,math_or_symbol
+T-jana23a,T,1150,M−1X,M−1X,all_caps,math_or_symbol
+T-jana23a,T,1167,X,X,all_caps,math_or_symbol
+T-jana23a,T,1205,1 we have,we have,numbered,other
+T-jana23a,T,1212,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1215,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,1222,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1223,2 ),),numbered,math_or_symbol
+T-jana23a,T,1225,E,E,all_caps,math_or_symbol
+T-jana23a,T,1285,1 + 1,+ 1,numbered,math_or_symbol
+T-jana23a,T,1294,1 − 1,− 1,numbered,math_or_symbol
+T-jana23a,T,1301,1 + 1,+ 1,numbered,math_or_symbol
+T-jana23a,T,1310,1 − 1,− 1,numbered,math_or_symbol
+T-jana23a,T,1350,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1386,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1390,E,E,all_caps,math_or_symbol
+T-jana23a,T,1406,E,E,all_caps,math_or_symbol
+T-jana23a,T,1418,E,E,all_caps,math_or_symbol
+T-jana23a,T,1439,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,1453,∞X,∞X,all_caps,math_or_symbol
+T-jana23a,T,1456,∞X,∞X,all_caps,math_or_symbol
+T-jana23a,T,1463,∞X,∞X,all_caps,math_or_symbol
+T-jana23a,T,1470,∞X,∞X,all_caps,math_or_symbol
+T-jana23a,T,1474,Z ∞,Z ∞,all_caps,math_or_symbol
+T-jana23a,T,1477,Z ∞,Z ∞,all_caps,math_or_symbol
+T-jana23a,T,1495,2 log logn,log logn,numbered,other
+T-jana23a,T,1499,2 log logn,log logn,numbered,other
+T-jana23a,T,1514,2 log logn),log logn),numbered,other
+T-jana23a,T,1517,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1569,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,1619,X,X,all_caps,math_or_symbol
+T-jana23a,T,1622,X,X,all_caps,math_or_symbol
+T-jana23a,T,1625,X,X,all_caps,math_or_symbol
+T-jana23a,T,1652,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1657,P,P,all_caps,math_or_symbol
+T-jana23a,T,1737,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,1740,"1 , ϵ(x) ∼ 2 · Binom(N(x), 1",", ϵ(x) ∼ 2 · Binom(N(x), 1",numbered,math_or_symbol
+T-jana23a,T,1754,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1762,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1774,P[,P[,all_caps,math_or_symbol
+T-jana23a,T,1778,2 )] ≤ exp(−jD(c + 1,)] ≤ exp(−jD(c + 1,numbered,math_or_symbol
+T-jana23a,T,1779,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1782,2 ||1,||1,numbered,math_or_symbol
+T-jana23a,T,1791,P[,P[,all_caps,math_or_symbol
+T-jana23a,T,1798,1 − exp(−c1) (58),− exp(−c1) (58),numbered,math_or_symbol
+T-jana23a,T,1807,1 − exp(−c1) ≤ 1 + 1,− exp(−c1) ≤ 1 + 1,numbered,math_or_symbol
+T-jana23a,T,1821,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1871,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,1880,= E,= E,all_caps,math_or_symbol
+T-jana23a,T,1890,− E,− E,all_caps,math_or_symbol
+T-jana23a,T,1906,+ E,+ E,all_caps,math_or_symbol
+T-jana23a,T,1974,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,1976,F∗ ≜,F∗ ≜,all_caps,math_or_symbol
+T-jana23a,T,2060,E,E,all_caps,math_or_symbol
+T-jana23a,T,2073,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,2090,X,X,all_caps,math_or_symbol
+T-jana23a,T,2124,X,X,all_caps,math_or_symbol
+T-jana23a,T,2132,X,X,all_caps,math_or_symbol
+T-jana23a,T,2134,X,X,all_caps,math_or_symbol
+T-jana23a,T,2142,X,X,all_caps,math_or_symbol
+T-jana23a,T,2145, X, X,all_caps,math_or_symbol
+T-jana23a,T,2148,X,X,all_caps,math_or_symbol
+T-jana23a,T,2157,X,X,all_caps,math_or_symbol
+T-jana23a,T,2166,X,X,all_caps,math_or_symbol
+T-jana23a,T,2182,X,X,all_caps,math_or_symbol
+T-jana23a,T,2192,X,X,all_caps,math_or_symbol
+T-jana23a,T,2206,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,2212,X,X,all_caps,math_or_symbol
+T-jana23a,T,2218,X,X,all_caps,math_or_symbol
+T-jana23a,T,2229,2 ∥1,∥1,numbered,math_or_symbol
+T-jana23a,T,2230,2 ),),numbered,math_or_symbol
+T-jana23a,T,2237,E,E,all_caps,math_or_symbol
+T-jana23a,T,2247,X,X,all_caps,math_or_symbol
+T-jana23a,T,2309,X,X,all_caps,math_or_symbol
+T-jana23a,T,2324,X,X,all_caps,math_or_symbol
+T-jana23a,T,2331,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,2336,"""X","""X",all_caps,math_or_symbol
+T-jana23a,T,2352,X,X,all_caps,math_or_symbol
+T-jana23a,T,2360,≤ E[,≤ E[,all_caps,math_or_symbol
+T-jana23a,T,2361,X,X,all_caps,math_or_symbol
+T-jana23a,T,2364,X,X,all_caps,math_or_symbol
+T-jana23a,T,2367,1 − pπ(x) · 1{N(x)>0},− pπ(x) · 1{N(x)>0},numbered,math_or_symbol
+T-jana23a,T,2370,≤ E[,≤ E[,all_caps,math_or_symbol
+T-jana23a,T,2371,X,X,all_caps,math_or_symbol
+T-jana23a,T,2374,X,X,all_caps,math_or_symbol
+T-jana23a,T,2377,"1 − pπ(x) · min{npπ(x), 1","− pπ(x) · min{npπ(x), 1",numbered,math_or_symbol
+T-jana23a,T,2380,= E[,= E[,all_caps,math_or_symbol
+T-jana23a,T,2381,X,X,all_caps,math_or_symbol
+T-jana23a,T,2384,X,X,all_caps,math_or_symbol
+T-jana23a,T,2388,"1 − pπ(x) · min{1, (npπ(x))2}","− pπ(x) · min{1, (npπ(x))2}",numbered,math_or_symbol
+T-jana23a,T,2396,1 − pπ(0) + c′ X,− pπ(0) + c′ X,numbered,math_or_symbol
+T-jana23a,T,2427,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,2439,1 − pπ(0) ≤ min,− pπ(0) ≤ min,numbered,math_or_symbol
+T-jana23a,T,2442,"1 − pπ(0), 1","− pπ(0), 1",numbered,math_or_symbol
+T-jana23a,T,2449,X,X,all_caps,math_or_symbol
+T-jana23a,T,2454,X,X,all_caps,math_or_symbol
+T-jana23a,T,2457,X,X,all_caps,math_or_symbol
+T-jana23a,T,2492,X,X,all_caps,math_or_symbol
+T-jana23a,T,2497,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,2500,X,X,all_caps,math_or_symbol
+T-jana23a,T,2510,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,2513,X,X,all_caps,math_or_symbol
+T-jana23a,T,2529,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-jana23a,T,2537,1 > 0,> 0,numbered,math_or_symbol
+T-jana23a,T,2538,E,E,all_caps,math_or_symbol
+T-jana23a,T,2541,X,X,all_caps,math_or_symbol
+T-jana23a,T,2553,≤ E,≤ E,all_caps,math_or_symbol
+T-jana23a,T,2559, X, X,all_caps,math_or_symbol
+T-jana23a,T,2578,E,E,all_caps,math_or_symbol
+T-jana23a,T,2608,E,E,all_caps,math_or_symbol
+T-jana23a,T,2611,X,X,all_caps,math_or_symbol
+T-jana23a,T,2622,A,A,all_caps,math_or_symbol
+T-jana23a,T,2626,X,X,all_caps,math_or_symbol
+T-jana23a,T,2631,X,X,all_caps,math_or_symbol
+T-jana23a,T,2635,"1 − qπ,M (x) (1 − qπ,M (x))n","− qπ,M (x) (1 − qπ,M (x))n",numbered,math_or_symbol
+T-jana23a,T,2638,X,X,all_caps,math_or_symbol
+T-jana23a,T,2659,JANA POLYANSKIY TEH WU,JANA POLYANSKIY TEH WU,all_caps,running_head
+T-jana23a,T,2666,"1. For all π ∈ P([0, h]d), E","For all π ∈ P([0, h]d), E",numbered,math_or_symbol
+T-jana23a,T,2679,"2. For all π ∈ P([0, slog n]d), E","For all π ∈ P([0, slog n]d), E",numbered,math_or_symbol
+T-jana23a,T,2688,E,E,all_caps,math_or_symbol
+T-jana23a,T,2699,E,E,all_caps,math_or_symbol
+T-jana23a,T,2712,E,E,all_caps,math_or_symbol
+T-jana23a,T,2734,E,E,all_caps,math_or_symbol
+T-jana23a,T,2747,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,POISSON EMPIRICAL BAYES ESTIMATION VIA ERM,all_caps,running_head
+T-filmus23a,T,51,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,113,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,114,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,127,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,167,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,199,L(H) +,L(H) +,all_caps,math_or_symbol
+T-filmus23a,T,201,T · L(H),T · L(H),all_caps,math_or_symbol
+T-filmus23a,T,213,O,O,all_caps,math_or_symbol
+T-filmus23a,T,231,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,244,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,246,"2 ≤ M⋆(n, k) ≤ M⋆","≤ M⋆(n, k) ≤ M⋆",numbered,math_or_symbol
+T-filmus23a,T,258,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,263,2 + o(1))M⋆,+ o(1))M⋆,numbered,math_or_symbol
+T-filmus23a,T,280,"6. When n = 1, M⋆(1, k) =M⋆","When n = 1, M⋆(1, k) =M⋆",numbered,math_or_symbol
+T-filmus23a,T,291,2 + o(1),+ o(1),numbered,math_or_symbol
+T-filmus23a,T,293,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,298,2 + Ω,+ Ω,numbered,math_or_symbol
+T-filmus23a,T,300,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,342,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,354,1. Long horizon.If T > 2M⋆,Long horizon.If T > 2M⋆,numbered,math_or_symbol
+T-filmus23a,T,356,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,359,8M⋆,8M⋆,all_caps,math_or_symbol
+T-filmus23a,T,364,2. Short Horizon.If T ≤ 2M⋆,Short Horizon.If T ≤ 2M⋆,numbered,math_or_symbol
+T-filmus23a,T,366,T,T,all_caps,math_or_symbol
+T-filmus23a,T,367,2 −,−,numbered,math_or_symbol
+T-filmus23a,T,371,"2 ,",",",numbered,math_or_symbol
+T-filmus23a,T,381,2 follows by guessing each label,follows by guessing each label,numbered,numbered_prose
+T-filmus23a,T,391,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,412,T,T,all_caps,math_or_symbol
+T-filmus23a,T,427,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,430,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,447,2 + o(1),+ o(1),numbered,math_or_symbol
+T-filmus23a,T,449,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,473,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,505,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,560,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,609, ET, ET,all_caps,math_or_symbol
+T-filmus23a,T,653,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,727,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,775,S,S,all_caps,math_or_symbol
+T-filmus23a,T,815,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,847,ET =,ET =,all_caps,math_or_symbol
+T-filmus23a,T,848,X,X,all_caps,math_or_symbol
+T-filmus23a,T,855,ET = 1 + ET0 + ET1,ET = 1 + ET0 + ET1,all_caps,math_or_symbol
+T-filmus23a,T,856,"2 , (3)",", (3)",numbered,math_or_symbol
+T-filmus23a,T,861,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,862,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,877,B.1.1. P ROOF OF THEOREM 11,B.1.1. P ROOF OF THEOREM 11,all_caps,lower_level_heading
+T-filmus23a,T,897,E[LT ] = 1 + E[LT0] + E[LT0],E[LT ] = 1 + E[LT0] + E[LT0],all_caps,math_or_symbol
+T-filmus23a,T,900,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,901,= 1 + ET0/2 + ET1/2,= 1 + ET0/2 + ET1/2,all_caps,math_or_symbol
+T-filmus23a,T,902,2 (by the induction hypothesis),(by the induction hypothesis),numbered,numbered_prose
+T-filmus23a,T,912,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,913,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,916,1 + RL(Hx→0) + RL(Hx→1),+ RL(Hx→0) + RL(Hx→1),numbered,math_or_symbol
+T-filmus23a,T,922,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,923,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,924,T∈S(H),T∈S(H),all_caps,math_or_symbol
+T-filmus23a,T,925,ET = 1,ET = 1,all_caps,math_or_symbol
+T-filmus23a,T,926,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,934,ET = 1 +,ET = 1 +,all_caps,math_or_symbol
+T-filmus23a,T,936,"2 = 1 + RL(Hx→1) + RL(Hx→0),","= 1 + RL(Hx→1) + RL(Hx→0),",numbered,math_or_symbol
+T-filmus23a,T,942,"1 + min{L(Hx→1), L(Hx→0)}","+ min{L(Hx→1), L(Hx→0)}",numbered,math_or_symbol
+T-filmus23a,T,974,4. Update V (i+1) = V (i),Update V (i+1) = V (i),numbered,math_or_symbol
+T-filmus23a,T,980,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,985,"1 − p + RL(Hx→1) = RL(Hx→1) ≤ RL(H),","− p + RL(Hx→1) = RL(Hx→1) ≤ RL(H),",numbered,math_or_symbol
+T-filmus23a,T,1038,ET =,ET =,all_caps,math_or_symbol
+T-filmus23a,T,1039,X,X,all_caps,math_or_symbol
+T-filmus23a,T,1046,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,1047,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1054,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1056,ET = 1,ET = 1,all_caps,math_or_symbol
+T-filmus23a,T,1057,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1063,D→∞,D→∞,all_caps,math_or_symbol
+T-filmus23a,T,1064,ETD . (8),ETD . (8),all_caps,math_or_symbol
+T-filmus23a,T,1066,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1072,ET =,ET =,all_caps,math_or_symbol
+T-filmus23a,T,1073,X,X,all_caps,math_or_symbol
+T-filmus23a,T,1077,ETD ≥,ETD ≥,all_caps,math_or_symbol
+T-filmus23a,T,1078,X,X,all_caps,math_or_symbol
+T-filmus23a,T,1088,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,1099,"1 if J ̸= j,","if J ̸= j,",numbered,math_or_symbol
+T-filmus23a,T,1117,ET =,ET =,all_caps,math_or_symbol
+T-filmus23a,T,1118,SX,SX,all_caps,math_or_symbol
+T-filmus23a,T,1121,SX,SX,all_caps,math_or_symbol
+T-filmus23a,T,1131,ET =,ET =,all_caps,math_or_symbol
+T-filmus23a,T,1132,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,1160,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1161,"(1, J)","(1, J)",all_caps,math_or_symbol
+T-filmus23a,T,1162,"(2, J)","(2, J)",all_caps,math_or_symbol
+T-filmus23a,T,1163,"(3, J)","(3, J)",all_caps,math_or_symbol
+T-filmus23a,T,1165,"(J − 1, J)","(J − 1, J)",all_caps,math_or_symbol
+T-filmus23a,T,1171,0 1,1,numbered,math_or_symbol
+T-filmus23a,T,1203,2 + w(e1) + ET1/2,+ w(e1) + ET1/2,numbered,math_or_symbol
+T-filmus23a,T,1204,2 = 1 + ET0/2 + ET1/2,= 1 + ET0/2 + ET1/2,numbered,math_or_symbol
+T-filmus23a,T,1205,"2 = ET /2,","= ET /2,",numbered,math_or_symbol
+T-filmus23a,T,1215,2 and w(e1) = 1 + λT0 − λT1,and w(e1) = 1 + λT0 − λT1,numbered,math_or_symbol
+T-filmus23a,T,1226,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,1227,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1237,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1241,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,1242,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1253,RL(H) = 1,RL(H) = 1,all_caps,math_or_symbol
+T-filmus23a,T,1254,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1287,2 and w(e1) = 1 + λT0 − λT1,and w(e1) = 1 + λT0 − λT1,numbered,math_or_symbol
+T-filmus23a,T,1307,"0, T′","0, T′",all_caps,math_or_symbol
+T-filmus23a,T,1308,1 be the subtrees,be the subtrees,numbered,numbered_prose
+T-filmus23a,T,1317,−ET′,−ET′,all_caps,math_or_symbol
+T-filmus23a,T,1320,"2. Consequently,","Consequently,",numbered,other
+T-filmus23a,T,1327,T,T,all_caps,math_or_symbol
+T-filmus23a,T,1328,2⌈ET ⌉,2⌈ET ⌉,all_caps,math_or_symbol
+T-filmus23a,T,1333,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1338,T,T,all_caps,math_or_symbol
+T-filmus23a,T,1349,C.3.1. O PTIMAL ONLINE ADVERSARIAL STRATEGIES,C.3.1. O PTIMAL ONLINE ADVERSARIAL STRATEGIES,all_caps,lower_level_heading
+T-filmus23a,T,1366,C.3.2. D ETERMINISTIC VS RANDOMIZED ONLINE LEARNING,C.3.2. D ETERMINISTIC VS RANDOMIZED ONLINE LEARNING,all_caps,lower_level_heading
+T-filmus23a,T,1371,M⋆(H) ≤ M⋆,M⋆(H) ≤ M⋆,all_caps,math_or_symbol
+T-filmus23a,T,1414,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1422,D(H) =,D(H) =,all_caps,math_or_symbol
+T-filmus23a,T,1429,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1455,0 1,1,numbered,math_or_symbol
+T-filmus23a,T,1476,"RL(H, T) = 1","RL(H, T) = 1",all_caps,math_or_symbol
+T-filmus23a,T,1477,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1486,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1508,4. Update V (i+1) = V (i),Update V (i+1) = V (i),numbered,math_or_symbol
+T-filmus23a,T,1531,"RL(H, T) = 1","RL(H, T) = 1",all_caps,math_or_symbol
+T-filmus23a,T,1532,2 max,max,numbered,math_or_symbol
+T-filmus23a,T,1557,2RL(H) + O,2RL(H) + O,all_caps,math_or_symbol
+T-filmus23a,T,1563,= 2RL(H) + O,= 2RL(H) + O,all_caps,math_or_symbol
+T-filmus23a,T,1583,8ET,8ET,all_caps,math_or_symbol
+T-filmus23a,T,1594,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,1599,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,1612,Z ∞,Z ∞,all_caps,math_or_symbol
+T-filmus23a,T,1621,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1629,Z 2ET,Z 2ET,all_caps,math_or_symbol
+T-filmus23a,T,1634,8ET,8ET,all_caps,math_or_symbol
+T-filmus23a,T,1637,Z ∞,Z ∞,all_caps,math_or_symbol
+T-filmus23a,T,1638,2ET,2ET,all_caps,math_or_symbol
+T-filmus23a,T,1650,8ET,8ET,all_caps,math_or_symbol
+T-filmus23a,T,1654,−ET,−ET,all_caps,math_or_symbol
+T-filmus23a,T,1662,8ET,8ET,all_caps,math_or_symbol
+T-filmus23a,T,1666,Z ∞,Z ∞,all_caps,math_or_symbol
+T-filmus23a,T,1683,Z ∞,Z ∞,all_caps,math_or_symbol
+T-filmus23a,T,1719,T,T,all_caps,math_or_symbol
+T-filmus23a,T,1720,2 − O(,− O(,numbered,math_or_symbol
+T-filmus23a,T,1727,T,T,all_caps,math_or_symbol
+T-filmus23a,T,1728,"2 − 1 < RL(H, T) ≤ T","− 1 < RL(H, T) ≤ T",numbered,math_or_symbol
+T-filmus23a,T,1729,"2 ,",",",numbered,math_or_symbol
+T-filmus23a,T,1733,RL(H) − O,RL(H) − O,all_caps,math_or_symbol
+T-filmus23a,T,1750,−(ET −T)2,−(ET −T)2,all_caps,math_or_symbol
+T-filmus23a,T,1751,4ET,4ET,all_caps,math_or_symbol
+T-filmus23a,T,1754,"RL(H, T) ≥","RL(H, T) ≥",all_caps,math_or_symbol
+T-filmus23a,T,1756,1 − exp,− exp,numbered,math_or_symbol
+T-filmus23a,T,1758,−(ET − T)2,−(ET − T)2,all_caps,math_or_symbol
+T-filmus23a,T,1759,4ET,4ET,all_caps,math_or_symbol
+T-filmus23a,T,1761,· T,· T,all_caps,math_or_symbol
+T-filmus23a,T,1762,2 −→,−→,numbered,math_or_symbol
+T-filmus23a,T,1764,1 − exp,− exp,numbered,math_or_symbol
+T-filmus23a,T,1766,−(2RL(H) − T)2,−(2RL(H) − T)2,all_caps,math_or_symbol
+T-filmus23a,T,1767,8RL(H),8RL(H),all_caps,math_or_symbol
+T-filmus23a,T,1769,· T,· T,all_caps,math_or_symbol
+T-filmus23a,T,1770,"2 ,",",",numbered,math_or_symbol
+T-filmus23a,T,1775,"RL(H, T) ≥","RL(H, T) ≥",all_caps,math_or_symbol
+T-filmus23a,T,1777,1 − 1,− 1,numbered,math_or_symbol
+T-filmus23a,T,1778,RL(H),RL(H),all_caps,math_or_symbol
+T-filmus23a,T,1780,· T,· T,all_caps,math_or_symbol
+T-filmus23a,T,1781,2 > T,> T,numbered,math_or_symbol
+T-filmus23a,T,1785,2 ≥ T − 2,≥ T − 2,numbered,math_or_symbol
+T-filmus23a,T,1786,2 −,−,numbered,math_or_symbol
+T-filmus23a,T,1789,2 − O(,− O(,numbered,math_or_symbol
+T-filmus23a,T,1794,2 ≥ RL(H) −,≥ RL(H) −,numbered,math_or_symbol
+T-filmus23a,T,1810,2 + 2 − 22−k1,+ 2 − 22−k1,numbered,math_or_symbol
+T-filmus23a,T,1813,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1851,2 Pr[H(vL) is infinite] ≤ ϵ. (9),Pr[H(vL) is infinite] ≤ ϵ. (9),numbered,math_or_symbol
+T-filmus23a,T,1888,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1909,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1917,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,1944,2 sup,sup,numbered,math_or_symbol
+T-filmus23a,T,1953,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,1980,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,1986,2. Predict,Predict,numbered,other
+T-filmus23a,T,1989,L,L,all_caps,math_or_symbol
+T-filmus23a,T,1996,4. Update V (i+1) = V (i),Update V (i+1) = V (i),numbered,math_or_symbol
+T-filmus23a,T,2001,“L(W) ≤ M⋆,“L(W) ≤ M⋆,all_caps,math_or_symbol
+T-filmus23a,T,2015,D(W) ≥,D(W) ≥,all_caps,math_or_symbol
+T-filmus23a,T,2045,4. Update V (i+1) = V (i),Update V (i+1) = V (i),numbered,math_or_symbol
+T-filmus23a,T,2070,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2081,T · L(H),T · L(H),all_caps,math_or_symbol
+T-filmus23a,T,2104,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,2107,L(H) · T,L(H) · T,all_caps,math_or_symbol
+T-filmus23a,T,2236,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2280,RL(W) = 1,RL(W) = 1,all_caps,math_or_symbol
+T-filmus23a,T,2294,RL(W) = 1,RL(W) = 1,all_caps,math_or_symbol
+T-filmus23a,T,2295,2 + sup,+ sup,numbered,math_or_symbol
+T-filmus23a,T,2301,RL(W) = 1,RL(W) = 1,all_caps,math_or_symbol
+T-filmus23a,T,2302,2 + RL(Wx→0) + RL(Wx→1),+ RL(Wx→0) + RL(Wx→1),numbered,math_or_symbol
+T-filmus23a,T,2334,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2355,MR. (13),MR. (13),all_caps,math_or_symbol
+T-filmus23a,T,2428,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2441,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,2451,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,2479,2 +,+,numbered,math_or_symbol
+T-filmus23a,T,2548,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2587, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2596, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2603, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2606,"/2D ≤ 2, (15)","/2D ≤ 2, (15)",all_caps,math_or_symbol
+T-filmus23a,T,2610,1 > n,> n,numbered,math_or_symbol
+T-filmus23a,T,2611,D + 1,D + 1,all_caps,math_or_symbol
+T-filmus23a,T,2614,/2D+1 ≥ 1,/2D+1 ≥ 1,all_caps,math_or_symbol
+T-filmus23a,T,2616, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2630, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2633, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2640, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2650,1 − k/D ≥ 1 − log 1,− k/D ≥ 1 − log 1,numbered,math_or_symbol
+T-filmus23a,T,2651,"1 − c > 0,","− c > 0,",numbered,math_or_symbol
+T-filmus23a,T,2676,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2691,1 − ϵD = (1 + O(1/,− ϵD = (1 + O(1/,numbered,math_or_symbol
+T-filmus23a,T,2693,D))D = D + O(,D))D = D + O(,all_caps,math_or_symbol
+T-filmus23a,T,2706,1 ≤ 1 − ϵ2D,≤ 1 − ϵ2D,numbered,math_or_symbol
+T-filmus23a,T,2707,8 + 2,+ 2,numbered,math_or_symbol
+T-filmus23a,T,2709,8D + 2,8D + 2,all_caps,math_or_symbol
+T-filmus23a,T,2718,F.2.1. P ROOF OF TECHNICAL ESTIMATE,F.2.1. P ROOF OF TECHNICAL ESTIMATE,all_caps,lower_level_heading
+T-filmus23a,T,2726,D,D,all_caps,math_or_symbol
+T-filmus23a,T,2735,D,D,all_caps,math_or_symbol
+T-filmus23a,T,2745,D, D,all_caps,math_or_symbol
+T-filmus23a,T,2756,1 + ϵD,+ ϵD,numbered,math_or_symbol
+T-filmus23a,T,2766,Z D,Z D,all_caps,math_or_symbol
+T-filmus23a,T,2795, D, D,all_caps,math_or_symbol
+T-filmus23a,T,2825,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2853,T,T,all_caps,math_or_symbol
+T-filmus23a,T,2877,ET = 2,ET = 2,all_caps,math_or_symbol
+T-filmus23a,T,2878,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,2889,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,2909,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,2946,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,2953,0 1 2 3 4 5,1 2 3 4 5,numbered,math_or_symbol
+T-filmus23a,T,2963,1 − h(k/d),− h(k/d),numbered,math_or_symbol
+T-filmus23a,T,2987,X,X,all_caps,math_or_symbol
+T-filmus23a,T,3003,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3005,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3009,S,S,all_caps,math_or_symbol
+T-filmus23a,T,3015,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3023,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3027,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,3035,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3057,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3073,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,3077,∞X,∞X,all_caps,math_or_symbol
+T-filmus23a,T,3127,M⋆(H) = M⋆,M⋆(H) = M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3131,2 M⋆,M⋆,numbered,math_or_symbol
+T-filmus23a,T,3137,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+T-filmus23a,T,3140,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3143,2M⋆,2M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3146,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3202,"16. This follows from the formula RL(Uk,l) = 2E[max","This follows from the formula RL(Uk,l) = 2E[max",numbered,math_or_symbol
+T-filmus23a,T,3205,"2 ), Bin(ℓ + 1, 1","), Bin(ℓ + 1, 1",numbered,math_or_symbol
+T-filmus23a,T,3206,2 ),),numbered,math_or_symbol
+T-filmus23a,T,3248,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3259,M⋆,M⋆,all_caps,math_or_symbol
+T-filmus23a,T,3262,FILMUS HANNEKE MEHALEL MORAN,FILMUS HANNEKE MEHALEL MORAN,all_caps,running_head
+S-joss.05465,S,155,# Generate synthetic data with 500 data samples.,Generate synthetic data with 500 data samples.,markdown,code_comment
+S-joss.05465,S,158,# SuperLearner internal libraries' wrapper. (Optional),SuperLearner internal libraries' wrapper. (Optional),markdown,code_comment
+S-joss.05465,S,168,# Estimate GPS function,Estimate GPS function,markdown,code_comment
+S-joss.05465,S,173,# exposure values of interest,exposure values of interest,markdown,code_comment
+S-joss.05465,S,174,# We trim the exposure level to satisfy positivity assumption to avoid including,We trim the exposure level to satisfy positivity assumption to avoid including,markdown,code_comment
+S-joss.05465,S,175,# extreme exposure values.,extreme exposure values.,markdown,code_comment
+S-joss.05465,S,179,# Hyperparameters' range for grid search to find optimal hyperparameters,Hyperparameters' range for grid search to find optimal hyperparameters,markdown,code_comment
+S-joss.05465,S,184,# Estimate exposure response function,Estimate exposure response function,markdown,code_comment
+S-joss.05465,S,232,# Generate synthetic data with 500 data samples.,Generate synthetic data with 500 data samples.,markdown,code_comment
+S-joss.05465,S,234,# SuperLearner internal libraries' wrapper.,SuperLearner internal libraries' wrapper.,markdown,code_comment
+S-joss.05465,S,241,# Estimate GPS function,Estimate GPS function,markdown,code_comment
+S-joss.05465,S,249,# exposure values of interest,exposure values of interest,markdown,code_comment
+S-joss.05465,S,250,# We trim the exposure level to satisfy positivity assumption to avoid including,We trim the exposure level to satisfy positivity assumption to avoid including,markdown,code_comment
+S-joss.05465,S,251,# extreme exposure values.,extreme exposure values.,markdown,code_comment
+S-joss.05465,S,255,# Hyperparameters' range for grid search to find optimal hyperparameters,Hyperparameters' range for grid search to find optimal hyperparameters,markdown,code_comment
+S-joss.05465,S,262,# Estimate exposure response function,Estimate exposure response function,markdown,code_comment
+S-joss.05321,S,270,4160. https://doi.org/10.1167/jov.22.14.4160,https://doi.org/10.1167/jov.22.14.4160,numbered,math_or_symbol

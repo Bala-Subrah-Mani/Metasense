@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.validation-venv/
+*.egg-info/
+.pytest_cache/
+reports/*
+!reports/.gitkeep
+build/
+# RM-08: full extracted paper text is not redistributed (author copyright); hashes in extracted_text_sha256.csv
+evidence/*_rm08_pilot/*/A_extracted_pypdf.txt
+evidence/*_rm08_pilot/*/B_pdftotext_layout.txt
+evidence/*_rm08_pilot/*/B2_pdftotext.txt
+*.zip
+.env

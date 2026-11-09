@@ -1,0 +1,1070 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "d1810f7489c4",
+  "timestamp_utc": "2026-10-25T20:22:46+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "E1-strimel23a.pdf",
+    "type": "pdf",
+    "size_bytes": 5899414,
+    "sha256": "b8e82486f6c3d354c85a91edad95b0f2755a8826cd0ef19542b44468b03b02dc"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "pypdf",
+    "word_count": 10835,
+    "line_count": 1200,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 3,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 4,
+      "end_line": 22,
+      "word_count": 194,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 23,
+      "end_line": 82,
+      "word_count": 589,
+      "inherited": false
+    },
+    {
+      "heading": "Related Work",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 83,
+      "end_line": 152,
+      "word_count": 720,
+      "inherited": false
+    },
+    {
+      "heading": "Adaptive Non-causal Design",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 153,
+      "end_line": 171,
+      "word_count": 223,
+      "inherited": false
+    },
+    {
+      "heading": "Compute DAGs and Attention Masking",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 172,
+      "end_line": 218,
+      "word_count": 268,
+      "inherited": false
+    },
+    {
+      "heading": "j ≤ i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 219,
+      "end_line": 226,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "P =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 227,
+      "end_line": 234,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "PT",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 235,
+      "end_line": 237,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "≤ i, j≤ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 238,
+      "end_line": 240,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "Learned Schedulers",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 241,
+      "end_line": 264,
+      "word_count": 137,
+      "inherited": false
+    },
+    {
+      "heading": "− σ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 265,
+      "end_line": 272,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "otherwise,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 273,
+      "end_line": 285,
+      "word_count": 103,
+      "inherited": false
+    },
+    {
+      "heading": "Regularizing Future Context",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 286,
+      "end_line": 290,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "Naive Regularization",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 291,
+      "end_line": 298,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "LL1 = 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 299,
+      "end_line": 299,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 300,
+      "end_line": 300,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 301,
+      "end_line": 302,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 303,
+      "end_line": 347,
+      "word_count": 159,
+      "inherited": false
+    },
+    {
+      "heading": "Algorithmic Latency",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 348,
+      "end_line": 358,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 359,
+      "end_line": 359,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 360,
+      "end_line": 456,
+      "word_count": 502,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 457,
+      "end_line": 457,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 458,
+      "end_line": 460,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 461,
+      "end_line": 461,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 462,
+      "end_line": 468,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 469,
+      "end_line": 487,
+      "word_count": 168,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 488,
+      "end_line": 489,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 490,
+      "end_line": 498,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "i = 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 499,
+      "end_line": 522,
+      "word_count": 111,
+      "inherited": false
+    },
+    {
+      "heading": "Experimental Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 523,
+      "end_line": 537,
+      "word_count": 134,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 538,
+      "end_line": 541,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 542,
+      "end_line": 545,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 546,
+      "end_line": 562,
+      "word_count": 187,
+      "inherited": false
+    },
+    {
+      "heading": "LibriSpeech Experimental Setup",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 563,
+      "end_line": 571,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "stacked blocks, one-layer 640-unit LSTM prediction",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 572,
+      "end_line": 587,
+      "word_count": 150,
+      "inherited": false
+    },
+    {
+      "heading": "Baselines",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 588,
+      "end_line": 598,
+      "word_count": 100,
+      "inherited": false
+    },
+    {
+      "heading": "Algorithmic Latency Results",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 599,
+      "end_line": 674,
+      "word_count": 803,
+      "inherited": false
+    },
+    {
+      "heading": "Industrial Voice Assistant",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 675,
+      "end_line": 681,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 682,
+      "end_line": 690,
+      "word_count": 99,
+      "inherited": false
+    },
+    {
+      "heading": "Additional Findings and Analysis",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 691,
+      "end_line": 703,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 704,
+      "end_line": 721,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 722,
+      "end_line": 891,
+      "word_count": 1457,
+      "inherited": false
+    },
+    {
+      "heading": "Emission Latency and Endpointer Latency",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 892,
+      "end_line": 906,
+      "word_count": 164,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 907,
+      "end_line": 910,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 911,
+      "end_line": 914,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 915,
+      "end_line": 919,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "LibriSpeech “Other” and Noise Impact",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 920,
+      "end_line": 946,
+      "word_count": 428,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Data",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 947,
+      "end_line": 981,
+      "word_count": 497,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 982,
+      "end_line": 1019,
+      "word_count": 636,
+      "inherited": false
+    },
+    {
+      "heading": "Attention Dynamics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1020,
+      "end_line": 1040,
+      "word_count": 316,
+      "inherited": false
+    },
+    {
+      "heading": "Training Characteristics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1041,
+      "end_line": 1097,
+      "word_count": 880,
+      "inherited": false
+    },
+    {
+      "heading": "Training Configuration Specifics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1098,
+      "end_line": 1119,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Result Tables",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1120,
+      "end_line": 1133,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1134,
+      "end_line": 1190,
+      "word_count": 406,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1191,
+      "end_line": 1200,
+      "word_count": 63,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Adaptive Non-causal Design",
+    "Compute DAGs and Attention Masking",
+    "j ≤ i",
+    "P =",
+    "PT",
+    "≤ i, j≤ T",
+    "Learned Schedulers",
+    "− σ",
+    "otherwise,",
+    "Regularizing Future Context",
+    "Naive Regularization",
+    "LL1 = 1",
+    "T",
+    "X",
+    "X",
+    "Algorithmic Latency",
+    "T",
+    "X",
+    "T",
+    "X",
+    "T",
+    "X",
+    "Compute-Induced UPL",
+    "X",
+    "X",
+    "i = 0",
+    "Experimental Results",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "LibriSpeech Experimental Setup",
+    "stacked blocks, one-layer 640-unit LSTM prediction",
+    "Baselines",
+    "Algorithmic Latency Results",
+    "Industrial Voice Assistant",
+    "Compute-Induced UPL",
+    "Additional Findings and Analysis",
+    "Emission Latency and Endpointer Latency",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "LibriSpeech “Other” and Noise Impact",
+    "Voice Assistant Data",
+    "Compute-Induced UPL Results",
+    "Attention Dynamics",
+    "Training Characteristics",
+    "Training Configuration Specifics",
+    "Voice Assistant Result Tables",
+    "UPL",
+    "UPL"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 56.2,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 3,
+      "weak": 3,
+      "missing": 2
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 422,
+            "section": "X",
+            "quote": "Since Dℓ−1 t,j−1 ≥ Dℓ−1 t,j by induction hypothesis, there exists at least one t′, namely t′ = t, over which a maximum is taken such that Dℓ i,j−1 ≥ Mℓ i,t′ · Dℓ−1 t′,j−1 ≥ Mℓ i,t · Dℓ−1 t,j = Dℓ i,j."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\bcorpus\\b",
+          "\\bcollected from\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 20,
+            "section": "Abstract",
+            "quote": "We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets."
+          },
+          {
+            "indicator": "\\bcorpus\\b",
+            "line": 564,
+            "section": "LibriSpeech Experimental Setup",
+            "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 564,
+            "section": "LibriSpeech Experimental Setup",
+            "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 614,
+            "section": "Algorithmic Latency Results",
+            "quote": "The aggregation means are taken across all utterances in the test set."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bhardware\\b",
+          "hyper-?parameters?",
+          "\\bepochs?\\b",
+          "\\bconfiguration\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bGPUs?\\b",
+          "batch size"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bhardware\\b",
+            "line": 100,
+            "section": "Related Work",
+            "quote": "Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…"
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 576,
+            "section": "stacked blocks, one-layer 640-unit LSTM prediction",
+            "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 576,
+            "section": "stacked blocks, one-layer 640-unit LSTM prediction",
+            "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+          },
+          {
+            "indicator": "\\bconfiguration\\b",
+            "line": 952,
+            "section": "Voice Assistant Data",
+            "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 1066,
+            "section": "Training Characteristics",
+            "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\blatency\\b|\\bthroughput\\b|response time",
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b",
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+            "line": 5,
+            "section": "Abstract",
+            "quote": "Streaming speech recognition architectures are employed for low-latency, real-time applications."
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 8,
+            "section": "Abstract",
+            "quote": "Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 128,
+            "section": "Related Work",
+            "quote": "Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 350,
+            "section": "Algorithmic Latency",
+            "quote": "Recall that traditionally, algorithmic latency would refer to the minimal theoretic amount of time the model needs to wait before it can emit a symbol at a particular frame, resulting from the number of noncausal future…"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 304,
+            "section": "X",
+            "quote": "j>i Mℓ i,j This L1-type regularization will serve as a baseline for our experiments."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 630,
+            "section": "Algorithmic Latency Results",
+            "quote": "Observe also, that compared with naive L1 regularization, for a given algorithmic latency budget, our ANCAT-Alg.Lat. models allow for a greater total amount of future frame attention based on ℓ1-norm measures."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 11,
+            "section": "Abstract",
+            "quote": "This dichotomy amounts to a tradeoff for real-time Automatic Speech Recognition (ASR) system design: profit from the low-latency benefit of strictly-causal architectures while accepting predictive performance limitation…"
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 20,
+          "section": "Abstract",
+          "quote": "We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets."
+        },
+        {
+          "indicator": "\\bcorpus\\b",
+          "line": 564,
+          "section": "LibriSpeech Experimental Setup",
+          "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+        },
+        {
+          "indicator": "\\bcollected from\\b",
+          "line": 564,
+          "section": "LibriSpeech Experimental Setup",
+          "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 614,
+          "section": "Algorithmic Latency Results",
+          "quote": "The aggregation means are taken across all utterances in the test set."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bhardware\\b",
+          "line": 100,
+          "section": "Related Work",
+          "quote": "Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…"
+        },
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 576,
+          "section": "stacked blocks, one-layer 640-unit LSTM prediction",
+          "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 576,
+          "section": "stacked blocks, one-layer 640-unit LSTM prediction",
+          "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+        },
+        {
+          "indicator": "\\bconfiguration\\b",
+          "line": 952,
+          "section": "Voice Assistant Data",
+          "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 1066,
+          "section": "Training Characteristics",
+          "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+          "line": 5,
+          "section": "Abstract",
+          "quote": "Streaming speech recognition architectures are employed for low-latency, real-time applications."
+        },
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 8,
+          "section": "Abstract",
+          "quote": "Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 128,
+          "section": "Related Work",
+          "quote": "Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations."
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 350,
+          "section": "Algorithmic Latency",
+          "quote": "Recall that traditionally, algorithmic latency would refer to the minimal theoretic amount of time the model needs to wait before it can emit a symbol at a particular frame, resulting from the number of noncausal future…"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 422 [X]: \"Since Dℓ−1 t,j−1 ≥ Dℓ−1 t,j by induction hypothesis, there exists at least one t′, namely t′ = t, over which a maximum is taken such that Dℓ i,j−1 ≥ Mℓ i,t′ · Dℓ−1 t′,j−1 ≥ Mℓ i,t · Dℓ−1 t,j = Dℓ i,j.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 20 [Abstract]: \"We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets.\"",
+        "line 564 [LibriSpeech Experimental Setup]: \"We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books.\"",
+        "line 564 [LibriSpeech Experimental Setup]: \"We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (7 found elsewhere).",
+      "evidence": [
+        "line 100 [Related Work]: \"Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…\"",
+        "line 576 [stacked blocks, one-layer 640-unit LSTM prediction]: \"For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…\"",
+        "line 576 [stacked blocks, one-layer 640-unit LSTM prediction]: \"For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 5 [Abstract]: \"Streaming speech recognition architectures are employed for low-latency, real-time applications.\"",
+        "line 8 [Abstract]: \"Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy.\"",
+        "line 128 [Related Work]: \"Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 304 [X]: \"j>i Mℓ i,j This L1-type regularization will serve as a baseline for our experiments.\"",
+        "line 630 [Algorithmic Latency Results]: \"Observe also, that compared with naive L1 regularization, for a given algorithmic latency budget, our ANCAT-Alg.Lat. models allow for a greater total amount of future frame attention based on ℓ1-norm measures.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 11 [Abstract]: \"This dichotomy amounts to a tradeoff for real-time Automatic Speech Recognition (ASR) system design: profit from the low-latency benefit of strictly-causal architectures while accepting predictive performance limitation…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 484.64,
+    "load_rubric": 3.59,
+    "detect_sections": 2.24,
+    "split_sentences": 2.98,
+    "assess": 64.49,
+    "detect_weaknesses": 0.11,
+    "explain": 0.03,
+    "total": 563.41
+  }
+}

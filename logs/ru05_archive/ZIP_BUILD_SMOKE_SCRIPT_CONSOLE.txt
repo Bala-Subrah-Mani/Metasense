@@ -1,0 +1,55 @@
+Evidence type: ACTUAL EXECUTION during ZIP assembly
+Timestamp UTC: 2026-10-18T15:49:31.999520+00:00
+Command: /opt/pyvenv/bin/python scripts/smoke_test.py
+
+STDOUT:
+MetaSense Smoke Test Evidence
+Evidence type: ACTUAL EXECUTION captured by this script
+Timestamp start (UTC): 2026-10-18T15:49:27.290939+00:00
+Timestamp end (UTC): 2026-10-18T15:49:31.814610+00:00
+Working directory: /mnt/data/MetaSense_CISC699_Assignment05
+Python executable: /opt/pyvenv/bin/python
+Command: /opt/pyvenv/bin/python -m metasense --config config/metasense.json --root .
+
+STDOUT:
+MetaSense 0.1.0 — PASS
+Root: /mnt/data/MetaSense_CISC699_Assignment05
+Checks: 8 passed, 0 warnings, 0 failed (total 8)
+[PASS   ] required_config_field: project_name
+[PASS   ] required_config_field: environment
+[PASS   ] required_directory: src
+[PASS   ] required_directory: tests
+[PASS   ] required_directory: docs
+[PASS   ] optional_directory: data
+[PASS   ] optional_directory: results
+[PASS   ] optional_directory: logs
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+
+Exit status: 0
+
+Evidence saved to: logs/smoke_test_20261018T154927Z.txt
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+
+Exit status: 0

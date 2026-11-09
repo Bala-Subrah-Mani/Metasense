@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+body{margin:0;font-family:"DejaVu Sans",Arial,sans-serif;background:#fff;color:#1f1f1f}
+#c{width:1100px;padding:22px 26px 18px;box-sizing:border-box}
+h1{font-size:19px;margin:0 0 4px} .sub{font-size:13px;color:#555;margin-bottom:16px}
+.row{display:grid;grid-template-columns:250px 40px 1fr;align-items:center;margin-bottom:8px}
+.stage{border:2px solid #2a78d6;border-radius:8px;padding:9px 12px;font-size:14px;font-weight:bold;background:#eef4fc;text-align:center}
+.stage small{display:block;font-weight:normal;font-size:11.5px;color:#444;margin-top:2px}
+.ok .stage{border-color:#8a8a8a;background:#f4f4f2}
+.arrow{font-size:20px;color:#888;text-align:center}
+.note{font-size:12.5px;line-height:1.38;border-left:4px solid #e34948;padding:6px 10px;background:#fdf1f1;border-radius:0 6px 6px 0}
+.note.good{border-left-color:#1baf7a;background:#eef8f3}
+.note b{color:#111}
+.down{width:250px;text-align:center;color:#888;font-size:16px;line-height:12px;margin:-2px 0 2px}
+.legend{font-size:12px;color:#444;margin-top:10px;display:flex;gap:18px}
+.sw{display:inline-block;width:12px;height:12px;border-radius:2px;vertical-align:-1px;margin-right:5px}
+</style></head><body><div id="c">
+<h1>Where MetaSense v0.2.1 fails on real papers</h1>
+<div class="sub">Pipeline stages (left) and the weaknesses observed in the RM-08 pilot (12 published documents), placed at the stage where they originate</div>
+<div class="row ok"><div class="stage">Input validation<small>type, size, signature</small></div><div class="arrow">→</div><div class="note good"><b>Holds.</b> 12/12 real PDFs accepted; 3/3 invalid inputs rejected with the correct code on two dates.</div></div>
+<div class="down">↓</div>
+<div class="row"><div class="stage">Text extraction<small>pypdf (as shipped)</small></div><div class="arrow">→</div><div class="note"><b>Partial loss.</b> 85% of reference headings recoverable (pdftotext -layout 59%, reading order 90%). Small-caps headings split ("V ARIATIONAL"); 3,311 control bytes in one math-heavy paper.</div></div>
+<div class="down">↓</div>
+<div class="row"><div class="stage">Section detection<small>numbering / ALL-CAPS / synonym rules</small></div><div class="arrow">→</div><div class="note"><b>Primary failure.</b> 1,661 spurious top-level headings vs 130 real (precision 0.06); 87% are math or symbol lines. Methodology found in 4 of 8 empirical papers: "Experimental Results", "Numerical Results", "Examples" not in vocabulary.</div></div>
+<div class="down">↓</div>
+<div class="row"><div class="stage">Rubric assessment<small>regex indicators, section scope</small></div><div class="arrow">→</div><div class="note"><b>Inherits + adds error.</b> Scope breaks when sections are spurious; indicators match wrong senses ("Recall that", variable f1). 21 of 36 audited citations spurious. Theory papers score 68.8 vs 56.2 for an empirical paper.</div></div>
+<div class="down">↓</div>
+<div class="row"><div class="stage">Weaknesses &amp; explanation<small>severity rules, quoted evidence</small></div><div class="arrow">→</div><div class="note"><b>Faithful but hard to verify.</b> 186/186 quotes exist at the cited line; 10 cut before the triggering word; 22 duplicates.</div></div>
+<div class="down">↓</div>
+<div class="row ok"><div class="stage">Report &amp; packaging<small>JSON / Markdown, release tag</small></div><div class="arrow">→</div><div class="note"><b>Deterministic, fast; release defect.</b> Identical substantive output across restarts; ≤ 9 s per paper. Tag v0.2.1 installs stale v0.2.0 code (D-09).</div></div>
+<div class="legend"><span><span class="sw" style="background:#e34948"></span>observed weakness</span><span><span class="sw" style="background:#1baf7a"></span>behaviour that held</span><span>Sources: evidence/20261025T202233Z_rm08_pilot/analysis; research/rm09_memo/results</span></div>
+</div></body></html>

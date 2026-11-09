@@ -1,0 +1,2579 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "b2f283240226",
+  "timestamp_utc": "2026-10-25T20:22:48+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 71056,
+    "sha256": "e8ff361673fd69231014037c3867a40040ed9b166ba6c9f11d78ef8853072f17"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 10819,
+    "line_count": 2002,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 5,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 6,
+      "end_line": 59,
+      "word_count": 505,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 60,
+      "end_line": 124,
+      "word_count": 557,
+      "inherited": false
+    },
+    {
+      "heading": "Related Work",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 125,
+      "end_line": 172,
+      "word_count": 445,
+      "inherited": false
+    },
+    {
+      "heading": "Adaptive Non-causal Design",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 173,
+      "end_line": 198,
+      "word_count": 284,
+      "inherited": false
+    },
+    {
+      "heading": "T ×T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 199,
+      "end_line": 211,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "≤ i, j ≤ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 212,
+      "end_line": 223,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "Compute DAGs and Attention Masking",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 224,
+      "end_line": 234,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "P =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 235,
+      "end_line": 263,
+      "word_count": 118,
+      "inherited": false
+    },
+    {
+      "heading": "≤ i, j ≤ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 264,
+      "end_line": 267,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "Learned Schedulers",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 268,
+      "end_line": 290,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "− σ j − i − oℓi /τ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 291,
+      "end_line": 398,
+      "word_count": 237,
+      "inherited": false
+    },
+    {
+      "heading": "Algorithmic Latency",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 399,
+      "end_line": 409,
+      "word_count": 101,
+      "inherited": false
+    },
+    {
+      "heading": "Regularizing Future Context",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 410,
+      "end_line": 414,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "Naive Regularization",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 415,
+      "end_line": 421,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 422,
+      "end_line": 433,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "XX ℓ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 434,
+      "end_line": 434,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LL1 =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 435,
+      "end_line": 436,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 437,
+      "end_line": 510,
+      "word_count": 387,
+      "inherited": false
+    },
+    {
+      "heading": "ℓ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 511,
+      "end_line": 515,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "XX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 516,
+      "end_line": 597,
+      "word_count": 359,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 598,
+      "end_line": 598,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 599,
+      "end_line": 599,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 600,
+      "end_line": 643,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 644,
+      "end_line": 648,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "Experimental Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 649,
+      "end_line": 650,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 651,
+      "end_line": 670,
+      "word_count": 143,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 671,
+      "end_line": 678,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 679,
+      "end_line": 690,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 691,
+      "end_line": 712,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "6.27",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 713,
+      "end_line": 713,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "63.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 714,
+      "end_line": 714,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "59.9",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 715,
+      "end_line": 715,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "62.4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 716,
+      "end_line": 716,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "6.94",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 717,
+      "end_line": 730,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "5.68",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 731,
+      "end_line": 731,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "235",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 732,
+      "end_line": 732,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "236",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 733,
+      "end_line": 733,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "241",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 734,
+      "end_line": 734,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "27.3",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 735,
+      "end_line": 748,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "5.15",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 749,
+      "end_line": 749,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "518",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 750,
+      "end_line": 750,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "518",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 751,
+      "end_line": 751,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "541",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 752,
+      "end_line": 752,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "60.3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 753,
+      "end_line": 770,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "WER (%)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 771,
+      "end_line": 777,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "WER (%)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 778,
+      "end_line": 789,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "6.56",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 790,
+      "end_line": 790,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "63.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 791,
+      "end_line": 791,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "59.9",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 792,
+      "end_line": 792,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "62.4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 793,
+      "end_line": 793,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "6.94",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 794,
+      "end_line": 807,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "5.74",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 808,
+      "end_line": 808,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "235",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 809,
+      "end_line": 809,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "236",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 810,
+      "end_line": 810,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "241",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 811,
+      "end_line": 811,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "27.3",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 812,
+      "end_line": 829,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "5.65",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 830,
+      "end_line": 830,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "518",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 831,
+      "end_line": 831,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "518",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 832,
+      "end_line": 832,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "541",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 833,
+      "end_line": 833,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "60.3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 834,
+      "end_line": 864,
+      "word_count": 140,
+      "inherited": false
+    },
+    {
+      "heading": "LibriSpeech Experimental Setup",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 865,
+      "end_line": 873,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "stacked blocks, one-layer 640-unit LSTM prediction",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 874,
+      "end_line": 877,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Baselines",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 878,
+      "end_line": 891,
+      "word_count": 101,
+      "inherited": false
+    },
+    {
+      "heading": "Algorithmic Latency Results",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 892,
+      "end_line": 974,
+      "word_count": 806,
+      "inherited": false
+    },
+    {
+      "heading": "Industrial Voice Assistant",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 975,
+      "end_line": 992,
+      "word_count": 157,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 993,
+      "end_line": 994,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 995,
+      "end_line": 1019,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "Additional Findings and Analysis",
+      "label": "conclusion",
+      "level": 2,
+      "start_line": 1020,
+      "end_line": 1031,
+      "word_count": 59,
+      "inherited": true
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1032,
+      "end_line": 1242,
+      "word_count": 1421,
+      "inherited": false
+    },
+    {
+      "heading": "Emission Latency and Endpointer Latency",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1243,
+      "end_line": 1257,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1258,
+      "end_line": 1267,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1268,
+      "end_line": 1277,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1278,
+      "end_line": 1292,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "WER (%)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1293,
+      "end_line": 1301,
+      "word_count": 43,
+      "inherited": false
+    },
+    {
+      "heading": "LibriSpeech “Other” and Noise Impact",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1302,
+      "end_line": 1334,
+      "word_count": 429,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Data",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1335,
+      "end_line": 1377,
+      "word_count": 495,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1378,
+      "end_line": 1420,
+      "word_count": 636,
+      "inherited": false
+    },
+    {
+      "heading": "Attention Dynamics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1421,
+      "end_line": 1449,
+      "word_count": 316,
+      "inherited": false
+    },
+    {
+      "heading": "Training Characteristics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1450,
+      "end_line": 1517,
+      "word_count": 882,
+      "inherited": false
+    },
+    {
+      "heading": "Training Configuration Specifics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1518,
+      "end_line": 1551,
+      "word_count": 206,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Result Tables",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1552,
+      "end_line": 1577,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "L1-A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1578,
+      "end_line": 1578,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1579,
+      "end_line": 1579,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1580,
+      "end_line": 1580,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1581,
+      "end_line": 1581,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1582,
+      "end_line": 1582,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1583,
+      "end_line": 1583,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1584,
+      "end_line": 1584,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1585,
+      "end_line": 1585,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1586,
+      "end_line": 1586,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1-J",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1587,
+      "end_line": 1587,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1588,
+      "end_line": 1588,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1589,
+      "end_line": 1589,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1590,
+      "end_line": 1590,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1591,
+      "end_line": 1591,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1592,
+      "end_line": 1592,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1593,
+      "end_line": 1593,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1594,
+      "end_line": 1594,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL-H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1595,
+      "end_line": 1595,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB01.5-A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1596,
+      "end_line": 1596,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB01.5-B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1597,
+      "end_line": 1597,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB01.5-C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1598,
+      "end_line": 1598,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB01.5-D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1599,
+      "end_line": 1599,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB01.5-E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1600,
+      "end_line": 1600,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB2-A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1601,
+      "end_line": 1601,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB2-B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1602,
+      "end_line": 1602,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB2-C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1603,
+      "end_line": 1603,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB2-D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1604,
+      "end_line": 1604,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB2-E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1605,
+      "end_line": 1605,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB3-A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1606,
+      "end_line": 1606,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB3-B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1607,
+      "end_line": 1607,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB3-C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1608,
+      "end_line": 1608,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB3-D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1609,
+      "end_line": 1609,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CB3-E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1610,
+      "end_line": 1619,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1620,
+      "end_line": 1620,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1621,
+      "end_line": 1621,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1622,
+      "end_line": 1622,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1623,
+      "end_line": 1623,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1624,
+      "end_line": 1624,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1625,
+      "end_line": 1625,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1626,
+      "end_line": 1626,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1627,
+      "end_line": 1627,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1628,
+      "end_line": 1628,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1629,
+      "end_line": 1629,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1630,
+      "end_line": 1630,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1631,
+      "end_line": 1631,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1632,
+      "end_line": 1632,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1633,
+      "end_line": 1633,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1634,
+      "end_line": 1634,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1635,
+      "end_line": 1635,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1636,
+      "end_line": 1636,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1637,
+      "end_line": 1637,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1638,
+      "end_line": 1638,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1639,
+      "end_line": 1639,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1640,
+      "end_line": 1640,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1641,
+      "end_line": 1641,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1642,
+      "end_line": 1642,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1643,
+      "end_line": 1643,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1644,
+      "end_line": 1644,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1645,
+      "end_line": 1645,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1646,
+      "end_line": 1646,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1647,
+      "end_line": 1647,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1648,
+      "end_line": 1648,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1649,
+      "end_line": 1649,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1650,
+      "end_line": 1650,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1651,
+      "end_line": 1651,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1652,
+      "end_line": 1653,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1654,
+      "end_line": 1654,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1655,
+      "end_line": 1655,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1656,
+      "end_line": 1656,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1657,
+      "end_line": 1657,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1658,
+      "end_line": 1658,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1659,
+      "end_line": 1659,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1660,
+      "end_line": 1660,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1661,
+      "end_line": 1661,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1662,
+      "end_line": 1662,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1663,
+      "end_line": 1663,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1664,
+      "end_line": 1664,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1665,
+      "end_line": 1665,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1666,
+      "end_line": 1666,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1667,
+      "end_line": 1667,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1668,
+      "end_line": 1668,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1669,
+      "end_line": 1669,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1670,
+      "end_line": 1670,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1671,
+      "end_line": 1679,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1680,
+      "end_line": 1680,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1681,
+      "end_line": 1681,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1682,
+      "end_line": 1682,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1683,
+      "end_line": 1683,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1684,
+      "end_line": 1684,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1685,
+      "end_line": 1685,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1686,
+      "end_line": 1686,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1687,
+      "end_line": 1687,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1688,
+      "end_line": 1688,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1689,
+      "end_line": 1689,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1690,
+      "end_line": 1690,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1691,
+      "end_line": 1691,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1692,
+      "end_line": 1692,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1693,
+      "end_line": 1693,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1694,
+      "end_line": 1695,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1696,
+      "end_line": 1696,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1697,
+      "end_line": 1697,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1698,
+      "end_line": 1698,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1699,
+      "end_line": 1699,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1700,
+      "end_line": 1700,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1701,
+      "end_line": 1701,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1702,
+      "end_line": 1702,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1703,
+      "end_line": 1779,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "WERR",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1780,
+      "end_line": 1785,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1786,
+      "end_line": 1938,
+      "word_count": 153,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1939,
+      "end_line": 1939,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "AL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1940,
+      "end_line": 1945,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1946,
+      "end_line": 1946,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT (10)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1947,
+      "end_line": 1948,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1949,
+      "end_line": 1949,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1950,
+      "end_line": 1950,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1951,
+      "end_line": 1951,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1952,
+      "end_line": 1952,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1953,
+      "end_line": 1955,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1956,
+      "end_line": 1956,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1957,
+      "end_line": 1957,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1958,
+      "end_line": 1958,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1959,
+      "end_line": 1969,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "WERR",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1970,
+      "end_line": 1975,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "UPL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1976,
+      "end_line": 2002,
+      "word_count": 27,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Adaptive Non-causal Design",
+    "T ×T",
+    "≤ i, j ≤ T",
+    "Compute DAGs and Attention Masking",
+    "P =",
+    "≤ i, j ≤ T",
+    "Learned Schedulers",
+    "− σ j − i − oℓi /τ",
+    "Algorithmic Latency",
+    "Regularizing Future Context",
+    "Naive Regularization",
+    "1X",
+    "XX ℓ",
+    "LL1 =",
+    "T",
+    "ℓ",
+    "XX",
+    "1X",
+    "1X",
+    "L",
+    "L",
+    "Experimental Results",
+    "Compute-Induced UPL",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "6.27",
+    "63.2",
+    "59.9",
+    "62.4",
+    "6.94",
+    "5.68",
+    "235",
+    "236",
+    "241",
+    "27.3",
+    "5.15",
+    "518",
+    "518",
+    "541",
+    "60.3",
+    "WER (%)",
+    "WER (%)",
+    "6.56",
+    "63.2",
+    "59.9",
+    "62.4",
+    "6.94",
+    "5.74",
+    "235",
+    "236",
+    "241",
+    "27.3",
+    "5.65",
+    "518",
+    "518",
+    "541",
+    "60.3",
+    "LibriSpeech Experimental Setup",
+    "stacked blocks, one-layer 640-unit LSTM prediction",
+    "Baselines",
+    "Algorithmic Latency Results",
+    "Industrial Voice Assistant",
+    "Compute-Induced UPL",
+    "Emission Latency and Endpointer Latency",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "WER (%)",
+    "LibriSpeech “Other” and Noise Impact",
+    "Voice Assistant Data",
+    "Compute-Induced UPL Results",
+    "Attention Dynamics",
+    "Training Characteristics",
+    "Training Configuration Specifics",
+    "Voice Assistant Result Tables",
+    "L1-A",
+    "L1-B",
+    "L1-C",
+    "L1-D",
+    "L1-E",
+    "L1-F",
+    "L1-G",
+    "L1-H",
+    "L1-I",
+    "L1-J",
+    "AL-A",
+    "AL-B",
+    "AL-C",
+    "AL-D",
+    "AL-E",
+    "AL-F",
+    "AL-G",
+    "AL-H",
+    "CB01.5-A",
+    "CB01.5-B",
+    "CB01.5-C",
+    "CB01.5-D",
+    "CB01.5-E",
+    "CB2-A",
+    "CB2-B",
+    "CB2-C",
+    "CB2-D",
+    "CB2-E",
+    "CB3-A",
+    "CB3-B",
+    "CB3-C",
+    "CB3-D",
+    "CB3-E",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "L1",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "UPL",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "WERR",
+    "UPL",
+    "L1",
+    "AL",
+    "ANCAT (10)",
+    "ANCAT (10)",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "L1",
+    "N/A",
+    "N/A",
+    "N/A",
+    "N/A",
+    "WERR",
+    "UPL"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 56.2,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 3,
+      "weak": 3,
+      "missing": 2
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 535,
+            "section": "XX",
+            "quote": "Since ℓ−1 ℓ−1 Dt,j−1 ≥ Dt,j by induction hypothesis, there exists at least one t′ , namely t′ = t, over which a maximum is taken ℓ−1 ℓ−1 ℓ ℓ ℓ ℓ such that Di,j−1 ≥ Mi,t = Di,j . ′ · Dt′ ,j−1 ≥ Mi,t · Dt,j"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\bcorpus\\b",
+          "\\bcollected from\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 38,
+            "section": "Abstract",
+            "quote": "We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets."
+          },
+          {
+            "indicator": "\\bcorpus\\b",
+            "line": 866,
+            "section": "LibriSpeech Experimental Setup",
+            "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 866,
+            "section": "LibriSpeech Experimental Setup",
+            "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 907,
+            "section": "Algorithmic Latency Results",
+            "quote": "The aggregation means are taken across all utterances in the test set."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bhardware\\b",
+          "hyper-?parameters?",
+          "\\bepochs?\\b",
+          "\\bconfiguration\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bGPUs?\\b",
+          "batch size"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bhardware\\b",
+            "line": 159,
+            "section": "Related Work",
+            "quote": "Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…"
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 852,
+            "section": "60.3",
+            "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 852,
+            "section": "60.3",
+            "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+          },
+          {
+            "indicator": "\\bconfiguration\\b",
+            "line": 1340,
+            "section": "Voice Assistant Data",
+            "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 1482,
+            "section": "Training Characteristics",
+            "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\blatency\\b|\\bthroughput\\b|response time",
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b",
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+            "line": 23,
+            "section": "Abstract",
+            "quote": "Streaming speech recognition architectures are employed for low-latency, real-time applications."
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 26,
+            "section": "Abstract",
+            "quote": "Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 111,
+            "section": "Introduction",
+            "quote": "Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 401,
+            "section": "Algorithmic Latency",
+            "quote": "Recall that traditionally, algorithmic latency would refer to the minimal theoretic amount of time the model needs to wait before it can emit a symbol at a particular frame, resulting from the number of noncausal future…"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 450,
+            "section": "T",
+            "quote": "This L1-type regularization will serve as a baseline for our experiments."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 941,
+            "section": "Algorithmic Latency Results",
+            "quote": "Observe also, that compared with naive L1 regularization, for a given algorithmic latency budget, our ANCAT-Alg.Lat. models allow for a greater total amount of future frame attention based on ℓ1 -norm measures."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 29,
+            "section": "Abstract",
+            "quote": "This dichotomy amounts to a tradeoff for real-time Automatic Speech Recognition (ASR) system design: profit from the low-latency benefit of strictly-causal architectures while accepting predictive performance limitation…"
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 38,
+          "section": "Abstract",
+          "quote": "We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets."
+        },
+        {
+          "indicator": "\\bcorpus\\b",
+          "line": 866,
+          "section": "LibriSpeech Experimental Setup",
+          "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+        },
+        {
+          "indicator": "\\bcollected from\\b",
+          "line": 866,
+          "section": "LibriSpeech Experimental Setup",
+          "quote": "We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books."
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 907,
+          "section": "Algorithmic Latency Results",
+          "quote": "The aggregation means are taken across all utterances in the test set."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bhardware\\b",
+          "line": 159,
+          "section": "Related Work",
+          "quote": "Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…"
+        },
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 852,
+          "section": "60.3",
+          "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 852,
+          "section": "60.3",
+          "quote": "For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…"
+        },
+        {
+          "indicator": "\\bconfiguration\\b",
+          "line": 1340,
+          "section": "Voice Assistant Data",
+          "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 1482,
+          "section": "Training Characteristics",
+          "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+          "line": 23,
+          "section": "Abstract",
+          "quote": "Streaming speech recognition architectures are employed for low-latency, real-time applications."
+        },
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 26,
+          "section": "Abstract",
+          "quote": "Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 111,
+          "section": "Introduction",
+          "quote": "Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations."
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 401,
+          "section": "Algorithmic Latency",
+          "quote": "Recall that traditionally, algorithmic latency would refer to the minimal theoretic amount of time the model needs to wait before it can emit a symbol at a particular frame, resulting from the number of noncausal future…"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 535 [XX]: \"Since ℓ−1 ℓ−1 Dt,j−1 ≥ Dt,j by induction hypothesis, there exists at least one t′ , namely t′ = t, over which a maximum is taken ℓ−1 ℓ−1 ℓ ℓ ℓ ℓ such that Di,j−1 ≥ Mi,t = Di,j . ′ · Dt′ ,j−1 ≥ Mi,t · Dt,j\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 38 [Abstract]: \"We showcase our design experimentally by reporting comparative ASR task results with measures of accuracy and latency on both publicly accessible and productionscale, voice-assistant datasets.\"",
+        "line 866 [LibriSpeech Experimental Setup]: \"We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books.\"",
+        "line 866 [LibriSpeech Experimental Setup]: \"We investigate our architectures using the LibriSpeech corpus (Panayotov et al., 2015) comprised of 960 hours of training data collected from read audio books.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (7 found elsewhere).",
+      "evidence": [
+        "line 159 [Related Work]: \"Similar to dual-mode training, (Swietojanski et al., 2022) also extends in-place distillation to chunking of variable sizes, training a single model but allowing different chunk sizes to be configured at inference to ma…\"",
+        "line 852 [60.3]: \"For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…\"",
+        "line 852 [60.3]: \"For LibriSpeech, all the models are trained for 150 epochs of 1k steps with the Transformer-based encoder backbone and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the sam…\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 23 [Abstract]: \"Streaming speech recognition architectures are employed for low-latency, real-time applications.\"",
+        "line 26 [Abstract]: \"Causal architectures emit tokens at each frame, relying only on current and past signal, while non-causal models are exposed to a window of future frames at each step to increase predictive accuracy.\"",
+        "line 111 [Introduction]: \"Additionally, all adaptive techniques effectively tie their compute to a particular cost metric, such as floating point operations.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 450 [T]: \"This L1-type regularization will serve as a baseline for our experiments.\"",
+        "line 941 [Algorithmic Latency Results]: \"Observe also, that compared with naive L1 regularization, for a given algorithmic latency budget, our ANCAT-Alg.Lat. models allow for a greater total amount of future frame attention based on ℓ1 -norm measures.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 29 [Abstract]: \"This dichotomy amounts to a tradeoff for real-time Automatic Speech Recognition (ASR) system design: profit from the low-latency benefit of strictly-causal architectures while accepting predictive performance limitation…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.11,
+    "extract": 6.34,
+    "load_rubric": 3.08,
+    "detect_sections": 4.42,
+    "split_sentences": 2.21,
+    "assess": 55.86,
+    "detect_weaknesses": 0.12,
+    "explain": 0.03,
+    "total": 72.94
+  }
+}

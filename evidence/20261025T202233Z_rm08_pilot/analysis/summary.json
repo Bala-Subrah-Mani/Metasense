@@ -1,0 +1,151 @@
+{
+  "run": "20261025T202233Z_rm08_pilot",
+  "documents": 12,
+  "M1_processing": {
+    "ok": 12,
+    "n": 12,
+    "rate": 1.0
+  },
+  "M2_extraction": {
+    "gold_top_headings": 130,
+    "recoverable": {
+      "A": 110,
+      "B": 77,
+      "B2": 117
+    },
+    "rate": {
+      "A": 0.846,
+      "B": 0.592,
+      "B2": 0.9
+    },
+    "word_ratio_A_over_B2_median": 0.9504999999999999,
+    "word_ratio_range": [
+      0.848,
+      1.018
+    ]
+  },
+  "M3_headings": {
+    "A": {
+      "recall": 0.777,
+      "precision": 0.056,
+      "matched": 101,
+      "gold": 130,
+      "detected_top": 1791
+    },
+    "B": {
+      "recall": 0.508,
+      "precision": 0.063,
+      "matched": 66,
+      "gold": 130,
+      "detected_top": 1024
+    },
+    "B2": {
+      "recall": 0.823,
+      "precision": 0.052,
+      "matched": 107,
+      "gold": 130,
+      "detected_top": 2073
+    },
+    "C": {
+      "recall": 0.8,
+      "precision": 1.0,
+      "matched": 104,
+      "gold": 130,
+      "detected_top": 104
+    }
+  },
+  "M4_methodology": {
+    "A": {
+      "all": {
+        "agree": 7,
+        "n": 10
+      },
+      "empirical": {
+        "agree": 4,
+        "n": 7
+      }
+    },
+    "B": {
+      "all": {
+        "agree": 4,
+        "n": 10
+      },
+      "empirical": {
+        "agree": 1,
+        "n": 7
+      }
+    },
+    "B2": {
+      "all": {
+        "agree": 7,
+        "n": 10
+      },
+      "empirical": {
+        "agree": 4,
+        "n": 7
+      }
+    },
+    "C": {
+      "all": {
+        "agree": 6,
+        "n": 10
+      },
+      "empirical": {
+        "agree": 3,
+        "n": 7
+      }
+    }
+  },
+  "M4_section_match_on_g2_yes": {
+    "A": 3,
+    "C": 3,
+    "n_yes": 7
+  },
+  "M5_citations": {
+    "n": 186,
+    "quote_in_text": 186,
+    "line_consistent": 186,
+    "indicator_matches_quote": 176,
+    "section_consistent": 186,
+    "duplicate_of_earlier_citation": 22,
+    "all_checks_pass": 176,
+    "rate": 0.9462
+  },
+  "M6_latency_ms": {
+    "cold_median": 719.855,
+    "cold_max": 9014.29,
+    "warm_median": 691.085,
+    "warm_max": 9312.46,
+    "cli_cold_max": 9114.6
+  },
+  "M7_rubric_status_by_stratum": {
+    "E1": {
+      "present": 23,
+      "missing": 6,
+      "weak": 11
+    },
+    "E2": {
+      "missing": 4,
+      "present": 14,
+      "weak": 6
+    },
+    "T": {
+      "present": 8,
+      "weak": 6,
+      "missing": 2
+    },
+    "S": {
+      "present": 6,
+      "weak": 6,
+      "missing": 4
+    }
+  },
+  "decisions": {
+    "D1_reference_usable": false,
+    "D2_pypdf_adequate": false,
+    "D3_C_minus_A_recall": 0.023,
+    "D3_attribution": "rule coverage",
+    "D4_transfer_agreement_empirical": 0.571,
+    "D4_transfers": false
+  }
+}

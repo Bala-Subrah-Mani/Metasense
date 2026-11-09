@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metasense"
+version = "0.2.3"
+description = "MetaSense: rule-based baseline for research-methodology quality assessment (CISC699)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Bala Subrah Mani Naidu"}]
+dependencies = ["pypdf>=5.1,<6", "python-docx>=1.1,<2"]
+
+[project.scripts]
+metasense = "metasense.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.package-data]
+metasense = ["resources/*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

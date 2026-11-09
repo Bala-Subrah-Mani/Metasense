@@ -1,0 +1,1756 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "d794a2529f18",
+  "timestamp_utc": "2026-10-25T20:22:45+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 69093,
+    "sha256": "456fbd0d31402361a1220e7ce749e66044858f490ddb198bfb62dc68cba0b05e"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 11303,
+    "line_count": 1738,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 4,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 5,
+      "end_line": 48,
+      "word_count": 387,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 49,
+      "end_line": 125,
+      "word_count": 643,
+      "inherited": false
+    },
+    {
+      "heading": "We propose LieGNN, a modified E(n) Equivariant",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 126,
+      "end_line": 130,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Related Work",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 131,
+      "end_line": 185,
+      "word_count": 488,
+      "inherited": false
+    },
+    {
+      "heading": "S YMMETRY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 186,
+      "end_line": 186,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D ISCRETE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 187,
+      "end_line": 187,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "C ONTINUOUS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 188,
+      "end_line": 188,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "G IVEN GROUP SUBSET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 189,
+      "end_line": 189,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U NKNOWN GROUP SUBSET",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 190,
+      "end_line": 191,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MSR AUGERINO L IE GAN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 192,
+      "end_line": 208,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "Generative Adversarial Symmetry Discovery",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 209,
+      "end_line": 210,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Background",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 211,
+      "end_line": 259,
+      "word_count": 405,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 260,
+      "end_line": 285,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "Symmetry Discovery",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 286,
+      "end_line": 288,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "Φ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 289,
+      "end_line": 289,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 290,
+      "end_line": 314,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 315,
+      "end_line": 319,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "Parameterizing Distributions Over Lie Group",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 320,
+      "end_line": 405,
+      "word_count": 696,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 406,
+      "end_line": 408,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "Using the Discovered Symmetry",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 409,
+      "end_line": 410,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Regularization Against Trivial Solutions",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 411,
+      "end_line": 428,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "Data Augmentation",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 429,
+      "end_line": 447,
+      "word_count": 152,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 448,
+      "end_line": 456,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Equivariant Model",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 457,
+      "end_line": 490,
+      "word_count": 285,
+      "inherited": false
+    },
+    {
+      "heading": "Model Architecture",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 491,
+      "end_line": 509,
+      "word_count": 136,
+      "inherited": false
+    },
+    {
+      "heading": "Baselines",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 510,
+      "end_line": 569,
+      "word_count": 563,
+      "inherited": false
+    },
+    {
+      "heading": "J",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 570,
+      "end_line": 572,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 573,
+      "end_line": 576,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N-Body Trajectory",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 577,
+      "end_line": 601,
+      "word_count": 179,
+      "inherited": false
+    },
+    {
+      "heading": "Experiments",
+      "label": "experiments",
+      "level": 1,
+      "start_line": 602,
+      "end_line": 625,
+      "word_count": 127,
+      "inherited": false
+    },
+    {
+      "heading": "EMLP",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 626,
+      "end_line": 646,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "HNN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 647,
+      "end_line": 647,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MLP",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 648,
+      "end_line": 683,
+      "word_count": 239,
+      "inherited": false
+    },
+    {
+      "heading": "Synthetic Datasets",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 684,
+      "end_line": 765,
+      "word_count": 690,
+      "inherited": false
+    },
+    {
+      "heading": "Top tagging",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 766,
+      "end_line": 811,
+      "word_count": 327,
+      "inherited": false
+    },
+    {
+      "heading": "AUROC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 812,
+      "end_line": 816,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "EGNN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 817,
+      "end_line": 850,
+      "word_count": 172,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 851,
+      "end_line": 860,
+      "word_count": 55,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 861,
+      "end_line": 989,
+      "word_count": 896,
+      "inherited": false
+    },
+    {
+      "heading": "URL https://openreview.net/forum?",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 990,
+      "end_line": 993,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "IEEE Conference on Computer Vision and Pattern",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 994,
+      "end_line": 1018,
+      "word_count": 139,
+      "inherited": false
+    },
+    {
+      "heading": "Proofs",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1019,
+      "end_line": 1030,
+      "word_count": 206,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1031,
+      "end_line": 1036,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "G∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1037,
+      "end_line": 1039,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1040,
+      "end_line": 1045,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "G∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1046,
+      "end_line": 1048,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1049,
+      "end_line": 1054,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "G∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1055,
+      "end_line": 1066,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1067,
+      "end_line": 1091,
+      "word_count": 282,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1092,
+      "end_line": 1099,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1100,
+      "end_line": 1110,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "L(Φ, D∗ ) =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1111,
+      "end_line": 1118,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1119,
+      "end_line": 1129,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1130,
+      "end_line": 1141,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1142,
+      "end_line": 1154,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1155,
+      "end_line": 1161,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1162,
+      "end_line": 1170,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1171,
+      "end_line": 1176,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1177,
+      "end_line": 1184,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1185,
+      "end_line": 1190,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1191,
+      "end_line": 1198,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1199,
+      "end_line": 1223,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1224,
+      "end_line": 1232,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1233,
+      "end_line": 1245,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1246,
+      "end_line": 1259,
+      "word_count": 76,
+      "inherited": false
+    },
+    {
+      "heading": "−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1260,
+      "end_line": 1260,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1261,
+      "end_line": 1261,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1262,
+      "end_line": 1264,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1265,
+      "end_line": 1265,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1266,
+      "end_line": 1267,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1268,
+      "end_line": 1268,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1269,
+      "end_line": 1270,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "L=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1271,
+      "end_line": 1271,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1272,
+      "end_line": 1273,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1274,
+      "end_line": 1274,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1275,
+      "end_line": 1275,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1276,
+      "end_line": 1292,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "+I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1293,
+      "end_line": 1302,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1303,
+      "end_line": 1303,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(−1)k θ2k+1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1304,
+      "end_line": 1308,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "R+",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1309,
+      "end_line": 1311,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1312,
+      "end_line": 1319,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1320,
+      "end_line": 1339,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1340,
+      "end_line": 1353,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "R+",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1354,
+      "end_line": 1356,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1357,
+      "end_line": 1357,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(−1)k θ2k",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1358,
+      "end_line": 1362,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1363,
+      "end_line": 1377,
+      "word_count": 107,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1378,
+      "end_line": 1382,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1383,
+      "end_line": 1386,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1387,
+      "end_line": 1389,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1390,
+      "end_line": 1390,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1391,
+      "end_line": 1403,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1404,
+      "end_line": 1413,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1414,
+      "end_line": 1427,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1428,
+      "end_line": 1440,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "Experiment Details",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1441,
+      "end_line": 1526,
+      "word_count": 1242,
+      "inherited": false
+    },
+    {
+      "heading": "Additional Experiments",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1527,
+      "end_line": 1555,
+      "word_count": 176,
+      "inherited": false
+    },
+    {
+      "heading": "N/A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1556,
+      "end_line": 1577,
+      "word_count": 124,
+      "inherited": false
+    },
+    {
+      "heading": "−1 0 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1578,
+      "end_line": 1578,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1 0 0 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1579,
+      "end_line": 1581,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "0 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1582,
+      "end_line": 1600,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "0 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1601,
+      "end_line": 1603,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "0 0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1604,
+      "end_line": 1604,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "0 0 0 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1605,
+      "end_line": 1623,
+      "word_count": 166,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1624,
+      "end_line": 1624,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "+ c1 i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1625,
+      "end_line": 1627,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "L1 =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1628,
+      "end_line": 1628,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ", L2 =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1629,
+      "end_line": 1629,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": ", L3 =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1630,
+      "end_line": 1638,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1639,
+      "end_line": 1642,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1643,
+      "end_line": 1671,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1672,
+      "end_line": 1672,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": " L2 ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1673,
+      "end_line": 1674,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "L3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1675,
+      "end_line": 1689,
+      "word_count": 96,
+      "inherited": false
+    },
+    {
+      "heading": "−0.66 0.08",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1690,
+      "end_line": 1690,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L = 0.66 −0.01 −0.01",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1691,
+      "end_line": 1720,
+      "word_count": 266,
+      "inherited": false
+    },
+    {
+      "heading": "HOMO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1721,
+      "end_line": 1721,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LUMO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1722,
+      "end_line": 1731,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "SE(3)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1732,
+      "end_line": 1738,
+      "word_count": 27,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "We propose LieGNN, a modified E(n) Equivariant",
+    "S YMMETRY",
+    "D ISCRETE",
+    "C ONTINUOUS",
+    "G IVEN GROUP SUBSET",
+    "U NKNOWN GROUP SUBSET",
+    "MSR AUGERINO L IE GAN",
+    "Generative Adversarial Symmetry Discovery",
+    "P",
+    "Symmetry Discovery",
+    "Φ",
+    "D",
+    "Z",
+    "Parameterizing Distributions Over Lie Group",
+    "Q",
+    "Using the Discovered Symmetry",
+    "Regularization Against Trivial Solutions",
+    "Data Augmentation",
+    "X",
+    "Equivariant Model",
+    "Model Architecture",
+    "Baselines",
+    "J",
+    "X",
+    "N-Body Trajectory",
+    "EMLP",
+    "HNN",
+    "MLP",
+    "Synthetic Datasets",
+    "Top tagging",
+    "AUROC",
+    "EGNN",
+    "URL https://openreview.net/forum?",
+    "IEEE Conference on Computer Vision and Pattern",
+    "Proofs",
+    "Z",
+    "G∗",
+    "Z",
+    "G∗",
+    "Z",
+    "G∗",
+    "R",
+    "Z",
+    "Z",
+    "L(Φ, D∗ ) =",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "Z",
+    "−1",
+    "R=",
+    "0",
+    "R",
+    "−R",
+    "R",
+    "−R",
+    "L=",
+    "−R",
+    "R",
+    "−R",
+    "R",
+    "+I",
+    "X",
+    "(−1)k θ2k+1",
+    "R+",
+    "X",
+    "I",
+    "X",
+    "R+",
+    "X",
+    "(−1)k θ2k",
+    "I",
+    "P",
+    "T",
+    "T T",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "Experiment Details",
+    "Additional Experiments",
+    "N/A",
+    "−1 0 0",
+    "1 0 0 0",
+    "0 0",
+    "0 0",
+    "0 0",
+    "0 0 0 1",
+    "1",
+    "+ c1 i",
+    "L1 =",
+    ", L2 =",
+    ", L3 =",
+    "−1",
+    "0",
+    "L1",
+    " L2 ",
+    "L3",
+    "−0.66 0.08",
+    "L = 0.66 −0.01 −0.01",
+    "HOMO",
+    "LUMO",
+    "SE(3)"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "aims? to\\b",
+          "\\bwe aim\\b",
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "aims? to\\b",
+            "line": 118,
+            "section": "Introduction",
+            "quote": "Our work aims to address all of the above limitations within a unified, automated framework."
+          },
+          {
+            "indicator": "\\bwe aim\\b",
+            "line": 295,
+            "section": "D",
+            "quote": "We aim to automatically discover symmetry from data."
+          },
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 364,
+            "section": "Parameterizing Distributions Over Lie Group",
+            "quote": "The hypothesis of Theorem 1 is equivalent to saying that pd (x) is uniform along each group action orbit when the transformation is volume preserving, as in the case of rotation."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 11,
+            "section": "Abstract",
+            "quote": "In this paper, we propose a framework, LieGAN, to automatically discover equivariances from a dataset using a paradigm akin to generative adversarial training."
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 322,
+            "section": "Parameterizing Distributions Over Lie Group",
+            "quote": "To parameterize a distribution on a Lie group with c dimensions and k representation dimensions, our model learns Lie algebra generators {Li ∈ Rk×k }ci=1 and samples the coefficients wi ∈ R for their linear combination…"
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 662,
+            "section": "MLP",
+            "quote": "MLP with no equivariance constraint can achieve lower training loss, but has trouble generalizing to a test set with the shifted distribution."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprocedure\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bconfiguration\\b",
+          "hyper-?parameters?",
+          "learning rate",
+          "\\bepochs?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 459,
+            "section": "Equivariant Model",
+            "quote": "This procedure is specific to different equivariant model architectures."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 537,
+            "section": "Baselines",
+            "quote": "First, we derive an equivalent relation between an arbitrary Lie group symmetry and its invariant metric tensor (see Appendix A.3 for proof)."
+          },
+          {
+            "indicator": "\\bconfiguration\\b",
+            "line": 658,
+            "section": "MLP",
+            "quote": "All experiments use the same configuration for MLP except for the introduced equivariance or data augmentation procedure."
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 1442,
+            "section": "Experiment Details",
+            "quote": "This section provides detailed explanation on the experiment settings, including the dataset generating procedure, the hyperparameters used in training, etc."
+          },
+          {
+            "indicator": "learning rate",
+            "line": 1456,
+            "section": "Experiment Details",
+            "quote": "The learning rates for the discriminator and the generator are set to 0.0002 and 0.001, respectively."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b",
+          "\\bRMSE\\b|\\bMAE\\b|mean squared error"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 21,
+            "section": "Abstract",
+            "quote": "The learned symmetry can also be readily used in several existing equivariant neural networks to improve accuracy and generalization in prediction."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 116,
+            "section": "Introduction",
+            "quote": "This method involves some manual procedures, such as defining the classification task and choosing the metric for latent space analysis."
+          },
+          {
+            "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+            "line": 701,
+            "section": "Synthetic Datasets",
+            "quote": "The discovered symmetry is almost identical to ground truth, with an MAE of 0.003."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "comparison (?:with|against)",
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "comparison (?:with|against)",
+            "line": 511,
+            "section": "Baselines",
+            "quote": "Direct comparison with other symmetry discovery methods is not always possible, since these works deal with different settings for discovery (see Table 1)."
+          },
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 582,
+            "section": "N-Body Trajectory",
+            "quote": "We test our model as well as the baselines, Augerino and SymmetryGAN, on the simulated n-body trajectory dataset from Hamiltonian NN (Greydanus et al., 2019)."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 868,
+            "section": "Conclusion",
+            "quote": "Our proposed framework addresses the discovery of various symmetries, including continuous Lie group symmetries and discrete subgroup symmetries, which is a significant step forward compared to existing symmetry discove…"
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbias(?:es|ed)?\\b",
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbias(?:es|ed)?\\b",
+            "line": 8,
+            "section": "Abstract",
+            "quote": "However, it may be difficult to know which symmetry to use as an inductive bias in practice."
+          },
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 21,
+            "section": "Abstract",
+            "quote": "The learned symmetry can also be readily used in several existing equivariant neural networks to improve accuracy and generalization in prediction."
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 30,
+            "section": "Abstract",
+            "quote": "However, a key limitation of equivariant neural networks is that they require explicit knowledge of the data symmetry before a model can be constructed."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+          "code (?:is|are|will be) (?:publicly )?available",
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 23,
+            "section": "Abstract",
+            "quote": "Our code is available at https://github.com/RoseSTL-Lab/LieGAN."
+          },
+          {
+            "indicator": "code (?:is|are|will be) (?:publicly )?available",
+            "line": 23,
+            "section": "Abstract",
+            "quote": "Our code is available at https://github.com/RoseSTL-Lab/LieGAN."
+          },
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 23,
+            "section": "Abstract",
+            "quote": "Our code is available at https://github.com/RoseSTL-Lab/LieGAN."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.short_methodology",
+      "severity": "medium",
+      "criterion": null,
+      "summary": "Methodology-related sections contain only 127 words (< 150).",
+      "evidence": [
+        {
+          "section": "Experiments",
+          "line": 602,
+          "words": 127
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 11,
+          "section": "Abstract",
+          "quote": "In this paper, we propose a framework, LieGAN, to automatically discover equivariances from a dataset using a paradigm akin to generative adversarial training."
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 322,
+          "section": "Parameterizing Distributions Over Lie Group",
+          "quote": "To parameterize a distribution on a Lie group with c dimensions and k representation dimensions, our model learns Lie algebra generators {Li ∈ Rk×k }ci=1 and samples the coefficients wi ∈ R for their linear combination…"
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 662,
+          "section": "MLP",
+          "quote": "MLP with no equivariance constraint can achieve lower training loss, but has trouble generalizing to a test set with the shifted distribution."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 459,
+          "section": "Equivariant Model",
+          "quote": "This procedure is specific to different equivariant model architectures."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 537,
+          "section": "Baselines",
+          "quote": "First, we derive an equivalent relation between an arbitrary Lie group symmetry and its invariant metric tensor (see Appendix A.3 for proof)."
+        },
+        {
+          "indicator": "\\bconfiguration\\b",
+          "line": 658,
+          "section": "MLP",
+          "quote": "All experiments use the same configuration for MLP except for the introduced equivariance or data augmentation procedure."
+        },
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 1442,
+          "section": "Experiment Details",
+          "quote": "This section provides detailed explanation on the experiment settings, including the dataset generating procedure, the hyperparameters used in training, etc."
+        },
+        {
+          "indicator": "learning rate",
+          "line": 1456,
+          "section": "Experiment Details",
+          "quote": "The learning rates for the discriminator and the generator are set to 0.0002 and 0.001, respectively."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 21,
+          "section": "Abstract",
+          "quote": "The learned symmetry can also be readily used in several existing equivariant neural networks to improve accuracy and generalization in prediction."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 116,
+          "section": "Introduction",
+          "quote": "This method involves some manual procedures, such as defining the classification task and choosing the metric for latent space analysis."
+        },
+        {
+          "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+          "line": 701,
+          "section": "Synthetic Datasets",
+          "quote": "The discovered symmetry is almost identical to ground truth, with an MAE of 0.003."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 118 [Introduction]: \"Our work aims to address all of the above limitations within a unified, automated framework.\"",
+        "line 295 [D]: \"We aim to automatically discover symmetry from data.\"",
+        "line 364 [Parameterizing Distributions Over Lie Group]: \"The hypothesis of Theorem 1 is equivalent to saying that pd (x) is uniform along each group action orbit when the transformation is volume preserving, as in the case of rotation.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 11 [Abstract]: \"In this paper, we propose a framework, LieGAN, to automatically discover equivariances from a dataset using a paradigm akin to generative adversarial training.\"",
+        "line 322 [Parameterizing Distributions Over Lie Group]: \"To parameterize a distribution on a Lie group with c dimensions and k representation dimensions, our model learns Lie algebra generators {Li ∈ Rk×k }ci=1 and samples the coefficients wi ∈ R for their linear combination…\"",
+        "line 662 [MLP]: \"MLP with no equivariance constraint can achieve lower training loss, but has trouble generalizing to a test set with the shifted distribution.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (6 found elsewhere).",
+      "evidence": [
+        "line 459 [Equivariant Model]: \"This procedure is specific to different equivariant model architectures.\"",
+        "line 537 [Baselines]: \"First, we derive an equivalent relation between an arbitrary Lie group symmetry and its invariant metric tensor (see Appendix A.3 for proof).\"",
+        "line 658 [MLP]: \"All experiments use the same configuration for MLP except for the introduced equivariance or data augmentation procedure.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 21 [Abstract]: \"The learned symmetry can also be readily used in several existing equivariant neural networks to improve accuracy and generalization in prediction.\"",
+        "line 116 [Introduction]: \"This method involves some manual procedures, such as defining the classification task and choosing the metric for latent space analysis.\"",
+        "line 701 [Synthetic Datasets]: \"The discovered symmetry is almost identical to ground truth, with an MAE of 0.003.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 511 [Baselines]: \"Direct comparison with other symmetry discovery methods is not always possible, since these works deal with different settings for discovery (see Table 1).\"",
+        "line 582 [N-Body Trajectory]: \"We test our model as well as the baselines, Augerino and SymmetryGAN, on the simulated n-body trajectory dataset from Hamiltonian NN (Greydanus et al., 2019).\"",
+        "line 868 [Conclusion]: \"Our proposed framework addresses the discovery of various symmetries, including continuous Lie group symmetries and discrete subgroup symmetries, which is a significant step forward compared to existing symmetry discove…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 8 [Abstract]: \"However, it may be difficult to know which symmetry to use as an inductive bias in practice.\"",
+        "line 21 [Abstract]: \"The learned symmetry can also be readily used in several existing equivariant neural networks to improve accuracy and generalization in prediction.\"",
+        "line 30 [Abstract]: \"However, a key limitation of equivariant neural networks is that they require explicit knowledge of the data symmetry before a model can be constructed.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 23 [Abstract]: \"Our code is available at https://github.com/RoseSTL-Lab/LieGAN.\"",
+        "line 23 [Abstract]: \"Our code is available at https://github.com/RoseSTL-Lab/LieGAN.\"",
+        "line 23 [Abstract]: \"Our code is available at https://github.com/RoseSTL-Lab/LieGAN.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.13,
+    "extract": 6.89,
+    "load_rubric": 3.69,
+    "detect_sections": 3.31,
+    "split_sentences": 2.24,
+    "assess": 73.22,
+    "detect_weaknesses": 0.11,
+    "explain": 0.03,
+    "total": 90.39
+  }
+}

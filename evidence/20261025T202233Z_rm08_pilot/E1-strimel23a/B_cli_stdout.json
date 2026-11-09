@@ -1,0 +1,795 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "fe43050af9a2",
+  "timestamp_utc": "2026-10-25T20:22:48+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 105405,
+    "sha256": "4c6399a9a6080a91a7fe07922c9164466d320c7b3b092254854c983d0797b9a9"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 10929,
+    "line_count": 1069,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 53,
+      "word_count": 524,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction information to disambiguate predictions holistically. The",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 54,
+      "end_line": 166,
+      "word_count": 1047,
+      "inherited": false
+    },
+    {
+      "heading": "Adaptive Non-causal Design",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 167,
+      "end_line": 183,
+      "word_count": 237,
+      "inherited": false
+    },
+    {
+      "heading": "T ×T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 184,
+      "end_line": 268,
+      "word_count": 568,
+      "inherited": false
+    },
+    {
+      "heading": "otherwise, t=i−1 t=i t=i+1 t=i+2 t=i+3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 269,
+      "end_line": 308,
+      "word_count": 452,
+      "inherited": false
+    },
+    {
+      "heading": "XX ℓ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 309,
+      "end_line": 360,
+      "word_count": 554,
+      "inherited": false
+    },
+    {
+      "heading": "i=0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 361,
+      "end_line": 399,
+      "word_count": 226,
+      "inherited": false
+    },
+    {
+      "heading": "1X 1X L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 400,
+      "end_line": 407,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "Experimental Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 408,
+      "end_line": 408,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 409,
+      "end_line": 430,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 431,
+      "end_line": 432,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 433,
+      "end_line": 434,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 435,
+      "end_line": 493,
+      "word_count": 574,
+      "inherited": false
+    },
+    {
+      "heading": "Algorithmic Latency Results",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 494,
+      "end_line": 559,
+      "word_count": 975,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL 6. Conclusion",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 560,
+      "end_line": 597,
+      "word_count": 494,
+      "inherited": false
+    },
+    {
+      "heading": "recognition with global context. Proceedings of the An-",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 598,
+      "end_line": 672,
+      "word_count": 847,
+      "inherited": false
+    },
+    {
+      "heading": "and non-streaming speech recognition. arXiv preprint",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 673,
+      "end_line": 720,
+      "word_count": 405,
+      "inherited": false
+    },
+    {
+      "heading": "Emission Latency and Endpointer Latency",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 721,
+      "end_line": 739,
+      "word_count": 164,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 740,
+      "end_line": 741,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 742,
+      "end_line": 743,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "ANCAT-L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 744,
+      "end_line": 762,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "LibriSpeech “Other” and Noise Impact",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 763,
+      "end_line": 794,
+      "word_count": 429,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Data",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 795,
+      "end_line": 838,
+      "word_count": 495,
+      "inherited": false
+    },
+    {
+      "heading": "Compute-Induced UPL Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 839,
+      "end_line": 880,
+      "word_count": 636,
+      "inherited": false
+    },
+    {
+      "heading": "Attention Dynamics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 881,
+      "end_line": 907,
+      "word_count": 316,
+      "inherited": false
+    },
+    {
+      "heading": "Training Characteristics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 908,
+      "end_line": 975,
+      "word_count": 882,
+      "inherited": false
+    },
+    {
+      "heading": "Training Configuration Specifics",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 976,
+      "end_line": 1000,
+      "word_count": 206,
+      "inherited": false
+    },
+    {
+      "heading": "Voice Assistant Result Tables",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1001,
+      "end_line": 1069,
+      "word_count": 518,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Introduction information to disambiguate predictions holistically. The",
+    "Adaptive Non-causal Design",
+    "T ×T",
+    "otherwise, t=i−1 t=i t=i+1 t=i+2 t=i+3",
+    "XX ℓ",
+    "i=0",
+    "1X 1X L",
+    "Experimental Results",
+    "Compute-Induced UPL",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "Algorithmic Latency Results",
+    "Compute-Induced UPL 6. Conclusion",
+    "recognition with global context. Proceedings of the An-",
+    "and non-streaming speech recognition. arXiv preprint",
+    "Emission Latency and Endpointer Latency",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "ANCAT-L1",
+    "LibriSpeech “Other” and Noise Impact",
+    "Voice Assistant Data",
+    "Compute-Induced UPL Results",
+    "Attention Dynamics",
+    "Training Characteristics",
+    "Training Configuration Specifics",
+    "Voice Assistant Result Tables"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 56.2,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 3,
+      "weak": 3,
+      "missing": 2
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 356,
+            "section": "XX ℓ",
+            "quote": "Since ℓ−1 ℓ−1 onds LUPL = bT /µ with bi derived recursively as Dt,j−1 ≥ Dt,j by induction hypothesis, there exists at least one t′ , namely t′ = t, over which a maximum is taken ("
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\bcollected from\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\bcorpus\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 47,
+            "section": "(front matter)",
+            "quote": "Non-causal models design experimentally by reporting comparative can be either streaming with a bounded number of looka- ASR task results with measures of accuracy and la- head frames or full-context with access to the…"
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 469,
+            "section": "ANCAT-L1",
+            "quote": "LibriSpeech Experimental Setup and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the same hyWe investigate our architectures using the LibriSpeech cor- perparameters settin…"
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 517,
+            "section": "Algorithmic Latency Results",
+            "quote": "As alize the attention masks of an utterance from the test set can be seen, training with our proposed ANCAT using our in Figure 5 and compare against the static approaches."
+          },
+          {
+            "indicator": "\\bcorpus\\b",
+            "line": 667,
+            "section": "recognition with global context. Proceedings of the An-",
+            "quote": "Variable at- tention masking for configurable transformer transducer Panayotov, V., Chen, G., Povey, D., and Khudanpur, S. speech recognition. arXiv preprint arXiv:2211.01438, Librispeech: An ASR corpus based on public…"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bhardware\\b",
+          "\\bepochs?\\b",
+          "hyper-?parameters?",
+          "\\bconfiguration\\b",
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bGPUs?\\b",
+          "batch size"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bhardware\\b",
+            "line": 144,
+            "section": "Introduction information to disambiguate predictions holistically. The",
+            "quote": "Similar to dual-mode training, (Swi- and therefore, we also adopt this measure to inform the etojanski et al., 2022) also extends in-place distillation to design of our adaptive non-causal streaming architecture. chunki…"
+          },
+          {
+            "indicator": "\\bepochs?\\b",
+            "line": 464,
+            "section": "ANCAT-L1",
+            "quote": "summary of findings on industry data, model dynamics, and model configurations are listed in Appendix G. compute-induced UPL studies while referring the reader to For LibriSpeech, all the models are trained for 150 epoc…"
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 477,
+            "section": "ANCAT-L1",
+            "quote": "Further specifications on model configurations and 120ms frames as input for the transformer-based blocks. training hyperparameters are shared in Appendix G."
+          },
+          {
+            "indicator": "\\bconfiguration\\b",
+            "line": 801,
+            "section": "Voice Assistant Data",
+            "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 940,
+            "section": "Training Characteristics",
+            "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\blatency\\b|\\bthroughput\\b|response time",
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b",
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+            "line": 6,
+            "section": "(front matter)",
+            "quote": "For example, these architectures allow popular virtual assistants such as Amazon Alexa, Streaming speech recognition architectures are Google Assistant, and Apple Siri to rely on robust, far-field employed for low-laten…"
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 17,
+            "section": "(front matter)",
+            "quote": "The dominant techniques like Neural- while non-causal models are exposed to a window Transducers, Listen-Attend-Spell, and Transformers are all of future frames at each step to increase predic- principally sequence-to-s…"
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 115,
+            "section": "Introduction information to disambiguate predictions holistically. The",
+            "quote": "Addiet al., 2021; Yu et al., 2021b) find that distillation techniques tionally, all adaptive techniques effectively tie their compute leveraging non-causal right context benefit the training of to a particular cost metr…"
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 289,
+            "section": "otherwise, t=i−1 t=i t=i+1 t=i+2 t=i+3",
+            "quote": "Recall that traditionally, algo4."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 310,
+            "section": "XX ℓ",
+            "quote": "In other T ℓ ℓ j>i words, Di,j represents if vj0 is connected to viℓ by some This L1-type regularization will serve as a baseline for our 1 It is common to include the “current” i-th frame in this calculaexperiments."
+          },
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 524,
+            "section": "Algorithmic Latency Results",
+            "quote": "Observe also, that compared with naive L1 strategy of varying sizes and locations conditioned on the regularization, for a given algorithmic latency budget, our input."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 29,
+            "section": "(front matter)",
+            "quote": "And while each neural ASR architecture cepting predictive performance limitations, or re- has its individual design elements, generally speaking, each alize the modeling benefits of future-context mod- is categorized or…"
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 47,
+          "section": "(front matter)",
+          "quote": "Non-causal models design experimentally by reporting comparative can be either streaming with a bounded number of looka- ASR task results with measures of accuracy and la- head frames or full-context with access to the…"
+        },
+        {
+          "indicator": "\\bcollected from\\b",
+          "line": 469,
+          "section": "ANCAT-L1",
+          "quote": "LibriSpeech Experimental Setup and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the same hyWe investigate our architectures using the LibriSpeech cor- perparameters settin…"
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 517,
+          "section": "Algorithmic Latency Results",
+          "quote": "As alize the attention masks of an utterance from the test set can be seen, training with our proposed ANCAT using our in Figure 5 and compare against the static approaches."
+        },
+        {
+          "indicator": "\\bcorpus\\b",
+          "line": 667,
+          "section": "recognition with global context. Proceedings of the An-",
+          "quote": "Variable at- tention masking for configurable transformer transducer Panayotov, V., Chen, G., Povey, D., and Khudanpur, S. speech recognition. arXiv preprint arXiv:2211.01438, Librispeech: An ASR corpus based on public…"
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bhardware\\b",
+          "line": 144,
+          "section": "Introduction information to disambiguate predictions holistically. The",
+          "quote": "Similar to dual-mode training, (Swi- and therefore, we also adopt this measure to inform the etojanski et al., 2022) also extends in-place distillation to design of our adaptive non-causal streaming architecture. chunki…"
+        },
+        {
+          "indicator": "\\bepochs?\\b",
+          "line": 464,
+          "section": "ANCAT-L1",
+          "quote": "summary of findings on industry data, model dynamics, and model configurations are listed in Appendix G. compute-induced UPL studies while referring the reader to For LibriSpeech, all the models are trained for 150 epoc…"
+        },
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 477,
+          "section": "ANCAT-L1",
+          "quote": "Further specifications on model configurations and 120ms frames as input for the transformer-based blocks. training hyperparameters are shared in Appendix G."
+        },
+        {
+          "indicator": "\\bconfiguration\\b",
+          "line": 801,
+          "section": "Voice Assistant Data",
+          "quote": "We used model architectures identical to those we built for LibriSpeech, with just a couple of configuration differences better fitting for the voice assistant data."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 940,
+          "section": "Training Characteristics",
+          "quote": "The mask values are derived from checkpoints evaluated at step 50k where temperature is 0.548 (left), at step 160k where temperature is 0.105 (center), and at step 500k, the final step, where temperature is 0.01 (right)."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\blatency\\b|\\bthroughput\\b|response time",
+          "line": 6,
+          "section": "(front matter)",
+          "quote": "For example, these architectures allow popular virtual assistants such as Amazon Alexa, Streaming speech recognition architectures are Google Assistant, and Apple Siri to rely on robust, far-field employed for low-laten…"
+        },
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 17,
+          "section": "(front matter)",
+          "quote": "The dominant techniques like Neural- while non-causal models are exposed to a window Transducers, Listen-Attend-Spell, and Transformers are all of future frames at each step to increase predic- principally sequence-to-s…"
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 115,
+          "section": "Introduction information to disambiguate predictions holistically. The",
+          "quote": "Addiet al., 2021; Yu et al., 2021b) find that distillation techniques tionally, all adaptive techniques effectively tie their compute leveraging non-causal right context benefit the training of to a particular cost metr…"
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 289,
+          "section": "otherwise, t=i−1 t=i t=i+1 t=i+2 t=i+3",
+          "quote": "Recall that traditionally, algo4."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 356 [XX ℓ]: \"Since ℓ−1 ℓ−1 onds LUPL = bT /µ with bi derived recursively as Dt,j−1 ≥ Dt,j by induction hypothesis, there exists at least one t′ , namely t′ = t, over which a maximum is taken (\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 47 [(front matter)]: \"Non-causal models design experimentally by reporting comparative can be either streaming with a bounded number of looka- ASR task results with measures of accuracy and la- head frames or full-context with access to the…\"",
+        "line 469 [ANCAT-L1]: \"LibriSpeech Experimental Setup and schedulers trained end-to-end jointly using the Adam optimizer (Kingma & Lei Ba, 2015) using the same hyWe investigate our architectures using the LibriSpeech cor- perparameters settin…\"",
+        "line 517 [Algorithmic Latency Results]: \"As alize the attention masks of an utterance from the test set can be seen, training with our proposed ANCAT using our in Figure 5 and compare against the static approaches.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (7 found elsewhere).",
+      "evidence": [
+        "line 144 [Introduction information to disambiguate predictions holistically. The]: \"Similar to dual-mode training, (Swi- and therefore, we also adopt this measure to inform the etojanski et al., 2022) also extends in-place distillation to design of our adaptive non-causal streaming architecture. chunki…\"",
+        "line 464 [ANCAT-L1]: \"summary of findings on industry data, model dynamics, and model configurations are listed in Appendix G. compute-induced UPL studies while referring the reader to For LibriSpeech, all the models are trained for 150 epoc…\"",
+        "line 477 [ANCAT-L1]: \"Further specifications on model configurations and 120ms frames as input for the transformer-based blocks. training hyperparameters are shared in Appendix G.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 6 [(front matter)]: \"For example, these architectures allow popular virtual assistants such as Amazon Alexa, Streaming speech recognition architectures are Google Assistant, and Apple Siri to rely on robust, far-field employed for low-laten…\"",
+        "line 17 [(front matter)]: \"The dominant techniques like Neural- while non-causal models are exposed to a window Transducers, Listen-Attend-Spell, and Transformers are all of future frames at each step to increase predic- principally sequence-to-s…\"",
+        "line 115 [Introduction information to disambiguate predictions holistically. The]: \"Addiet al., 2021; Yu et al., 2021b) find that distillation techniques tionally, all adaptive techniques effectively tie their compute leveraging non-causal right context benefit the training of to a particular cost metr…\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 310 [XX ℓ]: \"In other T ℓ ℓ j>i words, Di,j represents if vj0 is connected to viℓ by some This L1-type regularization will serve as a baseline for our 1 It is common to include the “current” i-th frame in this calculaexperiments.\"",
+        "line 524 [Algorithmic Latency Results]: \"Observe also, that compared with naive L1 strategy of varying sizes and locations conditioned on the regularization, for a given algorithmic latency budget, our input.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 29 [(front matter)]: \"And while each neural ASR architecture cepting predictive performance limitations, or re- has its individual design elements, generally speaking, each alize the modeling benefits of future-context mod- is categorized or…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.11,
+    "extract": 8.21,
+    "load_rubric": 3.39,
+    "detect_sections": 1.7,
+    "split_sentences": 2.02,
+    "assess": 75.02,
+    "detect_weaknesses": 0.09,
+    "explain": 0.03,
+    "total": 91.11
+  }
+}

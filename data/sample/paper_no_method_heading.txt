@@ -1,0 +1,16 @@
+Energy Use of Static Analysis Tools in Developer Laptops
+
+Abstract
+This synthetic sample paper was written for MetaSense pipeline validation; it is not a real publication. It deliberately describes its method without a methodology heading.
+
+Introduction
+Static analysis tools run continuously in modern editors. The goal of this study is to measure how much energy they consume on developer laptops.
+
+What We Did
+We selected 12 open-source Python repositories and ran three static analysis tools on each one. Energy was measured with a hardware power meter attached to a laptop with a 4-core CPU and 16 GB of RAM. Each run was repeated 5 times and we report the mean and standard deviation. The metrics were energy in joules and wall-clock latency.
+
+Findings
+The most expensive tool used roughly four times more energy than the cheapest one, compared with a baseline of the editor running without any analysis.
+
+Conclusion
+Tool choice matters for battery life. A limitation is that only one laptop model was measured, which limits generalizability.

@@ -1,0 +1,20 @@
+# R01 reproduction comparison: v0.2.1 clean checkout (2026-10-25) vs evidence/20261019T101812Z_run2_retest
+# generated_utc: 2026-10-25T20:16:29+00:00
+
+## Rule 1 (as implemented in T-10): hash of report minus run_id, timestamp_utc, timings_ms
+paper_complete.txt             19-Oct d333c49ae01b6acb  25-Oct ac88649056348f9b  equal=False
+paper_complete.pdf             19-Oct ff186b1398c0f9fa  25-Oct 4d3fd209452076be  equal=False
+paper_complete.docx            19-Oct 388a605e972d87de  25-Oct b0684509446e119f  equal=False
+paper_weak.txt                 19-Oct f3706cef644621fc  25-Oct 193fb2656c05eae5  equal=False
+paper_no_method_heading.txt    19-Oct 6b9917b027095f5a  25-Oct 6e2164f43cc7c1e4  equal=False
+paper_long_perf.pdf            19-Oct 64546bde1f7a4300  25-Oct 05d948c4dd55504f  equal=False
+
+## Rule 2 (revised): also exclude 'environment' (host metadata)
+paper_complete_docx            19-Oct 9842cb5f7de47ee4  25-Oct 9842cb5f7de47ee4  equal=True  env: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39 -> Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+paper_complete_pdf             19-Oct a40d06a7416888c6  25-Oct a40d06a7416888c6  equal=True  env: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39 -> Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+paper_complete_txt             19-Oct 654dd4a70a63d9c4  25-Oct 654dd4a70a63d9c4  equal=True  env: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39 -> Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+paper_no_method_heading_txt    19-Oct d89bcb15457726e4  25-Oct d89bcb15457726e4  equal=True  env: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39 -> Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+paper_weak_txt                 19-Oct 3a7440e2ce28370b  25-Oct 3a7440e2ce28370b  equal=True  env: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39 -> Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+
+Substantive agreement across runs: 5/5
+Diagnosis: Rule-1 mismatch is caused only by the 'environment.platform' field (host kernel build fc-v139 -> fc-v153).

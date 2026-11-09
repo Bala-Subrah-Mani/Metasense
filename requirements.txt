@@ -1,0 +1,3 @@
+# Runtime dependencies (pinned versions verified in the RU-06 validation run)
+pypdf==5.1.0
+python-docx==1.1.2

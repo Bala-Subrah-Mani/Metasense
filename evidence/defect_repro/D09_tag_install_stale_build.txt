@@ -1,0 +1,23 @@
+# D-09 reproduction: non-editable install from tag v0.2.1 installs stale v0.2.0 code
+# captured_utc: 2026-10-25T20:21:06Z
+$ git archive v0.2.1 | tar -x -C frozen_v021/src ; python -m venv venv ; venv/bin/pip install frozen_v021/src
+$ venv/bin/metasense version
+MetaSense 0.2.0 (Python 3.13.16)
+$ git ls-tree -r --name-only v0.2.1 -- build | head
+build/lib/metasense/__init__.py
+build/lib/metasense/__main__.py
+build/lib/metasense/application/__init__.py
+build/lib/metasense/application/validation.py
+build/lib/metasense/application/workflow.py
+$ git show v0.2.1:build/lib/metasense/__init__.py
+"""MetaSense: AI-assisted research methodology quality assessment (early rule-based baseline)."""
+__version__ = "0.2.0"
+$ git show v0.2.1:src/metasense/__init__.py
+"""MetaSense: AI-assisted research methodology quality assessment (early rule-based baseline)."""
+__version__ = "0.2.1"
+
+Diagnosis: setuptools reuses the committed build/lib tree (D-08), so the wheel contains v0.2.0 modules.
+
+# Workaround used for RM-08 frozen reference: remove build/ from the archive before install
+$ rm -rf frozen_v021/src/build && venv/bin/pip install -r requirements.txt .
+MetaSense 0.2.1 (Python 3.13.16)

@@ -1,0 +1,14 @@
+{
+  "description": "Example input only; not production telemetry.",
+  "environment": "local-development",
+  "checks": [
+    {
+      "name": "configuration-file",
+      "status": "pass"
+    },
+    {
+      "name": "documentation-present",
+      "status": "pass"
+    }
+  ]
+}

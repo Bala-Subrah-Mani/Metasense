@@ -1,0 +1,2380 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "401356269b34",
+  "timestamp_utc": "2026-10-25T20:24:02+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 214446,
+    "sha256": "922004466e124c2ccaa1fbceea3dcab78b5c76fa7a15cfa586a1d80466c00295"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 20712,
+    "line_count": 2316,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 55,
+      "word_count": 545,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION and Malafeyev (2018)), big data architectures (Castiglione",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 56,
+      "end_line": 183,
+      "word_count": 2095,
+      "inherited": false
+    },
+    {
+      "heading": "T ×X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 184,
+      "end_line": 185,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "i i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 186,
+      "end_line": 187,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 188,
+      "end_line": 210,
+      "word_count": 308,
+      "inherited": false
+    },
+    {
+      "heading": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 211,
+      "end_line": 391,
+      "word_count": 2567,
+      "inherited": false
+    },
+    {
+      "heading": "1.0 1 1.0 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 392,
+      "end_line": 401,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "0.5",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 402,
+      "end_line": 405,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "500 0 20 40 0 20 40",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 406,
+      "end_line": 411,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "1 1.0 1 1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 412,
+      "end_line": 419,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "0.5 0.4",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 420,
+      "end_line": 422,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "0 0.0 0 0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 423,
+      "end_line": 423,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "20 40 0 20 40 0 20 40",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 424,
+      "end_line": 445,
+      "word_count": 364,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 446,
+      "end_line": 470,
+      "word_count": 310,
+      "inherited": false
+    },
+    {
+      "heading": "0.25",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 471,
+      "end_line": 478,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "0.65 0.20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 479,
+      "end_line": 479,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "0.2",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 480,
+      "end_line": 482,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 483,
+      "end_line": 483,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "−1 0.35 0.10",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 484,
+      "end_line": 484,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "10",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 485,
+      "end_line": 485,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "5x 0.05",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 486,
+      "end_line": 486,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "20",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 487,
+      "end_line": 488,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "0.0 0.00",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 489,
+      "end_line": 489,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "100 200 300 400 0 5 10",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 490,
+      "end_line": 498,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "1 1.0 1 1.0 1 1.0 1 1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 499,
+      "end_line": 513,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "0.5 0.5 0.5 0.4",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 514,
+      "end_line": 516,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "0 0.0 0 0.0 0 0.0 0 0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 517,
+      "end_line": 522,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "1 1.0 1 1.0 1 1.0 1 1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 523,
+      "end_line": 538,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "0.5 0.5 0.5",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 539,
+      "end_line": 541,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "0 0.0 0 0.0 0 0.0 0 0",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 542,
+      "end_line": 562,
+      "word_count": 219,
+      "inherited": false
+    },
+    {
+      "heading": "P 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 563,
+      "end_line": 583,
+      "word_count": 144,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 2,
+      "start_line": 584,
+      "end_line": 589,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "40 60 80 100",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 590,
+      "end_line": 671,
+      "word_count": 984,
+      "inherited": false
+    },
+    {
+      "heading": "IEEE 58th Conference on Decision and Control",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 672,
+      "end_line": 835,
+      "word_count": 1541,
+      "inherited": false
+    },
+    {
+      "heading": "SUPPLEMENTARY MATERIAL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 836,
+      "end_line": 844,
+      "word_count": 112,
+      "inherited": false
+    },
+    {
+      "heading": "A OVERVIEW",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 845,
+      "end_line": 849,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 850,
+      "end_line": 851,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 852,
+      "end_line": 854,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 855,
+      "end_line": 861,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 862,
+      "end_line": 865,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 Z \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 866,
+      "end_line": 877,
+      "word_count": 64,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 878,
+      "end_line": 879,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 880,
+      "end_line": 926,
+      "word_count": 607,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 927,
+      "end_line": 929,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 930,
+      "end_line": 941,
+      "word_count": 70,
+      "inherited": false
+    },
+    {
+      "heading": "B PROOF OF THEOREM 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 942,
+      "end_line": 972,
+      "word_count": 222,
+      "inherited": false
+    },
+    {
+      "heading": "W N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 973,
+      "end_line": 976,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Z X Z X \u0012 \u0012 \u0013 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 977,
+      "end_line": 977,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": " WN N ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 978,
+      "end_line": 981,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "I I ′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 982,
+      "end_line": 985,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "\" Z \"Z #! #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 986,
+      "end_line": 986,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 987,
+      "end_line": 991,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 992,
+      "end_line": 993,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "  \"Z #!!2  21",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 994,
+      "end_line": 994,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 995,
+      "end_line": 1000,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1001,
+      "end_line": 1002,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "  \"Z #!2  21",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1003,
+      "end_line": 1003,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1004,
+      "end_line": 1010,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1011,
+      "end_line": 1011,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1012,
+      "end_line": 1020,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "W N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1021,
+      "end_line": 1024,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z Z Z \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1025,
+      "end_line": 1028,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014ZI Z I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1029,
+      "end_line": 1039,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "C PROOF OF LEMMA 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1040,
+      "end_line": 1046,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1047,
+      "end_line": 1051,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z ! #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1052,
+      "end_line": 1052,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1053,
+      "end_line": 1054,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "(x) fN (x, α) dα",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1055,
+      "end_line": 1055,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1056,
+      "end_line": 1057,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "\" \"Z ##",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1058,
+      "end_line": 1062,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1063,
+      "end_line": 1064,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "  \"Z #!!2  12",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1065,
+      "end_line": 1065,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1066,
+      "end_line": 1069,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1070,
+      "end_line": 1071,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "  \"Z #!2  21",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1072,
+      "end_line": 1072,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1073,
+      "end_line": 1076,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1077,
+      "end_line": 1084,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "N · = −2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1085,
+      "end_line": 1086,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "N N N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1087,
+      "end_line": 1091,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1092,
+      "end_line": 1121,
+      "word_count": 189,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z \u0012 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1122,
+      "end_line": 1127,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "Z \u0012 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1128,
+      "end_line": 1135,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "Z \u0012 \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1136,
+      "end_line": 1146,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z \u0012 \u0012 \u0012 \u0013\u0013 \u0013 #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1147,
+      "end_line": 1148,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "′ ′ ′ N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1149,
+      "end_line": 1152,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z \u0012 \u0012 \u0012 \u0013\u0013 \u0013 #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1153,
+      "end_line": 1154,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "′ ′ ′ N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1155,
+      "end_line": 1158,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z \u0012 \u0013 \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1159,
+      "end_line": 1160,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001 WN N N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1161,
+      "end_line": 1164,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1165,
+      "end_line": 1175,
+      "word_count": 52,
+      "inherited": false
+    },
+    {
+      "heading": "D PROOF OF LEMMA 3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1176,
+      "end_line": 1193,
+      "word_count": 144,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1194,
+      "end_line": 1214,
+      "word_count": 76,
+      "inherited": false
+    },
+    {
+      "heading": ", G N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1215,
+      "end_line": 1218,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1219,
+      "end_line": 1224,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1225,
+      "end_line": 1227,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0014Z \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1228,
+      "end_line": 1228,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1229,
+      "end_line": 1237,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "E PROOF OF THEOREM 4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1238,
+      "end_line": 1263,
+      "word_count": 311,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1264,
+      "end_line": 1296,
+      "word_count": 236,
+      "inherited": false
+    },
+    {
+      "heading": "F PROOF OF LEMMA 4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1297,
+      "end_line": 1313,
+      "word_count": 85,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1314,
+      "end_line": 1319,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "I I I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1320,
+      "end_line": 1320,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1321,
+      "end_line": 1322,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1323,
+      "end_line": 1335,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "X Z Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1336,
+      "end_line": 1340,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1341,
+      "end_line": 1344,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "I I I I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1345,
+      "end_line": 1353,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "Z X Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1354,
+      "end_line": 1362,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0012 Z \u0013",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1363,
+      "end_line": 1369,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "G PROOF OF LEMMA 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1370,
+      "end_line": 1382,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1383,
+      "end_line": 1389,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1390,
+      "end_line": 1406,
+      "word_count": 96,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1407,
+      "end_line": 1408,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X Z \u0010 \u0011",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1409,
+      "end_line": 1423,
+      "word_count": 104,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1424,
+      "end_line": 1424,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1425,
+      "end_line": 1434,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1435,
+      "end_line": 1438,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1439,
+      "end_line": 1451,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1452,
+      "end_line": 1454,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1455,
+      "end_line": 1467,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "H PROOF OF COROLLARY 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1468,
+      "end_line": 1469,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1470,
+      "end_line": 1474,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1475,
+      "end_line": 1478,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1479,
+      "end_line": 1486,
+      "word_count": 42,
+      "inherited": false
+    },
+    {
+      "heading": "I DETAILS ON LEARNING LPGMFGS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1487,
+      "end_line": 1498,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1499,
+      "end_line": 1500,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1501,
+      "end_line": 1502,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "SM \u0002 \u0001 \u0002 1 \u0003",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1503,
+      "end_line": 1504,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "\u0002 M −1 \u0003 M M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1505,
+      "end_line": 1507,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1508,
+      "end_line": 1508,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1509,
+      "end_line": 1513,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0010 \u0011",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1514,
+      "end_line": 1531,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1532,
+      "end_line": 1532,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1533,
+      "end_line": 1542,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1543,
+      "end_line": 1543,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1544,
+      "end_line": 1552,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "\" T #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1553,
+      "end_line": 1553,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001 X \u0001 \u0001 \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1554,
+      "end_line": 1559,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "\" T #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1560,
+      "end_line": 1569,
+      "word_count": 50,
+      "inherited": false
+    },
+    {
+      "heading": "\" T #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1570,
+      "end_line": 1657,
+      "word_count": 595,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1658,
+      "end_line": 1658,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1659,
+      "end_line": 1693,
+      "word_count": 270,
+      "inherited": false
+    },
+    {
+      "heading": "R ∗ ∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1694,
+      "end_line": 1700,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "J PROOF OF LEMMA 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1701,
+      "end_line": 1710,
+      "word_count": 102,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1711,
+      "end_line": 1718,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1719,
+      "end_line": 1722,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "K PROOF OF LEMMA 6",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1723,
+      "end_line": 1777,
+      "word_count": 278,
+      "inherited": false
+    },
+    {
+      "heading": "L PROOF OF LEMMA 7",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1778,
+      "end_line": 1791,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "Z X X \u0014 \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1792,
+      "end_line": 1814,
+      "word_count": 124,
+      "inherited": false
+    },
+    {
+      "heading": "Z X X * +",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1815,
+      "end_line": 1838,
+      "word_count": 147,
+      "inherited": false
+    },
+    {
+      "heading": "X ∗ \u0001 ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1839,
+      "end_line": 1851,
+      "word_count": 80,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1852,
+      "end_line": 1856,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "M PROOF OF THEOREM 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1857,
+      "end_line": 1861,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1862,
+      "end_line": 1862,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T X ∗ \u0001 \u0001\u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1863,
+      "end_line": 1893,
+      "word_count": 262,
+      "inherited": false
+    },
+    {
+      "heading": "\" P !#",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1894,
+      "end_line": 1934,
+      "word_count": 293,
+      "inherited": false
+    },
+    {
+      "heading": "R ∗ ∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1935,
+      "end_line": 1936,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "I ∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1937,
+      "end_line": 1953,
+      "word_count": 146,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1954,
+      "end_line": 1955,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "R R ∗ ∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1956,
+      "end_line": 1972,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "N CUTOFF POWER LAW GRAPHON",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1973,
+      "end_line": 1990,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0002 \u0003",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1991,
+      "end_line": 2008,
+      "word_count": 88,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2009,
+      "end_line": 2012,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001 X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2013,
+      "end_line": 2027,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "− c1−α \u0002 \u0003",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2028,
+      "end_line": 2051,
+      "word_count": 228,
+      "inherited": false
+    },
+    {
+      "heading": "X αu (G) αv (G)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2052,
+      "end_line": 2059,
+      "word_count": 83,
+      "inherited": false
+    },
+    {
+      "heading": "Z 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2060,
+      "end_line": 2062,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2063,
+      "end_line": 2076,
+      "word_count": 97,
+      "inherited": false
+    },
+    {
+      "heading": "X \u0010 \u0011",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2077,
+      "end_line": 2086,
+      "word_count": 56,
+      "inherited": false
+    },
+    {
+      "heading": "2α−2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2087,
+      "end_line": 2089,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 \u00132 Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2090,
+      "end_line": 2092,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α [0,n]2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2093,
+      "end_line": 2097,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012 \u00132 Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2098,
+      "end_line": 2100,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α [0,n] 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2101,
+      "end_line": 2101,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2102,
+      "end_line": 2106,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2107,
+      "end_line": 2114,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2115,
+      "end_line": 2118,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "O PROBLEM DETAILS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2119,
+      "end_line": 2138,
+      "word_count": 287,
+      "inherited": false
+    },
+    {
+      "heading": "D U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2139,
+      "end_line": 2141,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "D U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2142,
+      "end_line": 2155,
+      "word_count": 217,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2156,
+      "end_line": 2171,
+      "word_count": 125,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2172,
+      "end_line": 2184,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "D U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2185,
+      "end_line": 2188,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "DI DS UI US",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2189,
+      "end_line": 2190,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "D D D D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2191,
+      "end_line": 2193,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "DS  D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2194,
+      "end_line": 2195,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2196,
+      "end_line": 2200,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "U U U U ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2201,
+      "end_line": 2202,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "U U U U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2203,
+      "end_line": 2206,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2207,
+      "end_line": 2213,
+      "word_count": 77,
+      "inherited": false
+    },
+    {
+      "heading": "D U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2214,
+      "end_line": 2215,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "D U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2216,
+      "end_line": 2291,
+      "word_count": 879,
+      "inherited": false
+    },
+    {
+      "heading": "MCor (α, t, u)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2292,
+      "end_line": 2313,
+      "word_count": 279,
+      "inherited": false
+    },
+    {
+      "heading": "i i i i i i i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2314,
+      "end_line": 2316,
+      "word_count": 35,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "INTRODUCTION and Malafeyev (2018)), big data architectures (Castiglione",
+    "T ×X",
+    "i i",
+    "−α",
+    "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+    "1.0 1 1.0 1",
+    "0.5",
+    "500 0 20 40 0 20 40",
+    "1 1.0 1 1",
+    "0.5 0.4",
+    "0 0.0 0 0",
+    "20 40 0 20 40 0 20 40",
+    "I",
+    "0.25",
+    "0.65 0.20",
+    "0.2",
+    "R",
+    "−1 0.35 0.10",
+    "10",
+    "5x 0.05",
+    "20",
+    "0.0 0.00",
+    "100 200 300 400 0 5 10",
+    "1 1.0 1 1.0 1 1.0 1 1",
+    "0.5 0.5 0.5 0.4",
+    "0 0.0 0 0.0 0 0.0 0 0",
+    "1 1.0 1 1.0 1 1.0 1 1",
+    "0.5 0.5 0.5",
+    "0 0.0 0 0.0 0 0.0 0 0",
+    "P 1",
+    "40 60 80 100",
+    "IEEE 58th Conference on Decision and Control",
+    "SUPPLEMENTARY MATERIAL",
+    "A OVERVIEW",
+    "Z",
+    "I",
+    "Z",
+    "N",
+    "\u0012 Z \u0013",
+    "Z",
+    "I",
+    "N",
+    "N",
+    "B PROOF OF THEOREM 2",
+    "W N",
+    "Z X Z X \u0012 \u0012 \u0013 \u0013",
+    " WN N ",
+    "I I ′",
+    "\" Z \"Z #! #",
+    "X",
+    "N ,N ]",
+    "  \"Z #!!2  21",
+    "X Z",
+    "N ,N ]",
+    "  \"Z #!2  21",
+    "X Z",
+    "N ,N ]",
+    "N",
+    "W N",
+    "\u0014Z Z Z \u0015",
+    "\u0014ZI Z I",
+    "C PROOF OF LEMMA 2",
+    "\"Z #",
+    "\"Z ! #",
+    "X X X",
+    "(x) fN (x, α) dα",
+    "N N",
+    "\" \"Z ##",
+    "N ,N ]",
+    "  \"Z #!!2  12",
+    "X Z",
+    "N ,N ]",
+    "  \"Z #!2  21",
+    "X Z",
+    "N ,N ]",
+    "N · = −2",
+    "N N N",
+    "N",
+    "Z Z \u0012 \u0013",
+    "Z \u0012 \u0013",
+    "Z \u0012 \u0013",
+    "\"Z \u0012 \u0012 \u0012 \u0013\u0013 \u0013 #",
+    "′ ′ ′ N",
+    "\"Z \u0012 \u0012 \u0012 \u0013\u0013 \u0013 #",
+    "′ ′ ′ N",
+    "\u0014Z \u0012 \u0013 \u0015",
+    "\u0001 WN N N",
+    "\u0014Z \u0015",
+    "D PROOF OF LEMMA 3",
+    "N",
+    ", G N",
+    "N",
+    "N",
+    "X \u0014Z \u0015",
+    "i",
+    "E PROOF OF THEOREM 4",
+    "W",
+    "F PROOF OF LEMMA 4",
+    "Z Z Z",
+    "I I I",
+    "Z Z",
+    "W",
+    "X Z Z Z",
+    "Z Z Z Z",
+    "I I I I",
+    "Z X Z X",
+    "X \u0012 Z \u0013",
+    "G PROOF OF LEMMA 5",
+    "W",
+    "W",
+    "W",
+    "X Z \u0010 \u0011",
+    "W",
+    "W",
+    "W",
+    "W",
+    "W",
+    "X X",
+    "H PROOF OF COROLLARY 1",
+    "X",
+    "T",
+    "W",
+    "I DETAILS ON LEARNING LPGMFGS",
+    "T",
+    "T",
+    "SM \u0002 \u0001 \u0002 1 \u0003",
+    "\u0002 M −1 \u0003 M M",
+    "M",
+    "X",
+    "X \u0010 \u0011",
+    "M",
+    "X",
+    "M",
+    "X",
+    "\" T #",
+    "\u0001 X \u0001 \u0001 \u0001",
+    "\" T #",
+    "\" T #",
+    "Z X",
+    "T X",
+    "R ∗ ∗",
+    "J PROOF OF LEMMA 1",
+    "I",
+    "I",
+    "K PROOF OF LEMMA 6",
+    "L PROOF OF LEMMA 7",
+    "Z X X \u0014 \u0015",
+    "Z X X * +",
+    "X ∗ \u0001 ",
+    "I",
+    "M PROOF OF THEOREM 5",
+    "Z X",
+    "T X ∗ \u0001 \u0001\u0001",
+    "\" P !#",
+    "R ∗ ∗",
+    "I ∗",
+    "I",
+    "R R ∗ ∗",
+    "N CUTOFF POWER LAW GRAPHON",
+    "X \u0002 \u0003",
+    "X",
+    "\u0001 X X",
+    "− c1−α \u0002 \u0003",
+    "X αu (G) αv (G)",
+    "Z 1",
+    "Z",
+    "X \u0010 \u0011",
+    "2α−2",
+    "\u0012 \u00132 Z",
+    "− αc1−α [0,n]2",
+    "\u0012 \u00132 Z",
+    "− αc1−α [0,n] 2",
+    "Z",
+    "Z",
+    "− αc1−α",
+    "O PROBLEM DETAILS",
+    "D U",
+    "D U",
+    "D",
+    "U",
+    "D U",
+    "DI DS UI US",
+    "D D D D",
+    "DS  D",
+    "D",
+    "U U U U ",
+    "U U U U",
+    "T",
+    "D U",
+    "D U",
+    "MCor (α, t, u)",
+    "i i i i i i i"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "aims? to\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "aims? to\\b",
+            "line": 58,
+            "section": "INTRODUCTION and Malafeyev (2018)), big data architectures (Castiglione",
+            "quote": "There is also some In various research areas, scientists are confronted with work that aims to apply MFGs to real world tasks, e.g. sosystems of many interacting individuals or components. cial networks (Yang et al."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\blicen[cs]e"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 199,
+            "section": "−α",
+            "quote": "Each graph consists of 3892 nodes and around 17500 edges to match the real data set."
+          },
+          {
+            "indicator": "\\blicen[cs]e",
+            "line": 1489,
+            "section": "I DETAILS ON LEARNING LPGMFGS",
+            "quote": "Our implementation is based on Cui and Koeppl (2022) (MIT license)."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "hyper-?parameters?",
+          "\\bRAM\\b",
+          "\\bGPUs?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 355,
+            "section": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+            "quote": "(2021)) at first, π ′ , we call the MP MFG strictly weakly monotone. the crucial advantages of LPGMFGs are that they are on the Assumption 3."
+          },
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 387,
+            "section": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+            "quote": "In our experiments, we use OMD with its hyperparameter One advantage of this approach is that the existence of a γ set to 1, the power law Lp -graphon W , and discretize I Christian Fabian, Kai Cui, Heinz Koeppl"
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 1493,
+            "section": "I DETAILS ON LEARNING LPGMFGS",
+            "quote": "The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM."
+          },
+          {
+            "indicator": "\\bGPUs?\\b",
+            "line": 1494,
+            "section": "I DETAILS ON LEARNING LPGMFGS",
+            "quote": "No GPUs were used in this research."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b",
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 42,
+            "section": "(front matter)",
+            "quote": "(2006) and Lasry and Lions strate the accuracy of our learning approach for (2007) to address game theoretic challenges, they have be- systems with many agents."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 1725,
+            "section": "K PROOF OF LEMMA 6",
+            "quote": "Recall that h∗ is defined as a function h∗ : R|U | → R."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 306,
+            "section": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+            "quote": "Since this cutoff power law graphon does not yield qualitatively different results compared to the \u0002 \u0003 E µN t (f ) − µt (f ) → 0 (11) power law graphon, it is omitted from the main text."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "confidence intervals?"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "confidence intervals?",
+            "line": 565,
+            "section": "P 1",
+            "quote": "This stems from the β = 0.51 averaged over 100 randomly sampled graphs with fact that agents switching in state U S could likely jump to N nodes and 68% confidence interval (shaded)."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 771,
+            "section": "IEEE 58th Conference on Decision and Control",
+            "quote": "Applied A generalized online mirror descent with applications Mathematics & Optimization, 74(3):669–692. to classification and regression."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 199,
+          "section": "−α",
+          "quote": "Each graph consists of 3892 nodes and around 17500 edges to match the real data set."
+        },
+        {
+          "indicator": "\\blicen[cs]e",
+          "line": 1489,
+          "section": "I DETAILS ON LEARNING LPGMFGS",
+          "quote": "Our implementation is based on Cui and Koeppl (2022) (MIT license)."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 355,
+          "section": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+          "quote": "(2021)) at first, π ′ , we call the MP MFG strictly weakly monotone. the crucial advantages of LPGMFGs are that they are on the Assumption 3."
+        },
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 387,
+          "section": "X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)",
+          "quote": "In our experiments, we use OMD with its hyperparameter One advantage of this approach is that the existence of a γ set to 1, the power law Lp -graphon W , and discretize I Christian Fabian, Kai Cui, Heinz Koeppl"
+        },
+        {
+          "indicator": "\\bRAM\\b",
+          "line": 1493,
+          "section": "I DETAILS ON LEARNING LPGMFGS",
+          "quote": "The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM."
+        },
+        {
+          "indicator": "\\bGPUs?\\b",
+          "line": 1494,
+          "section": "I DETAILS ON LEARNING LPGMFGS",
+          "quote": "No GPUs were used in this research."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 42,
+          "section": "(front matter)",
+          "quote": "(2006) and Lasry and Lions strate the accuracy of our learning approach for (2007) to address game theoretic challenges, they have be- systems with many agents."
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 1725,
+          "section": "K PROOF OF LEMMA 6",
+          "quote": "Recall that h∗ is defined as a function h∗ : R|U | → R."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 58 [INTRODUCTION and Malafeyev (2018)), big data architectures (Castiglione]: \"There is also some In various research areas, scientists are confronted with work that aims to apply MFGs to real world tasks, e.g. sosystems of many interacting individuals or components. cial networks (Yang et al.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 199 [−α]: \"Each graph consists of 3892 nodes and around 17500 edges to match the real data set.\"",
+        "line 1489 [I DETAILS ON LEARNING LPGMFGS]: \"Our implementation is based on Cui and Koeppl (2022) (MIT license).\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (4 found elsewhere).",
+      "evidence": [
+        "line 355 [X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)]: \"(2021)) at first, π ′ , we call the MP MFG strictly weakly monotone. the crucial advantages of LPGMFGs are that they are on the Assumption 3.\"",
+        "line 387 [X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)]: \"In our experiments, we use OMD with its hyperparameter One advantage of this approach is that the existence of a γ set to 1, the power law Lp -graphon W , and discretize I Christian Fabian, Kai Cui, Heinz Koeppl\"",
+        "line 1493 [I DETAILS ON LEARNING LPGMFGS]: \"The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 42 [(front matter)]: \"(2006) and Lasry and Lions strate the accuracy of our learning approach for (2007) to address game theoretic challenges, they have be- systems with many agents.\"",
+        "line 1725 [K PROOF OF LEMMA 6]: \"Recall that h∗ is defined as a function h∗ : R|U | → R.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 306 [X Definition 1. An (ϵ, p)-Markov-Nash equilibrium (MNE)]: \"Since this cutoff power law graphon does not yield qualitatively different results compared to the \u0002 \u0003 E µN t (f ) − µt (f ) → 0 (11) power law graphon, it is omitted from the main text.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 565 [P 1]: \"This stems from the β = 0.51 averaged over 100 randomly sampled graphs with fact that agents switching in state U S could likely jump to N nodes and 68% confidence interval (shaded).\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 771 [IEEE 58th Conference on Decision and Control]: \"Applied A generalized online mirror descent with applications Mathematics & Optimization, 74(3):669–692. to classification and regression.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.1,
+    "extract": 15.53,
+    "load_rubric": 3.52,
+    "detect_sections": 4.98,
+    "split_sentences": 4.47,
+    "assess": 119.53,
+    "detect_weaknesses": 0.14,
+    "explain": 0.04,
+    "total": 150.02
+  }
+}

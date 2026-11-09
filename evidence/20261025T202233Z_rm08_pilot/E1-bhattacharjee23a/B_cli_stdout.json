@@ -1,0 +1,1688 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "706ab1f1256d",
+  "timestamp_utc": "2026-10-25T20:22:53+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 178923,
+    "sha256": "6f0f1068fc5939b64e2e400a9bc254752e49be6acbd9b4496c32aa071a524758"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 19585,
+    "line_count": 2270,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 21,
+      "word_count": 188,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 22,
+      "end_line": 153,
+      "word_count": 1798,
+      "inherited": false
+    },
+    {
+      "heading": "X x − xi",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 154,
+      "end_line": 274,
+      "word_count": 1627,
+      "inherited": false
+    },
+    {
+      "heading": "s p(B(x, s)) 3 sk",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 275,
+      "end_line": 311,
+      "word_count": 486,
+      "inherited": false
+    },
+    {
+      "heading": "p(B(x, r)) 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 312,
+      "end_line": 334,
+      "word_count": 286,
+      "inherited": false
+    },
+    {
+      "heading": "Sample U ∼ q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 335,
+      "end_line": 337,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "|V |",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 338,
+      "end_line": 347,
+      "word_count": 108,
+      "inherited": false
+    },
+    {
+      "heading": "b←O \u000f2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 348,
+      "end_line": 351,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "if r∗ > r then",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 352,
+      "end_line": 355,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Return nr k",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 356,
+      "end_line": 358,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "else",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 359,
+      "end_line": 360,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Return |T ∩B(x,r)|",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 361,
+      "end_line": 434,
+      "word_count": 736,
+      "inherited": false
+    },
+    {
+      "heading": "Is smoothness necessary for data copying",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 435,
+      "end_line": 461,
+      "word_count": 346,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgments",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 462,
+      "end_line": 483,
+      "word_count": 354,
+      "inherited": false
+    },
+    {
+      "heading": "The secret sharer: Evaluating and testing unintended",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 484,
+      "end_line": 485,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 486,
+      "end_line": 558,
+      "word_count": 658,
+      "inherited": false
+    },
+    {
+      "heading": "URL https://doi.org/10.1109/",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 559,
+      "end_line": 567,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "An Example over the Halfmoons dataset",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 568,
+      "end_line": 693,
+      "word_count": 1593,
+      "inherited": false
+    },
+    {
+      "heading": "Reflecting this, let Z = q n2 (2n+1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 694,
+      "end_line": 727,
+      "word_count": 350,
+      "inherited": false
+    },
+    {
+      "heading": "We then compute cr",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 728,
+      "end_line": 747,
+      "word_count": 157,
+      "inherited": false
+    },
+    {
+      "heading": "Estimating k",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 748,
+      "end_line": 756,
+      "word_count": 143,
+      "inherited": false
+    },
+    {
+      "heading": "n ← |S|",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 757,
+      "end_line": 759,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "b← \u000f2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 760,
+      "end_line": 766,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "k̂ = round log2 rs∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 767,
+      "end_line": 813,
+      "word_count": 280,
+      "inherited": false
+    },
+    {
+      "heading": "np(B(x, r)) 9",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 814,
+      "end_line": 907,
+      "word_count": 300,
+      "inherited": false
+    },
+    {
+      "heading": "200 20",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 908,
+      "end_line": 913,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "φ2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 914,
+      "end_line": 921,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "p(B(x, s∗ )) s∗ 3 p(B(x, s∗ )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 922,
+      "end_line": 934,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "2s∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 935,
+      "end_line": 941,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 942,
+      "end_line": 944,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 945,
+      "end_line": 948,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "Proofs",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 949,
+      "end_line": 965,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 966,
+      "end_line": 974,
+      "word_count": 93,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 975,
+      "end_line": 1002,
+      "word_count": 167,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1003,
+      "end_line": 1003,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1004,
+      "end_line": 1008,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1009,
+      "end_line": 1012,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1013,
+      "end_line": 1042,
+      "word_count": 171,
+      "inherited": false
+    },
+    {
+      "heading": "1X [",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1043,
+      "end_line": 1046,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1047,
+      "end_line": 1049,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1050,
+      "end_line": 1052,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1053,
+      "end_line": 1053,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0010x\u0011",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1054,
+      "end_line": 1056,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1057,
+      "end_line": 1058,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "B(0,R)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1059,
+      "end_line": 1110,
+      "word_count": 333,
+      "inherited": false
+    },
+    {
+      "heading": "+ 9\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1111,
+      "end_line": 1112,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "− 9\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1113,
+      "end_line": 1123,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "1 − 9\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1124,
+      "end_line": 1125,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "+ 9\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1126,
+      "end_line": 1132,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "sk rk 3 sk",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1133,
+      "end_line": 1170,
+      "word_count": 387,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1171,
+      "end_line": 1299,
+      "word_count": 614,
+      "inherited": false
+    },
+    {
+      "heading": "100 10",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1300,
+      "end_line": 1304,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "min(\u000f, 1)2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1305,
+      "end_line": 1310,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "r∗k 3 r∗k",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1311,
+      "end_line": 1325,
+      "word_count": 64,
+      "inherited": false
+    },
+    {
+      "heading": "+ 3\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1326,
+      "end_line": 1402,
+      "word_count": 408,
+      "inherited": false
+    },
+    {
+      "heading": "4(d + 2) ln(48m/δ)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1403,
+      "end_line": 1411,
+      "word_count": 40,
+      "inherited": false
+    },
+    {
+      "heading": "(d+2)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1412,
+      "end_line": 1422,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "(d+2)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1423,
+      "end_line": 1433,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "and 23, it follows that",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1434,
+      "end_line": 1455,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "− q(B(x,r))",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1456,
+      "end_line": 1458,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "− min(\u000f,1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1459,
+      "end_line": 1468,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "\\r))",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1469,
+      "end_line": 1509,
+      "word_count": 267,
+      "inherited": false
+    },
+    {
+      "heading": "1 + 2\u000f",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1510,
+      "end_line": 1546,
+      "word_count": 292,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1547,
+      "end_line": 1574,
+      "word_count": 293,
+      "inherited": false
+    },
+    {
+      "heading": "We construct families",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1575,
+      "end_line": 1597,
+      "word_count": 301,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1598,
+      "end_line": 1619,
+      "word_count": 246,
+      "inherited": false
+    },
+    {
+      "heading": "r 2 3 r",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1620,
+      "end_line": 1623,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "≤ 76 p(Ci) 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1624,
+      "end_line": 1630,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "s r 3 s",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1631,
+      "end_line": 1635,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "2π 3 3κ 3 9κ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1636,
+      "end_line": 1655,
+      "word_count": 80,
+      "inherited": false
+    },
+    {
+      "heading": "p(Ci )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1656,
+      "end_line": 1657,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "π",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1658,
+      "end_line": 1660,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "t→0 t",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1661,
+      "end_line": 1663,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "s",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1664,
+      "end_line": 1699,
+      "word_count": 460,
+      "inherited": false
+    },
+    {
+      "heading": "− λ(1+\u000f)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1700,
+      "end_line": 1721,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1722,
+      "end_line": 1723,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1724,
+      "end_line": 1726,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1727,
+      "end_line": 1729,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1730,
+      "end_line": 1732,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1733,
+      "end_line": 1744,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1745,
+      "end_line": 1745,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "3κ 24κ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1746,
+      "end_line": 1748,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1749,
+      "end_line": 1768,
+      "word_count": 291,
+      "inherited": false
+    },
+    {
+      "heading": "λ(1 + \u000f)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1769,
+      "end_line": 1814,
+      "word_count": 523,
+      "inherited": false
+    },
+    {
+      "heading": "2048m 2048",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1815,
+      "end_line": 1829,
+      "word_count": 138,
+      "inherited": false
+    },
+    {
+      "heading": "2048m 2048",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1830,
+      "end_line": 1843,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "Z ≥X −Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1844,
+      "end_line": 1846,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1847,
+      "end_line": 1868,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "32 i=1 n i=1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1869,
+      "end_line": 1873,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "2n 2n",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1874,
+      "end_line": 1876,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "2n",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1877,
+      "end_line": 1879,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "n",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1880,
+      "end_line": 1882,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "16 8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1883,
+      "end_line": 1909,
+      "word_count": 357,
+      "inherited": false
+    },
+    {
+      "heading": "T 8 8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1910,
+      "end_line": 1914,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "T 8 8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1915,
+      "end_line": 1923,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "S∼pT 4 4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1924,
+      "end_line": 1930,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "κ 3κ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1931,
+      "end_line": 1955,
+      "word_count": 336,
+      "inherited": false
+    },
+    {
+      "heading": "S ⊂ ∪2κ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1956,
+      "end_line": 1964,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "− 24 i=0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1965,
+      "end_line": 1998,
+      "word_count": 419,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1999,
+      "end_line": 2002,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2003,
+      "end_line": 2006,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2007,
+      "end_line": 2010,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 1 (L∗ ⊆ T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2011,
+      "end_line": 2013,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "|T ∩M |",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2014,
+      "end_line": 2045,
+      "word_count": 337,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2046,
+      "end_line": 2053,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "− 1(ai ∈ T ) 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2054,
+      "end_line": 2055,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2056,
+      "end_line": 2064,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "Y Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2065,
+      "end_line": 2073,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2074,
+      "end_line": 2093,
+      "word_count": 343,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 1 (L∗ ⊆ T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2094,
+      "end_line": 2152,
+      "word_count": 286,
+      "inherited": false
+    },
+    {
+      "heading": "−κ/8) (mm−κ/8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2153,
+      "end_line": 2174,
+      "word_count": 84,
+      "inherited": false
+    },
+    {
+      "heading": "−κ/8)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2175,
+      "end_line": 2181,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2182,
+      "end_line": 2185,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2186,
+      "end_line": 2193,
+      "word_count": 69,
+      "inherited": false
+    },
+    {
+      "heading": "43",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2194,
+      "end_line": 2209,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2210,
+      "end_line": 2217,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2218,
+      "end_line": 2223,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2224,
+      "end_line": 2225,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "− Pr(S,q)∼Q [(S, q) is not nice] 3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2226,
+      "end_line": 2246,
+      "word_count": 161,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2247,
+      "end_line": 2253,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2254,
+      "end_line": 2265,
+      "word_count": 89,
+      "inherited": false
+    },
+    {
+      "heading": "3 3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2266,
+      "end_line": 2270,
+      "word_count": 21,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "X x − xi",
+    "s p(B(x, s)) 3 sk",
+    "p(B(x, r)) 2",
+    "Sample U ∼ q",
+    "|V |",
+    "b←O \u000f2",
+    "if r∗ > r then",
+    "Return nr k",
+    "else",
+    "Return |T ∩B(x,r)|",
+    "Is smoothness necessary for data copying",
+    "The secret sharer: Evaluating and testing unintended",
+    "Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,",
+    "URL https://doi.org/10.1109/",
+    "An Example over the Halfmoons dataset",
+    "Reflecting this, let Z = q n2 (2n+1)",
+    "We then compute cr",
+    "Estimating k",
+    "n ← |S|",
+    "b← \u000f2",
+    "k̂ = round log2 rs∗",
+    "np(B(x, r)) 9",
+    "200 20",
+    "φ2",
+    "p(B(x, s∗ )) s∗ 3 p(B(x, s∗ )",
+    "2s∗ 2",
+    "2",
+    "2",
+    "Proofs",
+    "R",
+    "R",
+    "Z",
+    "X",
+    "Z",
+    "Z",
+    "1X [",
+    "1X",
+    "Z",
+    "Z",
+    "\u0010x\u0011",
+    "Z",
+    "B(0,R)",
+    "+ 9\u000f",
+    "− 9\u000f",
+    "1 − 9\u000f",
+    "+ 9\u000f",
+    "sk rk 3 sk",
+    "2",
+    "100 10",
+    "min(\u000f, 1)2",
+    "r∗k 3 r∗k",
+    "+ 3\u000f",
+    "4(d + 2) ln(48m/δ)",
+    "(d+2)",
+    "(d+2)",
+    "and 23, it follows that",
+    "− q(B(x,r))",
+    "− min(\u000f,1)",
+    "\\r))",
+    "1 + 2\u000f",
+    "2",
+    "We construct families",
+    "2",
+    "r 2 3 r",
+    "≤ 76 p(Ci) 2",
+    "s r 3 s",
+    "2π 3 3κ 3 9κ",
+    "p(Ci )",
+    "π",
+    "t→0 t",
+    "s",
+    "− λ(1+\u000f)",
+    "T",
+    "T",
+    "T",
+    "T",
+    "T",
+    "T",
+    "3κ 24κ",
+    "T",
+    "λ(1 + \u000f)",
+    "2048m 2048",
+    "2048m 2048",
+    "Z ≥X −Y",
+    "X",
+    "32 i=1 n i=1",
+    "2n 2n",
+    "2n",
+    "n",
+    "16 8",
+    "T 8 8",
+    "T 8 8",
+    "S∼pT 4 4",
+    "κ 3κ",
+    "S ⊂ ∪2κ",
+    "− 24 i=0",
+    "X 1",
+    "X 1",
+    "X 1",
+    "X 1 1 (L∗ ⊆ T )",
+    "|T ∩M |",
+    "2",
+    "− 1(ai ∈ T ) 1",
+    "Y",
+    "Y Y",
+    "Y",
+    "X 1 1 (L∗ ⊆ T )",
+    "−κ/8) (mm−κ/8",
+    "−κ/8)",
+    "2",
+    "2",
+    "43",
+    "3",
+    "3",
+    "1",
+    "− Pr(S,q)∼Q [(S, q) is not nice] 3",
+    "3",
+    "3",
+    "3 3"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 81.2,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 5,
+      "weak": 3,
+      "missing": 0
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 301,
+            "section": "s p(B(x, s)) 3 sk",
+            "quote": "Let p be a regular and let \u000f > adhere to some sort of manifold-hypothesis will also exhibit \u0012 distribution, \u0013 d d ln δ\u000fp regularity, with the regularity constant, k, being the intrinsic 0 be arbitrary."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 28,
+            "section": "Introduction",
+            "quote": "However, a clean and formal definition of memo- moons dataset (with Gaussian noise)."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 28,
+            "section": "Introduction",
+            "quote": "The red points are sampled rization that captures the numerous complex aspects of the from a generated distribution that is a mixture of (40 %) blatant data copier (that outputs a random subset of the training set), and…"
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 600,
+            "section": "An Example over the Halfmoons dataset",
+            "quote": "To construct qcopy , we first select a subset, S 0 ⊂ S, of 20 training examples."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 363,
+            "section": "Return |T ∩B(x,r)|",
+            "quote": "(lines 6 - 10) For each training point, xi , determine the largest radius ri for which Est uses two ideas: first, it leverages standard uniform convergence results to estimate the probability mass of all balls |B(xi , r…"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprecision\\b",
+          "\\brecall\\b",
+          "\\bmetrics?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 32,
+            "section": "Introduction",
+            "quote": "Although the generas images, has largely been elusive. ated distribution is clearly doing some form of copying at points For generative models, (Meehan et al., 2020) proposed a x1 and x2 , detecting this is challenging…"
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 38,
+            "section": "Introduction",
+            "quote": "To see this, recall (Sajjadi et al., 2018)."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 517,
+            "section": "Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,",
+            "quote": "ACM, 2020. tion metrics of generative adversarial networks."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bbaselines?\\b",
+          "comparison (?:with|against)"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 629,
+            "section": "An Example over the Halfmoons dataset",
+            "quote": "As a baseline, we include the case where q = p (meaning we have a perfect generated distribution) in the first column."
+          },
+          {
+            "indicator": "comparison (?:with|against)",
+            "line": 723,
+            "section": "Reflecting this, let Z = q n2 (2n+1)",
+            "quote": "To facilitate a more direct comparison with (Meehan et al., 2020), we convert our results into statistical tests by doing the following."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "statistical(?:ly)? significan",
+          "\\bp\\s?[<=]\\s?0?\\.\\d",
+          "p-values?",
+          "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "statistical(?:ly)? significan",
+            "line": 414,
+            "section": "Return |T ∩B(x,r)|",
+            "quote": "Statistical Significance of data-copying Rates over HalfOnce we have computed ri , all that is left is to estimate the moons data-copy rate by sampling q once more to find the total mass of data-copying region, ∪ni=1 B(…"
+          },
+          {
+            "indicator": "\\bp\\s?[<=]\\s?0?\\.\\d",
+            "line": 634,
+            "section": "An Example over the Halfmoons dataset",
+            "quote": "To facilitate a simple comparison between our methods, for all algorithms, we simply output a simple yes or no to indicate whether our results were statistically significant up to the p = 0.05 level."
+          },
+          {
+            "indicator": "p-values?",
+            "line": 730,
+            "section": "We then compute cr",
+            "quote": "We finally output the fraction of the time that crˆ p > cr ˆ q , thus giving us a P-value by giving us the rate at which the null-hypothesis gives results as significant as those that we observe."
+          },
+          {
+            "indicator": "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+            "line": 734,
+            "section": "We then compute cr",
+            "quote": "For consistency, we output the median P -value obtained over 10 runs for each experiment."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 63,
+            "section": "Introduction",
+            "quote": "Finally, we note that this work focuses on detecting natural We say that a generative model q data-copies an individual forms of memorization or data-copying, that likely arises training point, x, if it has an unusually…"
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 209,
+            "section": "X x − xi",
+            "quote": "Limitations of our definition q is a purely computational operation."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 491,
+            "section": "Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,",
+            "quote": "URL to our definition, establish performance guarantees, and https://arxiv.org/abs/2202.07646. show that at least some smoothness conditions are needed on the data distribution for successful detection."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 28,
+          "section": "Introduction",
+          "quote": "However, a clean and formal definition of memo- moons dataset (with Gaussian noise)."
+        },
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 28,
+          "section": "Introduction",
+          "quote": "The red points are sampled rization that captures the numerous complex aspects of the from a generated distribution that is a mixture of (40 %) blatant data copier (that outputs a random subset of the training set), and…"
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 600,
+          "section": "An Example over the Halfmoons dataset",
+          "quote": "To construct qcopy , we first select a subset, S 0 ⊂ S, of 20 training examples."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 363,
+          "section": "Return |T ∩B(x,r)|",
+          "quote": "(lines 6 - 10) For each training point, xi , determine the largest radius ri for which Est uses two ideas: first, it leverages standard uniform convergence results to estimate the probability mass of all balls |B(xi , r…"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprecision\\b",
+          "line": 32,
+          "section": "Introduction",
+          "quote": "Although the generas images, has largely been elusive. ated distribution is clearly doing some form of copying at points For generative models, (Meehan et al., 2020) proposed a x1 and x2 , detecting this is challenging…"
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 38,
+          "section": "Introduction",
+          "quote": "To see this, recall (Sajjadi et al., 2018)."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 517,
+          "section": "Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,",
+          "quote": "ACM, 2020. tion metrics of generative adversarial networks."
+        }
+      ]
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 301 [s p(B(x, s)) 3 sk]: \"Let p be a regular and let \u000f > adhere to some sort of manifold-hypothesis will also exhibit \u0012 distribution, \u0013 d d ln δ\u000fp regularity, with the regularity constant, k, being the intrinsic 0 be arbitrary.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 28 [Introduction]: \"However, a clean and formal definition of memo- moons dataset (with Gaussian noise).\"",
+        "line 28 [Introduction]: \"The red points are sampled rization that captures the numerous complex aspects of the from a generated distribution that is a mixture of (40 %) blatant data copier (that outputs a random subset of the training set), and…\"",
+        "line 600 [An Example over the Halfmoons dataset]: \"To construct qcopy , we first select a subset, S 0 ⊂ S, of 20 training examples.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (1 found elsewhere).",
+      "evidence": [
+        "line 363 [Return |T ∩B(x,r)|]: \"(lines 6 - 10) For each training point, xi , determine the largest radius ri for which Est uses two ideas: first, it leverages standard uniform convergence results to estimate the probability mass of all balls |B(xi , r…\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 32 [Introduction]: \"Although the generas images, has largely been elusive. ated distribution is clearly doing some form of copying at points For generative models, (Meehan et al., 2020) proposed a x1 and x2 , detecting this is challenging…\"",
+        "line 38 [Introduction]: \"To see this, recall (Sajjadi et al., 2018).\"",
+        "line 517 [Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,]: \"ACM, 2020. tion metrics of generative adversarial networks.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 629 [An Example over the Halfmoons dataset]: \"As a baseline, we include the case where q = p (meaning we have a perfect generated distribution) in the first column.\"",
+        "line 723 [Reflecting this, let Z = q n2 (2n+1)]: \"To facilitate a more direct comparison with (Meehan et al., 2020), we convert our results into statistical tests by doing the following.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 4 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 414 [Return |T ∩B(x,r)|]: \"Statistical Significance of data-copying Rates over HalfOnce we have computed ri , all that is left is to estimate the moons data-copy rate by sampling q once more to find the total mass of data-copying region, ∪ni=1 B(…\"",
+        "line 634 [An Example over the Halfmoons dataset]: \"To facilitate a simple comparison between our methods, for all algorithms, we simply output a simple yes or no to indicate whether our results were statistically significant up to the p = 0.05 level.\"",
+        "line 730 [We then compute cr]: \"We finally output the fraction of the time that crˆ p > cr ˆ q , thus giving us a P-value by giving us the rate at which the null-hypothesis gives results as significant as those that we observe.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 63 [Introduction]: \"Finally, we note that this work focuses on detecting natural We say that a generative model q data-copies an individual forms of memorization or data-copying, that likely arises training point, x, if it has an unusually…\"",
+        "line 209 [X x − xi]: \"Limitations of our definition q is a purely computational operation.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 491 [Conclusion Traynor, P. (eds.), 28th USENIX Security Symposium,]: \"URL to our definition, establish performance guarantees, and https://arxiv.org/abs/2202.07646. show that at least some smoothness conditions are needed on the data distribution for successful detection.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 13.27,
+    "load_rubric": 3.57,
+    "detect_sections": 4.74,
+    "split_sentences": 3.19,
+    "assess": 105.46,
+    "detect_weaknesses": 0.08,
+    "explain": 0.03,
+    "total": 131.2
+  }
+}

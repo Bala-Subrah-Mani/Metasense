@@ -1,0 +1,110 @@
+[
+  {
+    "file": "empty.txt",
+    "purpose": "invalid: must be rejected E_EMPTY (mock)",
+    "bytes": 0,
+    "signature": "empty",
+    "utf8": "",
+    "self_labelled_synthetic": "",
+    "heading_like_lines": "",
+    "sha256_now": "e3b0c44298fc1c14",
+    "sha256_19oct_report": "",
+    "identical_to_19oct": "n/a (no report)"
+  },
+  {
+    "file": "paper_complete.docx",
+    "purpose": "valid: same text as DOCX (synthetic, generated)",
+    "bytes": 38394,
+    "signature": "zip/docx",
+    "utf8": "",
+    "self_labelled_synthetic": "",
+    "heading_like_lines": "",
+    "sha256_now": "8da7cf1cd9b769ab",
+    "sha256_19oct_report": "8da7cf1cd9b769ab",
+    "identical_to_19oct": "yes"
+  },
+  {
+    "file": "paper_complete.pdf",
+    "purpose": "valid: same text as PDF (synthetic, generated)",
+    "bytes": 4962,
+    "signature": "pdf",
+    "utf8": "",
+    "self_labelled_synthetic": "",
+    "heading_like_lines": "",
+    "sha256_now": "27671b3d9fa2a334",
+    "sha256_19oct_report": "27671b3d9fa2a334",
+    "identical_to_19oct": "yes"
+  },
+  {
+    "file": "paper_complete.txt",
+    "purpose": "valid: all 8 criteria reported (synthetic)",
+    "bytes": 3547,
+    "signature": "text",
+    "utf8": "yes",
+    "self_labelled_synthetic": "yes",
+    "heading_like_lines": 8,
+    "sha256_now": "5475c6e2174af096",
+    "sha256_19oct_report": "5475c6e2174af096",
+    "identical_to_19oct": "yes"
+  },
+  {
+    "file": "paper_long_perf.pdf",
+    "purpose": "valid: 42-page load test (synthetic, generated)",
+    "bytes": 89138,
+    "signature": "pdf",
+    "utf8": "",
+    "self_labelled_synthetic": "",
+    "heading_like_lines": "",
+    "sha256_now": "28f27a81e00bb7f0",
+    "sha256_19oct_report": "",
+    "identical_to_19oct": "n/a (no report)"
+  },
+  {
+    "file": "paper_no_method_heading.txt",
+    "purpose": "valid: method under informal heading (synthetic)",
+    "bytes": 1049,
+    "signature": "text",
+    "utf8": "yes",
+    "self_labelled_synthetic": "yes",
+    "heading_like_lines": 5,
+    "sha256_now": "e6b07556d36ad46a",
+    "sha256_19oct_report": "e6b07556d36ad46a",
+    "identical_to_19oct": "yes"
+  },
+  {
+    "file": "paper_weak.txt",
+    "purpose": "valid: vague methods (synthetic)",
+    "bytes": 859,
+    "signature": "text",
+    "utf8": "yes",
+    "self_labelled_synthetic": "yes",
+    "heading_like_lines": 5,
+    "sha256_now": "b8487684ef0cd65f",
+    "sha256_19oct_report": "b8487684ef0cd65f",
+    "identical_to_19oct": "yes"
+  },
+  {
+    "file": "renamed_text.pdf",
+    "purpose": "invalid: must be rejected E_CORRUPT (mock)",
+    "bytes": 43,
+    "signature": "text",
+    "utf8": "yes",
+    "self_labelled_synthetic": "no",
+    "heading_like_lines": 0,
+    "sha256_now": "37acea8bd0389ecb",
+    "sha256_19oct_report": "",
+    "identical_to_19oct": "n/a (no report)"
+  },
+  {
+    "file": "unsupported_format.rtf",
+    "purpose": "invalid: must be rejected E_UNSUPPORTED_TYPE (mock)",
+    "bytes": 58,
+    "signature": "text",
+    "utf8": "yes",
+    "self_labelled_synthetic": "no",
+    "heading_like_lines": 0,
+    "sha256_now": "10a77e98c21e5ec8",
+    "sha256_19oct_report": "",
+    "identical_to_19oct": "n/a (no report)"
+  }
+]

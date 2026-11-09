@@ -1,0 +1,29 @@
+# Startup + toolchain doctor
+# captured_utc: 2026-10-19T10:16:50+00:00
+$ metasense version ; metasense doctor
+--- stdout ---
+MetaSense 0.2.0 (Python 3.13.16)
+
+MetaSense doctor — WARNING ({'failed': 0, 'warnings': 1, 'total': 19})
+  [PASS ] python_version: 3.13.16 (/home/claude/Metasense/.validation-venv/bin/python); requires >= 3.10
+  [INFO ] platform: Linux-6.18.44-fc-v139-x86_64-with-glibc2.39
+  [PASS ] virtual_environment: /home/claude/Metasense/.validation-venv
+  [PASS ] import:pypdf: 5.1.0
+  [PASS ] import:python-docx: 1.1.2
+  [PASS ] import:pytest: 8.3.3
+  [PASS ] writable:reports: /home/claude/Metasense/reports
+  [PASS ] writable:evidence: /home/claude/Metasense/evidence
+  [PASS ] readable:config/rubric.json: /home/claude/Metasense/config/rubric.json
+  [PASS ] readable:config/project_layout.json: /home/claude/Metasense/config/project_layout.json
+  [INFO ] env:METASENSE_MAX_BYTES: not set — optional; overrides 20 MB input limit (not yet wired, see I-016)
+  [PASS ] layout:project_name: required_config_field
+  [PASS ] layout:environment: required_config_field
+  [PASS ] layout:src: required_directory
+  [PASS ] layout:tests: required_directory
+  [PASS ] layout:docs: required_directory
+  [PASS ] layout:data: optional_directory
+  [WARN ] layout:results: optional_directory
+  [PASS ] layout:logs: optional_directory
+--- stderr ---
+
+--- exit code: 0   duration: 0.32999999999999996s ---

@@ -1,0 +1,1476 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "ed0be24f53eb",
+  "timestamp_utc": "2026-10-25T20:22:37+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 66533,
+    "sha256": "cd26abc700f7f37212d171632d0395f1a8b8c7b920a8aa052277e3bc186c3a05"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 11207,
+    "line_count": 2195,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 4,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 5,
+      "end_line": 56,
+      "word_count": 547,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 57,
+      "end_line": 123,
+      "word_count": 625,
+      "inherited": false
+    },
+    {
+      "heading": "Related Work",
+      "label": "related_work",
+      "level": 2,
+      "start_line": 124,
+      "end_line": 172,
+      "word_count": 468,
+      "inherited": false
+    },
+    {
+      "heading": "Main Contributions",
+      "label": "introduction",
+      "level": 2,
+      "start_line": 173,
+      "end_line": 243,
+      "word_count": 557,
+      "inherited": true
+    },
+    {
+      "heading": "Problem Formulation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 244,
+      "end_line": 277,
+      "word_count": 297,
+      "inherited": false
+    },
+    {
+      "heading": "Integer Programming Formulation for the PDP",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 278,
+      "end_line": 320,
+      "word_count": 386,
+      "inherited": false
+    },
+    {
+      "heading": "XX",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 321,
+      "end_line": 326,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 327,
+      "end_line": 330,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 331,
+      "end_line": 363,
+      "word_count": 239,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 364,
+      "end_line": 365,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Column Generation",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 366,
+      "end_line": 387,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 388,
+      "end_line": 390,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 391,
+      "end_line": 424,
+      "word_count": 193,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 425,
+      "end_line": 443,
+      "word_count": 164,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 444,
+      "end_line": 449,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 450,
+      "end_line": 477,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 478,
+      "end_line": 479,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 480,
+      "end_line": 484,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 485,
+      "end_line": 490,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 491,
+      "end_line": 503,
+      "word_count": 122,
+      "inherited": false
+    },
+    {
+      "heading": "Description Error in Grouped Data",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 504,
+      "end_line": 511,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "Grouped Data for Scalability",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 512,
+      "end_line": 527,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "PK P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 528,
+      "end_line": 530,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "COST",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 531,
+      "end_line": 531,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(P)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 532,
+      "end_line": 539,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 540,
+      "end_line": 541,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 542,
+      "end_line": 565,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 566,
+      "end_line": 574,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 575,
+      "end_line": 601,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 602,
+      "end_line": 636,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "COSTG (P)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 637,
+      "end_line": 642,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "PK P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 643,
+      "end_line": 659,
+      "word_count": 150,
+      "inherited": false
+    },
+    {
+      "heading": "Integer Programming Formulation with Grouping",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 660,
+      "end_line": 681,
+      "word_count": 110,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 682,
+      "end_line": 718,
+      "word_count": 340,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 719,
+      "end_line": 719,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 720,
+      "end_line": 722,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 723,
+      "end_line": 723,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 724,
+      "end_line": 740,
+      "word_count": 119,
+      "inherited": false
+    },
+    {
+      "heading": "HG",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 741,
+      "end_line": 745,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 746,
+      "end_line": 746,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 747,
+      "end_line": 751,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "+ T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 752,
+      "end_line": 752,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 753,
+      "end_line": 753,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 754,
+      "end_line": 754,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 755,
+      "end_line": 774,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 775,
+      "end_line": 789,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 790,
+      "end_line": 793,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 794,
+      "end_line": 795,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 796,
+      "end_line": 797,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 798,
+      "end_line": 815,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "Approach",
+      "label": "methodology",
+      "level": 1,
+      "start_line": 816,
+      "end_line": 837,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 838,
+      "end_line": 838,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 839,
+      "end_line": 845,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 846,
+      "end_line": 846,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 847,
+      "end_line": 873,
+      "word_count": 76,
+      "inherited": false
+    },
+    {
+      "heading": "Empirical Evaluation",
+      "label": "experiments",
+      "level": 2,
+      "start_line": 874,
+      "end_line": 893,
+      "word_count": 224,
+      "inherited": false
+    },
+    {
+      "heading": "instances, and 5 random sub-samples. Figure 3 shows",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 894,
+      "end_line": 928,
+      "word_count": 364,
+      "inherited": false
+    },
+    {
+      "heading": "Numerical Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 929,
+      "end_line": 952,
+      "word_count": 74,
+      "inherited": false
+    },
+    {
+      "heading": "K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 953,
+      "end_line": 954,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 955,
+      "end_line": 956,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CART",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 957,
+      "end_line": 958,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROTO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 959,
+      "end_line": 960,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PDP-1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 961,
+      "end_line": 962,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PDP-3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 963,
+      "end_line": 1206,
+      "word_count": 690,
+      "inherited": false
+    },
+    {
+      "heading": "CART",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1207,
+      "end_line": 1208,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1209,
+      "end_line": 1210,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROTO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1211,
+      "end_line": 1212,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F-PDP-1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1213,
+      "end_line": 1214,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "F-PDP-3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1215,
+      "end_line": 1216,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1217,
+      "end_line": 1218,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1219,
+      "end_line": 1350,
+      "word_count": 179,
+      "inherited": false
+    },
+    {
+      "heading": "CART",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1351,
+      "end_line": 1351,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1352,
+      "end_line": 1359,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 1360,
+      "end_line": 1374,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1375,
+      "end_line": 1403,
+      "word_count": 218,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 1404,
+      "end_line": 1413,
+      "word_count": 62,
+      "inherited": false
+    },
+    {
+      "heading": "On clustering and interpreting with rules by means",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1414,
+      "end_line": 1424,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "URL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1425,
+      "end_line": 1497,
+      "word_count": 442,
+      "inherited": false
+    },
+    {
+      "heading": "ISSN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1498,
+      "end_line": 1520,
+      "word_count": 110,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Theorem 2.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1521,
+      "end_line": 1580,
+      "word_count": 503,
+      "inherited": false
+    },
+    {
+      "heading": "Illustrative Example on Non-Intersection of",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1581,
+      "end_line": 1665,
+      "word_count": 819,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Theorem 3.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1666,
+      "end_line": 1675,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1676,
+      "end_line": 1685,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Theorem 3.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1686,
+      "end_line": 1687,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1688,
+      "end_line": 1778,
+      "word_count": 709,
+      "inherited": false
+    },
+    {
+      "heading": "Qualitative Comparison",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1779,
+      "end_line": 1807,
+      "word_count": 321,
+      "inherited": false
+    },
+    {
+      "heading": "Additional Computation Time Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1808,
+      "end_line": 1809,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Implementation Details",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1810,
+      "end_line": 1856,
+      "word_count": 368,
+      "inherited": false
+    },
+    {
+      "heading": "show the pareto curves for accuracy versus complexity",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1857,
+      "end_line": 1862,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "Pareto Curves",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1863,
+      "end_line": 1889,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1890,
+      "end_line": 1895,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1896,
+      "end_line": 1897,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1898,
+      "end_line": 2019,
+      "word_count": 122,
+      "inherited": false
+    },
+    {
+      "heading": "K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2020,
+      "end_line": 2025,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2026,
+      "end_line": 2027,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP-3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2028,
+      "end_line": 2137,
+      "word_count": 95,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2138,
+      "end_line": 2138,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CART",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2139,
+      "end_line": 2139,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2140,
+      "end_line": 2171,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "0.975",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 2172,
+      "end_line": 2195,
+      "word_count": 44,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Problem Formulation",
+    "Integer Programming Formulation for the PDP",
+    "XX",
+    "X",
+    "X",
+    "X",
+    "Column Generation",
+    "X X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "Description Error in Grouped Data",
+    "Grouped Data for Scalability",
+    "PK P",
+    "COST",
+    "(P)",
+    "S",
+    "P",
+    "− T",
+    "X",
+    "X",
+    "COSTG (P)",
+    "PK P",
+    "Integer Programming Formulation with Grouping",
+    "L",
+    "− T",
+    "L",
+    "− T",
+    "H",
+    "HG",
+    "− T",
+    "L",
+    "+ T",
+    "L",
+    "− T",
+    "H",
+    "X",
+    "G",
+    "X",
+    "G",
+    "X",
+    "− T",
+    "L",
+    "− T",
+    "H",
+    "instances, and 5 random sub-samples. Figure 3 shows",
+    "Numerical Results",
+    "K",
+    "IMM",
+    "CART",
+    "PROTO",
+    "PDP-1",
+    "PDP-3",
+    "CART",
+    "IMM",
+    "PROTO",
+    "F-PDP-1",
+    "F-PDP-3",
+    "LC-PDP-1",
+    "LC-PDP-3",
+    "CART",
+    "IMM",
+    "On clustering and interpreting with rules by means",
+    "URL",
+    "ISSN",
+    "Proof of Theorem 2.1",
+    "Illustrative Example on Non-Intersection of",
+    "Proof of Theorem 3.2",
+    "X",
+    "Proof of Theorem 3.1",
+    "X",
+    "Qualitative Comparison",
+    "Additional Computation Time Results",
+    "Implementation Details",
+    "show the pareto curves for accuracy versus complexity",
+    "Pareto Curves",
+    "K",
+    "LC-PDP-1",
+    "LC-PDP-3",
+    "K",
+    "LC-PDP-1",
+    "LC-PDP-3",
+    "LC-PDP",
+    "CART",
+    "IMM",
+    "0.975"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 56.2,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 3,
+      "weak": 3,
+      "missing": 2
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "aims? to\\b",
+          "\\bwe aim\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "aims? to\\b",
+            "line": 136,
+            "section": "Related Work",
+            "quote": "In other words, cluster description aims to optimize interpretability with constraints on accuracy."
+          },
+          {
+            "indicator": "\\bwe aim\\b",
+            "line": 182,
+            "section": "Main Contributions",
+            "quote": "In our formulation, we aim to find good solutions and allow the polyhedra to explain up to α data points incorrectly:"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\bbenchmark\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 890,
+            "section": "Empirical Evaluation",
+            "quote": "For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the"
+          },
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 7,
+            "section": "Abstract",
+            "quote": "Clustering is often used in industry as a tool to find sub-populations in a dataset such as customer segments (Kansal et al., 2018), different media genres (Daudpota et al., 2019), or even patient subgroups in clinical…"
+          },
+          {
+            "indicator": "\\bbenchmark\\b",
+            "line": 913,
+            "section": "instances, and 5 random sub-samples. Figure 3 shows",
+            "quote": "We benchmark our approach against three common algorithms for cluster description: Classification and Regression Trees (CART) (Breiman et al., 2017), Iterative Mistake Minimization Trees (IMM) (Frost et al., 2020), and…"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bprocedure\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bRAM\\b",
+          "implemented (?:in|using|with)",
+          "\\bPython\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 890,
+            "section": "Empirical Evaluation",
+            "quote": "For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the"
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 113,
+            "section": "Introduction",
+            "quote": "First, a data point satisfies a description in the polyhedral description setting only if it satisfies all the conditions in the description, whereas in the DTDM a data point only needs to satisfy one of the tags used t…"
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 1122,
+            "section": "PDP-3",
+            "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+          },
+          {
+            "indicator": "implemented (?:in|using|with)",
+            "line": 1122,
+            "section": "PDP-3",
+            "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+          },
+          {
+            "indicator": "\\bPython\\b",
+            "line": 1122,
+            "section": "PDP-3",
+            "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 27,
+            "section": "Abstract",
+            "quote": "Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy."
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 709,
+            "section": "L",
+            "quote": "One such possible restriction is to ensure that the grouping is optimal with respect to a clustering evaluation metric."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b",
+          "state[- ]of[- ]the[- ]art"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 27,
+            "section": "Abstract",
+            "quote": "Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy."
+          },
+          {
+            "indicator": "state[- ]of[- ]the[- ]art",
+            "line": 27,
+            "section": "Abstract",
+            "quote": "Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 1422,
+            "section": "On clustering and interpreting with rules by means",
+            "quote": "ISSN 0305-0483. doi: https://doi.org/10.1016/j.omega.2021.102543."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting.",
+      "evidence": [
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 890,
+          "section": "Empirical Evaluation",
+          "quote": "For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the"
+        },
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 7,
+          "section": "Abstract",
+          "quote": "Clustering is often used in industry as a tool to find sub-populations in a dataset such as customer segments (Kansal et al., 2018), different media genres (Daudpota et al., 2019), or even patient subgroups in clinical…"
+        },
+        {
+          "indicator": "\\bbenchmark\\b",
+          "line": 913,
+          "section": "instances, and 5 random sub-samples. Figure 3 shows",
+          "quote": "We benchmark our approach against three common algorithms for cluster description: Classification and Regression Trees (CART) (Breiman et al., 2017), Iterative Mistake Minimization Trees (IMM) (Frost et al., 2020), and…"
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting.",
+      "evidence": [
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 890,
+          "section": "Empirical Evaluation",
+          "quote": "For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the"
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 113,
+          "section": "Introduction",
+          "quote": "First, a data point satisfies a description in the polyhedral description setting only if it satisfies all the conditions in the description, whereas in the DTDM a data point only needs to satisfy one of the tags used t…"
+        },
+        {
+          "indicator": "\\bRAM\\b",
+          "line": 1122,
+          "section": "PDP-3",
+          "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+        },
+        {
+          "indicator": "implemented (?:in|using|with)",
+          "line": 1122,
+          "section": "PDP-3",
+          "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+        },
+        {
+          "indicator": "\\bPython\\b",
+          "line": 1122,
+          "section": "PDP-3",
+          "quote": "All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 27,
+          "section": "Abstract",
+          "quote": "Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy."
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 709,
+          "section": "L",
+          "quote": "One such possible restriction is to ensure that the grouping is optimal with respect to a clustering evaluation metric."
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C7",
+      "summary": "Threats to validity / limitations: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 136 [Related Work]: \"In other words, cluster description aims to optimize interpretability with constraints on accuracy.\"",
+        "line 182 [Main Contributions]: \"In our formulation, we aim to find good solutions and allow the polyhedra to explain up to α data points incorrectly:\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: 1 indicator(s) found in the methodology section(s), below the threshold of 2.",
+      "evidence": [
+        "line 890 [Empirical Evaluation]: \"For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the\"",
+        "line 7 [Abstract]: \"Clustering is often used in industry as a tool to find sub-populations in a dataset such as customer segments (Kansal et al., 2018), different media genres (Daudpota et al., 2019), or even patient subgroups in clinical…\"",
+        "line 913 [instances, and 5 random sub-samples. Figure 3 shows]: \"We benchmark our approach against three common algorithms for cluster description: Classification and Regression Trees (CART) (Breiman et al., 2017), Iterative Mistake Minimization Trees (IMM) (Frost et al., 2020), and…\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: 1 indicator(s) found in the methodology section(s), below the threshold of 2.",
+      "evidence": [
+        "line 890 [Empirical Evaluation]: \"For all of the following results we created 50 random instances using the above simulation procedure with K = 3, m = 10, and n = 10000 and then ran both approaches and averaged the performance over the\"",
+        "line 113 [Introduction]: \"First, a data point satisfies a description in the polyhedral description setting only if it satisfies all the conditions in the description, whereas in the DTDM a data point only needs to satisfy one of the tags used t…\"",
+        "line 1122 [PDP-3]: \"All models were implemented in python using Gurobi 9.1 and run on a computer with 16 GB of RAM and a 2.7 GHz processor.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 27 [Abstract]: \"Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy.\"",
+        "line 709 [L]: \"One such possible restriction is to ensure that the grouping is optimal with respect to a clustering evaluation metric.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 27 [Abstract]: \"Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy.\"",
+        "line 27 [Abstract]: \"Compared to state of the art cluster description algorithms, our approach is able to achieve competitive interpretability with improved description accuracy.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Discuss threats to validity and limitations (e.g., dataset bias, generalizability) and how they were mitigated."
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1422 [On clustering and interpreting with rules by means]: \"ISSN 0305-0483. doi: https://doi.org/10.1016/j.omega.2021.102543.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.09,
+    "extract": 7.51,
+    "load_rubric": 3.55,
+    "detect_sections": 4.51,
+    "split_sentences": 2.44,
+    "assess": 69.53,
+    "detect_weaknesses": 0.12,
+    "explain": 0.05,
+    "total": 88.66
+  }
+}

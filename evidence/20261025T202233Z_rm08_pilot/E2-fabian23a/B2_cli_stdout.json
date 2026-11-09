@@ -1,0 +1,5227 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "49f6af59b6fe",
+  "timestamp_utc": "2026-10-25T20:24:03+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 108379,
+    "sha256": "f6c6e2138c3cc0508725188f004bfd9a22c977eadf341e086bb997f4366fb722"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 20681,
+    "line_count": 5135,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 8,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 9,
+      "end_line": 34,
+      "word_count": 211,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 35,
+      "end_line": 164,
+      "word_count": 1263,
+      "inherited": false
+    },
+    {
+      "heading": "\u0010R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 165,
+      "end_line": 191,
+      "word_count": 237,
+      "inherited": false
+    },
+    {
+      "heading": "∥W ∥□ :=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 192,
+      "end_line": 194,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "S,T ⊆[0,1]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 195,
+      "end_line": 196,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 197,
+      "end_line": 200,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "S×T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 201,
+      "end_line": 271,
+      "word_count": 699,
+      "inherited": false
+    },
+    {
+      "heading": "x − i/M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 272,
+      "end_line": 272,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "y − j/M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 273,
+      "end_line": 283,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "x − i/M y − j/M + ξ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 284,
+      "end_line": 310,
+      "word_count": 69,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 311,
+      "end_line": 321,
+      "word_count": 113,
+      "inherited": false
+    },
+    {
+      "heading": "T ×X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 322,
+      "end_line": 322,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Π := P(U)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 323,
+      "end_line": 354,
+      "word_count": 241,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 355,
+      "end_line": 372,
+      "word_count": 122,
+      "inherited": false
+    },
+    {
+      "heading": "\"T −1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 373,
+      "end_line": 374,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 375,
+      "end_line": 436,
+      "word_count": 519,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 437,
+      "end_line": 441,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 442,
+      "end_line": 445,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "\"T −1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 446,
+      "end_line": 447,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 448,
+      "end_line": 465,
+      "word_count": 78,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 466,
+      "end_line": 534,
+      "word_count": 639,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 535,
+      "end_line": 543,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": ",N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 544,
+      "end_line": 545,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 546,
+      "end_line": 546,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 547,
+      "end_line": 566,
+      "word_count": 115,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 567,
+      "end_line": 567,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 568,
+      "end_line": 601,
+      "word_count": 254,
+      "inherited": false
+    },
+    {
+      "heading": "LEARNING LPGMFGS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 602,
+      "end_line": 669,
+      "word_count": 587,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 670,
+      "end_line": 699,
+      "word_count": 220,
+      "inherited": false
+    },
+    {
+      "heading": "EXPERIMENTS",
+      "label": "experiments",
+      "level": 1,
+      "start_line": 700,
+      "end_line": 871,
+      "word_count": 597,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 872,
+      "end_line": 875,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 876,
+      "end_line": 958,
+      "word_count": 202,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 959,
+      "end_line": 1199,
+      "word_count": 331,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1200,
+      "end_line": 1200,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1201,
+      "end_line": 1202,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1203,
+      "end_line": 1244,
+      "word_count": 210,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 1245,
+      "end_line": 1284,
+      "word_count": 226,
+      "inherited": false
+    },
+    {
+      "heading": "CONCLUSION",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 1285,
+      "end_line": 1311,
+      "word_count": 231,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1312,
+      "end_line": 1382,
+      "word_count": 470,
+      "inherited": false
+    },
+    {
+      "heading": "IEEE 58th Conference on Decision and Control",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1383,
+      "end_line": 1608,
+      "word_count": 1600,
+      "inherited": false
+    },
+    {
+      "heading": "SUPPLEMENTARY MATERIAL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1609,
+      "end_line": 1616,
+      "word_count": 112,
+      "inherited": false
+    },
+    {
+      "heading": "A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1617,
+      "end_line": 1618,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "OVERVIEW",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 1619,
+      "end_line": 1623,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1624,
+      "end_line": 1626,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1627,
+      "end_line": 1630,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1631,
+      "end_line": 1636,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1637,
+      "end_line": 1639,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1640,
+      "end_line": 1642,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1643,
+      "end_line": 1649,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1650,
+      "end_line": 1656,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "′ ,W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1657,
+      "end_line": 1662,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1663,
+      "end_line": 1665,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1666,
+      "end_line": 1672,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1673,
+      "end_line": 1675,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1676,
+      "end_line": 1703,
+      "word_count": 210,
+      "inherited": false
+    },
+    {
+      "heading": "S",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1704,
+      "end_line": 1710,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1711,
+      "end_line": 1716,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1717,
+      "end_line": 1717,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1718,
+      "end_line": 1718,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1719,
+      "end_line": 1720,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1721,
+      "end_line": 1721,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1722,
+      "end_line": 1761,
+      "word_count": 350,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1762,
+      "end_line": 1762,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1763,
+      "end_line": 1769,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1770,
+      "end_line": 1771,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1772,
+      "end_line": 1773,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1774,
+      "end_line": 1787,
+      "word_count": 66,
+      "inherited": false
+    },
+    {
+      "heading": "B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1788,
+      "end_line": 1789,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF THEOREM 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1790,
+      "end_line": 1795,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "\u0002 N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1796,
+      "end_line": 1797,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1798,
+      "end_line": 1812,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1813,
+      "end_line": 1820,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1821,
+      "end_line": 1823,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1824,
+      "end_line": 1838,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1839,
+      "end_line": 1853,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1854,
+      "end_line": 1856,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1857,
+      "end_line": 1859,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1860,
+      "end_line": 1868,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1869,
+      "end_line": 1869,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1870,
+      "end_line": 1872,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "WN N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1873,
+      "end_line": 1873,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "= E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1874,
+      "end_line": 1883,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1884,
+      "end_line": 1884,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1885,
+      "end_line": 1888,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1889,
+      "end_line": 1892,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1893,
+      "end_line": 1894,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1895,
+      "end_line": 1898,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1899,
+      "end_line": 1908,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1909,
+      "end_line": 1910,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1911,
+      "end_line": 1920,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1921,
+      "end_line": 1922,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1923,
+      "end_line": 1924,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "≤ E ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1925,
+      "end_line": 1932,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1933,
+      "end_line": 1934,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1935,
+      "end_line": 1938,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1939,
+      "end_line": 1940,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1941,
+      "end_line": 1944,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1945,
+      "end_line": 1958,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1959,
+      "end_line": 1962,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1963,
+      "end_line": 1964,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1965,
+      "end_line": 1968,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1969,
+      "end_line": 1987,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": " ≤ 2M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1988,
+      "end_line": 1989,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1990,
+      "end_line": 2001,
+      "word_count": 43,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2002,
+      "end_line": 2006,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2007,
+      "end_line": 2009,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2010,
+      "end_line": 2010,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2011,
+      "end_line": 2013,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2014,
+      "end_line": 2017,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2018,
+      "end_line": 2019,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2020,
+      "end_line": 2027,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2028,
+      "end_line": 2028,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2029,
+      "end_line": 2030,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014ZI Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2031,
+      "end_line": 2041,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2042,
+      "end_line": 2042,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2043,
+      "end_line": 2050,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2051,
+      "end_line": 2052,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2053,
+      "end_line": 2059,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "(fN ) − µ0 (fN )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2060,
+      "end_line": 2060,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2061,
+      "end_line": 2064,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2065,
+      "end_line": 2068,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2069,
+      "end_line": 2070,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2071,
+      "end_line": 2072,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2073,
+      "end_line": 2074,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2075,
+      "end_line": 2082,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2083,
+      "end_line": 2088,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2089,
+      "end_line": 2092,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2093,
+      "end_line": 2100,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2101,
+      "end_line": 2104,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2105,
+      "end_line": 2106,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2107,
+      "end_line": 2108,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2109,
+      "end_line": 2112,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2113,
+      "end_line": 2116,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2117,
+      "end_line": 2126,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2127,
+      "end_line": 2128,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2129,
+      "end_line": 2132,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2133,
+      "end_line": 2134,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2135,
+      "end_line": 2136,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2137,
+      "end_line": 2138,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "≤ E ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2139,
+      "end_line": 2147,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2148,
+      "end_line": 2151,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2152,
+      "end_line": 2160,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2161,
+      "end_line": 2161,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2162,
+      "end_line": 2169,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2170,
+      "end_line": 2172,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "(x) fN (x, α) dα",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2173,
+      "end_line": 2178,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2179,
+      "end_line": 2182,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2183,
+      "end_line": 2184,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2185,
+      "end_line": 2188,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N ,N ]",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2189,
+      "end_line": 2210,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2211,
+      "end_line": 2217,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2218,
+      "end_line": 2218,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2219,
+      "end_line": 2223,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2224,
+      "end_line": 2228,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "\u0002 N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2229,
+      "end_line": 2230,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2231,
+      "end_line": 2245,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2246,
+      "end_line": 2253,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2254,
+      "end_line": 2256,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2257,
+      "end_line": 2257,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2258,
+      "end_line": 2258,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2259,
+      "end_line": 2273,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2274,
+      "end_line": 2284,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z \u0012",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2285,
+      "end_line": 2286,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "WN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2287,
+      "end_line": 2288,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "−W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2289,
+      "end_line": 2293,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2294,
+      "end_line": 2294,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L∞ →L1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2295,
+      "end_line": 2297,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "Z \u0012",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2298,
+      "end_line": 2303,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2304,
+      "end_line": 2309,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "Z \u0012",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2310,
+      "end_line": 2316,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2317,
+      "end_line": 2322,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2323,
+      "end_line": 2328,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2329,
+      "end_line": 2331,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "WN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2332,
+      "end_line": 2332,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2333,
+      "end_line": 2333,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2334,
+      "end_line": 2340,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2341,
+      "end_line": 2348,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2349,
+      "end_line": 2350,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "WN N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2351,
+      "end_line": 2354,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2355,
+      "end_line": 2355,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2356,
+      "end_line": 2366,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "\"Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2367,
+      "end_line": 2374,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2375,
+      "end_line": 2376,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "WN N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2377,
+      "end_line": 2380,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2381,
+      "end_line": 2381,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2382,
+      "end_line": 2392,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2393,
+      "end_line": 2398,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "WN N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2399,
+      "end_line": 2400,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2401,
+      "end_line": 2406,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "AN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2407,
+      "end_line": 2407,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2408,
+      "end_line": 2414,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2415,
+      "end_line": 2417,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "AN",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2418,
+      "end_line": 2427,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2428,
+      "end_line": 2433,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2434,
+      "end_line": 2454,
+      "word_count": 112,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2455,
+      "end_line": 2455,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2456,
+      "end_line": 2456,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2457,
+      "end_line": 2457,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2458,
+      "end_line": 2458,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2459,
+      "end_line": 2471,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2472,
+      "end_line": 2494,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2495,
+      "end_line": 2495,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2496,
+      "end_line": 2496,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2497,
+      "end_line": 2497,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2498,
+      "end_line": 2499,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2500,
+      "end_line": 2505,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2506,
+      "end_line": 2508,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2509,
+      "end_line": 2516,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2517,
+      "end_line": 2521,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2522,
+      "end_line": 2522,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2523,
+      "end_line": 2535,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2536,
+      "end_line": 2537,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2538,
+      "end_line": 2541,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2542,
+      "end_line": 2548,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2549,
+      "end_line": 2560,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2561,
+      "end_line": 2562,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF THEOREM 4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2563,
+      "end_line": 2601,
+      "word_count": 305,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2602,
+      "end_line": 2603,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2604,
+      "end_line": 2605,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2606,
+      "end_line": 2613,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2614,
+      "end_line": 2616,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2617,
+      "end_line": 2628,
+      "word_count": 70,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2629,
+      "end_line": 2660,
+      "word_count": 161,
+      "inherited": false
+    },
+    {
+      "heading": "F",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2661,
+      "end_line": 2662,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2663,
+      "end_line": 2688,
+      "word_count": 100,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2689,
+      "end_line": 2690,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2691,
+      "end_line": 2692,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2693,
+      "end_line": 2697,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2698,
+      "end_line": 2698,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2699,
+      "end_line": 2699,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2700,
+      "end_line": 2700,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2701,
+      "end_line": 2703,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2704,
+      "end_line": 2706,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2707,
+      "end_line": 2708,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2709,
+      "end_line": 2722,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2723,
+      "end_line": 2723,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2724,
+      "end_line": 2724,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2725,
+      "end_line": 2731,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2732,
+      "end_line": 2733,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2734,
+      "end_line": 2737,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2738,
+      "end_line": 2739,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2740,
+      "end_line": 2741,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2742,
+      "end_line": 2743,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2744,
+      "end_line": 2747,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2748,
+      "end_line": 2749,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2750,
+      "end_line": 2754,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2755,
+      "end_line": 2755,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2756,
+      "end_line": 2756,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2757,
+      "end_line": 2758,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2759,
+      "end_line": 2760,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2761,
+      "end_line": 2764,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2765,
+      "end_line": 2766,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2767,
+      "end_line": 2768,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2769,
+      "end_line": 2786,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2787,
+      "end_line": 2787,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2788,
+      "end_line": 2826,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2827,
+      "end_line": 2827,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2828,
+      "end_line": 2837,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2838,
+      "end_line": 2839,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2840,
+      "end_line": 2841,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2842,
+      "end_line": 2854,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2855,
+      "end_line": 2857,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2858,
+      "end_line": 2861,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2862,
+      "end_line": 2864,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2865,
+      "end_line": 2872,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2873,
+      "end_line": 2874,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2875,
+      "end_line": 2876,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2877,
+      "end_line": 2885,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2886,
+      "end_line": 2887,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2888,
+      "end_line": 2891,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2892,
+      "end_line": 2892,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2893,
+      "end_line": 2902,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2903,
+      "end_line": 2905,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2906,
+      "end_line": 2915,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2916,
+      "end_line": 2916,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2917,
+      "end_line": 2930,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2931,
+      "end_line": 2932,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2933,
+      "end_line": 2934,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2935,
+      "end_line": 2944,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2945,
+      "end_line": 2959,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2960,
+      "end_line": 2963,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2964,
+      "end_line": 2967,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2968,
+      "end_line": 2968,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2969,
+      "end_line": 2973,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2974,
+      "end_line": 2976,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2977,
+      "end_line": 2984,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2985,
+      "end_line": 2985,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2986,
+      "end_line": 2989,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2990,
+      "end_line": 2990,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2991,
+      "end_line": 2992,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X Z \u0010",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2993,
+      "end_line": 2998,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2999,
+      "end_line": 3020,
+      "word_count": 77,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3021,
+      "end_line": 3023,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3024,
+      "end_line": 3028,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3029,
+      "end_line": 3034,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3035,
+      "end_line": 3043,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3044,
+      "end_line": 3044,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3045,
+      "end_line": 3047,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3048,
+      "end_line": 3063,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3064,
+      "end_line": 3065,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3066,
+      "end_line": 3067,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3068,
+      "end_line": 3077,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3078,
+      "end_line": 3078,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3079,
+      "end_line": 3100,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3101,
+      "end_line": 3103,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X̂",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3104,
+      "end_line": 3105,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3106,
+      "end_line": 3111,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3112,
+      "end_line": 3115,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3116,
+      "end_line": 3121,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3122,
+      "end_line": 3129,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3130,
+      "end_line": 3147,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "H",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3148,
+      "end_line": 3149,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF COROLLARY 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3150,
+      "end_line": 3152,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3153,
+      "end_line": 3163,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "W",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3164,
+      "end_line": 3165,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3166,
+      "end_line": 3167,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3168,
+      "end_line": 3181,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3182,
+      "end_line": 3183,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "DETAILS ON LEARNING LPGMFGS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3184,
+      "end_line": 3197,
+      "word_count": 174,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3198,
+      "end_line": 3199,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3200,
+      "end_line": 3205,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "SM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3206,
+      "end_line": 3210,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3211,
+      "end_line": 3211,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3212,
+      "end_line": 3212,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\u0002 M −1 \u0003",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3213,
+      "end_line": 3216,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3217,
+      "end_line": 3217,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3218,
+      "end_line": 3228,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3229,
+      "end_line": 3246,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3247,
+      "end_line": 3251,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3252,
+      "end_line": 3260,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3261,
+      "end_line": 3261,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3262,
+      "end_line": 3279,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3280,
+      "end_line": 3281,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\" T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3282,
+      "end_line": 3282,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3283,
+      "end_line": 3321,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3322,
+      "end_line": 3323,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\" T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3324,
+      "end_line": 3324,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3325,
+      "end_line": 3358,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "=E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3359,
+      "end_line": 3360,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "\" T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3361,
+      "end_line": 3361,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3362,
+      "end_line": 3395,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3396,
+      "end_line": 3423,
+      "word_count": 101,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3424,
+      "end_line": 3491,
+      "word_count": 274,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3492,
+      "end_line": 3504,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3505,
+      "end_line": 3511,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3512,
+      "end_line": 3524,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "· P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3525,
+      "end_line": 3567,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3568,
+      "end_line": 3568,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3569,
+      "end_line": 3582,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001\u0011 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3583,
+      "end_line": 3596,
+      "word_count": 68,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3597,
+      "end_line": 3632,
+      "word_count": 121,
+      "inherited": false
+    },
+    {
+      "heading": "Γ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3633,
+      "end_line": 3648,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3649,
+      "end_line": 3650,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3651,
+      "end_line": 3660,
+      "word_count": 45,
+      "inherited": false
+    },
+    {
+      "heading": "J",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3661,
+      "end_line": 3662,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3663,
+      "end_line": 3675,
+      "word_count": 102,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3676,
+      "end_line": 3677,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3678,
+      "end_line": 3678,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3679,
+      "end_line": 3693,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3694,
+      "end_line": 3697,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "K",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3698,
+      "end_line": 3699,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 6",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3700,
+      "end_line": 3786,
+      "word_count": 240,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3787,
+      "end_line": 3787,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3788,
+      "end_line": 3788,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3789,
+      "end_line": 3803,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3804,
+      "end_line": 3805,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF LEMMA 7",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3806,
+      "end_line": 3829,
+      "word_count": 107,
+      "inherited": false
+    },
+    {
+      "heading": "Z X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3830,
+      "end_line": 3847,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3848,
+      "end_line": 3849,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "E D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3850,
+      "end_line": 3865,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "Z X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3866,
+      "end_line": 3882,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3883,
+      "end_line": 3904,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "Z X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3905,
+      "end_line": 3916,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3917,
+      "end_line": 3959,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3960,
+      "end_line": 3961,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3962,
+      "end_line": 3963,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3964,
+      "end_line": 3989,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "V",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 3990,
+      "end_line": 4012,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4013,
+      "end_line": 4038,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4039,
+      "end_line": 4058,
+      "word_count": 71,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4059,
+      "end_line": 4060,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROOF OF THEOREM 5",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4061,
+      "end_line": 4066,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "Z X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4067,
+      "end_line": 4067,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4068,
+      "end_line": 4068,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4069,
+      "end_line": 4085,
+      "word_count": 97,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001\u0011 D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4086,
+      "end_line": 4088,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4089,
+      "end_line": 4095,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4096,
+      "end_line": 4096,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4097,
+      "end_line": 4097,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4098,
+      "end_line": 4102,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "\u0001E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4103,
+      "end_line": 4115,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4116,
+      "end_line": 4124,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4125,
+      "end_line": 4134,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4135,
+      "end_line": 4165,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4166,
+      "end_line": 4179,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4180,
+      "end_line": 4190,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4191,
+      "end_line": 4202,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "E X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4203,
+      "end_line": 4204,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4205,
+      "end_line": 4234,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4235,
+      "end_line": 4236,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4237,
+      "end_line": 4241,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4242,
+      "end_line": 4282,
+      "word_count": 242,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4283,
+      "end_line": 4302,
+      "word_count": 112,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4303,
+      "end_line": 4314,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4315,
+      "end_line": 4316,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "I",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4317,
+      "end_line": 4318,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4319,
+      "end_line": 4338,
+      "word_count": 207,
+      "inherited": false
+    },
+    {
+      "heading": "N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4339,
+      "end_line": 4340,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CUTOFF POWER LAW GRAPHON",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4341,
+      "end_line": 4363,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4364,
+      "end_line": 4372,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4373,
+      "end_line": 4382,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4383,
+      "end_line": 4398,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4399,
+      "end_line": 4428,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4429,
+      "end_line": 4434,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4435,
+      "end_line": 4438,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4439,
+      "end_line": 4483,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4484,
+      "end_line": 4501,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "− c1−α \u0002",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4502,
+      "end_line": 4503,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "− c1−α + 2(1 − α)c1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4504,
+      "end_line": 4533,
+      "word_count": 220,
+      "inherited": false
+    },
+    {
+      "heading": "∥G∥1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4534,
+      "end_line": 4535,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4536,
+      "end_line": 4547,
+      "word_count": 83,
+      "inherited": false
+    },
+    {
+      "heading": "Z 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4548,
+      "end_line": 4554,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4555,
+      "end_line": 4581,
+      "word_count": 99,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4582,
+      "end_line": 4596,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "2α−2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4597,
+      "end_line": 4604,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4605,
+      "end_line": 4610,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4611,
+      "end_line": 4614,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4615,
+      "end_line": 4617,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4618,
+      "end_line": 4624,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4625,
+      "end_line": 4648,
+      "word_count": 43,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4649,
+      "end_line": 4651,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4652,
+      "end_line": 4657,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4658,
+      "end_line": 4669,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4670,
+      "end_line": 4701,
+      "word_count": 52,
+      "inherited": false
+    },
+    {
+      "heading": "− αc1−α",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4702,
+      "end_line": 4713,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "O",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4714,
+      "end_line": 4715,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "PROBLEM DETAILS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4716,
+      "end_line": 4718,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "O.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4719,
+      "end_line": 4737,
+      "word_count": 271,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4738,
+      "end_line": 4738,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4739,
+      "end_line": 4743,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4744,
+      "end_line": 4744,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4745,
+      "end_line": 4760,
+      "word_count": 192,
+      "inherited": false
+    },
+    {
+      "heading": "{U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4761,
+      "end_line": 4768,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4769,
+      "end_line": 4769,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4770,
+      "end_line": 4785,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4786,
+      "end_line": 4810,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4811,
+      "end_line": 4811,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4812,
+      "end_line": 4827,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4828,
+      "end_line": 4849,
+      "word_count": 57,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4850,
+      "end_line": 4850,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4851,
+      "end_line": 4856,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "DI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4857,
+      "end_line": 4862,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "DI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4863,
+      "end_line": 4864,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "DS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4865,
+      "end_line": 4866,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "UI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4867,
+      "end_line": 4868,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "US",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4869,
+      "end_line": 4870,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4871,
+      "end_line": 4873,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4874,
+      "end_line": 4876,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4877,
+      "end_line": 4879,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4880,
+      "end_line": 4882,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4883,
+      "end_line": 4885,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4886,
+      "end_line": 4888,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4889,
+      "end_line": 4891,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4892,
+      "end_line": 4894,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4895,
+      "end_line": 4897,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4898,
+      "end_line": 4901,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4902,
+      "end_line": 4902,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "DS ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4903,
+      "end_line": 4905,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4906,
+      "end_line": 4908,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "US",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4909,
+      "end_line": 4910,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4911,
+      "end_line": 4916,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "D ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4917,
+      "end_line": 4919,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "U ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4920,
+      "end_line": 4922,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4923,
+      "end_line": 4928,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4929,
+      "end_line": 4938,
+      "word_count": 77,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4939,
+      "end_line": 4939,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4940,
+      "end_line": 4943,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4944,
+      "end_line": 4944,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4945,
+      "end_line": 4949,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "O.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 4950,
+      "end_line": 5119,
+      "word_count": 1106,
+      "inherited": false
+    },
+    {
+      "heading": "O.3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 5120,
+      "end_line": 5135,
+      "word_count": 74,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "\u0010R",
+    "∥W ∥□ :=",
+    "S,T ⊆[0,1]",
+    "Z",
+    "S×T",
+    "x − i/M",
+    "y − j/M",
+    "x − i/M y − j/M + ξ",
+    "MODEL",
+    "T ×X",
+    "Π := P(U)",
+    "X",
+    "\"T −1",
+    "X",
+    "Z",
+    "I",
+    "\"T −1",
+    "X",
+    "X",
+    "P",
+    ",N",
+    "N",
+    "P",
+    "N",
+    "N",
+    "LEARNING LPGMFGS",
+    "I",
+    "R",
+    "I",
+    "R",
+    "P",
+    "P",
+    "E",
+    "IEEE 58th Conference on Decision and Control",
+    "SUPPLEMENTARY MATERIAL",
+    "A",
+    "Z",
+    "I",
+    "Z",
+    "I",
+    "N",
+    "N",
+    "X",
+    "′ ,W",
+    "Z",
+    "I",
+    "Z",
+    "I",
+    "S",
+    "A",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "E",
+    "X̂",
+    "G",
+    "B",
+    "PROOF OF THEOREM 2",
+    "\u0002 N",
+    "N",
+    "N",
+    "P",
+    "N",
+    "P",
+    "P",
+    "W",
+    "N",
+    "Z X",
+    "Z X",
+    "WN N",
+    "= E",
+    "I",
+    "I",
+    "=E",
+    "Z",
+    "X",
+    "N ,N ]",
+    "E",
+    "X",
+    "Z",
+    "X",
+    "≤ E ",
+    "N ,N ]",
+    "Z",
+    "N ,N ]",
+    "\"Z",
+    "N ,N ]",
+    "\"Z",
+    "N ,N ]",
+    "\"Z",
+    "N ,N ]",
+    " ≤ 2M",
+    "N",
+    "P",
+    "P",
+    "W",
+    "N",
+    "N",
+    "\u0014Z Z",
+    "Z",
+    "I",
+    "I",
+    "\u0014ZI Z",
+    "I",
+    "I",
+    "C",
+    "PROOF OF LEMMA 2",
+    "(fN ) − µ0 (fN )",
+    "\"Z",
+    "=E",
+    "=E",
+    "\"Z",
+    "X",
+    "X",
+    "E",
+    "Z",
+    "\"Z",
+    "N ,N ]",
+    "X",
+    "E",
+    "X",
+    "N ,N ]",
+    "E",
+    "N",
+    "\"Z",
+    "X",
+    "N",
+    "X Z",
+    "≤ E ",
+    "Z",
+    "N ,N ]",
+    "N",
+    "N",
+    "X",
+    "(x) fN (x, α) dα",
+    "N ,N ]",
+    "N ,N ]",
+    "\"Z",
+    "N ,N ]",
+    "O",
+    "N",
+    "N",
+    "N",
+    "\u0002 N",
+    "N",
+    "N",
+    "P",
+    "N",
+    "N",
+    "N",
+    "P",
+    "Z Z \u0012",
+    "WN",
+    "−W",
+    "I",
+    "L∞ →L1",
+    "Z \u0012",
+    "I",
+    "Z \u0012",
+    "I",
+    "P",
+    "P",
+    "WN",
+    "N",
+    "N",
+    "\"Z",
+    "X",
+    "WN N",
+    "N",
+    "=E",
+    "\"Z",
+    "X",
+    "WN N",
+    "N",
+    "=E",
+    "\u0014Z",
+    "WN N",
+    "N",
+    "AN",
+    "\u0014Z",
+    "N",
+    "AN",
+    "D",
+    "PROOF OF LEMMA 3",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "E",
+    "E",
+    "G",
+    "N",
+    "N",
+    "N",
+    "X",
+    "E",
+    "\u0014Z",
+    "N",
+    "E",
+    "PROOF OF THEOREM 4",
+    "E",
+    "X̂",
+    "G",
+    "W",
+    "W",
+    "W",
+    "F",
+    "PROOF OF LEMMA 4",
+    "Z",
+    "Z",
+    "Z",
+    "I",
+    "I",
+    "I",
+    "Z Z",
+    "W",
+    "I",
+    "I",
+    "Z",
+    "Z",
+    "Z",
+    "I",
+    "X Z",
+    "I",
+    "Z",
+    "I",
+    "I",
+    "Z",
+    "I",
+    "Z",
+    "Z",
+    "Z Z",
+    "I",
+    "I",
+    "I",
+    "I",
+    "I",
+    "Z X",
+    "Z X",
+    "Z",
+    "X",
+    "G",
+    "I",
+    "PROOF OF LEMMA 5",
+    "E",
+    "G",
+    "E",
+    "G",
+    "E",
+    "X̂",
+    "G",
+    "W",
+    "W",
+    "W",
+    "W",
+    "E",
+    "G",
+    "W",
+    "W",
+    "E",
+    "X̂",
+    "G",
+    "W",
+    "G",
+    "G",
+    "L",
+    "E",
+    "E",
+    "G",
+    "W",
+    "W",
+    "W",
+    "W",
+    "X Z \u0010",
+    "I",
+    "E",
+    "G",
+    "L",
+    "W",
+    "W",
+    "W",
+    "I",
+    "E",
+    "X̂",
+    "G",
+    "W",
+    "W",
+    "E",
+    "X̂",
+    "G",
+    "W",
+    "W",
+    "X",
+    "X",
+    "H",
+    "PROOF OF COROLLARY 1",
+    "X",
+    "W",
+    "T",
+    "X",
+    "I",
+    "DETAILS ON LEARNING LPGMFGS",
+    "T",
+    "T",
+    "SM",
+    "M",
+    "M",
+    "\u0002 M −1 \u0003",
+    "M",
+    "X",
+    "X",
+    "M",
+    "X",
+    "M",
+    "X",
+    "=E",
+    "\" T",
+    "X",
+    "=E",
+    "\" T",
+    "X",
+    "=E",
+    "\" T",
+    "X",
+    "X",
+    "P",
+    "X",
+    "P",
+    "P",
+    "· P",
+    "Z X",
+    "T X",
+    "\u0001\u0011 D",
+    "E",
+    "Γ",
+    "R",
+    "I",
+    "J",
+    "PROOF OF LEMMA 1",
+    "I",
+    "R",
+    "R",
+    "I",
+    "K",
+    "PROOF OF LEMMA 6",
+    "E",
+    "D",
+    "X",
+    "L",
+    "PROOF OF LEMMA 7",
+    "Z X X",
+    "Z X",
+    "E D",
+    "Z X X",
+    "V",
+    "Z X X",
+    "X",
+    "Z",
+    "I",
+    "X X",
+    "V",
+    "X",
+    "I",
+    "M",
+    "PROOF OF THEOREM 5",
+    "Z X",
+    "T",
+    "X",
+    "\u0001\u0011 D",
+    "\u0001E",
+    "D",
+    "X",
+    "X",
+    "\u0001E",
+    "X",
+    "X",
+    "X",
+    "D",
+    "X",
+    "P",
+    "E X",
+    "D",
+    "X",
+    "E",
+    "P",
+    "R",
+    "I",
+    "R",
+    "I",
+    "R",
+    "N",
+    "CUTOFF POWER LAW GRAPHON",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "X",
+    "− c1−α \u0002",
+    "− c1−α + 2(1 − α)c1−α",
+    "∥G∥1",
+    "X",
+    "Z 1",
+    "Z",
+    "X",
+    "2α−2",
+    "− αc1−α",
+    "X",
+    "− αc1−α",
+    "Z",
+    "X",
+    "Z",
+    "− αc1−α",
+    "Z",
+    "Z",
+    "− αc1−α",
+    "O",
+    "PROBLEM DETAILS",
+    "O.1",
+    "D",
+    "U",
+    "D",
+    "U",
+    "{U",
+    "D",
+    "D",
+    "D",
+    "U",
+    "U",
+    "U",
+    "D",
+    "U",
+    "DI",
+    "DI",
+    "DS",
+    "UI",
+    "US",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D",
+    "U",
+    "U",
+    "U",
+    "U",
+    "D",
+    "DS ",
+    "U",
+    "US",
+    "U",
+    "D ",
+    "U ",
+    "U",
+    "T",
+    "D",
+    "U",
+    "D",
+    "U",
+    "O.2",
+    "O.3"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 75.0,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 5,
+      "weak": 2,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "aims? to\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "aims? to\\b",
+            "line": 74,
+            "section": "INTRODUCTION",
+            "quote": "There is also some work that aims to apply MFGs to real world tasks, e.g. social networks (Yang et al."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\blicen[cs]e"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 340,
+            "section": "Π := P(U)",
+            "quote": "Each graph consists of 3892 nodes and around 17500 edges to match the real data set."
+          },
+          {
+            "indicator": "\\blicen[cs]e",
+            "line": 3187,
+            "section": "DETAILS ON LEARNING LPGMFGS",
+            "quote": "Our implementation is based on Cui and Koeppl (2022) (MIT license)."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "hyper-?parameters?"
+        ],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bRAM\\b",
+          "\\bGPUs?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 702,
+            "section": "EXPERIMENTS",
+            "quote": "In our experiments, we use OMD with its hyperparameter γ set to 1, the power law Lp -graphon W , and discretize I"
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 614,
+            "section": "LEARNING LPGMFGS",
+            "quote": "(2021)) at first, the crucial advantages of LPGMFGs are that they are on the one hand rigorously connected to finite agent games."
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 3191,
+            "section": "DETAILS ON LEARNING LPGMFGS",
+            "quote": "The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM."
+          },
+          {
+            "indicator": "\\bGPUs?\\b",
+            "line": 3192,
+            "section": "DETAILS ON LEARNING LPGMFGS",
+            "quote": "No GPUs were used in this research."
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\baccuracy\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 846,
+            "section": "EXPERIMENTS",
+            "quote": "In contrast to existing work, we use LPGMFGs to allow malware spread only by neighboring computers to increase the modelling accuracy."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 3703,
+            "section": "PROOF OF LEMMA 6",
+            "quote": "Recall that h∗ is defined as a function h∗ : R|U | → R."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 498,
+            "section": "X",
+            "quote": "Since this cutoff power law graphon does not yield qualitatively different results compared to the power law graphon, it is omitted from the main text."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "confidence intervals?"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "confidence intervals?",
+            "line": 1204,
+            "section": "E",
+            "quote": "at t∈T ,x∈X N i δXti (x) − I µt (x) dα β = 0.51 averaged over 100 randomly sampled graphs with N nodes and 68% confidence interval (shaded)."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 1541,
+            "section": "IEEE 58th Conference on Decision and Control",
+            "quote": "A generalized online mirror descent with applications to classification and regression."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 340,
+          "section": "Π := P(U)",
+          "quote": "Each graph consists of 3892 nodes and around 17500 edges to match the real data set."
+        },
+        {
+          "indicator": "\\blicen[cs]e",
+          "line": 3187,
+          "section": "DETAILS ON LEARNING LPGMFGS",
+          "quote": "Our implementation is based on Cui and Koeppl (2022) (MIT license)."
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting.",
+      "evidence": [
+        {
+          "indicator": "hyper-?parameters?",
+          "line": 702,
+          "section": "EXPERIMENTS",
+          "quote": "In our experiments, we use OMD with its hyperparameter γ set to 1, the power law Lp -graphon W , and discretize I"
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 614,
+          "section": "LEARNING LPGMFGS",
+          "quote": "(2021)) at first, the crucial advantages of LPGMFGs are that they are on the one hand rigorously connected to finite agent games."
+        },
+        {
+          "indicator": "\\bRAM\\b",
+          "line": 3191,
+          "section": "DETAILS ON LEARNING LPGMFGS",
+          "quote": "The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM."
+        },
+        {
+          "indicator": "\\bGPUs?\\b",
+          "line": 3192,
+          "section": "DETAILS ON LEARNING LPGMFGS",
+          "quote": "No GPUs were used in this research."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 74 [INTRODUCTION]: \"There is also some work that aims to apply MFGs to real world tasks, e.g. social networks (Yang et al.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 340 [Π := P(U)]: \"Each graph consists of 3892 nodes and around 17500 edges to match the real data set.\"",
+        "line 3187 [DETAILS ON LEARNING LPGMFGS]: \"Our implementation is based on Cui and Koeppl (2022) (MIT license).\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: 1 indicator(s) found in the methodology section(s), below the threshold of 2.",
+      "evidence": [
+        "line 702 [EXPERIMENTS]: \"In our experiments, we use OMD with its hyperparameter γ set to 1, the power law Lp -graphon W , and discretize I\"",
+        "line 614 [LEARNING LPGMFGS]: \"(2021)) at first, the crucial advantages of LPGMFGs are that they are on the one hand rigorously connected to finite agent games.\"",
+        "line 3191 [DETAILS ON LEARNING LPGMFGS]: \"The total amount of compute to reproduce our work amounts to approximately 2 days on a 64 core AMD Epyc processor and 64 GB of RAM.\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the methodology section(s) (threshold 1).",
+      "evidence": [
+        "line 846 [EXPERIMENTS]: \"In contrast to existing work, we use LPGMFGs to allow malware spread only by neighboring computers to increase the modelling accuracy.\"",
+        "line 3703 [PROOF OF LEMMA 6]: \"Recall that h∗ is defined as a function h∗ : R|U | → R.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 498 [X]: \"Since this cutoff power law graphon does not yield qualitatively different results compared to the power law graphon, it is omitted from the main text.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1204 [E]: \"at t∈T ,x∈X N i δXti (x) − I µt (x) dα β = 0.51 averaged over 100 randomly sampled graphs with N nodes and 68% confidence interval (shaded).\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1541 [IEEE 58th Conference on Decision and Control]: \"A generalized online mirror descent with applications to classification and regression.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.08,
+    "extract": 11.48,
+    "load_rubric": 3.71,
+    "detect_sections": 10.45,
+    "split_sentences": 5.23,
+    "assess": 121.06,
+    "detect_weaknesses": 0.1,
+    "explain": 0.03,
+    "total": 154.23
+  }
+}

@@ -1,0 +1,131 @@
+# Clean-environment pass 'py313' as user peer on Linux 6.18.44-fc-v185, start 2026-11-02T18:13:23Z
+# fresh HOME dir, no prior venv, no cached package; README followed literally (clone URL replaced by local mirror of the pushed repo)
+
+### 18:13:23 $ git clone /srv/metasense-remote.git Metasense
+Cloning into 'Metasense'...
+done.
+### exit=0
+# which metasense before install: none
+
+### 18:13:23 $ git describe --tags
+v0.2.3
+### exit=0
+
+### 18:13:23 $ python3 -m venv .venv
+### exit=0
+
+### 18:13:26 $ python --version
+Python 3.13.16
+### exit=0
+
+### 18:13:26 $ pip install -e . -r requirements-dev.txt -q
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip
+### exit=0
+
+### 18:13:37 $ metasense doctor
+MetaSense doctor — PASS ({'failed': 0, 'warnings': 0, 'total': 20})
+  [PASS ] python_version: 3.13.16 (/home/peer/pass_py313/Metasense/.venv/bin/python3); requires >= 3.10
+  [INFO ] platform: Linux-6.18.44-fc-v185-x86_64-with-glibc2.39
+  [PASS ] virtual_environment: /home/peer/pass_py313/Metasense/.venv
+  [PASS ] import:pypdf: 5.1.0
+  [PASS ] import:python-docx: 1.1.2
+  [PASS ] import:pytest: 8.3.3
+  [PASS ] writable:reports: /home/peer/pass_py313/Metasense/reports
+  [PASS ] writable:evidence: /home/peer/pass_py313/Metasense/evidence
+  [PASS ] readable:src/metasense/resources/rubric.json: /home/peer/pass_py313/Metasense/src/metasense/resources/rubric.json
+  [PASS ] readable:config/project_layout.json: /home/peer/pass_py313/Metasense/config/project_layout.json
+  [INFO ] env:METASENSE_MAX_BYTES: not set — optional; positive integer, overrides the 20 MB input limit
+  [PASS ] layout:project_name: required_config_field
+  [PASS ] layout:environment: required_config_field
+  [PASS ] layout:src: required_directory
+  [PASS ] layout:tests: required_directory
+  [PASS ] layout:docs: required_directory
+  [PASS ] layout:data: optional_directory
+  [PASS ] layout:reports: optional_directory
+  [PASS ] layout:logs: optional_directory
+  [PASS ] layout:evidence: optional_directory
+### exit=0
+
+### 18:13:38 $ metasense analyze data/sample/paper_complete.txt | grep -E 'MetaSense|Completeness'
+MetaSense 0.2.3  run 7584b1cd08ae  input paper_complete.txt
+Completeness score: 100.0/100  (present 8, weak 0, missing 0)
+### exit=0
+
+### 18:13:38 $ metasense analyze data/sample/paper_weak.txt | grep -E 'Completeness|Weaknesses'
+Completeness score: 0.0/100  (present 0, weak 0, missing 8)
+Weaknesses: 10
+### exit=0
+
+### 18:13:38 $ metasense analyze data/sample/paper_no_method_heading.txt | grep -E 'Completeness|methodology-related'
+Sections: 5  methodology-related: NONE
+Completeness score: 68.8/100  (present 4, weak 3, missing 1)
+  W01 [high] No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.
+### exit=0
+
+### 18:13:38 $ metasense analyze data/sample/empty.txt
+MetaSense 0.2.3  run ffcca134623b  input empty.txt
+REJECTED at stage 'validate': [E_EMPTY] Input file is empty (0 bytes): empty.txt
+### exit=1
+
+### 18:13:38 $ metasense analyze data/sample/paper_weak.txt --out reports/ && ls reports/
+Reports written: reports/paper_weak.metasense.json ; reports/paper_weak.metasense.md
+MetaSense 0.2.3  run cb44753ff00a  input paper_weak.txt
+Extracted 133 words via plain-text
+Sections: 6  methodology-related: 'Methods' (line 9)
+Completeness score: 0.0/100  (present 0, weak 0, missing 8)
+  [MISSING] C1 Research objective / questions
+  [MISSING] C2 Dataset / data source description
+  [MISSING] C3 Experimental setup / procedure
+  [MISSING] C4 Evaluation metrics
+  [MISSING] C5 Baseline / comparison
+  [MISSING] C6 Statistical rigor / repeated trials
+  [MISSING] C7 Threats to validity / limitations
+  [MISSING] C8 Reproducibility / artifact availability
+Weaknesses: 10
+  W01 [medium] Methodology-related sections contain only 39 words (< 150).
+  W02 [medium] Research objective / questions: no indicator found.
+  W03 [high] Dataset / data source description: no indicator found.
+  W04 [high] Experimental setup / procedure: no indicator found.
+  W05 [high] Evaluation metrics: no indicator found.
+  W06 [medium] Baseline / comparison: no indicator found.
+  W07 [medium] Statistical rigor / repeated trials: no indicator found.
+  W08 [medium] Threats to validity / limitations: no indicator found.
+  W09 [medium] Reproducibility / artifact availability: no indicator found.
+  W10 [low] 5 vague phrase(s) in the methodology may hide missing detail.
+Processing time: 6.27 ms
+paper_weak.metasense.json
+paper_weak.metasense.md
+### exit=0
+
+### 18:13:38 $ metasense version
+MetaSense 0.2.3 (Python 3.13.16)
+### exit=0
+
+### 18:13:38 $ python -m pytest -q | tail -2
+..............                                                           [100%]
+86 passed in 0.62s
+### exit=0
+
+### 18:13:39 $ python scripts/check_packaging.py | tail -2
+Processing time: 5.9 ms
+PASS: wheel metasense-0.2.3-py3-none-any.whl; expected version 0.2.3
+### exit=0
+
+### 18:13:46 $ python scripts/run_validation.py --label peer_py313 | tail -13
+T-01 PASS     Python and pip versions: Python 3.13.16 on Linux 6.18.44-fc-v185
+T-02 PASS     Dependency installation (clean venv): pip exit 0; 13 packages in freeze
+T-03 PASS     Package import, startup, toolchain checks: version exit 0; doctor exit 0; MetaSense doctor — PASS ({'failed': 0, 'warnings': 0, 'total': 20})
+T-04 PASS     Valid sample input -> structured output: paper_complete.txt: score 100.0, 0 weaknesses, 9.74 ms; paper_complete.pdf: score 100.0, 0 weaknesses, 69.07 ms; paper_complete.docx: score 100.0, 0 weaknesses, 62.68 ms; paper_weak.txt: score 0.0, 10 weaknesses, 7.14 ms; paper_no_method_heading.txt: score 68.8, 5 weaknesses, 10.64 ms
+T-05 PASS     Empty input: REJECTED at stage 'validate': [E_EMPTY] Input file is empty (0 bytes): empty.txt
+T-06 PASS     Unsupported / disguised file type: unsupported_format.rtf -> exit 1, E_UNSUPPORTED_TYPE; renamed_text.pdf -> exit 1, E_CORRUPT
+T-07 MEASURED Methodology heading variants: Precision=1.000 Recall=0.696 F1=0.821; misses logged
+T-08 PASS     Unit / integration / smoke tests: 86 passed in 0.54s
+T-09 PASS     Git baseline: commit b04d320 (v0.2.3); working tree clean at start of run
+T-10 PASS     Processing time and repeated-run consistency: max 488.8 ms (target <= 60 s); identical output across 5 runs: True; long PDF 13335 words
+T-11 MEASURED Known-answer check on sample papers: agreement 18/24; flag precision 0.75, recall 1.00
+
+Evidence folder: evidence/20261102T181346Z_peer_py313
+### exit=0
+# end 2026-11-02T18:14:02Z

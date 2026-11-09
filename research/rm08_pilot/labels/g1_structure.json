@@ -1,0 +1,582 @@
+{
+  "E1-lawless23a": {
+    "source": "typography_12pt_bold",
+    "headings": [
+      {
+        "num": "1",
+        "title": "Introduction"
+      },
+      {
+        "num": "2",
+        "title": "Problem Formulation"
+      },
+      {
+        "num": "3",
+        "title": "Grouped Data for Scalability"
+      },
+      {
+        "num": "4",
+        "title": "Numerical Results"
+      },
+      {
+        "num": "5",
+        "title": "Conclusion"
+      },
+      {
+        "num": "A",
+        "title": "Illustrative Example on Non-Intersection of"
+      },
+      {
+        "num": "B",
+        "title": "Proof of Theorem 2.1"
+      },
+      {
+        "num": "C",
+        "title": "Proof of Theorem 3.1"
+      },
+      {
+        "num": "D",
+        "title": "Proof of Theorem 3.2"
+      },
+      {
+        "num": "E",
+        "title": "Implementation Details"
+      },
+      {
+        "num": "F",
+        "title": "Qualitative Comparison"
+      },
+      {
+        "num": "G",
+        "title": "Additional Computation Time Results"
+      },
+      {
+        "num": "H",
+        "title": "Pareto Curves"
+      }
+    ]
+  },
+  "E1-harkonen23a": {
+    "source": "typography_12pt_bold",
+    "headings": [
+      {
+        "num": "1",
+        "title": "Introduction"
+      },
+      {
+        "num": "2",
+        "title": "Gaussian processes (GPs)"
+      },
+      {
+        "num": "3",
+        "title": "The Ehrenpreis-Palamodov fundamental"
+      },
+      {
+        "num": "4",
+        "title": "Gaussian Process Priors from the"
+      },
+      {
+        "num": "5",
+        "title": "Comparison to the Literature"
+      },
+      {
+        "num": "6",
+        "title": "Examples"
+      },
+      {
+        "num": "7",
+        "title": "Discussion"
+      },
+      {
+        "num": "A",
+        "title": "Proof of Lemma 2.1"
+      },
+      {
+        "num": "B",
+        "title": "Convergence of Ehrenpreis-Palamodov integrals"
+      },
+      {
+        "num": "C",
+        "title": "Details about S-EPGP"
+      },
+      {
+        "num": "D",
+        "title": "Details on the heat equation"
+      },
+      {
+        "num": "E",
+        "title": "Details about the wave equation"
+      },
+      {
+        "num": "F",
+        "title": "Details about Maxwell’s equation"
+      },
+      {
+        "num": "G",
+        "title": "Affine subspaces"
+      },
+      {
+        "num": "H",
+        "title": "Example implementation for Laplace’s equation"
+      }
+    ]
+  },
+  "E1-yang23n": {
+    "source": "typography_12pt_bold",
+    "headings": [
+      {
+        "num": "1",
+        "title": "Introduction"
+      },
+      {
+        "num": "2",
+        "title": "Related Work"
+      },
+      {
+        "num": "3",
+        "title": "Background"
+      },
+      {
+        "num": "4",
+        "title": "Symmetry Discovery"
+      },
+      {
+        "num": "5",
+        "title": "Using the Discovered Symmetry"
+      },
+      {
+        "num": "6",
+        "title": "Experiments"
+      },
+      {
+        "num": "7",
+        "title": "Conclusion"
+      },
+      {
+        "num": "A",
+        "title": "Proofs"
+      },
+      {
+        "num": "B",
+        "title": "Experiment Details"
+      },
+      {
+        "num": "C",
+        "title": "Additional Experiments"
+      }
+    ]
+  },
+  "E1-strimel23a": {
+    "source": "typography_12pt_bold",
+    "headings": [
+      {
+        "num": "1",
+        "title": "Introduction"
+      },
+      {
+        "num": "2",
+        "title": "Related Work"
+      },
+      {
+        "num": "3",
+        "title": "Adaptive Non-causal Design"
+      },
+      {
+        "num": "4",
+        "title": "Regularizing Future Context"
+      },
+      {
+        "num": "5",
+        "title": "Experimental Results"
+      },
+      {
+        "num": "6",
+        "title": "Conclusion"
+      },
+      {
+        "num": "A",
+        "title": "Emission Latency and Endpointer Latency"
+      },
+      {
+        "num": "B",
+        "title": "LibriSpeech “Other” and Noise Impact"
+      },
+      {
+        "num": "C",
+        "title": "Voice Assistant Data"
+      },
+      {
+        "num": "D",
+        "title": "Compute-Induced UPL Results"
+      },
+      {
+        "num": "E",
+        "title": "Attention Dynamics"
+      },
+      {
+        "num": "F",
+        "title": "Training Characteristics"
+      },
+      {
+        "num": "G",
+        "title": "Training Configuration Specifics"
+      },
+      {
+        "num": "H",
+        "title": "Voice Assistant Result Tables"
+      }
+    ]
+  },
+  "E1-bhattacharjee23a": {
+    "source": "typography_12pt_bold",
+    "headings": [
+      {
+        "num": "1",
+        "title": "Introduction"
+      },
+      {
+        "num": "2",
+        "title": "A Formal Deﬁnition of Data-Copying"
+      },
+      {
+        "num": "3",
+        "title": "Detecting data-copying"
+      },
+      {
+        "num": "4",
+        "title": "Regular Distributions"
+      },
+      {
+        "num": "5",
+        "title": "A Data-copy detecting algorithm"
+      },
+      {
+        "num": "6",
+        "title": "Is smoothness necessary for data copying"
+      },
+      {
+        "num": "7",
+        "title": "Conclusion"
+      },
+      {
+        "num": "A",
+        "title": "An Example over the Halfmoons dataset"
+      },
+      {
+        "num": "B",
+        "title": "Estimating k"
+      },
+      {
+        "num": "C",
+        "title": "Proofs"
+      }
+    ]
+  },
+  "E2-jeong23a": {
+    "source": "pdf_outline",
+    "headings": [
+      {
+        "num": "",
+        "title": "INTRODUCTION"
+      },
+      {
+        "num": "",
+        "title": "BACKGROUND"
+      },
+      {
+        "num": "",
+        "title": "FACTORIAL SDE REPRESENTATION OF MULTI-OUTPUT GP REGRESSION"
+      },
+      {
+        "num": "",
+        "title": "VARIATIONAL INFERENCE"
+      },
+      {
+        "num": "",
+        "title": "EXPERIMENTS"
+      },
+      {
+        "num": "",
+        "title": "DISCUSSION AND CONCLUSION"
+      },
+      {
+        "num": "",
+        "title": "SPARSE VARIATIONAL INFERENCE"
+      },
+      {
+        "num": "",
+        "title": "FORECASTING AND SMOOTHING FOR PREDICTION"
+      },
+      {
+        "num": "",
+        "title": "ADDITIONAL EXPERIMENTAL DETAILS"
+      },
+      {
+        "num": "",
+        "title": "SOFTWARE"
+      }
+    ]
+  },
+  "E2-fabian23a": {
+    "source": "pdf_outline",
+    "headings": [
+      {
+        "num": "",
+        "title": "INTRODUCTION"
+      },
+      {
+        "num": "",
+        "title": "Lp GRAPHONS"
+      },
+      {
+        "num": "",
+        "title": "MODEL"
+      },
+      {
+        "num": "",
+        "title": "LEARNING LPGMFGS"
+      },
+      {
+        "num": "",
+        "title": "EXPERIMENTS"
+      },
+      {
+        "num": "",
+        "title": "CONCLUSION"
+      },
+      {
+        "num": "",
+        "title": "OVERVIEW"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF THEOREM 2"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 2"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 3"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF THEOREM 4"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 4"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 5"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF COROLLARY 1"
+      },
+      {
+        "num": "",
+        "title": "DETAILS ON LEARNING LPGMFGS"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 1"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 6"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF LEMMA 7"
+      },
+      {
+        "num": "",
+        "title": "PROOF OF THEOREM 5"
+      },
+      {
+        "num": "",
+        "title": "CUTOFF POWER LAW GRAPHON"
+      },
+      {
+        "num": "",
+        "title": "PROBLEM DETAILS"
+      }
+    ]
+  },
+  "E2-zhang23d": {
+    "source": "pdf_outline",
+    "headings": [
+      {
+        "num": "",
+        "title": "INTRODUCTION"
+      },
+      {
+        "num": "",
+        "title": "PROBLEM SETUP AND NOTATIONS"
+      },
+      {
+        "num": "",
+        "title": "PROVABLE LINEAR SEPARABILITY OF ADVERSARIAL NOISES"
+      },
+      {
+        "num": "",
+        "title": "VERIFY LINEAR SEPARABILITY OF ADVERSARIAL NOISES IN PRACTICE"
+      },
+      {
+        "num": "",
+        "title": "CONCLUSION AND LIMITATION"
+      },
+      {
+        "num": "",
+        "title": "Some Proofs in Theorem 3.1"
+      },
+      {
+        "num": "",
+        "title": "More Experiments"
+      }
+    ]
+  },
+  "T-jana23a": {
+    "source": "pdf_outline",
+    "headings": [
+      {
+        "num": "",
+        "title": "Introduction"
+      },
+      {
+        "num": "",
+        "title": "Regret guarantees for the ERM estimator via Offset Rademacher complexity"
+      },
+      {
+        "num": "",
+        "title": "Regret bounds in multiple dimensions"
+      },
+      {
+        "num": "",
+        "title": "Bounding (offset) Rademacher complexities (Proof of Lemma 11)"
+      },
+      {
+        "num": "",
+        "title": "Moments of Poisson mixtures"
+      },
+      {
+        "num": "",
+        "title": "Technical Identities"
+      },
+      {
+        "num": "",
+        "title": "Proofs for the multidimensional Case"
+      }
+    ]
+  },
+  "T-filmus23a": {
+    "source": "pdf_outline",
+    "headings": [
+      {
+        "num": "",
+        "title": "Introduction"
+      },
+      {
+        "num": "",
+        "title": "Main results"
+      },
+      {
+        "num": "",
+        "title": "Technical Overview"
+      },
+      {
+        "num": "",
+        "title": "Background and Basic Definitions"
+      },
+      {
+        "num": "",
+        "title": "Randomized Littlestone Dimension and Optimal Expected Mistake Bound"
+      },
+      {
+        "num": "",
+        "title": "Quasi-balanced Trees"
+      },
+      {
+        "num": "",
+        "title": "Bounded Horizon"
+      },
+      {
+        "num": "",
+        "title": "Mistake Bounds in the k-Realizable Setting"
+      },
+      {
+        "num": "",
+        "title": "Prediction using Expert Advice"
+      },
+      {
+        "num": "",
+        "title": "Open Questions"
+      },
+      {
+        "num": "",
+        "title": "Results of Cesa-Bianchi, Freund, Helmbold and Warmuth"
+      }
+    ]
+  },
+  "S-joss.05465": {
+    "source": "jats",
+    "headings": [
+      {
+        "num": "",
+        "title": "Summary"
+      },
+      {
+        "num": "",
+        "title": "Statement of need"
+      },
+      {
+        "num": "",
+        "title": "Overview"
+      },
+      {
+        "num": "",
+        "title": "Performance analyses of standard and nearest neighbor GP models"
+      },
+      {
+        "num": "",
+        "title": "Software related features"
+      },
+      {
+        "num": "",
+        "title": "Acknowledgement"
+      }
+    ]
+  },
+  "S-joss.05321": {
+    "source": "jats",
+    "headings": [
+      {
+        "num": "",
+        "title": "Summary"
+      },
+      {
+        "num": "",
+        "title": "State of the field"
+      },
+      {
+        "num": "",
+        "title": "Statement of Need"
+      },
+      {
+        "num": "",
+        "title": "Projects Using the Software"
+      },
+      {
+        "num": "",
+        "title": "Future Work"
+      },
+      {
+        "num": "",
+        "title": "Acknowledgements"
+      }
+    ]
+  }
+}

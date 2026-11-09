@@ -1,0 +1,3640 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "a32ff094dcf5",
+  "timestamp_utc": "2026-10-25T20:23:15+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B2_pdftotext.txt",
+    "type": "text",
+    "size_bytes": 68827,
+    "sha256": "ac83cc26f162bbd6c3f0e74e0433c18107daeaec6a9aa96632a00bae674a776c"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 11703,
+    "line_count": 2969,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 8,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 9,
+      "end_line": 24,
+      "word_count": 135,
+      "inherited": false
+    },
+    {
+      "heading": "INTRODUCTION",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 25,
+      "end_line": 80,
+      "word_count": 507,
+      "inherited": false
+    },
+    {
+      "heading": "BACKGROUND",
+      "label": "related_work",
+      "level": 1,
+      "start_line": 81,
+      "end_line": 112,
+      "word_count": 298,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 113,
+      "end_line": 113,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 114,
+      "end_line": 136,
+      "word_count": 98,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 137,
+      "end_line": 137,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 138,
+      "end_line": 161,
+      "word_count": 245,
+      "inherited": false
+    },
+    {
+      "heading": "D−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 162,
+      "end_line": 186,
+      "word_count": 138,
+      "inherited": false
+    },
+    {
+      "heading": "",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 187,
+      "end_line": 193,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "A=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 194,
+      "end_line": 206,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 207,
+      "end_line": 207,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 208,
+      "end_line": 208,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "D−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 209,
+      "end_line": 220,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "Q=",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 221,
+      "end_line": 231,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 232,
+      "end_line": 351,
+      "word_count": 508,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 352,
+      "end_line": 363,
+      "word_count": 87,
+      "inherited": false
+    },
+    {
+      "heading": "FACTORIAL SDE REPRESENTATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 364,
+      "end_line": 364,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "OF MULTI-OUTPUT GP REGRESSION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 365,
+      "end_line": 371,
+      "word_count": 88,
+      "inherited": false
+    },
+    {
+      "heading": "D−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 372,
+      "end_line": 375,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "] ∈ RD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 376,
+      "end_line": 382,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 383,
+      "end_line": 383,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 384,
+      "end_line": 419,
+      "word_count": 216,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 420,
+      "end_line": 420,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 421,
+      "end_line": 435,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "PL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 436,
+      "end_line": 443,
+      "word_count": 62,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 444,
+      "end_line": 445,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 446,
+      "end_line": 464,
+      "word_count": 125,
+      "inherited": false
+    },
+    {
+      "heading": "VARIATIONAL INFERENCE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 465,
+      "end_line": 469,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 470,
+      "end_line": 470,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 471,
+      "end_line": 471,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 472,
+      "end_line": 474,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 475,
+      "end_line": 475,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 476,
+      "end_line": 476,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 477,
+      "end_line": 477,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 478,
+      "end_line": 478,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 479,
+      "end_line": 492,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 493,
+      "end_line": 494,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 495,
+      "end_line": 497,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 498,
+      "end_line": 498,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 499,
+      "end_line": 499,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 500,
+      "end_line": 501,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 502,
+      "end_line": 526,
+      "word_count": 264,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 527,
+      "end_line": 528,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 529,
+      "end_line": 534,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 535,
+      "end_line": 535,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 536,
+      "end_line": 537,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 538,
+      "end_line": 544,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 545,
+      "end_line": 547,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 548,
+      "end_line": 557,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "(2,1)T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 558,
+      "end_line": 570,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "(3,2)T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 571,
+      "end_line": 596,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "(T,T −1)T ",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 597,
+      "end_line": 603,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "(T,T −1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 604,
+      "end_line": 604,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 605,
+      "end_line": 629,
+      "word_count": 163,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 630,
+      "end_line": 630,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 631,
+      "end_line": 632,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 633,
+      "end_line": 635,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 636,
+      "end_line": 638,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 639,
+      "end_line": 639,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 640,
+      "end_line": 649,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "TP",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 650,
+      "end_line": 653,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 654,
+      "end_line": 655,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 656,
+      "end_line": 656,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 657,
+      "end_line": 658,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 659,
+      "end_line": 668,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "L \u0014",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 669,
+      "end_line": 670,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 671,
+      "end_line": 672,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 673,
+      "end_line": 683,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "PL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 684,
+      "end_line": 689,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 690,
+      "end_line": 705,
+      "word_count": 139,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 706,
+      "end_line": 706,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 707,
+      "end_line": 707,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 708,
+      "end_line": 708,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 709,
+      "end_line": 720,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "O(P LT D3 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 721,
+      "end_line": 723,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "O(LM + M 2 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 724,
+      "end_line": 724,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "O(LM 2 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 725,
+      "end_line": 725,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "O(LT D2 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 726,
+      "end_line": 726,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "O(LM D2 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 727,
+      "end_line": 736,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "Π−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 737,
+      "end_line": 741,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 742,
+      "end_line": 807,
+      "word_count": 347,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 808,
+      "end_line": 808,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 809,
+      "end_line": 835,
+      "word_count": 114,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 836,
+      "end_line": 913,
+      "word_count": 395,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 914,
+      "end_line": 917,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 918,
+      "end_line": 927,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 928,
+      "end_line": 928,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 929,
+      "end_line": 938,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "=N",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 939,
+      "end_line": 940,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 941,
+      "end_line": 941,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 942,
+      "end_line": 946,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 947,
+      "end_line": 947,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 948,
+      "end_line": 972,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "EXPERIMENTS",
+      "label": "experiments",
+      "level": 1,
+      "start_line": 973,
+      "end_line": 1032,
+      "word_count": 544,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1033,
+      "end_line": 1033,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1034,
+      "end_line": 1034,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1035,
+      "end_line": 1035,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1036,
+      "end_line": 1036,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1037,
+      "end_line": 1037,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1038,
+      "end_line": 1038,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1039,
+      "end_line": 1039,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1040,
+      "end_line": 1041,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1042,
+      "end_line": 1043,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1044,
+      "end_line": 1045,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1046,
+      "end_line": 1047,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1048,
+      "end_line": 1049,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L-BFGS 2.21 ± 0.28 1.16 ± 0.03",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1050,
+      "end_line": 1051,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.04 1.67 ± 0.02",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1052,
+      "end_line": 1053,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.15",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1054,
+      "end_line": 1054,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.12",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1055,
+      "end_line": 1055,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.15",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1056,
+      "end_line": 1056,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.13",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1057,
+      "end_line": 1057,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.33",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1058,
+      "end_line": 1058,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.34",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1059,
+      "end_line": 1059,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.30",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1060,
+      "end_line": 1060,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.13",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1061,
+      "end_line": 1062,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.20 2.60 ± 0.04",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1063,
+      "end_line": 1063,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.16 2.61 ± 0.04",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1064,
+      "end_line": 1064,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.17 2.58 ± 0.04",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1065,
+      "end_line": 1065,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.23 3.71 ± 0.23",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1066,
+      "end_line": 1066,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.03 1.67 ± 0.03",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1067,
+      "end_line": 1067,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.02 1.64 ± 0.04",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1068,
+      "end_line": 1068,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05 1.77 ± 0.06",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1069,
+      "end_line": 1069,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.04 2.19 ± 0.09",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1070,
+      "end_line": 1071,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1072,
+      "end_line": 1072,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1073,
+      "end_line": 1073,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1074,
+      "end_line": 1074,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1075,
+      "end_line": 1075,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1076,
+      "end_line": 1076,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1077,
+      "end_line": 1077,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1078,
+      "end_line": 1078,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1079,
+      "end_line": 1080,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1081,
+      "end_line": 1081,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1082,
+      "end_line": 1082,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1083,
+      "end_line": 1083,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1084,
+      "end_line": 1084,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.05",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1085,
+      "end_line": 1085,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.04",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1086,
+      "end_line": 1086,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.27",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1087,
+      "end_line": 1087,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.65",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1088,
+      "end_line": 1091,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1092,
+      "end_line": 1099,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "EXTRAPOLATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1100,
+      "end_line": 1162,
+      "word_count": 33,
+      "inherited": false
+    },
+    {
+      "heading": "INTERPOLATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1163,
+      "end_line": 1172,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "J",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1173,
+      "end_line": 1174,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "P3 \u0002",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1175,
+      "end_line": 1220,
+      "word_count": 232,
+      "inherited": false
+    },
+    {
+      "heading": "summarizes the five-fold cross-validated test MAE and",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1221,
+      "end_line": 1266,
+      "word_count": 277,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1267,
+      "end_line": 1268,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1269,
+      "end_line": 1270,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1271,
+      "end_line": 1272,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1273,
+      "end_line": 1274,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 3.04 ± 0.10",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1275,
+      "end_line": 1275,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 3.33 ± 0.13",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1276,
+      "end_line": 1276,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 3.10 ± 0.13",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1277,
+      "end_line": 1277,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 3.35 ± 0.14",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1278,
+      "end_line": 1278,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 2.82 ± 0.00",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1279,
+      "end_line": 1279,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.01 2.82 ± 0.00",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1280,
+      "end_line": 1289,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1290,
+      "end_line": 1291,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1292,
+      "end_line": 1293,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1294,
+      "end_line": 1295,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "400 600 800 1000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1296,
+      "end_line": 1304,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1305,
+      "end_line": 1305,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1306,
+      "end_line": 1306,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1307,
+      "end_line": 1307,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1308,
+      "end_line": 1308,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1309,
+      "end_line": 1309,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1310,
+      "end_line": 1310,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1311,
+      "end_line": 1311,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1312,
+      "end_line": 1312,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1313,
+      "end_line": 1313,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1314,
+      "end_line": 1315,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "EXTRAPOLATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1316,
+      "end_line": 1316,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1317,
+      "end_line": 1318,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.04 3.42 ± 0.09",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1319,
+      "end_line": 1319,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.02 4.02 ± 0.10",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1320,
+      "end_line": 1320,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.04 3.47 ± 0.11",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1321,
+      "end_line": 1321,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.02 4.03 ± 0.12",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1322,
+      "end_line": 1322,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.03 3.18 ± 0.00",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1323,
+      "end_line": 1323,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "± 0.08 3.18 ± 0.01",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 1324,
+      "end_line": 1325,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "TIME",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1326,
+      "end_line": 1345,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "400 600 800 1000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1346,
+      "end_line": 1358,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "INTERPOLATION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1359,
+      "end_line": 1372,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1373,
+      "end_line": 1374,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1375,
+      "end_line": 1376,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1377,
+      "end_line": 1379,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "COVID-19 Stock",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1380,
+      "end_line": 1445,
+      "word_count": 593,
+      "inherited": false
+    },
+    {
+      "heading": "COVID-19",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1446,
+      "end_line": 1447,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "S TOCK",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1448,
+      "end_line": 1449,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "E NERGY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1450,
+      "end_line": 1451,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A IR Q UALITY",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1452,
+      "end_line": 1469,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "MODEL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1470,
+      "end_line": 1471,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1472,
+      "end_line": 1473,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1474,
+      "end_line": 1475,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1476,
+      "end_line": 1477,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1478,
+      "end_line": 1479,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1480,
+      "end_line": 1481,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1482,
+      "end_line": 1483,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1484,
+      "end_line": 1485,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1486,
+      "end_line": 1487,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1488,
+      "end_line": 1489,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1490,
+      "end_line": 1491,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1492,
+      "end_line": 1493,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1494,
+      "end_line": 1495,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1496,
+      "end_line": 1497,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1498,
+      "end_line": 1499,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "MAE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1500,
+      "end_line": 1501,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NLPD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1502,
+      "end_line": 1503,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1504,
+      "end_line": 1504,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1505,
+      "end_line": 1505,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1506,
+      "end_line": 1506,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1507,
+      "end_line": 1507,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1508,
+      "end_line": 1508,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1509,
+      "end_line": 1509,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "LMC",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1510,
+      "end_line": 1510,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1511,
+      "end_line": 1511,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI A DAM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1512,
+      "end_line": 1512,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI NGD",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1513,
+      "end_line": 1668,
+      "word_count": 593,
+      "inherited": false
+    },
+    {
+      "heading": "DISCUSSION AND CONCLUSION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1669,
+      "end_line": 1687,
+      "word_count": 155,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 1688,
+      "end_line": 1692,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 1693,
+      "end_line": 1698,
+      "word_count": 64,
+      "inherited": false
+    },
+    {
+      "heading": "Adam, S. Eleftheriadis, A. Artemev, N. Durrande, and",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1699,
+      "end_line": 1714,
+      "word_count": 159,
+      "inherited": false
+    },
+    {
+      "heading": "Borovitskiy, I. Azangulov, A. Terenin, P. Mostowsky,",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1715,
+      "end_line": 1719,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "M. Candanedo, V. Feldheim, and D. Deramaix. Data",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1720,
+      "end_line": 1742,
+      "word_count": 196,
+      "inherited": false
+    },
+    {
+      "heading": "K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1743,
+      "end_line": 1792,
+      "word_count": 382,
+      "inherited": false
+    },
+    {
+      "heading": "Robbins and S. Monro. A Stochastic Approximation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1793,
+      "end_line": 1817,
+      "word_count": 150,
+      "inherited": false
+    },
+    {
+      "heading": "Saul and M. Jordan. Exploiting Tractable Substructures",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1818,
+      "end_line": 1875,
+      "word_count": 385,
+      "inherited": false
+    },
+    {
+      "heading": "A",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1876,
+      "end_line": 1877,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "SPARSE VARIATIONAL INFERENCE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1878,
+      "end_line": 1880,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1881,
+      "end_line": 1889,
+      "word_count": 106,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1890,
+      "end_line": 1890,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1891,
+      "end_line": 1892,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1893,
+      "end_line": 1894,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1895,
+      "end_line": 1900,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1901,
+      "end_line": 1901,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1902,
+      "end_line": 1903,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1904,
+      "end_line": 1907,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1908,
+      "end_line": 1911,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1912,
+      "end_line": 1920,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1921,
+      "end_line": 1928,
+      "word_count": 64,
+      "inherited": false
+    },
+    {
+      "heading": "LELBO =",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1929,
+      "end_line": 1931,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1932,
+      "end_line": 1944,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1945,
+      "end_line": 1945,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1946,
+      "end_line": 1950,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1951,
+      "end_line": 1953,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1954,
+      "end_line": 1960,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "\u0012X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1961,
+      "end_line": 1962,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1963,
+      "end_line": 1963,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1964,
+      "end_line": 1966,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1967,
+      "end_line": 1982,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "L \u0014",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1983,
+      "end_line": 1984,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "1X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1985,
+      "end_line": 1986,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1987,
+      "end_line": 1994,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "PL",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1995,
+      "end_line": 2000,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2001,
+      "end_line": 2008,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2009,
+      "end_line": 2012,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2013,
+      "end_line": 2013,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2014,
+      "end_line": 2023,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "B",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2024,
+      "end_line": 2025,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "FORECASTING AND SMOOTHING FOR PREDICTION",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2026,
+      "end_line": 2031,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "(R",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2032,
+      "end_line": 2032,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(∗) (1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2033,
+      "end_line": 2033,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2034,
+      "end_line": 2034,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2035,
+      "end_line": 2043,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "(∗) (1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2044,
+      "end_line": 2044,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2045,
+      "end_line": 2045,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2046,
+      "end_line": 2053,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "(1:T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2054,
+      "end_line": 2056,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "(1:M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2057,
+      "end_line": 2070,
+      "word_count": 143,
+      "inherited": false
+    },
+    {
+      "heading": "B.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2071,
+      "end_line": 2089,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2090,
+      "end_line": 2091,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2092,
+      "end_line": 2093,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2094,
+      "end_line": 2097,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∆∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2098,
+      "end_line": 2099,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2100,
+      "end_line": 2105,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2106,
+      "end_line": 2107,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(T )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2108,
+      "end_line": 2109,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(T ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2110,
+      "end_line": 2128,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "\u0003T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2129,
+      "end_line": 2241,
+      "word_count": 162,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2242,
+      "end_line": 2253,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "B.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2254,
+      "end_line": 2325,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "(M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2326,
+      "end_line": 2332,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "(M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2333,
+      "end_line": 2333,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2334,
+      "end_line": 2336,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "(M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2337,
+      "end_line": 2344,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "(M )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2345,
+      "end_line": 2350,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "Z ∆∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2351,
+      "end_line": 2352,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2353,
+      "end_line": 2357,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "(M ) \u0001",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2358,
+      "end_line": 2377,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "\u0003T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2378,
+      "end_line": 2493,
+      "word_count": 176,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2494,
+      "end_line": 2506,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "C",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2507,
+      "end_line": 2569,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "ADDITIONAL EXPERIMENTAL DETAILS",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2570,
+      "end_line": 2573,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "C.1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2574,
+      "end_line": 2584,
+      "word_count": 137,
+      "inherited": false
+    },
+    {
+      "heading": "C.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2585,
+      "end_line": 2608,
+      "word_count": 328,
+      "inherited": false
+    },
+    {
+      "heading": "C.3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2609,
+      "end_line": 2623,
+      "word_count": 216,
+      "inherited": false
+    },
+    {
+      "heading": "D",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2624,
+      "end_line": 2625,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "SOFTWARE",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2626,
+      "end_line": 2635,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2636,
+      "end_line": 2642,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2643,
+      "end_line": 2644,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2645,
+      "end_line": 2646,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2647,
+      "end_line": 2656,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "12 16",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2657,
+      "end_line": 2671,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2672,
+      "end_line": 2681,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "10000 15000 20000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2682,
+      "end_line": 2684,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2685,
+      "end_line": 2695,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2696,
+      "end_line": 2714,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2715,
+      "end_line": 2727,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2728,
+      "end_line": 2750,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2751,
+      "end_line": 2774,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "15000",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2775,
+      "end_line": 2783,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2784,
+      "end_line": 2808,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2809,
+      "end_line": 2827,
+      "word_count": 84,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2828,
+      "end_line": 2834,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "IMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2835,
+      "end_line": 2836,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "LMC (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2837,
+      "end_line": 2838,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "FSDE-SVI (NGD)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2839,
+      "end_line": 2846,
+      "word_count": 4,
+      "inherited": false
+    },
+    {
+      "heading": "12 16",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2847,
+      "end_line": 2874,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2875,
+      "end_line": 2890,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2891,
+      "end_line": 2905,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2906,
+      "end_line": 2928,
+      "word_count": 13,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2929,
+      "end_line": 2938,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "ELBO",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2939,
+      "end_line": 2956,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "12 16 20 24",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2957,
+      "end_line": 2969,
+      "word_count": 81,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "L",
+    "X",
+    "L",
+    "X",
+    "D−1",
+    "",
+    "A=",
+    "",
+    "D",
+    "D−1",
+    "Q=",
+    "D",
+    "T",
+    "FACTORIAL SDE REPRESENTATION",
+    "OF MULTI-OUTPUT GP REGRESSION",
+    "D−1",
+    "] ∈ RD",
+    "L",
+    "X",
+    "L",
+    "X",
+    "PL",
+    "P",
+    "C",
+    "VARIATIONAL INFERENCE",
+    "(1:T ) \u0001",
+    "(1:T ) \u0001",
+    "(1:T ) \u0001",
+    "\u0014Y",
+    "L Y",
+    "T",
+    "T",
+    "Y",
+    "(1:T )",
+    "(T )",
+    "(1:T )",
+    "(1:T )",
+    "(1:T )",
+    "(1:T )",
+    "(1:T )",
+    "(1:T ) \u0001",
+    "L",
+    "Y",
+    "(1:T ) \u0001",
+    "(1:T ) \u0001",
+    "(1:T ) \u0001",
+    "(2,1)T",
+    "(3,2)T",
+    "(T,T −1)T ",
+    "(T,T −1)",
+    "(T )",
+    "T",
+    "X",
+    "L",
+    "X",
+    "(1:T ) \u0001",
+    "(1:T ) \u0001",
+    "TP",
+    "\u0012X",
+    "L",
+    "T",
+    "X",
+    "L \u0014",
+    "1X",
+    "T",
+    "PL",
+    "(1:T ) \u0001",
+    "IMC",
+    "LMC",
+    "FSDE",
+    "FSDE-SVI",
+    "O(P LT D3 )",
+    "O(LM + M 2 )",
+    "O(LM 2 )",
+    "O(LT D2 )",
+    "O(LM D2 )",
+    "Π−1",
+    "P",
+    "T",
+    "X",
+    "(1:T ) \u0001",
+    "(1:T )",
+    "Z",
+    "L",
+    "Y",
+    "=N",
+    "L",
+    "X",
+    "L",
+    "X",
+    "IMC",
+    "IMC",
+    "LMC",
+    "LMC",
+    "FSDE",
+    "FSDE",
+    "FSDE-SVI",
+    "FSDE-SVI",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "L-BFGS 2.21 ± 0.28 1.16 ± 0.03",
+    "± 0.04 1.67 ± 0.02",
+    "± 0.15",
+    "± 0.12",
+    "± 0.15",
+    "± 0.13",
+    "± 0.33",
+    "± 0.34",
+    "± 0.30",
+    "± 0.13",
+    "± 0.20 2.60 ± 0.04",
+    "± 0.16 2.61 ± 0.04",
+    "± 0.17 2.58 ± 0.04",
+    "± 0.23 3.71 ± 0.23",
+    "± 0.03 1.67 ± 0.03",
+    "± 0.02 1.64 ± 0.04",
+    "± 0.05 1.77 ± 0.06",
+    "± 0.04 2.19 ± 0.09",
+    "A DAM",
+    "NGD",
+    "A DAM",
+    "NGD",
+    "A DAM",
+    "NGD",
+    "A DAM",
+    "NGD",
+    "± 0.05",
+    "± 0.05",
+    "± 0.05",
+    "± 0.05",
+    "± 0.05",
+    "± 0.04",
+    "± 0.27",
+    "± 0.65",
+    "MODEL",
+    "EXTRAPOLATION",
+    "INTERPOLATION",
+    "J",
+    "P3 \u0002",
+    "summarizes the five-fold cross-validated test MAE and",
+    "MODEL",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "± 0.01 3.04 ± 0.10",
+    "± 0.01 3.33 ± 0.13",
+    "± 0.01 3.10 ± 0.13",
+    "± 0.01 3.35 ± 0.14",
+    "± 0.01 2.82 ± 0.00",
+    "± 0.01 2.82 ± 0.00",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "400 600 800 1000",
+    "IMC",
+    "A DAM",
+    "IMC",
+    "NGD",
+    "LMC",
+    "A DAM",
+    "LMC",
+    "NGD",
+    "FSDE-SVI A DAM",
+    "FSDE-SVI NGD",
+    "EXTRAPOLATION",
+    "NLPD",
+    "± 0.04 3.42 ± 0.09",
+    "± 0.02 4.02 ± 0.10",
+    "± 0.04 3.47 ± 0.11",
+    "± 0.02 4.03 ± 0.12",
+    "± 0.03 3.18 ± 0.00",
+    "± 0.08 3.18 ± 0.01",
+    "TIME",
+    "400 600 800 1000",
+    "INTERPOLATION",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "COVID-19 Stock",
+    "COVID-19",
+    "S TOCK",
+    "E NERGY",
+    "A IR Q UALITY",
+    "MODEL",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "MAE",
+    "NLPD",
+    "IMC",
+    "A DAM",
+    "IMC",
+    "NGD",
+    "LMC",
+    "A DAM",
+    "LMC",
+    "NGD",
+    "FSDE-SVI A DAM",
+    "FSDE-SVI NGD",
+    "DISCUSSION AND CONCLUSION",
+    "Adam, S. Eleftheriadis, A. Artemev, N. Durrande, and",
+    "Borovitskiy, I. Azangulov, A. Terenin, P. Mostowsky,",
+    "M. Candanedo, V. Feldheim, and D. Deramaix. Data",
+    "K. Duvenaud, H. Nickisch, and C. Rasmussen. Additive",
+    "Robbins and S. Monro. A Stochastic Approximation",
+    "Saul and M. Jordan. Exploiting Tractable Substructures",
+    "A",
+    "SPARSE VARIATIONAL INFERENCE",
+    "(1:M ) L",
+    "(1:T )",
+    "(1:M )",
+    "(1:T )",
+    "(1:M ) \u0001",
+    "L",
+    "Y",
+    "(1:T )",
+    "(1:M ) \u0001",
+    "(1:M ) \u0001",
+    "(1:M ) \u0001",
+    "LELBO =",
+    "X",
+    "L",
+    "X",
+    "(1:M ) \u0001",
+    "(1:M ) \u0001",
+    "\u0012X",
+    "T",
+    "L",
+    "X",
+    "L \u0014",
+    "1X",
+    "T",
+    "PL",
+    "(1:M )",
+    "R",
+    "(1:M )",
+    "(1:M )",
+    "B",
+    "FORECASTING AND SMOOTHING FOR PREDICTION",
+    "(R",
+    "(∗) (1:T ) \u0001",
+    "(1:T ) \u0001",
+    "(1:T )",
+    "(∗) (1:M )",
+    "(1:M )",
+    "(1:M )",
+    "(1:T )",
+    "(1:M )",
+    "B.1",
+    "(T )",
+    "(T )",
+    "T",
+    "Z ∆∗",
+    "T",
+    "(T )",
+    "(T )",
+    "(T ) \u0001",
+    "\u0003T",
+    "T",
+    "B.2",
+    "(M )",
+    "(M )",
+    "T",
+    "(M )",
+    "(M )",
+    "Z ∆∗",
+    "T",
+    "(M ) \u0001",
+    "\u0003T",
+    "T",
+    "C",
+    "ADDITIONAL EXPERIMENTAL DETAILS",
+    "C.1",
+    "C.2",
+    "C.3",
+    "D",
+    "SOFTWARE",
+    "ELBO",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "12 16",
+    "ELBO",
+    "10000 15000 20000",
+    "12 16 20 24",
+    "ELBO",
+    "ELBO",
+    "12 16 20 24",
+    "12 16 20 24",
+    "15000",
+    "ELBO",
+    "12 16 20 24",
+    "ELBO",
+    "IMC (NGD)",
+    "LMC (NGD)",
+    "FSDE-SVI (NGD)",
+    "12 16",
+    "ELBO",
+    "12 16 20 24",
+    "ELBO",
+    "12 16 20 24",
+    "ELBO",
+    "12 16 20 24"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 87.5,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 7,
+      "weak": 0,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bdata ?sets?\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\bcollected from\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 975,
+            "section": "EXPERIMENTS",
+            "quote": "We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets."
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 1002,
+            "section": "EXPERIMENTS",
+            "quote": "We demonstrate the accuracy and scalability of different methods on a small simulation dataset with P = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples."
+          },
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 1249,
+            "section": "summarizes the five-fold cross-validated test MAE and",
+            "quote": "Figure 2: Comparison of the posterior predictions on one train-test split of S MALL -S IM data."
+          },
+          {
+            "indicator": "\\bcollected from\\b",
+            "line": 1639,
+            "section": "FSDE-SVI NGD",
+            "quote": "We predict the hourly air pollutant measurements collected from the Gucheng subdistrict in Beijing between March 1st, 2013 and February 28th, 2017 (Zhang et al., 2017)."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "hyper-?parameters?",
+          "learning rate",
+          "\\bCPUs?\\b",
+          "\\bRAM\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bPython\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "hyper-?parameters?",
+            "line": 979,
+            "section": "EXPERIMENTS",
+            "quote": "We train all models in two different optimization settings: one in which we update both the kernel hyperparameters and the variational parameters with Adam (Kingma and Ba, 2015) and the other in which we update the kern…"
+          },
+          {
+            "indicator": "learning rate",
+            "line": 984,
+            "section": "EXPERIMENTS",
+            "quote": "For the factorial SDEs, we use the learning rate scheduler proposed by Salimbeni et al."
+          },
+          {
+            "indicator": "\\bCPUs?\\b",
+            "line": 993,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 993,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 512,
+            "section": "(1:T )",
+            "quote": "First, we combine the structured mean-field algorithm previously developed for factorial HMM (Ghahramani and Jordan, 1997) and the"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [
+          "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+          "\\baccuracy\\b"
+        ],
+        "indicators_outside_scope": [
+          "\\bprecision\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+            "line": 993,
+            "section": "EXPERIMENTS",
+            "quote": "We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance."
+          },
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 1002,
+            "section": "EXPERIMENTS",
+            "quote": "We demonstrate the accuracy and scalability of different methods on a small simulation dataset with P = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples."
+          },
+          {
+            "indicator": "\\bprecision\\b",
+            "line": 552,
+            "section": "(1:T ) \u0001",
+            "quote": "mℓ ∈ RT D above is the variational mean and Sℓ is the T D × T D variational precision matrix with a symmetric block-tridiagonal structure:   (1)"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b",
+          "\\bbaselines?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 74,
+            "section": "INTRODUCTION",
+            "quote": "On simulated and real-world data, we empirically show that our approach significantly reduces the runtime, while achieving competitive prediction accuracy, compared to the existing multi-output GP regression models with…"
+          },
+          {
+            "indicator": "\\bbaselines?\\b",
+            "line": 975,
+            "section": "EXPERIMENTS",
+            "quote": "We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "cross-validation|cross validation"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "cross-validation|cross validation",
+            "line": 1025,
+            "section": "EXPERIMENTS",
+            "quote": "Table 2: Five-fold cross-validation results on S MALL -S IM."
+          }
+        ]
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]",
+          "\\blimitations?\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 97,
+            "section": "BACKGROUND",
+            "quote": "The LMC can be viewed as a special case of the convolved GP (Álvarez and Lawrence, 2011) and a generalization of the collaborative multi-output GP (Nguyen and Bonilla, 2014) and mixed-effects GP (Wang and Khardon, 2012;…"
+          },
+          {
+            "indicator": "\\blimitations?\\b",
+            "line": 1678,
+            "section": "DISCUSSION AND CONCLUSION",
+            "quote": "There are several limitations of our work that remain as future work."
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://",
+          "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 1439,
+            "section": "COVID-19 Stock",
+            "quote": "For all mod1 https://www.kaggle.com/datasets/szrlee/ stock-time-series-20050101-to-20171231"
+          },
+          {
+            "indicator": "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+            "line": 2628,
+            "section": "SOFTWARE",
+            "quote": "The software is available at https://github.com/SeyoungKimLab/FactorialSDE."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C1",
+      "summary": "Research objective / questions: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "State the research objective or research questions explicitly (e.g., RQ1, RQ2) so the methodology can be checked against them."
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 975 [EXPERIMENTS]: \"We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets.\"",
+        "line 1002 [EXPERIMENTS]: \"We demonstrate the accuracy and scalability of different methods on a small simulation dataset with P = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples.\"",
+        "line 1249 [summarizes the five-fold cross-validated test MAE and]: \"Figure 2: Comparison of the posterior predictions on one train-test split of S MALL -S IM data.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "present",
+      "explanation": "Rated PRESENT: 4 distinct indicator(s) found in the methodology section(s) (threshold 2).",
+      "evidence": [
+        "line 979 [EXPERIMENTS]: \"We train all models in two different optimization settings: one in which we update both the kernel hyperparameters and the variational parameters with Adam (Kingma and Ba, 2015) and the other in which we update the kern…\"",
+        "line 984 [EXPERIMENTS]: \"For the factorial SDEs, we use the learning rate scheduler proposed by Salimbeni et al.\"",
+        "line 993 [EXPERIMENTS]: \"We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the methodology section(s) (threshold 1).",
+      "evidence": [
+        "line 993 [EXPERIMENTS]: \"We run all experiments on AMD EPYC 7742 CPUs each with 16GB of RAM and 2.25-3.40 GHz clock speed and compute the mean absolute error (MAE) and negative log predictive density (NLPD) to assess performance.\"",
+        "line 1002 [EXPERIMENTS]: \"We demonstrate the accuracy and scalability of different methods on a small simulation dataset with P = 10 outputs and T = 100 samples and on a large simulation dataset with P = 30 outputs and T = 10, 000 samples.\"",
+        "line 552 [(1:T ) \u0001]: \"mℓ ∈ RT D above is the variational mean and Sℓ is the T D × T D variational precision matrix with a symmetric block-tridiagonal structure:   (1)\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 74 [INTRODUCTION]: \"On simulated and real-world data, we empirically show that our approach significantly reduces the runtime, while achieving competitive prediction accuracy, compared to the existing multi-output GP regression models with…\"",
+        "line 975 [EXPERIMENTS]: \"We compare the variational and sparse variational inference methods for our factorial SDE against those for the IMC and LMC baselines on simulated and real-world datasets.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1025 [EXPERIMENTS]: \"Table 2: Five-fold cross-validation results on S MALL -S IM.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 97 [BACKGROUND]: \"The LMC can be viewed as a special case of the convolved GP (Álvarez and Lawrence, 2011) and a generalization of the collaborative multi-output GP (Nguyen and Bonilla, 2014) and mixed-effects GP (Wang and Khardon, 2012;…\"",
+        "line 1678 [DISCUSSION AND CONCLUSION]: \"There are several limitations of our work that remain as future work.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 1439 [COVID-19 Stock]: \"For all mod1 https://www.kaggle.com/datasets/szrlee/ stock-time-series-20050101-to-20171231\"",
+        "line 2628 [SOFTWARE]: \"The software is available at https://github.com/SeyoungKimLab/FactorialSDE.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.11,
+    "extract": 9.17,
+    "load_rubric": 4.23,
+    "detect_sections": 8.95,
+    "split_sentences": 3.98,
+    "assess": 77.94,
+    "detect_weaknesses": 0.04,
+    "explain": 0.04,
+    "total": 105.9
+  }
+}

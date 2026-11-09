@@ -1,0 +1,40 @@
+{
+  "description": "Known-answer labels for the synthetic sample papers (T-11). Labels describe what a human reader finds in the paper content, independent of section headings. Drafted with AI assistance (Claude, 2026-10-19) and to be reviewed by the student; written by the same party as the rules, so NOT an independent ground truth (see issues I-009, I-018).",
+  "label_definitions": {
+    "present": "The paper reports the element with enough detail to check or repeat it.",
+    "weak": "The element is mentioned but without the detail needed to check or repeat it.",
+    "missing": "The element is not reported."
+  },
+  "papers": {
+    "paper_complete.txt": {
+      "C1": ["present", "RQ1 and RQ2 stated in the introduction"],
+      "C2": ["present", "24 projects, 18,240 executions, labelling rule, project-wise split, licenses"],
+      "C3": ["present", "Python/scikit-learn versions, hyperparameters, hardware, three-step procedure"],
+      "C4": ["present", "precision, recall, F1 with justification"],
+      "C5": ["present", "re-run baseline described"],
+      "C6": ["present", "10 seeds, standard deviation, Wilcoxon test"],
+      "C7": ["present", "internal/external validity, selection bias"],
+      "C8": ["present", "replication package link"]
+    },
+    "paper_weak.txt": {
+      "C1": ["missing", "only a claim ('we show that ML can make reviews faster'), no objective or question"],
+      "C2": ["weak", "'various open-source projects' - source named vaguely, no size or selection"],
+      "C3": ["weak", "'standard settings and appropriate parameters' - setup mentioned without detail"],
+      "C4": ["missing", "no metric named"],
+      "C5": ["weak", "'better than existing tools' - comparison claimed, no baseline named"],
+      "C6": ["missing", "no repetition or statistics"],
+      "C7": ["missing", "no limitations"],
+      "C8": ["missing", "no code/data availability; 'open-source projects' describes the data, not the artifact"]
+    },
+    "paper_no_method_heading.txt": {
+      "C1": ["present", "'The goal of this study is to measure...'"],
+      "C2": ["present", "12 open-source Python repositories selected"],
+      "C3": ["present", "power meter, 4-core CPU, 16 GB RAM, three tools per repository"],
+      "C4": ["present", "energy in joules and wall-clock latency"],
+      "C5": ["present", "compared with a no-analysis baseline"],
+      "C6": ["present", "5 repetitions, mean and standard deviation"],
+      "C7": ["present", "single laptop model limits generalizability"],
+      "C8": ["missing", "no code/data availability statement"]
+    }
+  }
+}

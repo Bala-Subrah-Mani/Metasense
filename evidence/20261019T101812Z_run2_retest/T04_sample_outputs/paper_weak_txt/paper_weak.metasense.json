@@ -1,0 +1,405 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "d21a17cfcc10",
+  "timestamp_utc": "2026-10-19T10:18:23+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "paper_weak.txt",
+    "type": "text",
+    "size_bytes": 859,
+    "sha256": "b8487684ef0cd65f9c2466560b885d8057cfc578b6ec157f23f5db2092024bbd"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 133,
+    "line_count": 16,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 2,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 3,
+      "end_line": 5,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 6,
+      "end_line": 8,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "Methods",
+      "label": "methodology",
+      "level": 1,
+      "start_line": 9,
+      "end_line": 11,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "Results",
+      "label": "results",
+      "level": 1,
+      "start_line": 12,
+      "end_line": 14,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "Conclusion",
+      "label": "conclusion",
+      "level": 1,
+      "start_line": 15,
+      "end_line": 16,
+      "word_count": 19,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 0.0,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 0,
+      "weak": 0,
+      "missing": 8
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.short_methodology",
+      "severity": "medium",
+      "criterion": null,
+      "summary": "Methodology-related sections contain only 39 words (< 150).",
+      "evidence": [
+        {
+          "section": "Methods",
+          "line": 9,
+          "words": 39
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C1",
+      "summary": "Research objective / questions: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W03",
+      "type": "criterion.missing",
+      "severity": "high",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W04",
+      "type": "criterion.missing",
+      "severity": "high",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "high",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C5",
+      "summary": "Baseline / comparison: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W07",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W08",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C7",
+      "summary": "Threats to validity / limitations: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W09",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W10",
+      "type": "language.vague",
+      "severity": "low",
+      "criterion": null,
+      "summary": "5 vague phrase(s) in the methodology may hide missing detail.",
+      "evidence": [
+        {
+          "indicator": "various",
+          "line": 10,
+          "section": "Methods",
+          "quote": "We used various open-source projects and applied several methods to the review comments."
+        },
+        {
+          "indicator": "several (?:datasets|methods|parameters|settings)",
+          "line": 10,
+          "section": "Methods",
+          "quote": "We used various open-source projects and applied several methods to the review comments."
+        },
+        {
+          "indicator": "standard settings",
+          "line": 10,
+          "section": "Methods",
+          "quote": "The model was trained with standard settings and appropriate parameters."
+        },
+        {
+          "indicator": "appropriate (?:parameters|settings|methods)",
+          "line": 10,
+          "section": "Methods",
+          "quote": "The model was trained with standard settings and appropriate parameters."
+        },
+        {
+          "indicator": "some data",
+          "line": 10,
+          "section": "Methods",
+          "quote": "Some data was removed because it was not useful."
+        }
+      ]
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "State the research objective or research questions explicitly (e.g., RQ1, RQ2) so the methodology can be checked against them."
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the methodology section(s).",
+      "evidence": [],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the methodology section(s).",
+      "evidence": [],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the methodology section(s).",
+      "evidence": [],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Compare the proposed approach against at least one baseline or prior method under the same conditions."
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Discuss threats to validity and limitations (e.g., dataset bias, generalizability) and how they were mitigated."
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.11,
+    "extract": 0.28,
+    "load_rubric": 7.4,
+    "detect_sections": 0.19,
+    "split_sentences": 0.05,
+    "assess": 0.94,
+    "detect_weaknesses": 0.05,
+    "explain": 0.01,
+    "total": 9.29
+  }
+}

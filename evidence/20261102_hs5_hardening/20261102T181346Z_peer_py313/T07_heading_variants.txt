@@ -1,0 +1,18 @@
+# Heading-variant detection (labeled set)
+# captured_utc: 2026-11-02T18:13:58+00:00
+$ python scripts/eval_headings.py
+--- stdout ---
+Heading-variant evaluation: 38 headings (23 methodology, 15 other)
+TP=16 FP=0 FN=7 TN=15
+Precision=1.000 Recall=0.696 F1=0.821
+Misclassified:
+  FN: '3. Proposed Framework' -> unknown (system-name heading)
+  FN: '4. System Design' -> unknown (design heading)
+  FN: 'Study Procedure' -> not_detected_as_heading (not in synonym table)
+  FN: '3. Data Collection' -> unknown (component-named heading)
+  FN: 'Research Approach' -> not_detected_as_heading (not in synonym table)
+  FN: '3 The MetaSense Pipeline' -> unknown (project-specific heading)
+  FN: 'What We Did' -> not_detected_as_heading (informal heading)
+--- stderr ---
+
+--- exit code: 0   duration: 0.06s ---

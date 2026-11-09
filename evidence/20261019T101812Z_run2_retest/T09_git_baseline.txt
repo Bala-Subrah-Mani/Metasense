@@ -1,0 +1,29 @@
+$ git rev-parse HEAD
+e4ec8adabd83a3160b0dcd26e9f79455c8d6243a
+(exit 0)
+
+$ git describe --tags --always --dirty
+v0.2.1
+(exit 0)
+
+$ git status --porcelain -- . :(exclude)evidence
+
+(exit 0)
+
+$ git log --oneline -8
+e4ec8ad fix: resolve defects D-01..D-07 found in RU-06 validation run 1 (v0.2.1)
+3166e3f test: RU-06 validation run 1 evidence (v0.2.0)
+7a77866 feat: implement rule-based MetaSense baseline pipeline (v0.2.0)
+1c39f7d Add files via upload
+b316401 Add files via upload
+(exit 0)
+
+$ git tag --list
+v0.2.0
+v0.2.1
+(exit 0)
+
+$ git remote -v
+origin	https://github.com/Bala-Subrah-Mani/Metasense.git (fetch)
+origin	https://github.com/Bala-Subrah-Mani/Metasense.git (push)
+(exit 0)

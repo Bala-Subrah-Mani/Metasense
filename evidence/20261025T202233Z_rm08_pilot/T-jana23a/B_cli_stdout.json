@@ -1,0 +1,2457 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "2f8288fefb78",
+  "timestamp_utc": "2026-10-25T20:24:12+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 149811,
+    "sha256": "4eababd1eec337b23b048c2d46c8e192da461b4ead24e0cd6541c5aea8ff2bdd"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 17825,
+    "line_count": 2353,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 15,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "Abstract",
+      "label": "abstract",
+      "level": 1,
+      "start_line": 16,
+      "end_line": 32,
+      "word_count": 178,
+      "inherited": false
+    },
+    {
+      "heading": "Introduction",
+      "label": "introduction",
+      "level": 1,
+      "start_line": 33,
+      "end_line": 39,
+      "word_count": 81,
+      "inherited": false
+    },
+    {
+      "heading": "Z",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 40,
+      "end_line": 49,
+      "word_count": 62,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 50,
+      "end_line": 87,
+      "word_count": 380,
+      "inherited": false
+    },
+    {
+      "heading": "(NPMLE)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 88,
+      "end_line": 106,
+      "word_count": 211,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 107,
+      "end_line": 115,
+      "word_count": 73,
+      "inherited": false
+    },
+    {
+      "heading": "Empirical Bayes via Empirical Risk Minimization",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 116,
+      "end_line": 153,
+      "word_count": 442,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 154,
+      "end_line": 163,
+      "word_count": 65,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 164,
+      "end_line": 203,
+      "word_count": 393,
+      "inherited": false
+    },
+    {
+      "heading": "(X)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 204,
+      "end_line": 212,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "Regret optimality",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 213,
+      "end_line": 223,
+      "word_count": 105,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 224,
+      "end_line": 243,
+      "word_count": 125,
+      "inherited": false
+    },
+    {
+      "heading": "Multiple dimensions",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 244,
+      "end_line": 255,
+      "word_count": 116,
+      "inherited": false
+    },
+    {
+      "heading": "Z Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 256,
+      "end_line": 282,
+      "word_count": 212,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 283,
+      "end_line": 287,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 288,
+      "end_line": 338,
+      "word_count": 621,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 339,
+      "end_line": 365,
+      "word_count": 364,
+      "inherited": false
+    },
+    {
+      "heading": "Related work",
+      "label": "related_work",
+      "level": 2,
+      "start_line": 366,
+      "end_line": 372,
+      "word_count": 72,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 373,
+      "end_line": 423,
+      "word_count": 609,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 424,
+      "end_line": 440,
+      "word_count": 98,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 441,
+      "end_line": 463,
+      "word_count": 259,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 464,
+      "end_line": 470,
+      "word_count": 87,
+      "inherited": false
+    },
+    {
+      "heading": "Pn",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 471,
+      "end_line": 484,
+      "word_count": 188,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 485,
+      "end_line": 504,
+      "word_count": 286,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 505,
+      "end_line": 506,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 507,
+      "end_line": 512,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 513,
+      "end_line": 518,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 519,
+      "end_line": 551,
+      "word_count": 199,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 552,
+      "end_line": 589,
+      "word_count": 241,
+      "inherited": false
+    },
+    {
+      "heading": "7b ∗",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 590,
+      "end_line": 591,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 592,
+      "end_line": 602,
+      "word_count": 109,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 603,
+      "end_line": 613,
+      "word_count": 118,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 614,
+      "end_line": 618,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 619,
+      "end_line": 620,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Theorem 1",
+      "label": "unknown",
+      "level": 2,
+      "start_line": 621,
+      "end_line": 626,
+      "word_count": 52,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 627,
+      "end_line": 631,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 632,
+      "end_line": 676,
+      "word_count": 452,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 677,
+      "end_line": 685,
+      "word_count": 64,
+      "inherited": false
+    },
+    {
+      "heading": "4 (X)] ≤",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 686,
+      "end_line": 701,
+      "word_count": 161,
+      "inherited": false
+    },
+    {
+      "heading": "3",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 702,
+      "end_line": 704,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "Regret bounds in multiple dimensions",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 705,
+      "end_line": 719,
+      "word_count": 159,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 720,
+      "end_line": 725,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 726,
+      "end_line": 730,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 731,
+      "end_line": 735,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 736,
+      "end_line": 739,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 740,
+      "end_line": 745,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 746,
+      "end_line": 750,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 751,
+      "end_line": 763,
+      "word_count": 161,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 764,
+      "end_line": 767,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgments",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 768,
+      "end_line": 774,
+      "word_count": 54,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 775,
+      "end_line": 776,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 777,
+      "end_line": 826,
+      "word_count": 317,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 827,
+      "end_line": 881,
+      "word_count": 312,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 882,
+      "end_line": 920,
+      "word_count": 239,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 921,
+      "end_line": 926,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 927,
+      "end_line": 933,
+      "word_count": 39,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 934,
+      "end_line": 952,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 953,
+      "end_line": 993,
+      "word_count": 230,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 994,
+      "end_line": 1010,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1011,
+      "end_line": 1012,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1013,
+      "end_line": 1013,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "npπ (x + 1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1014,
+      "end_line": 1020,
+      "word_count": 32,
+      "inherited": false
+    },
+    {
+      "heading": "npπ (1) X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1021,
+      "end_line": 1023,
+      "word_count": 18,
+      "inherited": false
+    },
+    {
+      "heading": "− pπ (0) N (0) N (x)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1024,
+      "end_line": 1026,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1027,
+      "end_line": 1037,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1038,
+      "end_line": 1052,
+      "word_count": 136,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1053,
+      "end_line": 1057,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "\"X #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1058,
+      "end_line": 1058,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1059,
+      "end_line": 1067,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "\"X −1 #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1068,
+      "end_line": 1069,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1070,
+      "end_line": 1075,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "X−1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1076,
+      "end_line": 1093,
+      "word_count": 62,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1094,
+      "end_line": 1097,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1098,
+      "end_line": 1106,
+      "word_count": 83,
+      "inherited": false
+    },
+    {
+      "heading": "\" X −1 #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1107,
+      "end_line": 1108,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1109,
+      "end_line": 1113,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1114,
+      "end_line": 1114,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X −1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1115,
+      "end_line": 1117,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "M −1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1118,
+      "end_line": 1120,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "− qπ,M (x)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1121,
+      "end_line": 1122,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "M",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1123,
+      "end_line": 1136,
+      "word_count": 137,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1137,
+      "end_line": 1143,
+      "word_count": 41,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1144,
+      "end_line": 1148,
+      "word_count": 9,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1149,
+      "end_line": 1152,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "( (X ))",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1153,
+      "end_line": 1154,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1155,
+      "end_line": 1163,
+      "word_count": 49,
+      "inherited": false
+    },
+    {
+      "heading": "1 − 1b",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1164,
+      "end_line": 1167,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1168,
+      "end_line": 1170,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1171,
+      "end_line": 1176,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1177,
+      "end_line": 1178,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1179,
+      "end_line": 1181,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1182,
+      "end_line": 1192,
+      "word_count": 60,
+      "inherited": false
+    },
+    {
+      "heading": "1 mb − 1 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1193,
+      "end_line": 1201,
+      "word_count": 58,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1202,
+      "end_line": 1213,
+      "word_count": 61,
+      "inherited": false
+    },
+    {
+      "heading": "1 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1214,
+      "end_line": 1215,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "b mb b",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1216,
+      "end_line": 1219,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "1 1 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1220,
+      "end_line": 1221,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "b mb b 2b(b + 1)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1222,
+      "end_line": 1230,
+      "word_count": 67,
+      "inherited": false
+    },
+    {
+      "heading": "( (X ))",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1231,
+      "end_line": 1232,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1233,
+      "end_line": 1236,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "\" ( (X ))#",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1237,
+      "end_line": 1245,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1246,
+      "end_line": 1251,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1252,
+      "end_line": 1260,
+      "word_count": 59,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1261,
+      "end_line": 1261,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "(X )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1262,
+      "end_line": 1276,
+      "word_count": 94,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1277,
+      "end_line": 1286,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "\" (X ) #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1287,
+      "end_line": 1294,
+      "word_count": 46,
+      "inherited": false
+    },
+    {
+      "heading": "\" (X ) #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1295,
+      "end_line": 1303,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "\" ( (X )) #",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1304,
+      "end_line": 1305,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1306,
+      "end_line": 1317,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1318,
+      "end_line": 1333,
+      "word_count": 108,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1334,
+      "end_line": 1342,
+      "word_count": 48,
+      "inherited": false
+    },
+    {
+      "heading": "∞ Z ∞ Z ∞",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1343,
+      "end_line": 1384,
+      "word_count": 332,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1385,
+      "end_line": 1434,
+      "word_count": 558,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1435,
+      "end_line": 1463,
+      "word_count": 213,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1464,
+      "end_line": 1495,
+      "word_count": 247,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1496,
+      "end_line": 1504,
+      "word_count": 100,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1505,
+      "end_line": 1509,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1510,
+      "end_line": 1537,
+      "word_count": 204,
+      "inherited": false
+    },
+    {
+      "heading": "f ∈Fpn ∪Fp′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1538,
+      "end_line": 1540,
+      "word_count": 1,
+      "inherited": false
+    },
+    {
+      "heading": "b ′ [T (f (X))] − (E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1541,
+      "end_line": 1543,
+      "word_count": 19,
+      "inherited": false
+    },
+    {
+      "heading": "f ∈Fpn ∪Fp′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1544,
+      "end_line": 1546,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1547,
+      "end_line": 1553,
+      "word_count": 44,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1554,
+      "end_line": 1558,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1559,
+      "end_line": 1576,
+      "word_count": 93,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1577,
+      "end_line": 1581,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1582,
+      "end_line": 1584,
+      "word_count": 17,
+      "inherited": false
+    },
+    {
+      "heading": "1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1585,
+      "end_line": 1598,
+      "word_count": 107,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1599,
+      "end_line": 1601,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1602,
+      "end_line": 1607,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1608,
+      "end_line": 1614,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1615,
+      "end_line": 1620,
+      "word_count": 35,
+      "inherited": false
+    },
+    {
+      "heading": "− exp(−c1 )",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1621,
+      "end_line": 1627,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "− exp(−c1 ) (1 − exp(−c1 ))2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1628,
+      "end_line": 1643,
+      "word_count": 136,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1644,
+      "end_line": 1671,
+      "word_count": 279,
+      "inherited": false
+    },
+    {
+      "heading": "X 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1672,
+      "end_line": 1672,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1673,
+      "end_line": 1693,
+      "word_count": 122,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1694,
+      "end_line": 1702,
+      "word_count": 51,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1703,
+      "end_line": 1708,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "\u0014X \u0015",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1709,
+      "end_line": 1713,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "bh ∗ i",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1714,
+      "end_line": 1717,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2 7 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1718,
+      "end_line": 1720,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "4",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1721,
+      "end_line": 1724,
+      "word_count": 15,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1725,
+      "end_line": 1735,
+      "word_count": 108,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1736,
+      "end_line": 1741,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1742,
+      "end_line": 1746,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1747,
+      "end_line": 1765,
+      "word_count": 154,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1766,
+      "end_line": 1776,
+      "word_count": 82,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1777,
+      "end_line": 1782,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1783,
+      "end_line": 1787,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1788,
+      "end_line": 1791,
+      "word_count": 30,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1792,
+      "end_line": 1801,
+      "word_count": 56,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1802,
+      "end_line": 1806,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1807,
+      "end_line": 1834,
+      "word_count": 188,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1835,
+      "end_line": 1849,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1850,
+      "end_line": 1868,
+      "word_count": 131,
+      "inherited": false
+    },
+    {
+      "heading": "X 1 X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1869,
+      "end_line": 1873,
+      "word_count": 36,
+      "inherited": false
+    },
+    {
+      "heading": "X X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1874,
+      "end_line": 1879,
+      "word_count": 37,
+      "inherited": false
+    },
+    {
+      "heading": "X X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1880,
+      "end_line": 1885,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "X X 1 X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1886,
+      "end_line": 1893,
+      "word_count": 42,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1894,
+      "end_line": 1904,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": " X  X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1905,
+      "end_line": 1919,
+      "word_count": 50,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1920,
+      "end_line": 1922,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1923,
+      "end_line": 1924,
+      "word_count": 11,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1925,
+      "end_line": 1930,
+      "word_count": 21,
+      "inherited": false
+    },
+    {
+      "heading": "Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1931,
+      "end_line": 1946,
+      "word_count": 145,
+      "inherited": false
+    },
+    {
+      "heading": "  X 1 ∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1947,
+      "end_line": 1965,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1966,
+      "end_line": 1970,
+      "word_count": 12,
+      "inherited": false
+    },
+    {
+      "heading": "X 1",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1971,
+      "end_line": 1988,
+      "word_count": 103,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1989,
+      "end_line": 1996,
+      "word_count": 40,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 1997,
+      "end_line": 2001,
+      "word_count": 24,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2002,
+      "end_line": 2024,
+      "word_count": 126,
+      "inherited": false
+    },
+    {
+      "heading": "∗ 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2025,
+      "end_line": 2031,
+      "word_count": 38,
+      "inherited": false
+    },
+    {
+      "heading": "− pπ (x) N (x)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2032,
+      "end_line": 2035,
+      "word_count": 27,
+      "inherited": false
+    },
+    {
+      "heading": "− pπ (x) npπ (x)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2036,
+      "end_line": 2037,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "′",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2038,
+      "end_line": 2040,
+      "word_count": 16,
+      "inherited": false
+    },
+    {
+      "heading": "− pπ (x)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2041,
+      "end_line": 2044,
+      "word_count": 26,
+      "inherited": false
+    },
+    {
+      "heading": "− pπ (0)",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2045,
+      "end_line": 2068,
+      "word_count": 154,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2069,
+      "end_line": 2085,
+      "word_count": 94,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2086,
+      "end_line": 2088,
+      "word_count": 10,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2089,
+      "end_line": 2112,
+      "word_count": 208,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2113,
+      "end_line": 2115,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2116,
+      "end_line": 2119,
+      "word_count": 25,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2120,
+      "end_line": 2125,
+      "word_count": 31,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2126,
+      "end_line": 2140,
+      "word_count": 52,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2141,
+      "end_line": 2147,
+      "word_count": 43,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2148,
+      "end_line": 2153,
+      "word_count": 23,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2154,
+      "end_line": 2155,
+      "word_count": 5,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2156,
+      "end_line": 2157,
+      "word_count": 2,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2158,
+      "end_line": 2163,
+      "word_count": 29,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2164,
+      "end_line": 2177,
+      "word_count": 53,
+      "inherited": false
+    },
+    {
+      "heading": "P P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2178,
+      "end_line": 2193,
+      "word_count": 128,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2194,
+      "end_line": 2199,
+      "word_count": 20,
+      "inherited": false
+    },
+    {
+      "heading": "E",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2200,
+      "end_line": 2202,
+      "word_count": 6,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2203,
+      "end_line": 2228,
+      "word_count": 176,
+      "inherited": false
+    },
+    {
+      "heading": "JANA P OLYANSKIY T EH W U",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2229,
+      "end_line": 2232,
+      "word_count": 28,
+      "inherited": false
+    },
+    {
+      "heading": "Q",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2233,
+      "end_line": 2255,
+      "word_count": 142,
+      "inherited": false
+    },
+    {
+      "heading": " Y",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2256,
+      "end_line": 2296,
+      "word_count": 337,
+      "inherited": false
+    },
+    {
+      "heading": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2297,
+      "end_line": 2345,
+      "word_count": 475,
+      "inherited": false
+    },
+    {
+      "heading": "2 2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 2346,
+      "end_line": 2353,
+      "word_count": 89,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Z",
+    "JANA P OLYANSKIY T EH W U",
+    "(NPMLE)",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "Empirical Bayes via Empirical Risk Minimization",
+    "JANA P OLYANSKIY T EH W U",
+    "P",
+    "(X)",
+    "Regret optimality",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "Multiple dimensions",
+    "Z Y",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "JANA P OLYANSKIY T EH W U",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "P",
+    "Pn",
+    "JANA P OLYANSKIY T EH W U",
+    "P",
+    "4",
+    "X 1 ∗ 2",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "7b ∗",
+    "4",
+    "X",
+    "∗ 2",
+    "JANA P OLYANSKIY T EH W U",
+    "Proof of Theorem 1",
+    "X 1 ∗ 2",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "4 (X)] ≤",
+    "3",
+    "Regret bounds in multiple dimensions",
+    "X",
+    "X",
+    "∗ 2",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "X 1",
+    "X",
+    "Q",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "JANA P OLYANSKIY T EH W U",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "X 1",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "X",
+    "npπ (x + 1)",
+    "npπ (1) X",
+    "− pπ (0) N (0) N (x)",
+    "X",
+    "X X",
+    "X",
+    "\"X #",
+    "X",
+    "\"X −1 #",
+    "X",
+    "X−1",
+    "JANA P OLYANSKIY T EH W U",
+    "P",
+    "\" X −1 #",
+    "X",
+    "M",
+    "X −1",
+    "M −1",
+    "− qπ,M (x)",
+    "M",
+    "X 1 X 1",
+    "X X",
+    "X 1",
+    "( (X ))",
+    "X 1 ∗ 2",
+    "1 − 1b",
+    "2",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "2",
+    "X",
+    "X 1",
+    "1 mb − 1 1",
+    "1",
+    "1 1",
+    "b mb b",
+    "1 1 1",
+    "b mb b 2b(b + 1)",
+    "( (X ))",
+    "X 1",
+    "\" ( (X ))#",
+    "X",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "(X )",
+    "X",
+    "\" (X ) #",
+    "\" (X ) #",
+    "\" ( (X )) #",
+    "X 1",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "∞ Z ∞ Z ∞",
+    "JANA P OLYANSKIY T EH W U",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "X",
+    "JANA P OLYANSKIY T EH W U",
+    "P",
+    "f ∈Fpn ∪Fp′",
+    "b ′ [T (f (X))] − (E",
+    "f ∈Fpn ∪Fp′",
+    "X",
+    "X",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "1",
+    "1",
+    "P",
+    "P",
+    "2 2",
+    "X",
+    "− exp(−c1 )",
+    "− exp(−c1 ) (1 − exp(−c1 ))2",
+    "JANA P OLYANSKIY T EH W U",
+    "X 2",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "\u0014X \u0015",
+    "bh ∗ i",
+    "∗ 2 7 ∗ 2",
+    "4",
+    "X 1",
+    "X 1 ∗ 2",
+    "X",
+    "∗ 2",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "X 1",
+    "X",
+    "∗ 2",
+    "X 1 ∗ 2",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "X 1 X 1",
+    "X X 1",
+    "X X X",
+    "X X 1 X 1",
+    "X 1",
+    " X  X 1 ∗ 2",
+    "JANA P OLYANSKIY T EH W U",
+    "Q",
+    "X 1",
+    "Y",
+    "  X 1 ∗ 2",
+    "Q",
+    "X 1",
+    "X",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "∗ 2",
+    "− pπ (x) N (x)",
+    "− pπ (x) npπ (x)",
+    "′",
+    "− pπ (x)",
+    "− pπ (0)",
+    "JANA P OLYANSKIY T EH W U",
+    "X",
+    "X X",
+    "Q",
+    "X",
+    "X",
+    "X",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "X",
+    "E",
+    "Q",
+    "X",
+    "Q",
+    "P P",
+    "X",
+    "E",
+    "X",
+    "JANA P OLYANSKIY T EH W U",
+    "Q",
+    " Y",
+    "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+    "2 2"
+  ],
+  "methodology_detected": false,
+  "assessment": {
+    "completeness_score": 68.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 4,
+      "weak": 3,
+      "missing": 1
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bwe aim\\b",
+          "aims? to\\b",
+          "hypothes[ie]s"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bwe aim\\b",
+            "line": 411,
+            "section": "JANA P OLYANSKIY T EH W U",
+            "quote": "In this paper, \u0002 we aim to approximate the nonparametric target function f ∗ (the Bayes rule) by minimizing E (f ∗ (X) − f (X))2 ."
+          },
+          {
+            "indicator": "aims? to\\b",
+            "line": 411,
+            "section": "JANA P OLYANSKIY T EH W U",
+            "quote": "In this paper, \u0002 we aim to approximate the nonparametric target function f ∗ (the Bayes rule) by minimizing E (f ∗ (X) − f (X))2 ."
+          },
+          {
+            "indicator": "hypothes[ie]s",
+            "line": 863,
+            "section": "JANA P OLYANSKIY T EH W U",
+            "quote": "On the smooth empirical Bayes approach to testing of hypotheses and the compound decision problem."
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\b(?:training|test|validation) (?:set|split)\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+            "line": 100,
+            "section": "(NPMLE)",
+            "quote": "As opposed to the formulation (known as the individual regret) in (3), where the data are split into the training set X1 , . . . , Xn and the test set X, one can consider the total excess risk of estimating the latent p…"
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 1352,
+            "section": "∞ Z ∞ Z ∞",
+            "quote": "Lemma 16 There exist constants c1 , c2 such that for all h > 0, k ≥ 1 and π ∈ P([0, h]), Xmax on n ≥ 3 samples have the following bound: log n P[1 + max Xi ≥ max{c2 , c1 h} · k ] ≤ n−k log log n Proof Consider λ ∈ [0, h…"
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bprocedure\\b",
+          "implemented (?:in|using|with)",
+          "\\bstep \\d|\\bfirst,|\\bsecond,"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 285,
+            "section": "JANA P OLYANSKIY T EH W U",
+            "quote": "This leads to the following ERM procedure.   d"
+          },
+          {
+            "indicator": "implemented (?:in|using|with)",
+            "line": 330,
+            "section": "X",
+            "quote": "An almost linear time O(dℓ log ℓ) algorithm (which is how we implemented in the simulations), exists but is beyond the scope of this paper."
+          },
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 1598,
+            "section": "1",
+            "quote": "First, we see that ji=1 ϵi − cj ≤ (1 − c)j"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bF1\\b|F-?score|F-measure",
+          "\\brecall\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bF1\\b|F-?score|F-measure",
+            "line": 267,
+            "section": "Z Y",
+            "quote": "For each f , let f = (f1 , · · · , fd ) where fi : Zd+ → R+ ."
+          },
+          {
+            "indicator": "\\brecall\\b",
+            "line": 458,
+            "section": "X",
+            "quote": "Recall that the function class F dictates the following form of monotonicity: for each vector x′ = (x′1 , · · · , x′j−1 , x′j+1 , · · · , xd ) of length d − 1, we define"
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b",
+          "comparison (?:with|against)"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 320,
+            "section": "X",
+            "quote": "Nonetheless, even in the dimensions where the regret in Theorem 2 is vanishing, the ERM method is computationally much more scalable, compared with the conventional approach based on NPMLE or other minimum-distance esti…"
+          },
+          {
+            "indicator": "comparison (?:with|against)",
+            "line": 356,
+            "section": "P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM",
+            "quote": "Remark 4 (Comparison with f -modelling) While both f -modelling (i.e. the Robbins estimator) and the ERM estimator fberm are asymptotically optimal, we demonstrate more concretely the advantage of fberm over Robbins."
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "\\bgenerali[sz]"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "\\bgenerali[sz]",
+            "line": 623,
+            "section": "Proof of Theorem 1",
+            "quote": "Let us define the following generalization of (14) and (15): for b > 1, n \" #"
+          }
+        ]
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "available at\\b|https?://"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "available at\\b|https?://",
+            "line": 839,
+            "section": "JANA P OLYANSKIY T EH W U",
+            "quote": "URL http://arxiv.org/abs/math/0405338. arXiv:math/0405338."
+          }
+        ]
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.no_methodology_section",
+      "severity": "high",
+      "criterion": null,
+      "summary": "No methodology-related section heading was detected; criteria scoped to the methodology can only be found outside it, so they are rated 'weak' at best.",
+      "evidence": []
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\b(?:training|test|validation) (?:set|split)\\b",
+          "line": 100,
+          "section": "(NPMLE)",
+          "quote": "As opposed to the formulation (known as the individual regret) in (3), where the data are split into the training set X1 , . . . , Xn and the test set X, one can consider the total excess risk of estimating the latent p…"
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 1352,
+          "section": "∞ Z ∞ Z ∞",
+          "quote": "Lemma 16 There exist constants c1 , c2 such that for all h > 0, k ≥ 1 and π ∈ P([0, h]), Xmax on n ≥ 3 samples have the following bound: log n P[1 + max Xi ≥ max{c2 , c1 h} · k ] ≤ n−k log log n Proof Consider λ ∈ [0, h…"
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 285,
+          "section": "JANA P OLYANSKIY T EH W U",
+          "quote": "This leads to the following ERM procedure.   d"
+        },
+        {
+          "indicator": "implemented (?:in|using|with)",
+          "line": 330,
+          "section": "X",
+          "quote": "An almost linear time O(dℓ log ℓ) algorithm (which is how we implemented in the simulations), exists but is beyond the scope of this paper."
+        },
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 1598,
+          "section": "1",
+          "quote": "First, we see that ji=1 ϵi − cj ≤ (1 − c)j"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bF1\\b|F-?score|F-measure",
+          "line": 267,
+          "section": "Z Y",
+          "quote": "For each f , let f = (f1 , · · · , fd ) where fi : Zd+ → R+ ."
+        },
+        {
+          "indicator": "\\brecall\\b",
+          "line": 458,
+          "section": "X",
+          "quote": "Recall that the function class F dictates the following form of monotonicity: for each vector x′ = (x′1 , · · · , x′j−1 , x′j+1 , · · · , xd ) of length d − 1, we define"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 3 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 411 [JANA P OLYANSKIY T EH W U]: \"In this paper, \u0002 we aim to approximate the nonparametric target function f ∗ (the Bayes rule) by minimizing E (f ∗ (X) − f (X))2 .\"",
+        "line 411 [JANA P OLYANSKIY T EH W U]: \"In this paper, \u0002 we aim to approximate the nonparametric target function f ∗ (the Bayes rule) by minimizing E (f ∗ (X) − f (X))2 .\"",
+        "line 863 [JANA P OLYANSKIY T EH W U]: \"On the smooth empirical Bayes approach to testing of hypotheses and the compound decision problem.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 100 [(NPMLE)]: \"As opposed to the formulation (known as the individual regret) in (3), where the data are split into the training set X1 , . . . , Xn and the test set X, one can consider the total excess risk of estimating the latent p…\"",
+        "line 1352 [∞ Z ∞ Z ∞]: \"Lemma 16 There exist constants c1 , c2 such that for all h > 0, k ≥ 1 and π ∈ P([0, h]), Xmax on n ≥ 3 samples have the following bound: log n P[1 + max Xi ≥ max{c2 , c1 h} · k ] ≤ n−k log log n Proof Consider λ ∈ [0, h…\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 285 [JANA P OLYANSKIY T EH W U]: \"This leads to the following ERM procedure.   d\"",
+        "line 330 [X]: \"An almost linear time O(dℓ log ℓ) algorithm (which is how we implemented in the simulations), exists but is beyond the scope of this paper.\"",
+        "line 1598 [1]: \"First, we see that ji=1 ϵi − cj ≤ (1 − c)j\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 267 [Z Y]: \"For each f , let f = (f1 , · · · , fd ) where fi : Zd+ → R+ .\"",
+        "line 458 [X]: \"Recall that the function class F dictates the following form of monotonicity: for each vector x′ = (x′1 , · · · , x′j−1 , x′j+1 , · · · , xd ) of length d − 1, we define\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 320 [X]: \"Nonetheless, even in the dimensions where the regret in Theorem 2 is vanishing, the ERM method is computationally much more scalable, compared with the conventional approach based on NPMLE or other minimum-distance esti…\"",
+        "line 356 [P OISSON EMPIRICAL BAYES ESTIMATION VIA ERM]: \"Remark 4 (Comparison with f -modelling) While both f -modelling (i.e. the Robbins estimator) and the ERM estimator fberm are asymptotically optimal, we demonstrate more concretely the advantage of fberm over Robbins.\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 623 [Proof of Theorem 1]: \"Let us define the following generalization of (14) and (15): for b > 1, n \" #\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "present",
+      "explanation": "Rated PRESENT: 1 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 839 [JANA P OLYANSKIY T EH W U]: \"URL http://arxiv.org/abs/math/0405338. arXiv:math/0405338.\""
+      ],
+      "recommendation": null
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.1,
+    "extract": 11.64,
+    "load_rubric": 3.58,
+    "detect_sections": 4.99,
+    "split_sentences": 2.73,
+    "assess": 108.53,
+    "detect_weaknesses": 0.08,
+    "explain": 0.03,
+    "total": 132.61
+  }
+}

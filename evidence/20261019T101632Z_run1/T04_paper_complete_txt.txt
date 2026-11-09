@@ -1,0 +1,21 @@
+# Analyze paper_complete.txt
+# captured_utc: 2026-10-19T10:16:50+00:00
+$ metasense analyze data/sample/paper_complete.txt --out ...
+--- stdout ---
+MetaSense 0.2.0  run c77166277983  input paper_complete.txt
+Extracted 543 words via plain-text
+Sections: 13  methodology-related: 'Methodology' (line 13), 'Dataset' (line 14), 'Experimental Setup' (line 17), 'Evaluation Metrics' (line 20), 'Baseline' (line 23)
+Completeness score: 100.0/100  (present 8, weak 0, missing 0)
+  [PRESENT] C1 Research objective / questions
+  [PRESENT] C2 Dataset / data source description
+  [PRESENT] C3 Experimental setup / procedure
+  [PRESENT] C4 Evaluation metrics
+  [PRESENT] C5 Baseline / comparison
+  [PRESENT] C6 Statistical rigor / repeated trials
+  [PRESENT] C7 Threats to validity / limitations
+  [PRESENT] C8 Reproducibility / artifact availability
+Weaknesses: 0
+Processing time: 9.53 ms
+--- stderr ---
+Reports written: /home/claude/Metasense/evidence/20261019T101632Z_run1/T04_sample_outputs/paper_complete_txt/paper_complete.metasense.json ; /home/claude/Metasense/evidence/20261019T101632Z_run1/T04_sample_outputs/paper_complete_txt/paper_complete.metasense.md
+--- exit code: 0   duration: 0.08s ---

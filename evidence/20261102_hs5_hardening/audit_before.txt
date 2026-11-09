@@ -1,0 +1,13 @@
+Repository audit: 12 findings  (high 1, medium 10, low 1)
+  [medium] A2 research/rm08_pilot/scripts/build_gold_structure.py: third-party import 'pymupdf' not declared in requirements files
+  [medium] A2 research/rm09_memo/scripts/make_figures.py: third-party import 'matplotlib' not declared in requirements files
+  [medium] A2 research/rm09_memo/scripts/make_figures.py: third-party import 'matplotlib' not declared in requirements files
+  [medium] A3 MetaSense_CISC699_Assignment05.zip: archive tracked in repository (34175 bytes)
+  [medium] A6 Dockerfile: missing: container spec for clean, OS-independent runs
+  [medium] A6 .env.example: missing: configuration template (documents optional variables; no secrets)
+  [medium] A6 .github/workflows/ci.yml: missing: CI smoke test on every push
+  [low   ] A6 CITATION.cff: missing: how to cite the artifact
+  [medium] A6 docs/DATA.md: missing: data provenance and redistribution limits
+  [medium] A6 docs/RUNBOOK.md: missing: execution runbook / architecture note
+  [medium] A7 working tree: 2 uncommitted change(s)
+  [high  ] A7 tag v0.2.1: tag contains a build/ directory (stale-install risk, D-09)

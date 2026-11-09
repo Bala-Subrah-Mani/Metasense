@@ -1,0 +1,1549 @@
+[
+  {
+    "doc_id": "E1-lawless23a",
+    "stratum": "E1",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 613.8,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 520.55,
+      "pipeline_ms_warm": [
+        428.86,
+        418.86,
+        432.62
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 162.0,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 168.7,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Problem Formulation",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Grouped Data for Scalability",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Numerical Results",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Conclusion",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Illustrative Example on Non-Intersection of",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proof of Theorem 2.1",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proof of Theorem 3.1",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proof of Theorem 3.2",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Implementation Details",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 31,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Qualitative Comparison",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 32,
+          "end_line": 34,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Additional Computation Time Results",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 35,
+          "end_line": 37,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Pareto Curves",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 38,
+          "end_line": 39,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "Problem Formulation",
+        "Grouped Data for Scalability",
+        "Numerical Results",
+        "Illustrative Example on Non-Intersection of",
+        "Proof of Theorem 2.1",
+        "Proof of Theorem 3.1",
+        "Proof of Theorem 3.2",
+        "Implementation Details",
+        "Qualitative Comparison",
+        "Additional Computation Time Results",
+        "Pareto Curves"
+      ],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "E1-harkonen23a",
+    "stratum": "E1",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 1207.2,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 1109.66,
+      "pipeline_ms_warm": [
+        936.79,
+        924.93,
+        906.84
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 243.4,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 207.4,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Gaussian processes (GPs)",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "The Ehrenpreis-Palamodov fundamental",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Gaussian Process Priors from the",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Comparison to the Literature",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Examples",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Discussion",
+          "label": "discussion",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proof of Lemma 2.1",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Convergence of Ehrenpreis-Palamodov integrals",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Details about S-EPGP",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 31,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Details on the heat equation",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 32,
+          "end_line": 34,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Details about the wave equation",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 35,
+          "end_line": 37,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Details about Maxwell\u2019s equation",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 38,
+          "end_line": 40,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Affine subspaces",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 41,
+          "end_line": 43,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Example implementation for Laplace\u2019s equation",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 44,
+          "end_line": 45,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "Gaussian processes (GPs)",
+        "The Ehrenpreis-Palamodov fundamental",
+        "Gaussian Process Priors from the",
+        "Comparison to the Literature",
+        "Examples",
+        "Proof of Lemma 2.1",
+        "Convergence of Ehrenpreis-Palamodov integrals",
+        "Details about S-EPGP",
+        "Details on the heat equation",
+        "Details about the wave equation",
+        "Details about Maxwell\u2019s equation",
+        "Affine subspaces",
+        "Example implementation for Laplace\u2019s equation"
+      ],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "E1-yang23n",
+    "stratum": "E1",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 673.7,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 582.03,
+      "pipeline_ms_warm": [
+        591.17,
+        502.56,
+        543.45
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 160.3,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 162.4,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Related Work",
+          "label": "related_work",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Background",
+          "label": "related_work",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Symmetry Discovery",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Using the Discovered Symmetry",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Experiments",
+          "label": "experiments",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Conclusion",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proofs",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Experiment Details",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Additional Experiments",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 30,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "Symmetry Discovery",
+        "Using the Discovered Symmetry",
+        "Proofs",
+        "Experiment Details",
+        "Additional Experiments"
+      ],
+      "methodology_detected": true
+    }
+  },
+  {
+    "doc_id": "E1-strimel23a",
+    "stratum": "E1",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 655.1,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 563.41,
+      "pipeline_ms_warm": [
+        495.42,
+        454.09,
+        447.71
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 166.6,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 148.5,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Related Work",
+          "label": "related_work",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Adaptive Non-causal Design",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Regularizing Future Context",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Experimental Results",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Conclusion",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Emission Latency and Endpointer Latency",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "LibriSpeech \u201cOther\u201d and Noise Impact",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Voice Assistant Data",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Compute-Induced UPL Results",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 31,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Attention Dynamics",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 32,
+          "end_line": 34,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Training Characteristics",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 35,
+          "end_line": 37,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Training Configuration Specifics",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 38,
+          "end_line": 40,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Voice Assistant Result Tables",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 41,
+          "end_line": 42,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "Adaptive Non-causal Design",
+        "Regularizing Future Context",
+        "Experimental Results",
+        "Emission Latency and Endpointer Latency",
+        "LibriSpeech \u201cOther\u201d and Noise Impact",
+        "Voice Assistant Data",
+        "Compute-Induced UPL Results",
+        "Attention Dynamics",
+        "Training Characteristics",
+        "Training Configuration Specifics",
+        "Voice Assistant Result Tables"
+      ],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "E1-bhattacharjee23a",
+    "stratum": "E1",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 919.1,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 830.1,
+      "pipeline_ms_warm": [
+        750.45,
+        874.68,
+        838.72
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 206.2,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 243.8,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "A Formal De\ufb01nition of Data-Copying",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Detecting data-copying",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Regular Distributions",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "A Data-copy detecting algorithm",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Is smoothness necessary for data copying",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Conclusion",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "An Example over the Halfmoons dataset",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Estimating k",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Proofs",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 30,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "A Formal De\ufb01nition of Data-Copying",
+        "Detecting data-copying",
+        "Regular Distributions",
+        "A Data-copy detecting algorithm",
+        "Is smoothness necessary for data copying",
+        "An Example over the Halfmoons dataset",
+        "Estimating k",
+        "Proofs"
+      ],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "E2-jeong23a",
+    "stratum": "E2",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 3954.2,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 3842.98,
+      "pipeline_ms_warm": [
+        4371.87,
+        4534.48,
+        4103.54
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 168.2,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 205.2,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "INTRODUCTION",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "BACKGROUND",
+          "label": "related_work",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "FACTORIAL SDE REPRESENTATION OF MULTI-OUTPUT GP REGRESSION",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "VARIATIONAL INFERENCE",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "EXPERIMENTS",
+          "label": "experiments",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "DISCUSSION AND CONCLUSION",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "SPARSE VARIATIONAL INFERENCE",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "FORECASTING AND SMOOTHING FOR PREDICTION",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "ADDITIONAL EXPERIMENTAL DETAILS",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "SOFTWARE",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 30,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "FACTORIAL SDE REPRESENTATION OF MULTI-OUTPUT GP REGRESSION",
+        "VARIATIONAL INFERENCE",
+        "DISCUSSION AND CONCLUSION",
+        "SPARSE VARIATIONAL INFERENCE",
+        "FORECASTING AND SMOOTHING FOR PREDICTION",
+        "ADDITIONAL EXPERIMENTAL DETAILS",
+        "SOFTWARE"
+      ],
+      "methodology_detected": true
+    }
+  },
+  {
+    "doc_id": "E2-fabian23a",
+    "stratum": "E2",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 9114.6,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 9014.29,
+      "pipeline_ms_warm": [
+        9027.47,
+        9312.46,
+        10078.83
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 232.0,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 233.4,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "INTRODUCTION",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 7,
+          "word_count": 12,
+          "inherited": false
+        },
+        {
+          "heading": "MODEL",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "LEARNING LPGMFGS",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "EXPERIMENTS",
+          "label": "experiments",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "CONCLUSION",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 19,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "OVERVIEW",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 20,
+          "end_line": 22,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF THEOREM 2",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 23,
+          "end_line": 25,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 2",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 26,
+          "end_line": 28,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 3",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 29,
+          "end_line": 31,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF THEOREM 4",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 32,
+          "end_line": 34,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 4",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 35,
+          "end_line": 37,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 5",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 38,
+          "end_line": 40,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF COROLLARY 1",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 41,
+          "end_line": 43,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "DETAILS ON LEARNING LPGMFGS",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 44,
+          "end_line": 46,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 1",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 47,
+          "end_line": 49,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 6",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 50,
+          "end_line": 52,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF LEMMA 7",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 53,
+          "end_line": 55,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROOF OF THEOREM 5",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 56,
+          "end_line": 58,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "CUTOFF POWER LAW GRAPHON",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 59,
+          "end_line": 61,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROBLEM DETAILS",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 62,
+          "end_line": 63,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "MODEL",
+        "LEARNING LPGMFGS",
+        "PROOF OF THEOREM 2",
+        "PROOF OF LEMMA 2",
+        "PROOF OF LEMMA 3",
+        "PROOF OF THEOREM 4",
+        "PROOF OF LEMMA 4",
+        "PROOF OF LEMMA 5",
+        "PROOF OF COROLLARY 1",
+        "DETAILS ON LEARNING LPGMFGS",
+        "PROOF OF LEMMA 1",
+        "PROOF OF LEMMA 6",
+        "PROOF OF LEMMA 7",
+        "PROOF OF THEOREM 5",
+        "CUTOFF POWER LAW GRAPHON",
+        "PROBLEM DETAILS"
+      ],
+      "methodology_detected": true
+    }
+  },
+  {
+    "doc_id": "E2-zhang23d",
+    "stratum": "E2",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 703.1,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 609.61,
+      "pipeline_ms_warm": [
+        392.06,
+        449.53,
+        399.2
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 146.3,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 135.8,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "INTRODUCTION",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 4,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROBLEM SETUP AND NOTATIONS",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 5,
+          "end_line": 7,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "PROVABLE LINEAR SEPARABILITY OF ADVERSARIAL NOISES",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 10,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "VERIFY LINEAR SEPARABILITY OF ADVERSARIAL NOISES IN PRACTICE",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 11,
+          "end_line": 13,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "CONCLUSION AND LIMITATION",
+          "label": "unknown",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 21,
+          "word_count": 22,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [
+        "PROBLEM SETUP AND NOTATIONS",
+        "PROVABLE LINEAR SEPARABILITY OF ADVERSARIAL NOISES",
+        "VERIFY LINEAR SEPARABILITY OF ADVERSARIAL NOISES IN PRACTICE",
+        "CONCLUSION AND LIMITATION"
+      ],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "T-jana23a",
+    "stratum": "T",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 1297.0,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 1210.17,
+      "pipeline_ms_warm": [
+        1012.62,
+        1069.63,
+        1122.19
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 210.5,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 189.6,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 21,
+          "word_count": 69,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "T-filmus23a",
+    "stratum": "T",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 1864.5,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 1771.3,
+      "pipeline_ms_warm": [
+        1793.59,
+        1848.48,
+        1744.39
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 311.3,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 322.0,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Introduction",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 33,
+          "word_count": 94,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "S-joss.05465",
+    "stratum": "S",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 355.4,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 263.23,
+      "pipeline_ms_warm": [
+        254.9,
+        264.72,
+        257.61
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 110.4,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 123.1,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Summary",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 7,
+          "word_count": 13,
+          "inherited": false
+        },
+        {
+          "heading": "Overview",
+          "label": "introduction",
+          "level": 1,
+          "start_line": 8,
+          "end_line": 18,
+          "word_count": 33,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [],
+      "methodology_detected": false
+    }
+  },
+  {
+    "doc_id": "S-joss.05321",
+    "stratum": "S",
+    "sha256_matches_manifest": true,
+    "A": {
+      "exit_code": 0,
+      "cli_wall_ms_cold": 285.8,
+      "status": "ok",
+      "error": null,
+      "pipeline_total_ms": 181.07,
+      "pipeline_ms_warm": [
+        151.91,
+        121.89,
+        140.53
+      ]
+    },
+    "B": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 112.6,
+      "status": "ok"
+    },
+    "B2": {
+      "pdftotext_exit": 0,
+      "exit_code": 0,
+      "cli_wall_ms": 99.0,
+      "status": "ok"
+    },
+    "C": {
+      "sections": [
+        {
+          "heading": "(front matter)",
+          "label": "front_matter",
+          "level": 0,
+          "start_line": 1,
+          "end_line": 1,
+          "word_count": 0,
+          "inherited": false
+        },
+        {
+          "heading": "Summary",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 2,
+          "end_line": 13,
+          "word_count": 31,
+          "inherited": false
+        },
+        {
+          "heading": "Future Work",
+          "label": "conclusion",
+          "level": 1,
+          "start_line": 14,
+          "end_line": 16,
+          "word_count": 5,
+          "inherited": false
+        },
+        {
+          "heading": "Acknowledgements",
+          "label": "acknowledgments",
+          "level": 1,
+          "start_line": 17,
+          "end_line": 18,
+          "word_count": 5,
+          "inherited": false
+        }
+      ],
+      "unrecognized": [],
+      "methodology_detected": false
+    }
+  }
+]

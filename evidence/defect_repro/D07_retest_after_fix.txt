@@ -1,0 +1,9 @@
+# D-07 retest: non-editable install after fix
+# captured_utc: 2026-10-19T10:18:41Z  commit: e4ec8ad (v0.2.1)
+$ python -m venv v3 && v3/bin/pip install .   (NOT editable)
+$ cd <outside repo> && v3/bin/metasense analyze data/sample/paper_weak.txt
+MetaSense 0.2.1  run fb1b836cc1d7  input paper_weak.txt
+Extracted 133 words via plain-text
+Sections: 6  methodology-related: 'Methods' (line 9)
+Completeness score: 0.0/100  (present 0, weak 0, missing 8)
+exit code: 0

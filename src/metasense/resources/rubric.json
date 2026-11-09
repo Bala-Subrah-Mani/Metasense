@@ -1,0 +1,189 @@
+{
+  "rubric_id": "metasense-baseline-rubric",
+  "rubric_version": "0.2-provisional",
+  "status_note": "Provisional rubric for the RU-06 early validation run. Criteria, indicator lists and equal weights are pending supervisor confirmation (issue I-010).",
+  "scoring": {
+    "present": 2,
+    "weak": 1,
+    "missing": 0,
+    "rule": "present = at least `min_indicators` distinct indicators found within the criterion's scope; weak = at least one indicator found but below threshold, or found only outside the expected scope; missing = no indicator found."
+  },
+  "criteria": [
+    {
+      "id": "C1",
+      "key": "research_objective",
+      "name": "Research objective / questions",
+      "scope": "document",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": false,
+      "indicators": [
+        "research question",
+        "\\bRQ\\s?\\d",
+        "hypothes[ie]s",
+        "\\bwe aim\\b",
+        "aims? to\\b",
+        "objective of this",
+        "goal of this (?:study|paper|work)",
+        "this (?:study|paper|work) (?:investigates|examines|evaluates|addresses)"
+      ],
+      "recommendation": "State the research objective or research questions explicitly (e.g., RQ1, RQ2) so the methodology can be checked against them."
+    },
+    {
+      "id": "C2",
+      "key": "dataset",
+      "name": "Dataset / data source description",
+      "scope": "methodology",
+      "min_indicators": 2,
+      "weight": 1,
+      "critical": true,
+      "indicators": [
+        "\\bdata ?sets?\\b",
+        "\\bcorpus\\b",
+        "\\bcorpora\\b",
+        "\\bbenchmark\\b",
+        "\\bparticipants\\b",
+        "were collected",
+        "\\bcollected from\\b",
+        "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+        "\\b(?:training|test|validation) (?:set|split)\\b",
+        "\\blicen[cs]e"
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "id": "C3",
+      "key": "experimental_setup",
+      "name": "Experimental setup / procedure",
+      "scope": "methodology",
+      "min_indicators": 2,
+      "weight": 1,
+      "critical": true,
+      "indicators": [
+        "\\bhardware\\b",
+        "\\bGPUs?\\b",
+        "\\bCPUs?\\b",
+        "\\bRAM\\b",
+        "hyper-?parameters?",
+        "learning rate",
+        "\\bepochs?\\b",
+        "batch size",
+        "implemented (?:in|using|with)",
+        "\\bPython\\b",
+        "\\bversion \\d",
+        "\\bconfiguration\\b",
+        "\\bprocedure\\b",
+        "\\bstep \\d|\\bfirst,|\\bsecond,"
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "id": "C4",
+      "key": "evaluation_metrics",
+      "name": "Evaluation metrics",
+      "scope": "methodology",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": true,
+      "indicators": [
+        "\\bprecision\\b",
+        "\\brecall\\b",
+        "\\bF1\\b|F-?score|F-measure",
+        "\\baccuracy\\b",
+        "\\bAUC\\b|\\bROC\\b",
+        "\\bRMSE\\b|\\bMAE\\b|mean squared error",
+        "\\bBLEU\\b|\\bROUGE\\b",
+        "\\blatency\\b|\\bthroughput\\b|response time",
+        "\\bmetrics?\\b"
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "id": "C5",
+      "key": "baseline_comparison",
+      "name": "Baseline / comparison",
+      "scope": "document",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": false,
+      "indicators": [
+        "\\bbaselines?\\b",
+        "compared (?:with|against|to)\\b",
+        "comparison (?:with|against)",
+        "state[- ]of[- ]the[- ]art",
+        "\\bablation\\b"
+      ],
+      "recommendation": "Compare the proposed approach against at least one baseline or prior method under the same conditions."
+    },
+    {
+      "id": "C6",
+      "key": "statistical_rigor",
+      "name": "Statistical rigor / repeated trials",
+      "scope": "document",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": false,
+      "indicators": [
+        "statistical(?:ly)? significan",
+        "\\bp\\s?[<=]\\s?0?\\.\\d",
+        "p-values?",
+        "confidence intervals?",
+        "standard deviation",
+        "\\bt-test\\b",
+        "\\bWilcoxon\\b|Mann-Whitney|\\bANOVA\\b",
+        "repeated \\w+ times|\\b\\d+ runs\\b|\\b\\d+ random seeds\\b",
+        "cross-validation|cross validation"
+      ],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "id": "C7",
+      "key": "threats_to_validity",
+      "name": "Threats to validity / limitations",
+      "scope": "document",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": false,
+      "indicators": [
+        "threats? to validity",
+        "\\blimitations?\\b",
+        "internal validity|external validity|construct validity",
+        "\\bgenerali[sz]",
+        "\\bbias(?:es|ed)?\\b"
+      ],
+      "recommendation": "Discuss threats to validity and limitations (e.g., dataset bias, generalizability) and how they were mitigated."
+    },
+    {
+      "id": "C8",
+      "key": "reproducibility",
+      "name": "Reproducibility / artifact availability",
+      "scope": "document",
+      "min_indicators": 1,
+      "weight": 1,
+      "critical": false,
+      "indicators": [
+        "\\bgithub\\b|\\bgitlab\\b|\\bzenodo\\b",
+        "code (?:is|are|will be) (?:publicly )?available",
+        "replication package",
+        "random seeds?",
+        "available at\\b|https?://",
+        "(?:code|implementation|tool|artifacts?|prototype)s? (?:is|are|has been|have been) (?:made )?open[- ]sourced?",
+        "open[- ]source (?:our|the) (?:code|implementation|tool)"
+      ],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "vague_phrases": [
+    "various",
+    "several (?:datasets|methods|parameters|settings)",
+    "some data",
+    "standard settings",
+    "default settings",
+    "as usual",
+    "\\betc\\.",
+    "appropriate (?:parameters|settings|methods)",
+    "a number of",
+    "well-known methods"
+  ],
+  "min_methodology_words": 150
+}

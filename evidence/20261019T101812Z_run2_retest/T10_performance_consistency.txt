@@ -1,0 +1,99 @@
+# 5 runs per sample: latency (ms) and output determinism
+# captured_utc: 2026-10-19T10:18:26+00:00
+$ python -c <perf script> <samples>
+--- stdout ---
+{
+  "paper_complete.txt": {
+    "words": 543,
+    "ms_runs": [
+      9.44,
+      5.3,
+      5.33,
+      5.44,
+      5.84
+    ],
+    "ms_max": 9.44,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "d333c49ae01b6acb"
+    ]
+  },
+  "paper_complete.pdf": {
+    "words": 543,
+    "ms_runs": [
+      94.51,
+      13.14,
+      12.72,
+      13.21,
+      12.96
+    ],
+    "ms_max": 94.51,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "ff186b1398c0f9fa"
+    ]
+  },
+  "paper_complete.docx": {
+    "words": 543,
+    "ms_runs": [
+      64.32,
+      14.05,
+      15.89,
+      16.18,
+      16.0
+    ],
+    "ms_max": 64.32,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "388a605e972d87de"
+    ]
+  },
+  "paper_weak.txt": {
+    "words": 133,
+    "ms_runs": [
+      1.66,
+      1.61,
+      1.45,
+      1.5,
+      1.48
+    ],
+    "ms_max": 1.66,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "f3706cef644621fc"
+    ]
+  },
+  "paper_no_method_heading.txt": {
+    "words": 168,
+    "ms_runs": [
+      1.74,
+      1.79,
+      1.72,
+      1.75,
+      1.67
+    ],
+    "ms_max": 1.79,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "6b9917b027095f5a"
+    ]
+  },
+  "paper_long_perf.pdf": {
+    "words": 13335,
+    "ms_runs": [
+      391.26,
+      280.48,
+      261.22,
+      303.39,
+      257.55
+    ],
+    "ms_max": 391.26,
+    "distinct_outputs": 1,
+    "output_hash": [
+      "64546bde1f7a4300"
+    ]
+  }
+}
+--- stderr ---
+
+--- exit code: 0   duration: 1.92s ---

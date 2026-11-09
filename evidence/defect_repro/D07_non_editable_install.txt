@@ -1,0 +1,14 @@
+# D-07 reproduction: non-editable install cannot find default rubric
+# captured_utc: 2026-10-19T10:17:37Z  commit: 3166e3f (code = v0.2.0)
+$ python -m venv v2 && v2/bin/pip install .   (from repo root, NOT editable)
+$ v2/bin/metasense analyze data/sample/paper_weak.txt
+MetaSense unexpected error: FileNotFoundError: [Errno 2] No such file or directory: '/tmp/claude-0/-home-claude/f52039d6-6f4d-5627-aa0a-e3feb14e214f/scratchpad/v2/lib/python3.13/config/rubric.json'
+exit code: 2
+
+# workaround: pass --rubric explicitly
+$ v2/bin/metasense analyze data/sample/paper_weak.txt --rubric config/rubric.json
+MetaSense 0.2.0  run 928af6784a66  input paper_weak.txt
+Extracted 133 words via plain-text
+Sections: 6  methodology-related: 'Methods' (line 9)
+Completeness score: 18.8/100  (present 1, weak 1, missing 6)
+exit code: 0

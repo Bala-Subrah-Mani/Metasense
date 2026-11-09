@@ -1,0 +1,34 @@
+$ git rev-parse HEAD
+b04d320144e7ae8b0111a82f878971362352d95a
+(exit 0)
+
+$ git describe --tags --always --dirty
+v0.2.3
+(exit 0)
+
+$ git status --porcelain -- . :(exclude)evidence
+
+(exit 0)
+
+$ git log --oneline -8
+b04d320 fix: check_packaging uses python -m venv (I-029); v0.2.3
+2618485 chore: audit reads requirements-research.txt
+422a851 release: v0.2.2 hardening (config var wired, quote windows, citation dedupe, control chars, packaging check, Dockerfile, CI, README/RUNBOOK/DATA, hardening tests)
+1c17ea3 research: HS3 argument map figure
+66a371e research: thesis HS3 pilot package (input audit, third repeat of v0.2.1, repeat comparison, protocol changes)
+851f9eb docs: AI usage log entry for RM-09 memo
+9152b11 research: RM-09 error analysis of spurious headings, RM-08 matcher correction, filter ablation, memo figures
+cdd5bc2 research: record DEV-07 (D4 denominator) found in independent verification
+(exit 0)
+
+$ git tag --list
+v0.2.0
+v0.2.1
+v0.2.2
+v0.2.3
+(exit 0)
+
+$ git remote -v
+origin	/srv/metasense-remote.git (fetch)
+origin	/srv/metasense-remote.git (push)
+(exit 0)

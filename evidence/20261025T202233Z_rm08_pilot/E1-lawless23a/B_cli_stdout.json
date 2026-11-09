@@ -1,0 +1,851 @@
+{
+  "application": "MetaSense",
+  "version": "0.2.1",
+  "run_id": "4bc35fa4cbf8",
+  "timestamp_utc": "2026-10-25T20:22:36+00:00",
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39"
+  },
+  "input": {
+    "file": "B_pdftotext_layout.txt",
+    "type": "text",
+    "size_bytes": 102197,
+    "sha256": "66d6c2c72d7409337e327de3de6ab38e4592ae9d373a06025ae2b1490bd02986"
+  },
+  "status": "ok",
+  "extraction": {
+    "extractor": "plain-text",
+    "word_count": 11295,
+    "line_count": 930,
+    "warnings": []
+  },
+  "rubric": {
+    "id": "metasense-baseline-rubric",
+    "version": "0.2-provisional"
+  },
+  "sections": [
+    {
+      "heading": "(front matter)",
+      "label": "front_matter",
+      "level": 0,
+      "start_line": 1,
+      "end_line": 139,
+      "word_count": 2249,
+      "inherited": false
+    },
+    {
+      "heading": "Problem Formulation",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 140,
+      "end_line": 185,
+      "word_count": 624,
+      "inherited": false
+    },
+    {
+      "heading": "T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 186,
+      "end_line": 204,
+      "word_count": 311,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 205,
+      "end_line": 229,
+      "word_count": 301,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 230,
+      "end_line": 234,
+      "word_count": 55,
+      "inherited": false
+    },
+    {
+      "heading": "X X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 235,
+      "end_line": 287,
+      "word_count": 572,
+      "inherited": false
+    },
+    {
+      "heading": "PK P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 288,
+      "end_line": 304,
+      "word_count": 119,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 305,
+      "end_line": 317,
+      "word_count": 90,
+      "inherited": false
+    },
+    {
+      "heading": "PK P",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 318,
+      "end_line": 340,
+      "word_count": 297,
+      "inherited": false
+    },
+    {
+      "heading": "\b L",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 341,
+      "end_line": 356,
+      "word_count": 273,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 357,
+      "end_line": 359,
+      "word_count": 47,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 360,
+      "end_line": 370,
+      "word_count": 149,
+      "inherited": false
+    },
+    {
+      "heading": "+ − T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 371,
+      "end_line": 380,
+      "word_count": 99,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 381,
+      "end_line": 383,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 384,
+      "end_line": 384,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 385,
+      "end_line": 387,
+      "word_count": 34,
+      "inherited": false
+    },
+    {
+      "heading": "G",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 388,
+      "end_line": 397,
+      "word_count": 63,
+      "inherited": false
+    },
+    {
+      "heading": "Approach",
+      "label": "methodology",
+      "level": 1,
+      "start_line": 398,
+      "end_line": 414,
+      "word_count": 79,
+      "inherited": false
+    },
+    {
+      "heading": "600 800 1000 1200 1400 1600",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 415,
+      "end_line": 415,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 416,
+      "end_line": 419,
+      "word_count": 22,
+      "inherited": false
+    },
+    {
+      "heading": "− T",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 420,
+      "end_line": 467,
+      "word_count": 506,
+      "inherited": false
+    },
+    {
+      "heading": "instances, and 5 random sub-samples. Figure 3 shows",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 468,
+      "end_line": 569,
+      "word_count": 1115,
+      "inherited": false
+    },
+    {
+      "heading": "accuracy and interpretablity when measured by sparsity and",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 570,
+      "end_line": 574,
+      "word_count": 3,
+      "inherited": false
+    },
+    {
+      "heading": "Acknowledgements",
+      "label": "acknowledgments",
+      "level": 1,
+      "start_line": 575,
+      "end_line": 578,
+      "word_count": 14,
+      "inherited": false
+    },
+    {
+      "heading": "0.80 0.85 0.90 0.95",
+      "label": "acknowledgments",
+      "level": 2,
+      "start_line": 579,
+      "end_line": 580,
+      "word_count": 1,
+      "inherited": true
+    },
+    {
+      "heading": "References",
+      "label": "references",
+      "level": 1,
+      "start_line": 581,
+      "end_line": 703,
+      "word_count": 1400,
+      "inherited": false
+    },
+    {
+      "heading": "Illustrative Example on Non-Intersection of",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 704,
+      "end_line": 772,
+      "word_count": 937,
+      "inherited": false
+    },
+    {
+      "heading": "X",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 773,
+      "end_line": 775,
+      "word_count": 8,
+      "inherited": false
+    },
+    {
+      "heading": "Proof of Theorem 3.1 j",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 776,
+      "end_line": 824,
+      "word_count": 644,
+      "inherited": false
+    },
+    {
+      "heading": "Qualitative Comparison",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 825,
+      "end_line": 841,
+      "word_count": 383,
+      "inherited": false
+    },
+    {
+      "heading": "Additional Computation Time Results",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 842,
+      "end_line": 842,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "Implementation Details",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 843,
+      "end_line": 907,
+      "word_count": 710,
+      "inherited": false
+    },
+    {
+      "heading": "LC-PDP 2.0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 908,
+      "end_line": 908,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "CART",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 909,
+      "end_line": 909,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "IMM 1.8",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 910,
+      "end_line": 920,
+      "word_count": 7,
+      "inherited": false
+    },
+    {
+      "heading": "1.2",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 921,
+      "end_line": 922,
+      "word_count": 0,
+      "inherited": false
+    },
+    {
+      "heading": "1.0",
+      "label": "unknown",
+      "level": 1,
+      "start_line": 923,
+      "end_line": 930,
+      "word_count": 49,
+      "inherited": false
+    }
+  ],
+  "unrecognized_headings": [
+    "Problem Formulation",
+    "T",
+    "X X",
+    "X",
+    "X X",
+    "PK P",
+    "X",
+    "PK P",
+    "\b L",
+    "− T",
+    "− T",
+    "+ − T",
+    "X",
+    "G",
+    "X",
+    "G",
+    "600 800 1000 1200 1400 1600",
+    "− T",
+    "− T",
+    "instances, and 5 random sub-samples. Figure 3 shows",
+    "accuracy and interpretablity when measured by sparsity and",
+    "Illustrative Example on Non-Intersection of",
+    "X",
+    "Proof of Theorem 3.1 j",
+    "Qualitative Comparison",
+    "Additional Computation Time Results",
+    "Implementation Details",
+    "LC-PDP 2.0",
+    "CART",
+    "IMM 1.8",
+    "1.2",
+    "1.0"
+  ],
+  "methodology_detected": true,
+  "assessment": {
+    "completeness_score": 43.8,
+    "score_note": "Weighted share of rubric criteria reported (0-100). Not a quality or validity judgement.",
+    "counts": {
+      "present": 2,
+      "weak": 3,
+      "missing": 3
+    },
+    "criteria": [
+      {
+        "id": "C1",
+        "key": "research_objective",
+        "name": "Research objective / questions",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "aims? to\\b",
+          "\\bwe aim\\b"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "aims? to\\b",
+            "line": 106,
+            "section": "(front matter)",
+            "quote": "• We introduce the polyhedral description problem A perfect solution to the PDP is a set of polyhedra {Pk }K k=1 which aims to explain why the data points in the same such that x ∈ Ck for all x ∈ Pk and x ∈ / Ck for all…"
+          },
+          {
+            "indicator": "\\bwe aim\\b",
+            "line": 111,
+            "section": "(front matter)",
+            "quote": "In our formulation, we aim to find problem. good solutions and allow the polyhedra to explain up to α data points incorrectly: • We formulate the polyhedral description problem as an (exponential size) integer program w…"
+          }
+        ]
+      },
+      {
+        "id": "C2",
+        "key": "dataset",
+        "name": "Dataset / data source description",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bdata ?sets?\\b",
+          "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "\\bbenchmark\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bdata ?sets?\\b",
+            "line": 5,
+            "section": "(front matter)",
+            "quote": "Clustering is often used This paper focuses on the cluster description prob- in industry as a tool to find sub-populations in a dataset such lem where, given a dataset and its partition into as customer segments (Kansal…"
+          },
+          {
+            "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+            "line": 44,
+            "section": "(front matter)",
+            "quote": "Figures 1 and 2 show examples of the polyhedra associated with both cases."
+          },
+          {
+            "indicator": "\\bbenchmark\\b",
+            "line": 456,
+            "section": "− T",
+            "quote": "We benchmark our approach against three comgroups."
+          }
+        ]
+      },
+      {
+        "id": "C3",
+        "key": "experimental_setup",
+        "name": "Experimental setup / procedure",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "\\bversion \\d",
+          "\\bprocedure\\b",
+          "implemented (?:in|using|with)",
+          "\\bRAM\\b",
+          "\\bPython\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+            "line": 71,
+            "section": "(front matter)",
+            "quote": "Existing work in interpretable clustering can be broadly di- First, a data point satisfies a description in the polyhedral vided into two groups: cluster description, where cluster description setting only if it satisfi…"
+          },
+          {
+            "indicator": "\\bversion \\d",
+            "line": 396,
+            "section": "G",
+            "quote": "Note that constraints (17) and (18) are nearly identical to the non-grouped version 0.019"
+          },
+          {
+            "indicator": "\\bprocedure\\b",
+            "line": 434,
+            "section": "− T",
+            "quote": "As α is not around the sampled center for each cluster with a covari- given as a constraint for the application a priori in these ance matrix of σI where I is the m × m identity matrix. datasets, we use a two-stage proc…"
+          },
+          {
+            "indicator": "implemented (?:in|using|with)",
+            "line": 519,
+            "section": "instances, and 5 random sub-samples. Figure 3 shows",
+            "quote": "All models were implemented in all but three datasets."
+          },
+          {
+            "indicator": "\\bRAM\\b",
+            "line": 519,
+            "section": "instances, and 5 random sub-samples. Figure 3 shows",
+            "quote": "Of the three datasets where it is in python using Gurobi 9.1 and run on a computer with 16 outperformed by CART it is important to note that Sp-PDP GB of RAM and a 2.7 GHz processor. achieves considerably better accurac…"
+          }
+        ]
+      },
+      {
+        "id": "C4",
+        "key": "evaluation_metrics",
+        "name": "Evaluation metrics",
+        "status": "weak",
+        "score": 1,
+        "max_score": 2,
+        "weight": 1,
+        "critical": true,
+        "scope": "methodology",
+        "indicators_found": [],
+        "indicators_outside_scope": [
+          "\\baccuracy\\b",
+          "\\bmetrics?\\b"
+        ],
+        "evidence": [
+          {
+            "indicator": "\\baccuracy\\b",
+            "line": 22,
+            "section": "(front matter)",
+            "quote": "Compared to state complex data (for example a graph structure) and needs to of the art cluster description algorithms, our ap- be subsequently explained using features that may not have proach is able to achieve competi…"
+          },
+          {
+            "indicator": "\\bmetrics?\\b",
+            "line": 355,
+            "section": "\b L",
+            "quote": "A hyper-rectangle for group G with respect to a clustering evaluation metric."
+          }
+        ]
+      },
+      {
+        "id": "C5",
+        "key": "baseline_comparison",
+        "name": "Baseline / comparison",
+        "status": "present",
+        "score": 2,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [
+          "compared (?:with|against|to)\\b",
+          "state[- ]of[- ]the[- ]art"
+        ],
+        "indicators_outside_scope": [],
+        "evidence": [
+          {
+            "indicator": "compared (?:with|against|to)\\b",
+            "line": 22,
+            "section": "(front matter)",
+            "quote": "Compared to state complex data (for example a graph structure) and needs to of the art cluster description algorithms, our ap- be subsequently explained using features that may not have proach is able to achieve competi…"
+          },
+          {
+            "indicator": "state[- ]of[- ]the[- ]art",
+            "line": 126,
+            "section": "(front matter)",
+            "quote": "Note that these approach of sub-sampling data points. restrictions on the set of candidate half-spaces may cause • We present numerical experiments on a number of real the PDP to be infeasible, even if the convex hulls…"
+          }
+        ]
+      },
+      {
+        "id": "C6",
+        "key": "statistical_rigor",
+        "name": "Statistical rigor / repeated trials",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C7",
+        "key": "threats_to_validity",
+        "name": "Threats to validity / limitations",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      },
+      {
+        "id": "C8",
+        "key": "reproducibility",
+        "name": "Reproducibility / artifact availability",
+        "status": "missing",
+        "score": 0,
+        "max_score": 2,
+        "weight": 1,
+        "critical": false,
+        "scope": "document",
+        "indicators_found": [],
+        "indicators_outside_scope": [],
+        "evidence": []
+      }
+    ]
+  },
+  "weaknesses": [
+    {
+      "id": "W01",
+      "type": "structure.short_methodology",
+      "severity": "medium",
+      "criterion": null,
+      "summary": "Methodology-related sections contain only 79 words (< 150).",
+      "evidence": [
+        {
+          "section": "Approach",
+          "line": 398,
+          "words": 79
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C2",
+      "summary": "Dataset / data source description: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bdata ?sets?\\b",
+          "line": 5,
+          "section": "(front matter)",
+          "quote": "Clustering is often used This paper focuses on the cluster description prob- in industry as a tool to find sub-populations in a dataset such lem where, given a dataset and its partition into as customer segments (Kansal…"
+        },
+        {
+          "indicator": "\\b\\d[\\d,]*\\s+(?:[\\w-]+\\s+){0,3}(?:papers|samples|instances|images|records|documents|participants|repositories|projects|examples)\\b",
+          "line": 44,
+          "section": "(front matter)",
+          "quote": "Figures 1 and 2 show examples of the polyhedra associated with both cases."
+        },
+        {
+          "indicator": "\\bbenchmark\\b",
+          "line": 456,
+          "section": "− T",
+          "quote": "We benchmark our approach against three comgroups."
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C3",
+      "summary": "Experimental setup / procedure: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\bstep \\d|\\bfirst,|\\bsecond,",
+          "line": 71,
+          "section": "(front matter)",
+          "quote": "Existing work in interpretable clustering can be broadly di- First, a data point satisfies a description in the polyhedral vided into two groups: cluster description, where cluster description setting only if it satisfi…"
+        },
+        {
+          "indicator": "\\bversion \\d",
+          "line": 396,
+          "section": "G",
+          "quote": "Note that constraints (17) and (18) are nearly identical to the non-grouped version 0.019"
+        },
+        {
+          "indicator": "\\bprocedure\\b",
+          "line": 434,
+          "section": "− T",
+          "quote": "As α is not around the sampled center for each cluster with a covari- given as a constraint for the application a priori in these ance matrix of σI where I is the m × m identity matrix. datasets, we use a two-stage proc…"
+        },
+        {
+          "indicator": "implemented (?:in|using|with)",
+          "line": 519,
+          "section": "instances, and 5 random sub-samples. Figure 3 shows",
+          "quote": "All models were implemented in all but three datasets."
+        },
+        {
+          "indicator": "\\bRAM\\b",
+          "line": 519,
+          "section": "instances, and 5 random sub-samples. Figure 3 shows",
+          "quote": "Of the three datasets where it is in python using Gurobi 9.1 and run on a computer with 16 outperformed by CART it is important to note that Sp-PDP GB of RAM and a 2.7 GHz processor. achieves considerably better accurac…"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "type": "criterion.weak",
+      "severity": "medium",
+      "criterion": "C4",
+      "summary": "Evaluation metrics: limited reporting (only outside the methodology section).",
+      "evidence": [
+        {
+          "indicator": "\\baccuracy\\b",
+          "line": 22,
+          "section": "(front matter)",
+          "quote": "Compared to state complex data (for example a graph structure) and needs to of the art cluster description algorithms, our ap- be subsequently explained using features that may not have proach is able to achieve competi…"
+        },
+        {
+          "indicator": "\\bmetrics?\\b",
+          "line": 355,
+          "section": "\b L",
+          "quote": "A hyper-rectangle for group G with respect to a clustering evaluation metric."
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C6",
+      "summary": "Statistical rigor / repeated trials: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W06",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C7",
+      "summary": "Threats to validity / limitations: no indicator found.",
+      "evidence": []
+    },
+    {
+      "id": "W07",
+      "type": "criterion.missing",
+      "severity": "medium",
+      "criterion": "C8",
+      "summary": "Reproducibility / artifact availability: no indicator found.",
+      "evidence": []
+    }
+  ],
+  "explanations": [
+    {
+      "criterion": "C1",
+      "name": "Research objective / questions",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 106 [(front matter)]: \"• We introduce the polyhedral description problem A perfect solution to the PDP is a set of polyhedra {Pk }K k=1 which aims to explain why the data points in the same such that x ∈ Ck for all x ∈ Pk and x ∈ / Ck for all…\"",
+        "line 111 [(front matter)]: \"In our formulation, we aim to find problem. good solutions and allow the polyhedra to explain up to α data points incorrectly: • We formulate the polyhedral description problem as an (exponential size) integer program w…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C2",
+      "name": "Dataset / data source description",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (3 found elsewhere).",
+      "evidence": [
+        "line 5 [(front matter)]: \"Clustering is often used This paper focuses on the cluster description prob- in industry as a tool to find sub-populations in a dataset such lem where, given a dataset and its partition into as customer segments (Kansal…\"",
+        "line 44 [(front matter)]: \"Figures 1 and 2 show examples of the polyhedra associated with both cases.\"",
+        "line 456 [− T]: \"We benchmark our approach against three comgroups.\""
+      ],
+      "recommendation": "Describe the data source, how it was collected or selected, its size, and its train/test split or sampling procedure."
+    },
+    {
+      "criterion": "C3",
+      "name": "Experimental setup / procedure",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (6 found elsewhere).",
+      "evidence": [
+        "line 71 [(front matter)]: \"Existing work in interpretable clustering can be broadly di- First, a data point satisfies a description in the polyhedral vided into two groups: cluster description, where cluster description setting only if it satisfi…\"",
+        "line 396 [G]: \"Note that constraints (17) and (18) are nearly identical to the non-grouped version 0.019\"",
+        "line 434 [− T]: \"As α is not around the sampled center for each cluster with a covari- given as a constraint for the application a priori in these ance matrix of σI where I is the m × m identity matrix. datasets, we use a two-stage proc…\""
+      ],
+      "recommendation": "Report the procedure step by step, including software/hardware environment and parameter settings, so the study could be repeated."
+    },
+    {
+      "criterion": "C4",
+      "name": "Evaluation metrics",
+      "status": "weak",
+      "explanation": "Rated WEAK: indicator(s) found only outside the methodology section(s) (2 found elsewhere).",
+      "evidence": [
+        "line 22 [(front matter)]: \"Compared to state complex data (for example a graph structure) and needs to of the art cluster description algorithms, our ap- be subsequently explained using features that may not have proach is able to achieve competi…\"",
+        "line 355 [\b L]: \"A hyper-rectangle for group G with respect to a clustering evaluation metric.\""
+      ],
+      "recommendation": "Name the evaluation metrics and explain why they fit the research question."
+    },
+    {
+      "criterion": "C5",
+      "name": "Baseline / comparison",
+      "status": "present",
+      "explanation": "Rated PRESENT: 2 distinct indicator(s) found in the document (threshold 1).",
+      "evidence": [
+        "line 22 [(front matter)]: \"Compared to state complex data (for example a graph structure) and needs to of the art cluster description algorithms, our ap- be subsequently explained using features that may not have proach is able to achieve competi…\"",
+        "line 126 [(front matter)]: \"Note that these approach of sub-sampling data points. restrictions on the set of candidate half-spaces may cause • We present numerical experiments on a number of real the PDP to be infeasible, even if the convex hulls…\""
+      ],
+      "recommendation": null
+    },
+    {
+      "criterion": "C6",
+      "name": "Statistical rigor / repeated trials",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Report variability (e.g., standard deviation over repeated runs) and, where claims compare methods, a significance test or confidence interval."
+    },
+    {
+      "criterion": "C7",
+      "name": "Threats to validity / limitations",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Discuss threats to validity and limitations (e.g., dataset bias, generalizability) and how they were mitigated."
+    },
+    {
+      "criterion": "C8",
+      "name": "Reproducibility / artifact availability",
+      "status": "missing",
+      "explanation": "Rated MISSING: no indicator for this criterion was found in the document.",
+      "evidence": [],
+      "recommendation": "Provide a link to code/data or a replication package and record random seeds and versions."
+    }
+  ],
+  "disclaimer": "MetaSense output is AI-assisted decision support produced by a rule-based baseline. It indicates whether methodology elements are reported, not whether the research is correct. A human reviewer must verify every finding.",
+  "timings_ms": {
+    "validate": 0.07,
+    "extract": 8.12,
+    "load_rubric": 3.54,
+    "detect_sections": 1.6,
+    "split_sentences": 2.25,
+    "assess": 62.84,
+    "detect_weaknesses": 0.12,
+    "explain": 0.03,
+    "total": 79.12
+  }
+}

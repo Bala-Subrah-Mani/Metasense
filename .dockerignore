@@ -1,0 +1,14 @@
+.git
+.venv
+.validation-venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+build
+dist
+*.egg-info
+evidence
+research
+logs
+reports
+docs/archive_ru05

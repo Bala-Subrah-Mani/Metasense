@@ -1,0 +1,10 @@
+file,purpose,bytes,signature,utf8,self_labelled_synthetic,heading_like_lines,sha256_now,sha256_19oct_report,identical_to_19oct
+empty.txt,invalid: must be rejected E_EMPTY (mock),0,empty,,,,e3b0c44298fc1c14,,n/a (no report)
+paper_complete.docx,"valid: same text as DOCX (synthetic, generated)",38394,zip/docx,,,,8da7cf1cd9b769ab,8da7cf1cd9b769ab,yes
+paper_complete.pdf,"valid: same text as PDF (synthetic, generated)",4962,pdf,,,,27671b3d9fa2a334,27671b3d9fa2a334,yes
+paper_complete.txt,valid: all 8 criteria reported (synthetic),3547,text,yes,yes,8,5475c6e2174af096,5475c6e2174af096,yes
+paper_long_perf.pdf,"valid: 42-page load test (synthetic, generated)",89138,pdf,,,,28f27a81e00bb7f0,,n/a (no report)
+paper_no_method_heading.txt,valid: method under informal heading (synthetic),1049,text,yes,yes,5,e6b07556d36ad46a,e6b07556d36ad46a,yes
+paper_weak.txt,valid: vague methods (synthetic),859,text,yes,yes,5,b8487684ef0cd65f,b8487684ef0cd65f,yes
+renamed_text.pdf,invalid: must be rejected E_CORRUPT (mock),43,text,yes,no,0,37acea8bd0389ecb,,n/a (no report)
+unsupported_format.rtf,invalid: must be rejected E_UNSUPPORTED_TYPE (mock),58,text,yes,no,0,10a77e98c21e5ec8,,n/a (no report)

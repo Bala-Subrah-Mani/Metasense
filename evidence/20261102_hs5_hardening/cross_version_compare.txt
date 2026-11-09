@@ -1,0 +1,8 @@
+# Cross-version comparison of sample reports: Python 3.13.16 vs 3.10.20, MetaSense 0.2.3 (commit b04d320)
+# Fields excluded (vary by design): environment, run_id, timestamp_utc, timings_ms
+IDENTICAL  paper_complete_docx/paper_complete.metasense.json  score=100.0
+IDENTICAL  paper_complete_pdf/paper_complete.metasense.json  score=100.0
+IDENTICAL  paper_complete_txt/paper_complete.metasense.json  score=100.0
+IDENTICAL  paper_no_method_heading_txt/paper_no_method_heading.metasense.json  score=68.8
+IDENTICAL  paper_weak_txt/paper_weak.metasense.json  score=0.0
+# 5/5 reports identical after excluding volatile fields

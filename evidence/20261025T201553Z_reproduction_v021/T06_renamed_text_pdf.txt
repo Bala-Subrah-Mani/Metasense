@@ -1,0 +1,9 @@
+# Rejected type: renamed_text.pdf
+# captured_utc: 2026-10-25T20:16:04+00:00
+$ metasense analyze data/sample/renamed_text.pdf
+--- stdout ---
+MetaSense 0.2.1  run 8a09dd686513  input renamed_text.pdf
+REJECTED at stage 'validate': [E_CORRUPT] File has a .pdf extension but no PDF signature.
+--- stderr ---
+
+--- exit code: 1   duration: 0.07s ---

@@ -1,0 +1,5 @@
+# Only needed to re-run the research scripts in research/ (RM-08 reference structure, RM-09 figures).
+# Not needed to install, test or run MetaSense itself.
+-r requirements.txt
+pymupdf==2.0
+matplotlib==3.11.2
