@@ -1,0 +1,5 @@
+ID,Type,Description,Likelihood,Impact,Mitigation,Owner,Status,Last Reviewed (UTC)
+R-01,Risk,Starter implementation may not match the full approved MetaSense scope,Medium,High,Compare this package against approved proposal and revise scope,Student,Open,2026-10-18
+R-02,Risk,Local environment may use a different Python version,Low,Medium,Record Python version and run test suite before baseline,Student,Open,2026-10-18
+R-03,Risk,Missing or stale evidence could reduce traceability,Medium,High,Capture timestamped output and commit hash after local execution,Student,Open,2026-10-18
+I-01,Issue,Original MetaSense source code/specification was not included with feedback PDF,High,High,Confirm intended scope and replace starter interpretation if needed,Student,Open,2026-10-18
